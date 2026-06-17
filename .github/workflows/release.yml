@@ -1,0 +1,29 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create zip
+        run: |
+          zip -r soc2e.zip . \
+            --exclude "*.git*" \
+            --exclude ".github/*" \
+            --exclude ".claude/*" \
+            --exclude "*.zip"
+
+      - name: Update latest release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest Build
+          prerelease: true
+          files: soc2e.zip
