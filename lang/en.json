@@ -1,0 +1,75 @@
+{
+  "TYPES": {
+    "Actor": {
+      "character": "Character",
+      "npc": "NPC",
+      "monster": "Monster",
+      "vehicle": "Vehicle"
+    },
+    "Item": {
+      "weapon":      "Weapon",
+      "armor":       "Armor",
+      "adventuring": "Adventuring Gear",
+      "animal":      "Animal",
+      "spell":       "Spell",
+      "trait":       "Trait"
+    }
+  },
+  "COMBATANT": {
+    "InitiativeRoll": "Roll Initiative"
+  },
+  "SOC2E": {
+    "Sheet": {
+      "Character": "Character Sheet",
+      "NPC": "NPC Sheet",
+      "Monster": "Monster Sheet",
+      "Vehicle": "Vehicle Sheet"
+    },
+    "Attr": {
+      "str": "Strength",
+      "dex": "Dexterity",
+      "end": "Endurance",
+      "int": "Intelligence",
+      "edu": "Education",
+      "soc": "Social Standing"
+    },
+    "AttrShort": {
+      "str": "STR",
+      "dex": "DEX",
+      "end": "END",
+      "int": "INT",
+      "edu": "EDU",
+      "soc": "SOC"
+    },
+    "Skill": {
+      "alchemy":           "Alchemy",
+      "animals":           "Animals",
+      "artifice":          "Artifice",
+      "artillery":         "Artillery",
+      "art":               "Art",
+      "athletics":         "Athletics",
+      "archery":           "Archery",
+      "battle":            "Battle",
+      "carousing":         "Carousing",
+      "craft":             "Craft",
+      "deception":         "Deception",
+      "govern":            "Govern",
+      "insight":           "Insight",
+      "jackoftrades":      "Jack O' Trades",
+      "leadership":        "Leadership",
+      "liaison":           "Liaison",
+      "healing":           "Healing",
+      "meleecombat":       "Melee Combat",
+      "naturalphilosophy": "Natural Philosophy",
+      "scout":             "Scout",
+      "sorcery":           "Sorcery",
+      "sneak":             "Sneak",
+      "steward":           "Steward",
+      "streetwise":        "Streetwise",
+      "survival":          "Survival",
+      "religion":          "Religion",
+      "riding":            "Riding",
+      "watercraft":        "Watercraft"
+    }
+  }
+}

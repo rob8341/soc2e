@@ -1,0 +1,257 @@
+{{!-- Sword of Cepheus 2e — Item Sheet --}}
+<form class="soc2e sheet item" autocomplete="off">
+
+  {{!-- Header: icon + name --}}
+  <header class="item-sheet-header">
+    <img class="item-sheet-img" src="{{item.img}}" alt="{{item.name}}" data-action="editImage" title="Click to change icon" />
+    <div class="item-sheet-name-wrap">
+      <input type="text" name="name" value="{{item.name}}" class="item-sheet-name" />
+      <div class="item-sheet-type">{{typeLabel}}</div>
+    </div>
+    <div class="item-header-actions">
+      <button type="button" class="item-chat-btn" data-action="sendToChat" title="Send to chat">
+        <i class="fa-solid fa-message"></i>
+      </button>
+      {{#if editable}}
+      <button type="button" class="item-lock-btn" data-action="toggleLock" title="{{#if locked}}Unlock for editing{{else}}Lock{{/if}}">
+        <i class="fa-solid {{#if locked}}fa-lock{{else}}fa-lock-open{{/if}}"></i>
+      </button>
+      {{/if}}
+    </div>
+  </header>
+
+  <div class="item-sheet-body">
+
+    {{!-- ── WEAPON ─────────────────────────────── --}}
+    {{#if isWeapon}}
+    <div class="item-fields-grid weapon-grid">
+      {{!-- Row 1: Ranged · Thrown · Artillery --}}
+      <div class="weapon-row">
+        <div class="item-field item-field-check">
+          <input type="checkbox" class="weapon-melee-cb" name="system.ranged" {{#if system.ranged}}checked{{/if}} />
+          <label>Ranged</label>
+        </div>
+        <div class="item-field item-field-check weapon-thrown-field">
+          <input type="checkbox" class="weapon-thrown-cb" name="system.thrown" {{#if system.thrown}}checked{{/if}} />
+          <label>Thrown</label>
+        </div>
+        <div class="item-field item-field-check weapon-artillery-field">
+          <input type="checkbox" class="weapon-artillery-cb" name="system.artillery" {{#if system.artillery}}checked{{/if}} />
+          <label>Artillery</label>
+        </div>
+      </div>
+      {{!-- Row 2: Damage · Enc · Cost --}}
+      <div class="weapon-row">
+        <div class="item-field item-field-short">
+          <label>Damage</label>
+          <input type="text" name="system.damage" value="{{system.damage}}" />
+        </div>
+        <div class="item-field item-field-num">
+          <label title="Encumbrance">Enc</label>
+          <input type="number" name="system.encumbrance" value="{{system.encumbrance}}" step="0.5" />
+        </div>
+        <div class="item-field item-field-cost">
+          <label>Cost</label>
+          <input type="text" name="system.cost" value="{{system.cost}}" placeholder="e.g. 2s" />
+        </div>
+      </div>
+      {{!-- Row 2: Range · Ammo · Ammo Type · Ammo Cost/Stack (hidden when melee) --}}
+      <div class="weapon-row weapon-ranged-row">
+        <div class="item-field item-field-short">
+          <label>Range</label>
+          <input type="text" name="system.range" value="{{system.range}}" />
+        </div>
+        <div class="item-field item-field-num">
+          <label title="Current Ammo">Ammo</label>
+          <input type="number" name="system.ammo" value="{{system.ammo}}" min="0" />
+        </div>
+        <div class="item-field item-field-num">
+          <label title="Maximum Ammo">Max</label>
+          <input type="number" name="system.ammoMax" value="{{system.ammoMax}}" min="0" />
+        </div>
+        <div class="item-field item-field-ammo-type">
+          <label>Ammo Type</label>
+          <input type="text" name="system.ammoType" value="{{system.ammoType}}" placeholder="e.g. Arrow" />
+        </div>
+        <div class="item-field item-field-cost">
+          <label>Ammo Cost/Stack</label>
+          <input type="text" name="system.ammoCost" value="{{system.ammoCost}}" placeholder="e.g. 1s" />
+        </div>
+      </div>
+      {{!-- Row 3: Aspects --}}
+      <div class="weapon-row">
+        <div class="item-field item-field-wide">
+          <label>Aspects</label>
+          <input type="text" name="system.aspects" value="{{system.aspects}}" />
+        </div>
+      </div>
+    </div>
+    {{/if}}
+
+    {{!-- ── ARMOR ──────────────────────────────── --}}
+    {{#if isArmor}}
+    <div class="item-fields-grid">
+      <div class="item-field item-field-check armor-shield-row">
+        <input type="checkbox" class="armor-shield-cb" name="system.shield" {{#if system.shield}}checked{{/if}} />
+        <label>Shield</label>
+      </div>
+      <div class="item-field item-field-num armor-prot-field">
+        <label title="Protection">Prot.</label>
+        <input type="number" name="system.protection" value="{{system.protection}}" min="0" />
+      </div>
+      <div class="item-field item-field-num">
+        <label title="Sneak Modifier">Sneak Mod</label>
+        <input type="number" name="system.sneakModifier" value="{{system.sneakModifier}}" />
+      </div>
+      <div class="item-field item-field-num">
+        <label title="Encumbrance">Enc</label>
+        <input type="number" name="system.encumbrance" value="{{system.encumbrance}}" step="0.5" />
+      </div>
+      <div class="item-field item-field-cost">
+        <label>Cost</label>
+        <input type="text" name="system.cost" value="{{system.cost}}" placeholder="e.g. 2s" />
+      </div>
+    </div>
+    {{/if}}
+
+    {{!-- ── ADVENTURING / EQUIPMENT ───────────── --}}
+    {{#if isEquipment}}
+    <div class="item-fields-grid">
+      {{#if hasSubtype}}
+      <div class="item-field">
+        <label>Category</label>
+        <select name="system.subtype">
+          <option value="adventuring" {{#if (eq system.subtype "adventuring")}}selected{{/if}}>Adventuring Gear</option>
+          <option value="food"        {{#if (eq system.subtype "food")}}selected{{/if}}>Food &amp; Lodging</option>
+          <option value="clothing"    {{#if (eq system.subtype "clothing")}}selected{{/if}}>Clothing &amp; Fabrics</option>
+          <option value="potion"      {{#if (eq system.subtype "potion")}}selected{{/if}}>Herbs &amp; Potions</option>
+        </select>
+      </div>
+      {{/if}}
+      <div class="item-field item-field-num">
+        <label>Quantity</label>
+        <input type="number" name="system.quantity" value="{{system.quantity}}" min="0" />
+      </div>
+      <div class="item-field item-field-num">
+        <label title="Encumbrance">Enc</label>
+        <input type="number" name="system.encumbrance" value="{{system.encumbrance}}" step="0.5" />
+      </div>
+      <div class="item-field item-field-cost">
+        <label>Cost</label>
+        <input type="text" name="system.cost" value="{{system.cost}}" placeholder="e.g. 2s" />
+      </div>
+    </div>
+    {{/if}}
+
+    {{!-- ── VEHICLE ────────────────────────────── --}}
+    {{#if isVehicle}}
+    <div class="item-fields-grid vehicle-grid">
+      <div class="vehicle-row">
+        <div class="item-field item-field-num">
+          <label title="Agility DM">Agility</label>
+          <input type="number" name="system.agility" value="{{system.agility}}" />
+        </div>
+        <div class="item-field item-field-num">
+          <label title="Speed (Km/day)">Speed (Km/d)</label>
+          <input type="number" name="system.speed" value="{{system.speed}}" min="0" />
+        </div>
+        <div class="item-field item-field-cost">
+          <label>Cost</label>
+          <input type="text" name="system.cost" value="{{system.cost}}" placeholder="e.g. 200g" />
+        </div>
+        <div></div>
+      </div>
+      <div class="vehicle-row">
+        <div class="item-field item-field-num">
+          <label title="Light Damage Threshold">Light DMG</label>
+          <input type="number" name="system.lightDmgThreshold" value="{{system.lightDmgThreshold}}" min="0" />
+        </div>
+        <div class="item-field item-field-num">
+          <label title="Critical Damage Threshold">Crit DMG</label>
+          <input type="number" name="system.critDmgThreshold" value="{{system.critDmgThreshold}}" min="0" />
+        </div>
+        <div class="item-field item-field-short">
+          <label>Crew</label>
+          <input type="text" name="system.crew" value="{{system.crew}}" placeholder="e.g. 2" />
+        </div>
+        <div class="item-field item-field-short">
+          <label>Cargo</label>
+          <input type="text" name="system.cargo" value="{{system.cargo}}" placeholder="e.g. 500 kg" />
+        </div>
+      </div>
+      <div class="vehicle-row">
+        <div class="item-field item-field-num">
+          <label title="Number of Weapons"># Weapons</label>
+          <input type="number" name="system.weaponCount" value="{{system.weaponCount}}" min="0" />
+        </div>
+        <div class="item-field item-field-wide vehicle-weapon-type">
+          <label>Weapon Type</label>
+          <input type="text" name="system.weapons" value="{{system.weapons}}" placeholder="e.g. Light Ballista" />
+        </div>
+      </div>
+    </div>
+    {{/if}}
+
+    {{!-- ── ANIMAL ─────────────────────────────── --}}
+    {{#if isAnimal}}
+    <div class="item-fields-grid">
+      <div class="item-field item-field-num">
+        <label title="Speed (Km/day)">Speed (Km/d)</label>
+        <input type="number" name="system.speed" value="{{system.speed}}" min="0" />
+      </div>
+      <div class="item-field item-field-num item-field-carry">
+        <label title="Carrying Capacity">Carry Cap.</label>
+        <input type="text" name="system.carryingCapacity" value="{{system.carryingCapacity}}" placeholder="e.g. 200 Kg" />
+      </div>
+      <div class="item-field item-field-cost">
+        <label>Cost</label>
+        <input type="text" name="system.cost" value="{{system.cost}}" placeholder="e.g. 2s" />
+      </div>
+    </div>
+    {{/if}}
+
+    {{!-- ── SPELL ──────────────────────────────── --}}
+    {{#if isSpell}}
+    <div class="spell-fields">
+      <div class="spell-top-row">
+        <div class="item-field spell-school-field">
+          <label>School</label>
+          <select name="system.school">
+            <option value="arcane"   {{#if (eq system.school "arcane")}}selected{{/if}}>Arcane</option>
+            <option value="eldritch" {{#if (eq system.school "eldritch")}}selected{{/if}}>Eldritch</option>
+          </select>
+        </div>
+        <div class="item-field spell-range-field">
+          <label>Range</label>
+          <input type="text" name="system.range" value="{{system.range}}" placeholder="e.g. Touch" />
+        </div>
+        <div class="item-field spell-duration-field">
+          <label>Duration</label>
+          <input type="text" name="system.duration" value="{{system.duration}}" placeholder="e.g. 1 day" />
+        </div>
+      </div>
+      <div class="item-field spell-effect-field">
+        <label>Effect</label>
+        <textarea name="system.effect" rows="7" placeholder="Spell effect...">{{system.effect}}</textarea>
+      </div>
+      <div class="item-field spell-crit-field">
+        <label>Critical Success</label>
+        <textarea name="system.critSuccess" rows="3" placeholder="Critical success effect...">{{system.critSuccess}}</textarea>
+      </div>
+    </div>
+    {{/if}}
+
+    {{!-- ── TRAIT ───────────────────────────────── --}}
+    {{!-- (no fields beyond description) --}}
+
+    {{!-- ── DESCRIPTION (non-spell types) ───────── --}}
+    {{#unless isSpell}}
+    <div class="item-description">
+      <label class="item-desc-label">Description</label>
+      <textarea name="system.description" rows="8" placeholder="Description...">{{system.description}}</textarea>
+    </div>
+    {{/unless}}
+
+  </div>{{!-- /item-sheet-body --}}
+
+</form>

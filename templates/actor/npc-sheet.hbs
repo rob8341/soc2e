@@ -1,0 +1,223 @@
+{{!-- Sword of Cepheus 2e — NPC Sheet (AppV2) --}}
+<form class="soc2e sheet npc" autocomplete="off">
+  <div class="npc-grid">
+
+    <header class="sheet-header npc-sheet-header">
+      <div class="npc-img-col">
+        <img class="profile-img" src="{{actor.img}}" alt="{{actor.name}}"
+             data-edit="img" title="{{actor.name}}" />
+        <div class="npc-img-actions">
+          <button type="button" class="npc-action-btn" data-action="rollEquippedWeapon" title="Roll equipped weapon attack"><i class="fa-solid fa-sword"></i> Attack</button>
+          <button type="button" class="npc-action-btn" data-action="rollSorcery" title="Cast a spell"><i class="fa-solid fa-sparkles"></i> Cast</button>
+        </div>
+      </div>
+      <div class="npc-header-right">
+        <input type="text" name="name" value="{{actor.name}}" class="name-input" />
+        <textarea name="system.notes" class="npc-notes-input" placeholder="Notes...">{{system.notes}}</textarea>
+      </div>
+    </header>
+
+
+    <div class="npc-body">
+
+      <section class="attributes-section">
+        {{#each attributeList}}
+          <div class="attr-block">
+            <div class="attr-label">{{label}}</div>
+            <div class="attr-circle">
+              <input type="number" name="system.attributes.{{key}}.value" value="{{value}}" min="0" max="20" />
+            </div>
+            <div class="attr-dm-row">
+              <span class="dm-tag">DM</span>
+              <button type="button" class="attr-dm-value"
+                      data-action="rollAttribute" data-attr="{{key}}">{{dmSign dm}}</button>
+            </div>
+          </div>
+        {{/each}}
+      </section>
+
+      <section class="derived-section">
+        <div class="derived-block">
+          <button type="button" class="derived-icon" data-action="restoreStat" data-stat="lifeblood"
+                  title="Restore Lifeblood">◆</button>
+          <label>Lifeblood</label>
+          <input type="number" name="system.lifeblood.value" value="{{system.lifeblood.value}}" min="0" />
+          <span class="sep">/</span>
+          <input type="number" name="system.lifeblood.max" value="{{system.lifeblood.max}}" min="0" readonly
+                 title="2 × (END + Athletics) = 2 × ({{system.attributes.end.value}} + {{system.skills.athletics}})" />
+        </div>
+        <div class="derived-block">
+          <button type="button" class="derived-icon" data-action="restoreStat" data-stat="stamina"
+                  title="Restore Stamina to maximum">◎</button>
+          <label>Stamina</label>
+          <input type="number" name="system.stamina.value" value="{{system.stamina.value}}" min="0" />
+          <span class="sep">/</span>
+          <input type="number" name="system.stamina.max" value="{{system.stamina.max}}" min="0" readonly
+                 title="END + Athletics = {{system.attributes.end.value}} + {{system.skills.athletics}}" />
+        </div>
+        <div class="derived-block">
+          <span class="derived-icon">⛨</span>
+          <label>Armor</label>
+          <input type="number" value="{{system.armor}}" min="0" disabled />
+        </div>
+      </section>
+
+      <div class="npc-wounds-row">
+        <label class="wound-row" title="-1 to all actions">
+          <input type="checkbox" class="wound-cb" disabled {{#if system.wounds.minorWound}}checked{{/if}} />
+          Minor Wound
+        </label>
+        <label class="wound-row" title="-2 to all actions">
+          <input type="checkbox" class="wound-cb" disabled {{#if system.wounds.seriousWound}}checked{{/if}} />
+          Serious Wound
+        </label>
+        <label class="wound-row" title="Will die within an hour">
+          <input type="checkbox" class="wound-cb" disabled {{#if system.wounds.mortalWound}}checked{{/if}} />
+          Mortal Wound
+        </label>
+        <label class="npc-spellcaster-label npc-monster-label" title="Treat as monster — EDU becomes Instinct, SOC becomes Pack">
+          <input type="checkbox" name="system.monster" {{#if system.monster}}checked{{/if}} />
+          Monster
+        </label>
+        <label class="npc-spellcaster-label" title="This NPC can cast spells">
+          <input type="checkbox" name="system.spellcaster" {{#if system.spellcaster}}checked{{/if}} />
+          Spellcaster
+        </label>
+      </div>
+
+      <div class="monster-scroll-body">
+      <div class="npc-columns">
+
+        {{!-- ── INVENTORY ─────────────────────────── --}}
+        <section class="npc-inventory-section">
+          <h2 class="section-title">Inventory</h2>
+
+          <div class="equip-sections-grid">
+
+            <section class="equip-cat-section">
+              <div class="equip-cat-header">
+                <h2 class="section-title">Weapons</h2>
+                <button type="button" class="equip-add-btn" data-action="createEquipItem" data-item-type="weapon">+</button>
+              </div>
+              <div class="equip-item-list">
+                {{#each itemsByType.weapon}}
+                <div class="equip-item-row {{#if equipped}}equipped{{/if}}" draggable="true" data-item-id="{{id}}">
+                  <img class="equip-item-icon" src="{{img}}" alt="{{name}}" data-action="equipItem" data-item-id="{{id}}" title="Equip Item" />
+                  <button type="button" class="equip-item-name" data-action="viewEquipItem" data-item-id="{{id}}">{{name}}</button>
+                  {{#if damage}}<span class="weapon-inline-stat" title="Damage"><i class="fa-solid fa-sword"></i> {{damage}}</span>{{/if}}
+                  {{#if ranged}}
+                    {{#if range}}<span class="weapon-inline-stat" title="Range"><i class="fa-solid fa-arrows-left-right"></i> {{range}}</span>{{/if}}
+                    <button type="button" class="weapon-inline-stat weapon-ammo-btn" data-action="reloadWeapon" data-item-id="{{id}}" title="Ammo: {{ammo}}/{{ammoMax}} — Click to reload"><i class="fa-solid fa-circle-dot"></i> {{ammo}}/{{ammoMax}}</button>
+                  {{/if}}
+                  {{#if aspects}}<span class="weapon-inline-aspects" title="{{aspects}}"><i class="fa-solid fa-scroll"></i></span>{{/if}}
+                  <button type="button" class="equip-item-roll"
+                          data-action="rollWeapon" data-item-id="{{id}}" title="Roll attack"><i class="fa-solid fa-dice-d6"></i></button>
+                  <button type="button" class="equip-item-delete" data-action="deleteEquipItem" data-item-id="{{id}}">×</button>
+                </div>
+                {{/each}}
+              </div>
+            </section>
+
+            <section class="equip-cat-section">
+              <div class="equip-cat-header">
+                <h2 class="section-title">Armor</h2>
+                <button type="button" class="equip-add-btn" data-action="createEquipItem" data-item-type="armor">+</button>
+              </div>
+              <div class="equip-item-list">
+                {{#each itemsByType.armor}}
+                <div class="equip-item-row {{#if equipped}}equipped{{/if}}" draggable="true" data-item-id="{{id}}">
+                  <img class="equip-item-icon" src="{{img}}" alt="{{name}}" data-action="equipItem" data-item-id="{{id}}" title="Equip Item" />
+                  <button type="button" class="equip-item-name" data-action="viewEquipItem" data-item-id="{{id}}">{{name}}</button>
+                  {{#unless shield}}{{#if protection}}<span class="weapon-inline-stat" title="Protection"><i class="fa-solid fa-shield-halved"></i> {{protection}}</span>{{/if}}{{/unless}}
+                  {{#if sneakModifier}}<span class="weapon-inline-stat" title="Sneak Modifier"><i class="fa-solid fa-user-ninja"></i> {{sneakModifier}}</span>{{/if}}
+                  <button type="button" class="equip-item-delete" data-action="deleteEquipItem" data-item-id="{{id}}">×</button>
+                </div>
+                {{/each}}
+              </div>
+            </section>
+
+            <section class="equip-cat-section">
+              <div class="equip-cat-header">
+                <h2 class="section-title">Gear</h2>
+                <button type="button" class="equip-add-btn" data-action="createEquipItem" data-item-type="adventuring">+</button>
+              </div>
+              <div class="equip-item-list">
+                {{#each itemsByType.adventuring}}
+                <div class="equip-item-row" draggable="true" data-item-id="{{id}}">
+                  <img class="equip-item-icon" src="{{img}}" alt="{{name}}" data-action="viewEquipItem" data-item-id="{{id}}" title="{{name}}" />
+                  <button type="button" class="equip-item-name" data-action="viewEquipItem" data-item-id="{{id}}">{{name}}</button>
+                  <input type="number" class="equip-item-qty" data-item-id="{{id}}" value="{{qty}}" min="0" />
+                  <button type="button" class="equip-item-delete" data-action="deleteEquipItem" data-item-id="{{id}}">×</button>
+                </div>
+                {{/each}}
+              </div>
+            </section>
+
+          {{#if spellcaster}}
+            <section class="equip-cat-section">
+              <div class="equip-cat-header">
+                <h2 class="section-title">Spells</h2>
+                <button type="button" class="equip-add-btn" data-action="createSpell">+</button>
+              </div>
+              <div class="spells-list">
+                {{#each spellList}}
+                <div class="spell-row" draggable="true" data-item-id="{{id}}">
+                  <img class="trait-icon" src="{{img}}" alt="{{name}}"
+                       data-action="viewSpell" data-item-id="{{id}}" title="{{name}}" />
+                  <button type="button" class="trait-name" data-action="viewSpell" data-item-id="{{id}}">{{name}}</button>
+                  <span class="spell-school">{{school}}</span>
+                  <button type="button" class="spell-cast-btn" data-action="castSpell" data-item-id="{{id}}" title="Cast {{name}}"><i class="fa-solid fa-sparkles"></i></button>
+                  <button type="button" class="equip-item-delete" data-action="deleteSpell" data-item-id="{{id}}">×</button>
+                </div>
+                {{/each}}
+              </div>
+            </section>
+          {{/if}}
+
+          </div>
+
+          {{!-- ── VEHICLES ──────────────────────────── --}}
+          <section class="equip-cat-section npc-vehicles-section">
+            <div class="equip-cat-header">
+              <h2 class="section-title">Vehicles</h2>
+            </div>
+            <div class="equip-item-list">
+              {{#each linkedVehicles}}
+              <div class="equip-item-row" draggable="true" data-item-id="{{id}}">
+                <img class="equip-item-icon" src="{{img}}" alt="{{name}}" />
+                <button type="button" class="equip-item-name" data-action="openVehicle" data-vehicle-id="{{id}}">{{name}}</button>
+              </div>
+              {{/each}}
+            </div>
+          </section>
+
+        </section>
+
+        {{!-- ── SKILLS ────────────────────────────── --}}
+        <section class="skills-section">
+          <div class="skills-tab-header">
+            <h2 class="section-title" style="margin:0">Skills</h2>
+            <label class="hide-unskilled-label" title="Hide unskilled skills (level 0 or below)">
+              <input type="checkbox" class="hide-unskilled-cb" />
+              Hide Unskilled
+            </label>
+          </div>
+          <div class="skills-list npc-skills-list">
+            {{#each skillList}}
+              <div class="skill-row" data-unskilled="{{#if (lt value 0)}}true{{else}}false{{/if}}">
+                <button type="button" class="skill-label"
+                        data-action="rollSkill" data-skill="{{key}}"
+                        title="{{tooltip}}">{{label}}</button>
+                <input type="number" class="skill-value"
+                       name="system.skills.{{key}}" value="{{value}}" min="-3" max="5" />
+              </div>
+            {{/each}}
+          </div>
+        </section>
+
+
+      </div>{{!-- /npc-columns --}}
+      </div>{{!-- /monster-scroll-body --}}
+    </div>
+  </div>
+</form>

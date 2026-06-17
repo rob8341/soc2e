@@ -1,0 +1,48 @@
+{
+  "id": "soc2e",
+  "title": "The Sword of Cepheus 2e",
+  "description": "The Sword of Cepheus 2nd Edition — a 2d6 fantasy RPG based on Traveller mechanics.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Rob",
+      "url": "https://github.com/rob8341"
+    }
+  ],
+  "esmodules": ["soc2e.js"],
+  "styles": ["soc2e.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {},
+      "npc": {},
+      "vehicle": {}
+    },
+    "Item": {
+      "weapon": {},
+      "armor": {},
+      "adventuring": {},
+      "animal": {},
+      "spell": {},
+      "trait": {}
+    }
+  },
+  "packs": [],
+  "socket": false,
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "manifest": "https://raw.githubusercontent.com/rob8341/soc2e/main/system.json",
+  "download": "https://github.com/rob8341/soc2e/releases/download/v0.1.0/soc2e.zip",
+  "license": "MIT",
+  "readme": "https://raw.githubusercontent.com/rob8341/soc2e/main/README.md",
+  "url": "https://github.com/rob8341/soc2e"
+}

@@ -1,0 +1,177 @@
+{{!-- Sword of Cepheus 2e — Vehicle Sheet (AppV2) --}}
+<form class="soc2e sheet vehicle" autocomplete="off">
+  <div class="vehicle-actor-grid">
+
+    <header class="sheet-header vehicle-actor-header">
+      <img class="profile-img" src="{{actor.img}}" alt="{{actor.name}}"
+           data-action="editImage" title="{{actor.name}}" style="cursor:pointer;" />
+      <div class="vehicle-actor-header-right">
+        <input type="text" name="name" value="{{actor.name}}" class="name-input" />
+      </div>
+      {{#if editable}}
+      <button type="button" class="vehicle-lock-btn" data-action="toggleVehicleLock" title="Lock / Unlock sheet editing">
+        <i class="fa-solid fa-lock"></i>
+      </button>
+      {{/if}}
+    </header>
+
+    <div class="vehicle-actor-body">
+
+      {{!-- Stats (two rows) --}}
+      <div class="item-fields-grid">
+        <div class="item-field item-field-num">
+          <label title="Agility DM">Agility</label>
+          <input type="number" name="system.agility" value="{{system.agility}}" />
+        </div>
+        <div class="item-field item-field-num">
+          <label title="Speed (Km/day)">Speed (Km/d)</label>
+          <input type="number" name="system.speed" value="{{system.speed}}" min="0" />
+        </div>
+        <div class="item-field item-field-cost">
+          <label>Cost</label>
+          <input type="text" name="system.cost" value="{{system.cost}}" placeholder="e.g. 200g" />
+        </div>
+        <div class="item-field item-field-num">
+          <label title="Light Damage Threshold">Light DMG</label>
+          <input type="number" name="system.lightDmgThreshold" value="{{system.lightDmgThreshold}}" min="0" />
+        </div>
+        <div class="item-field item-field-num">
+          <label title="Critical Damage Threshold">Crit DMG</label>
+          <input type="number" name="system.critDmgThreshold" value="{{system.critDmgThreshold}}" min="0" />
+        </div>
+        <div class="vehicle-stats-row-break"></div>
+        <div class="item-field item-field-short">
+          <label>Crew</label>
+          <input type="text" name="system.crew" value="{{system.crew}}" placeholder="0" />
+        </div>
+        <div class="item-field item-field-short">
+          <label>Cargo (tons)</label>
+          <input type="text" name="system.cargo" value="{{system.cargo}}" placeholder="0" />
+        </div>
+        <div class="item-field item-field-num">
+          <label title="Number of Weapons"># Weapons</label>
+          <input type="number" name="system.weaponCount" value="{{system.weaponCount}}" min="0" />
+        </div>
+      </div>
+
+      {{!-- Tab nav --}}
+      <nav class="vehicle-tabs">
+        <button type="button" class="vehicle-tab-btn" data-tab="crew">Crew</button>
+        <button type="button" class="vehicle-tab-btn" data-tab="cargo">Cargo</button>
+        <button type="button" class="vehicle-tab-btn" data-tab="weapons">Weapons</button>
+        <button type="button" class="vehicle-tab-btn" data-tab="description">Description</button>
+      </nav>
+
+      {{!-- Tab panes --}}
+      <div class="vehicle-tab-body">
+
+        <div class="vehicle-tab-pane" data-tab="crew">
+          <div class="equip-item-list">
+            {{#each crewList}}
+            <div class="equip-item-row">
+              <img class="equip-item-icon" src="{{img}}" alt="{{name}}" />
+              <button type="button" class="equip-item-name" data-action="viewCrewMember" data-actor-id="{{id}}">{{name}}</button>
+              <span class="weapon-inline-stat">{{type}}</span>
+              <button type="button" class="equip-item-delete" data-action="removeCrewMember" data-actor-id="{{id}}">×</button>
+            </div>
+            {{/each}}
+          </div>
+          <div class="item-description">
+            <label class="item-desc-label">Notes</label>
+            <textarea name="system.notes" placeholder="Crew notes...">{{system.notes}}</textarea>
+          </div>
+        </div>
+
+        <div class="vehicle-tab-pane" data-tab="cargo">
+          <div class="equip-sections-grid">
+
+            <section class="equip-cat-section">
+              <div class="equip-cat-header">
+                <h2 class="section-title">Armor</h2>
+                <button type="button" class="equip-add-btn" data-action="createEquipItem" data-item-type="armor">+</button>
+              </div>
+              <div class="equip-item-list">
+                {{#each itemsByType.armor}}
+                <div class="equip-item-row {{#if equipped}}equipped{{/if}}" draggable="true" data-item-id="{{id}}">
+                  <img class="equip-item-icon" src="{{img}}" alt="{{name}}" data-action="equipItem" data-item-id="{{id}}" title="Equip Item" />
+                  <button type="button" class="equip-item-name" data-action="viewEquipItem" data-item-id="{{id}}">{{name}}</button>
+                  {{#unless shield}}{{#if protection}}<span class="weapon-inline-stat" title="Protection"><i class="fa-solid fa-shield-halved"></i> {{protection}}</span>{{/if}}{{/unless}}
+                  {{#if sneakModifier}}<span class="weapon-inline-stat" title="Sneak Modifier"><i class="fa-solid fa-user-ninja"></i> {{sneakModifier}}</span>{{/if}}
+                  <button type="button" class="equip-item-delete" data-action="deleteEquipItem" data-item-id="{{id}}">×</button>
+                </div>
+                {{/each}}
+              </div>
+            </section>
+
+            <section class="equip-cat-section">
+              <div class="equip-cat-header">
+                <h2 class="section-title">Gear</h2>
+                <button type="button" class="equip-add-btn" data-action="createEquipItem" data-item-type="adventuring">+</button>
+              </div>
+              <div class="equip-item-list">
+                {{#each itemsByType.adventuring}}
+                <div class="equip-item-row" draggable="true" data-item-id="{{id}}">
+                  <img class="equip-item-icon" src="{{img}}" alt="{{name}}" />
+                  <button type="button" class="equip-item-name" data-action="viewEquipItem" data-item-id="{{id}}">{{name}}</button>
+                  <input type="number" class="equip-item-qty" data-item-id="{{id}}" value="{{qty}}" min="0" />
+                  <button type="button" class="equip-item-delete" data-action="deleteEquipItem" data-item-id="{{id}}">×</button>
+                </div>
+                {{/each}}
+              </div>
+            </section>
+
+            <section class="equip-cat-section">
+              <div class="equip-cat-header">
+                <h2 class="section-title">Animals</h2>
+                <button type="button" class="equip-add-btn" data-action="createEquipItem" data-item-type="animal">+</button>
+              </div>
+              <div class="equip-item-list">
+                {{#each itemsByType.animal}}
+                <div class="equip-item-row" draggable="true" data-item-id="{{id}}">
+                  <img class="equip-item-icon" src="{{img}}" alt="{{name}}" />
+                  <button type="button" class="equip-item-name" data-action="viewEquipItem" data-item-id="{{id}}">{{name}}</button>
+                  <button type="button" class="equip-item-delete" data-action="deleteEquipItem" data-item-id="{{id}}">×</button>
+                </div>
+                {{/each}}
+              </div>
+            </section>
+
+          </div>
+        </div>
+
+        <div class="vehicle-tab-pane" data-tab="weapons">
+          <section class="equip-cat-section">
+            <div class="equip-cat-header">
+              <h2 class="section-title">Weapons</h2>
+              <button type="button" class="equip-add-btn" data-action="createEquipItem" data-item-type="weapon">+</button>
+            </div>
+            <div class="equip-item-list">
+              {{#each itemsByType.weapon}}
+              <div class="equip-item-row {{#if equipped}}equipped{{/if}}" draggable="true" data-item-id="{{id}}">
+                <img class="equip-item-icon" src="{{img}}" alt="{{name}}" data-action="equipItem" data-item-id="{{id}}" title="Equip Item" />
+                <button type="button" class="equip-item-name" data-action="viewEquipItem" data-item-id="{{id}}">{{name}}</button>
+                {{#if damage}}<span class="weapon-inline-stat" title="Damage"><i class="fa-solid fa-sword"></i> {{damage}}</span>{{/if}}
+                {{#if ranged}}
+                  {{#if range}}<span class="weapon-inline-stat" title="Range"><i class="fa-solid fa-arrows-left-right"></i> {{range}}</span>{{/if}}
+                  <button type="button" class="weapon-inline-stat weapon-ammo-btn" data-action="reloadWeapon" data-item-id="{{id}}" title="Ammo: {{ammo}}/{{ammoMax}} — Click to reload"><i class="fa-solid fa-circle-dot"></i> {{ammo}}/{{ammoMax}}</button>
+                {{/if}}
+                {{#if aspects}}<span class="weapon-inline-aspects" title="{{aspects}}"><i class="fa-solid fa-scroll"></i></span>{{/if}}
+                <button type="button" class="equip-item-roll" data-action="rollWeapon" data-item-id="{{id}}" title="Roll attack"><i class="fa-solid fa-dice-d6"></i></button>
+                <button type="button" class="equip-item-delete" data-action="deleteEquipItem" data-item-id="{{id}}">×</button>
+              </div>
+              {{/each}}
+            </div>
+          </section>
+        </div>
+
+        <div class="vehicle-tab-pane" data-tab="description">
+          <div class="item-description">
+            <textarea name="system.description" placeholder="Description...">{{system.description}}</textarea>
+          </div>
+        </div>
+
+      </div>{{!-- /vehicle-tab-body --}}
+
+    </div>
+  </div>
+</form>

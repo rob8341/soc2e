@@ -1,0 +1,565 @@
+{{!-- Sword of Cepheus 2e — Character Sheet (AppV2, tabbed) --}}
+<form class="soc2e sheet character" autocomplete="off">
+
+  {{!-- ===== ALWAYS-VISIBLE TOP ===== --}}
+  <div class="sheet-top">
+
+    <header class="sheet-header">
+      <div class="profile-img-wrap">
+        <img class="profile-img" src="{{actor.img}}" alt="{{actor.name}}"
+             data-action="editImage" data-edit="img" title="{{actor.name}}" />
+      </div>
+      <div class="header-center">
+        <div class="name-row">
+          <input type="text" name="name" value="{{actor.name}}" class="name-input" />
+        </div>
+        <div class="header-detail-row">
+          <div class="detail-field">
+            <label>Background</label>
+            <input type="text" name="system.background" value="{{system.background}}" />
+          </div>
+          <div class="detail-field">
+            <label>Career</label>
+            <input type="text" name="system.career" value="{{system.career}}" />
+          </div>
+          <div class="detail-field">
+            <label>Rank</label>
+            <input type="text" name="system.rank" value="{{system.rank}}" />
+          </div>
+        </div>
+      </div>
+      <div class="hero-wounds-stack">
+        <div class="hero-points-box">
+          <span class="hero-points-label" data-action="resetHero" title="Click to reset Hero Points to 2" style="cursor:pointer;">Hero Points</span>
+          <button type="button" class="hero-adjust" data-action="adjustHero" data-delta="-1">−</button>
+          <div class="hero-points-pips">
+            {{#times 5}}
+              <div class="hero-pip {{#if (lt this ../system.heroPoints)}}filled{{/if}}"></div>
+            {{/times}}
+          </div>
+          <button type="button" class="hero-adjust" data-action="adjustHero" data-delta="1">+</button>
+        </div>
+        <div class="hero-status-row">
+          <div class="fatigue-box">
+            <label class="fatigue-row {{#if system.fatigue}}fatigued{{/if}}" title="-1 to all actions">
+              <input type="checkbox" class="fatigue-cb" name="system.fatigue" {{#if system.fatigue}}checked{{/if}} />
+              <span class="fatigue-label">Fatigue</span>
+            </label>
+            <div class="quick-action-btns">
+              <button type="button" class="quick-action-btn quick-action-btn--attack{{#unless equippedWeapon}} quick-action-btn--disabled{{/unless}}"
+                      data-action="rollEquippedWeapon"
+                      {{#unless equippedWeapon}}disabled{{/unless}}
+                      title="{{#if equippedWeapon}}Attack with {{equippedWeapon.name}}{{else}}No weapon equipped{{/if}}">
+                <i class="fa-solid fa-swords"></i> Attack
+              </button>
+              <button type="button" class="quick-action-btn quick-action-btn--cast{{#unless hasSpells}} quick-action-btn--disabled{{/unless}}"
+                      data-action="rollSorcery"
+                      {{#unless hasSpells}}disabled{{/unless}}
+                      title="{{#if hasSpells}}Cast a Spell{{else}}No spells known{{/if}}">
+                <i class="fa-solid fa-sparkles"></i> Cast a Spell
+              </button>
+            </div>
+          </div>
+          <div class="wounds-box">
+            <span class="wounds-label">Wounds</span>
+            <label class="wound-row" title="-1 to all actions">
+              <input type="checkbox" class="wound-cb" disabled {{#if system.wounds.minorWound}}checked{{/if}} />
+              Minor Wound
+            </label>
+            <label class="wound-row" title="-2 to all actions">
+              <input type="checkbox" class="wound-cb" disabled {{#if system.wounds.seriousWound}}checked{{/if}} />
+              Serious Wound
+            </label>
+            <label class="wound-row" title="Will die within an hour">
+              <input type="checkbox" class="wound-cb" disabled {{#if system.wounds.mortalWound}}checked{{/if}} />
+              Mortal Wound
+            </label>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="attributes-section">
+      <button type="button" class="attrs-lock-btn" data-action="toggleAttrsLock" title="Lock / Unlock characteristic editing">
+        <i class="fa-solid fa-lock"></i>
+      </button>
+      {{#each attributeList}}
+        <div class="attr-block">
+          <div class="attr-label">{{label}}</div>
+          <div class="attr-circle">
+            <input type="number"
+                   class="attr-score-input"
+                   data-attr="{{key}}"
+                   name="system.attributes.{{key}}.value"
+                   value="{{value}}"
+                   min="0" max="20" />
+          </div>
+          <div class="attr-dm-row">
+            <span class="dm-tag">DM</span>
+            <button type="button"
+                    class="attr-dm-value"
+                    data-action="rollAttribute"
+                    data-attr="{{key}}"
+                    title="Roll {{label}}">{{dmSign dm}}</button>
+          </div>
+        </div>
+      {{/each}}
+    </section>
+
+    <section class="derived-section">
+      <div class="derived-block">
+        <button type="button" class="derived-icon" data-action="restoreStat" data-stat="lifeblood"
+                title="Restore Lifeblood">◆</button>
+        <label>Lifeblood</label>
+        <input type="number" name="system.lifeblood.value" value="{{system.lifeblood.value}}" min="0" />
+        <span class="sep">/</span>
+        <input type="number" name="system.lifeblood.max" value="{{system.lifeblood.max}}" min="0" readonly
+               title="2 × (END + Athletics) = 2 × ({{system.attributes.end.value}} + {{system.skills.athletics}})" />
+      </div>
+      <div class="derived-block">
+        <button type="button" class="derived-icon" data-action="restoreStat" data-stat="stamina"
+                title="Restore Stamina to maximum">◎</button>
+        <label>Stamina</label>
+        <input type="number" name="system.stamina.value" value="{{system.stamina.value}}" min="0" />
+        <span class="sep">/</span>
+        <input type="number" name="system.stamina.max" value="{{system.stamina.max}}" min="0" readonly
+               title="END + Athletics = {{system.attributes.end.value}} + {{system.skills.athletics}}" />
+      </div>
+      <div class="derived-block">
+        <span class="derived-icon">⛨</span>
+        <label>Armor</label>
+        <input type="number" value="{{system.armor}}" min="0" disabled />
+      </div>
+      <div class="derived-block">
+        <label>XP</label>
+        <input type="number" class="xp-input" name="system.xp" value="{{system.xp}}" min="0" />
+      </div>
+    </section>
+
+  </div>{{!-- /sheet-top --}}
+
+  {{!-- ===== TAB NAVIGATION ===== --}}
+  <nav class="tabs sheet-tabs" data-group="primary">
+    <a class="item" data-action="selectTab" data-group="primary" data-tab="skills">Skills &amp; Traits</a>
+    <a class="item" data-action="selectTab" data-group="primary" data-tab="equipment">Equipment</a>
+    <a class="item" data-action="selectTab" data-group="primary" data-tab="sorcery">Sorcery</a>
+    <a class="item" data-action="selectTab" data-group="primary" data-tab="bio">Lifepath</a>
+  </nav>
+
+  {{!-- ===== TAB BODY ===== --}}
+  <div class="tab-body">
+
+    {{!-- SKILLS & TRAITS --}}
+    <div class="tab" data-group="primary" data-tab="skills">
+      <div class="skills-tab-header">
+        <div class="skills-languages">
+          <label class="skills-languages-label">Languages</label>
+          <input type="text" class="skills-languages-input" name="system.languages" value="{{system.languages}}" />
+        </div>
+        <div class="skill-points-display" title="Current skill levels (above 0) / Max (INT + EDU)">
+          Skills: <b>{{skillPointsCurrent}}</b> / <b>{{skillPointsMax}}</b>
+        </div>
+        <button type="button" class="skills-lock-btn" data-action="toggleSkillsLock" title="Lock / Unlock skill editing">
+          <i class="fa-solid fa-lock"></i>
+        </button>
+        <label class="hide-unskilled-label">
+          <input type="checkbox" class="hide-unskilled-cb" />
+          Hide unskilled
+        </label>
+      </div>
+      <div class="skills-list">
+        {{#each skillList}}
+          <div class="skill-row" {{#if (lt value 0)}}data-unskilled="true"{{/if}}>
+            <button type="button"
+                    class="skill-label"
+                    data-action="rollSkill"
+                    data-skill="{{key}}"
+                    title="{{tooltip}}">{{label}}</button>
+            <input type="number"
+                   class="skill-value"
+                   name="system.skills.{{key}}"
+                   value="{{value}}"
+                   min="-3" max="5" />
+            <button type="button"
+                    class="skill-increase-btn"
+                    data-action="increaseSkill"
+                    data-skill="{{key}}"
+                    title="Increase {{label}}">+</button>
+          </div>
+        {{/each}}
+      </div>
+
+      <section class="traits-section">
+        <div class="traits-header">
+          <h2 class="section-title">Traits</h2>
+          <button type="button" class="equip-add-btn" data-action="createTrait">+</button>
+        </div>
+        <div class="traits-list">
+          {{#each traitList}}
+          <div class="trait-row" draggable="true" data-item-id="{{id}}">
+            <img class="trait-icon" src="{{img}}" alt="{{name}}"
+                 data-action="viewTrait" data-item-id="{{id}}" title="{{name}}" />
+            <button type="button" class="trait-name" data-action="viewTrait" data-item-id="{{id}}">{{name}}</button>
+            <button type="button" class="equip-item-delete" data-action="deleteTrait" data-item-id="{{id}}">×</button>
+          </div>
+          {{/each}}
+        </div>
+      </section>
+
+    </div>{{!-- /tab skills --}}
+
+    {{!-- EQUIPMENT --}}
+    <div class="tab" data-group="primary" data-tab="equipment">
+
+      <div class="equip-top-row">
+
+        {{!-- Coins --}}
+        <section class="equip-block equip-block-coins">
+          <h2 class="section-title">Coins</h2>
+          <div class="coins-row">
+            <div class="coin-field">
+              <label class="coin-label">Gold</label>
+              <input type="number" class="coin-input" name="system.coins.gold" value="{{system.coins.gold}}" min="0" />
+            </div>
+            <div class="coin-field">
+              <label class="coin-label">Silver</label>
+              <input type="number" class="coin-input" name="system.coins.silver" value="{{system.coins.silver}}" min="0" />
+            </div>
+            <div class="coin-field">
+              <label class="coin-label">Copper</label>
+              <input type="number" class="coin-input" name="system.coins.copper" value="{{system.coins.copper}}" min="0" />
+            </div>
+          </div>
+        </section>
+
+        {{!-- Living Expenses --}}
+        <section class="equip-block equip-block-living">
+          <h2 class="section-title">Living Expenses</h2>
+          <div class="living-row">
+            <div class="living-field living-field-wide">
+              <label class="living-label">Quality</label>
+              <input type="text" class="living-input" name="system.living.quality" value="{{system.living.quality}}" placeholder="e.g. Poor" />
+            </div>
+            <div class="living-field">
+              <label class="living-label">Monthly</label>
+              <input type="number" class="living-input-num" name="system.living.monthlyCost" value="{{system.living.monthlyCost}}" min="0" />
+            </div>
+            <div class="living-field">
+              <label class="living-label">Daily</label>
+              <input type="number" class="living-input-num" name="system.living.dailyCost" value="{{system.living.dailyCost}}" min="0" />
+            </div>
+          </div>
+        </section>
+
+        {{!-- Encumbrance --}}
+        <section class="equip-block equip-block-enc">
+          <h2 class="section-title">Encumbrance</h2>
+          <div class="enc-row">
+            <div class="enc-field">
+              <label class="enc-label">Backpack</label>
+              <div class="enc-backpack">
+                <span class="enc-backpack-used">{{backpackUsed}}</span>
+                <span class="enc-backpack-sep">/</span>
+                <input type="number" class="enc-backpack-max" name="system.backpackMax" value="{{backpackMax}}" min="0" title="Max backpack slots" />
+              </div>
+            </div>
+            <div class="enc-field">
+              <label class="enc-label">Total</label>
+              <span class="enc-total">{{encEffective}}</span>
+            </div>
+            <div class="enc-thresholds">
+              <div class="enc-threshold">Light load max: <b>{{encLight}}</b></div>
+              <div class="enc-threshold">Heavy load max: <b>{{encHeavy}}</b></div>
+            </div>
+          </div>
+        </section>
+
+      </div>{{!-- /equip-top-row --}}
+
+      <div class="equip-sections-grid">
+
+        <section class="equip-cat-section">
+          <div class="equip-cat-header">
+            <h2 class="section-title">Weapons</h2>
+            <button type="button" class="equip-add-btn" data-action="createEquipItem" data-item-type="weapon">+</button>
+          </div>
+          <div class="equip-item-list">
+            {{#each itemsByType.weapon}}
+            <div class="equip-item-row {{#if equipped}}equipped{{/if}}" draggable="true" data-item-id="{{id}}">
+              <img class="equip-item-icon" src="{{img}}" alt="{{name}}" data-action="equipItem" data-item-id="{{id}}" title="Equip Item" />
+              <button type="button" class="equip-item-name" data-action="viewEquipItem" data-item-id="{{id}}">{{name}}</button>
+              {{#if damage}}<span class="weapon-inline-stat" title="Damage"><i class="fa-solid fa-sword"></i> {{damage}}</span>{{/if}}
+              {{#if ranged}}
+                {{#if range}}<span class="weapon-inline-stat" title="Range"><i class="fa-solid fa-arrows-left-right"></i> {{range}}</span>{{/if}}
+                <button type="button" class="weapon-inline-stat weapon-ammo-btn" data-action="reloadWeapon" data-item-id="{{id}}" title="Ammo: {{ammo}}/{{ammoMax}} — Click to reload"><i class="fa-solid fa-circle-dot"></i> {{ammo}}/{{ammoMax}}</button>
+              {{/if}}
+              {{#if aspects}}<span class="weapon-inline-aspects" title="{{aspects}}"><i class="fa-solid fa-scroll"></i></span>{{/if}}
+              <span class="equip-item-enc" title="Encumbrance">{{enc}}</span>
+              <button type="button" class="equip-item-roll"
+                      data-action="rollWeapon" data-item-id="{{id}}" title="Roll attack"><i class="fa-solid fa-dice-d6"></i></button>
+              <button type="button" class="equip-item-delete" data-action="deleteEquipItem" data-item-id="{{id}}">×</button>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+
+        <section class="equip-cat-section">
+          <div class="equip-cat-header">
+            <h2 class="section-title">Armor</h2>
+            <button type="button" class="equip-add-btn" data-action="createEquipItem" data-item-type="armor">+</button>
+          </div>
+          <div class="equip-item-list">
+            {{#each itemsByType.armor}}
+            <div class="equip-item-row {{#if equipped}}equipped{{/if}}" draggable="true" data-item-id="{{id}}">
+              <img class="equip-item-icon" src="{{img}}" alt="{{name}}" data-action="equipItem" data-item-id="{{id}}" title="Equip Item" />
+              <button type="button" class="equip-item-name" data-action="viewEquipItem" data-item-id="{{id}}">{{name}}</button>
+              {{#unless shield}}{{#if protection}}<span class="weapon-inline-stat" title="Protection"><i class="fa-solid fa-shield-halved"></i> {{protection}}</span>{{/if}}{{/unless}}
+              {{#if sneakModifier}}<span class="weapon-inline-stat" title="Sneak Modifier"><i class="fa-solid fa-user-ninja"></i> {{sneakModifier}}</span>{{/if}}
+              <span class="equip-item-enc" title="Encumbrance">{{enc}}</span>
+              <button type="button" class="equip-item-delete" data-action="deleteEquipItem" data-item-id="{{id}}">×</button>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+
+        <section class="equip-cat-section">
+          <div class="equip-cat-header">
+            <h2 class="section-title">Adventuring Gear</h2>
+            <button type="button" class="equip-add-btn" data-action="createEquipItem" data-item-type="adventuring" data-item-subtype="adventuring">+</button>
+          </div>
+          <div class="equip-item-list">
+            {{#each itemsByType.adv_adventuring}}
+            <div class="equip-item-row" draggable="true" data-item-id="{{id}}">
+              <img class="equip-item-icon" src="{{img}}" alt="{{name}}" data-action="viewEquipItem" data-item-id="{{id}}" title="{{name}}" />
+              <button type="button" class="equip-item-name" data-action="viewEquipItem" data-item-id="{{id}}">{{name}}</button>
+              <input type="number" class="equip-item-qty" data-item-id="{{id}}" value="{{qty}}" min="0" />
+              <span class="equip-item-enc" title="Enc">{{enc}}</span>
+              <button type="button" class="equip-item-delete" data-action="deleteEquipItem" data-item-id="{{id}}">×</button>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+
+        <section class="equip-cat-section">
+          <div class="equip-cat-header">
+            <h2 class="section-title">Food &amp; Lodging</h2>
+            <button type="button" class="equip-add-btn" data-action="createEquipItem" data-item-type="adventuring" data-item-subtype="food">+</button>
+          </div>
+          <div class="equip-item-list">
+            {{#each itemsByType.adv_food}}
+            <div class="equip-item-row" draggable="true" data-item-id="{{id}}">
+              <img class="equip-item-icon" src="{{img}}" alt="{{name}}" data-action="viewEquipItem" data-item-id="{{id}}" title="{{name}}" />
+              <button type="button" class="equip-item-name" data-action="viewEquipItem" data-item-id="{{id}}">{{name}}</button>
+              <input type="number" class="equip-item-qty" data-item-id="{{id}}" value="{{qty}}" min="0" />
+              <span class="equip-item-enc" title="Enc">{{enc}}</span>
+              <button type="button" class="equip-item-delete" data-action="deleteEquipItem" data-item-id="{{id}}">×</button>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+
+        <section class="equip-cat-section">
+          <div class="equip-cat-header">
+            <h2 class="section-title">Clothing &amp; Fabrics</h2>
+            <button type="button" class="equip-add-btn" data-action="createEquipItem" data-item-type="adventuring" data-item-subtype="clothing">+</button>
+          </div>
+          <div class="equip-item-list">
+            {{#each itemsByType.adv_clothing}}
+            <div class="equip-item-row" draggable="true" data-item-id="{{id}}">
+              <img class="equip-item-icon" src="{{img}}" alt="{{name}}" data-action="viewEquipItem" data-item-id="{{id}}" title="{{name}}" />
+              <button type="button" class="equip-item-name" data-action="viewEquipItem" data-item-id="{{id}}">{{name}}</button>
+              <input type="number" class="equip-item-qty" data-item-id="{{id}}" value="{{qty}}" min="0" />
+              <span class="equip-item-enc" title="Enc">{{enc}}</span>
+              <button type="button" class="equip-item-delete" data-action="deleteEquipItem" data-item-id="{{id}}">×</button>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+
+        <section class="equip-cat-section">
+          <div class="equip-cat-header">
+            <h2 class="section-title">Herbs &amp; Potions</h2>
+            <button type="button" class="equip-add-btn" data-action="createEquipItem" data-item-type="adventuring" data-item-subtype="potion">+</button>
+          </div>
+          <div class="equip-item-list">
+            {{#each itemsByType.adv_potion}}
+            <div class="equip-item-row" draggable="true" data-item-id="{{id}}">
+              <img class="equip-item-icon" src="{{img}}" alt="{{name}}" data-action="viewEquipItem" data-item-id="{{id}}" title="{{name}}" />
+              <button type="button" class="equip-item-name" data-action="viewEquipItem" data-item-id="{{id}}">{{name}}</button>
+              <input type="number" class="equip-item-qty" data-item-id="{{id}}" value="{{qty}}" min="0" />
+              <span class="equip-item-enc" title="Enc">{{enc}}</span>
+              <button type="button" class="equip-item-delete" data-action="deleteEquipItem" data-item-id="{{id}}">×</button>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+
+        <section class="equip-cat-section">
+          <div class="equip-cat-header">
+            <h2 class="section-title">Vehicles</h2>
+          </div>
+          <div class="equip-item-list">
+            {{#each linkedVehicles}}
+            <div class="equip-item-row" draggable="true" data-item-id="{{id}}">
+              <img class="equip-item-icon" src="{{img}}" alt="{{name}}" />
+              <button type="button" class="equip-item-name" data-action="openVehicle" data-vehicle-id="{{id}}">{{name}}</button>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+
+        <section class="equip-cat-section">
+          <div class="equip-cat-header">
+            <h2 class="section-title">Animals</h2>
+            <button type="button" class="equip-add-btn" data-action="createEquipItem" data-item-type="animal">+</button>
+          </div>
+          <div class="equip-item-list">
+            {{#each itemsByType.animal}}
+            <div class="equip-item-row" draggable="true" data-item-id="{{id}}">
+              <img class="equip-item-icon" src="{{img}}" alt="{{name}}" data-action="viewEquipItem" data-item-id="{{id}}" title="{{name}}" />
+              <button type="button" class="equip-item-name" data-action="viewEquipItem" data-item-id="{{id}}">{{name}}</button>
+              <span class="equip-item-enc" title="Encumbrance">{{enc}}</span>
+              <button type="button" class="equip-item-delete" data-action="deleteEquipItem" data-item-id="{{id}}">×</button>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+
+      </div>
+
+    </div>{{!-- /tab equipment --}}
+
+    {{!-- SORCERY --}}
+    <div class="tab" data-group="primary" data-tab="sorcery">
+      <div class="sorcery-body">
+        <section class="spells-section">
+          <div class="spells-header">
+            <h2 class="section-title">Spells</h2>
+            <button type="button" class="equip-add-btn" data-action="createSpell">+</button>
+          </div>
+          <div class="spells-list">
+            {{#each spellList}}
+            <div class="spell-row" draggable="true" data-item-id="{{id}}">
+              <img class="trait-icon" src="{{img}}" alt="{{name}}"
+                   data-action="viewSpell" data-item-id="{{id}}" title="{{name}}" />
+              <button type="button" class="trait-name" data-action="viewSpell" data-item-id="{{id}}">{{name}}</button>
+              <span class="spell-school">{{school}}</span>
+              <button type="button" class="spell-cast-btn" data-action="castSpell" data-item-id="{{id}}" title="Cast {{name}}"><i class="fa-solid fa-sparkles"></i></button>
+              <button type="button" class="equip-item-delete" data-action="deleteSpell" data-item-id="{{id}}">×</button>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+        <section class="spells-section">
+          <div class="spells-header">
+            <h2 class="section-title">Corrupting Weaknesses</h2>
+            <button type="button" class="equip-add-btn" data-action="createCorruptingWeakness">+</button>
+          </div>
+          <div class="spells-list">
+            {{#each corruptingWeaknessList}}
+            <div class="spell-row" draggable="true" data-item-id="{{id}}">
+              <img class="trait-icon" src="{{img}}" alt="{{name}}"
+                   data-action="viewTrait" data-item-id="{{id}}" title="{{name}}" />
+              <button type="button" class="trait-name" data-action="viewTrait" data-item-id="{{id}}">{{name}}</button>
+              <button type="button" class="equip-item-delete" data-action="deleteTrait" data-item-id="{{id}}">×</button>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+        <aside class="corruption-panel">
+          <div class="corruption-header">
+            <span class="corruption-title">Corruption</span>
+            <button type="button" class="corruption-lock-btn" data-action="toggleCorruptionLock" title="Lock / Unlock">
+              <i class="fa-solid fa-lock"></i>
+            </button>
+          </div>
+          <div class="corruption-counter">
+            <input type="number" class="corruption-input" name="system.corruption"
+                   value="{{system.corruption}}" min="0" />
+            <span class="corruption-sep">/</span>
+            <span class="corruption-threshold">{{corruptionThreshold}}</span>
+          </div>
+          <div class="corruption-weaknesses">
+            <span class="corruption-weakness-label">Corrupting Weaknesses</span>
+            <span class="corruption-weakness-count {{#if corruptingWeaknesses}}has-weaknesses{{/if}}">{{corruptingWeaknesses}}</span>
+          </div>
+        </aside>
+      </div>
+    </div>{{!-- /tab sorcery --}}
+
+    {{!-- BIO --}}
+    <div class="tab" data-group="primary" data-tab="bio">
+
+      <section class="terms-section">
+        <div class="terms-section-header">
+          <button type="button" class="terms-collapse-btn" title="Collapse">&#9660;</button>
+          <h2 class="section-title">Terms of Service</h2>
+          <button type="button" class="terms-lock-btn">Lock</button>
+        </div>
+        <table class="terms-table">
+          <thead>
+            <tr>
+              <th>Term</th>
+              <th>Age</th>
+              <th>Skill Grants</th>
+              <th>Total Skills</th>
+              <th>Aging?</th>
+              <th>Traits</th>
+              <th>MO Rolls</th>
+              <th>Events</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each termRows}}
+            <tr class="term-ref-row" data-term-index="{{index}}">
+              <td class="term-center">{{index}}</td>
+              <td class="term-center">
+                <input type="number" class="term-age-input" name="system.termRecords.{{index}}.age" value="{{age}}" min="0" />
+              </td>
+              <td>{{skillGrant}}</td>
+              <td class="term-center">{{totalSkills}}</td>
+              <td class="term-center">{{aging}}</td>
+              <td class="term-center">{{traits}}</td>
+              <td class="term-center">{{moRolls}}</td>
+              <td class="term-center">{{totalEvents}}</td>
+              <td class="term-center term-actions-cell">
+                {{#if canDelete}}
+                  <button type="button" class="term-delete-btn" data-action="deleteTerm" data-index="{{index}}" title="Remove term">×</button>
+                {{/if}}
+              </td>
+            </tr>
+            <tr class="term-input-row" data-term-index="{{index}}">
+              <td colspan="9">
+                <div class="term-inputs">
+                  <label class="term-input-label">Skills chosen:
+                    <input type="text" name="system.termRecords.{{index}}.skills" value="{{skills}}" />
+                  </label>
+                  <label class="term-input-label">Benefits:
+                    <input type="text" name="system.termRecords.{{index}}.benefits" value="{{benefits}}" />
+                  </label>
+                  <label class="term-input-label">Events:
+                    <input type="text" name="system.termRecords.{{index}}.events" value="{{events}}" />
+                  </label>
+                </div>
+              </td>
+            </tr>
+            {{/each}}
+          </tbody>
+        </table>
+        {{#unless termsFull}}
+          <button type="button" class="terms-add-btn" data-action="addTerm">+ Add Term</button>
+        {{/unless}}
+      </section>
+
+      <section class="notes-section" style="margin-top:10px;">
+        <h2 class="section-title">Notes about life events</h2>
+        <textarea name="system.lifeEventNotes" rows="6"
+                  placeholder="Notes about life events...">{{system.lifeEventNotes}}</textarea>
+      </section>
+
+    </div>{{!-- /tab bio --}}
+
+  </div>{{!-- /tab-body --}}
+
+</form>
