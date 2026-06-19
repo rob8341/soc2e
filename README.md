@@ -27,17 +27,6 @@ The system ships two built-in compendium packs, generated from *The Sword of Cep
 
 These load automatically with the system — no manual import step needed.
 
-### Rebuilding the packs
-
-Source data lives as individual JSON files under `packs/_source/` (one file per document). To rebuild the binary compendium packs after editing that source data:
-
-```
-npm install
-npm run build:packs
-```
-
-This compiles `packs/_source/items` → `packs/items` and `packs/_source/npcs` → `packs/npcs` using the official `@foundryvtt/foundryvtt-cli`.
-
 ## TODO
 
 - **Vehicles** — the `vehicle` actor type and sheet exist, but the Items compendium does not yet include vehicle entries from the Equipment chapter (pp.167-170). Vehicles still need to be added as compendium content.
