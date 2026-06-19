@@ -15,16 +15,16 @@
  * Score  6–8 → DM  0
  * Score 9–11 → DM +1
  * Score12–14 → DM +2
- * Score 15+  → DM +3
+ * Score15–17 → DM +3
+ * Score18–20 → DM +4
+ * Above 20, the modifier keeps increasing by +1 per further 3 points
+ * (21–23 → +5, 24–26 → +6, …) with no upper bound — monsters can exceed
+ * the normal character range (e.g. a Mammoth's STR 32 → DM +8).
  */
 export function soc2eAttributeDM(score) {
-  if (score <= 0)  return -3;
-  if (score <= 2)  return -2;
-  if (score <= 5)  return -1;
-  if (score <= 8)  return  0;
-  if (score <= 11) return  1;
-  if (score <= 14) return  2;
-  return 3;
+  if (score <= 0) return -3;
+  if (score <= 2) return -2;
+  return Math.floor((score - 3) / 3) - 1;
 }
 
 /* -------------------------------------------- */
@@ -181,8 +181,10 @@ export class Soc2eNpcModel extends foundry.abstract.TypeDataModel {
 
   static defineSchema() {
     const fields = foundry.data.fields;
+    // NPCs/monsters can exceed the player characteristic range (e.g. Mammoth STR 32),
+    // so this cap is much higher than the character model's.
     const attrField = (initial = 7) => new fields.SchemaField({
-      value: new fields.NumberField({ required: true, integer: true, initial, min: 0, max: 20 }),
+      value: new fields.NumberField({ required: true, integer: true, initial, min: 0, max: 99 }),
     });
     const skillField = () => new fields.NumberField({ required: true, integer: true, initial: -3, min: -3, max: 5 });
 
