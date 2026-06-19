@@ -1,0 +1,22 @@
+{
+  "_id": "rZ4v7rLm5Jqzges6",
+  "_key": "!items!rZ4v7rLm5Jqzges6",
+  "name": "Nightmarish Suggestion",
+  "type": "spell",
+  "img": "icons/magic/unholy/projectile-bullet-orb-pink.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "10km or Scrying",
+    "duration": "One night's dream, or 10 minutes of real time",
+    "effect": "Casting Time: This spell requires 2d6 turns to cast. This functions similarly to Dream Communication, except that it works entirely on a subconscious level. The caster provides a one sentence suggestion that they infuse into a nightmare. The target of the suggestion will suffer horrible nightmares that embed the suggestion on a deeper level than the target is aware of. Upon waking, the target will have a strange compulsion to perform the task that is probably quite outside of their normal behavior. They must roll INT/10+ to avoid the compulsion, but each time they do so, they suffer a -1 modifier penalty to all other actions not pertaining to the carrying out of the suggestion.",
+    "critSuccess": "The suggestion is so strong that the roll to avoid the compulsion is INT/12+."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 24700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "KTVRgiDo1r2zlRWJ",
+  "_key": "!items!KTVRgiDo1r2zlRWJ",
+  "name": "Blight",
+  "type": "spell",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "20km radius from the ritual",
+    "duration": "One harvest season",
+    "effect": "This ritual causes all crops and harvests within the area of effect to wither, and the soil to become infertile: grain is diseased, grapes rot on the vine, and cattle stop producing milk.",
+    "critSuccess": "The duration lasts for seven harvests."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 24100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

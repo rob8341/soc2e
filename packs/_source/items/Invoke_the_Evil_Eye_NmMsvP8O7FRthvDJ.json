@@ -1,0 +1,22 @@
+{
+  "_id": "NmMsvP8O7FRthvDJ",
+  "_key": "!items!NmMsvP8O7FRthvDJ",
+  "name": "Invoke the Evil Eye",
+  "type": "spell",
+  "img": "icons/magic/death/skeleton-eye-skull-glow-orange.webp",
+  "system": {
+    "school": "arcane",
+    "range": "10m.",
+    "duration": "Instant.",
+    "effect": "The Sorcerer places a curse on a target creature or object. A creature may throw INT 9+ to resist the curse. The caster must choose one of the following effects as the curse: Halve one characteristic score (round up); -3 modifier to all attack throws; Panic: each round of combat, the target must throw 1D; on 1-3, it acts normally on 4-6, it takes no action. The caster may invent a different curse but should not be more powerful than the examples above; this is at the Referee's discretion. The curse is permanent, unless removed by the Expunge Curse spell.",
+    "critSuccess": "Any Expunge Curse spell cast to remove the curse is at a -4 modifier, and if it fails, it may not be cast on the same victim until a week passes."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 21500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

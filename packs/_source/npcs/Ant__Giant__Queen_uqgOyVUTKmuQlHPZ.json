@@ -1,0 +1,143 @@
+{
+  "_id": "uqgOyVUTKmuQlHPZ",
+  "_key": "!actors!uqgOyVUTKmuQlHPZ",
+  "name": "Ant, Giant, Queen",
+  "type": "npc",
+  "img": "icons/creatures/invertebrates/ant-strength-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 15
+      },
+      "dex": {
+        "value": 5
+      },
+      "end": {
+        "value": 15
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 1
+      }
+    },
+    "lifeblood": {
+      "value": 30,
+      "max": 30
+    },
+    "stamina": {
+      "value": 15,
+      "max": 15
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "800kg Beast (Eater), plains walker, #App: 1, Treasure: Incidental. Mandibles (3d6); armor 5; speed 10m/action; Morale +2. The queen of a giant ant colony is a bloated insect, several times the size of a worker or soldier giant ant. Venom: 8+/3d6 delivered by bite.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "aggBnrlbf6OZ6NRh",
+      "_key": "!actors.items!uqgOyVUTKmuQlHPZ.aggBnrlbf6OZ6NRh",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 5,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "1iO3J73RpC6N5rA4",
+      "_key": "!actors.items!uqgOyVUTKmuQlHPZ.1iO3J73RpC6N5rA4",
+      "name": "Mandibles",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-broad-worn.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

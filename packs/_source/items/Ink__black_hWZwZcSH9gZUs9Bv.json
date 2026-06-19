@@ -1,0 +1,22 @@
+{
+  "_id": "hWZwZcSH9gZUs9Bv",
+  "_key": "!items!hWZwZcSH9gZUs9Bv",
+  "name": "Ink, black",
+  "type": "adventuring",
+  "img": "icons/sundries/lights/torch-black.webp",
+  "system": {
+    "description": "A small bottle of black ink. Other colors cost twice as much.",
+    "cost": "8gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 14300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

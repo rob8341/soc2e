@@ -1,0 +1,22 @@
+{
+  "_id": "ZqzOlnZTV1YFjtFi",
+  "_key": "!items!ZqzOlnZTV1YFjtFi",
+  "name": "Snowshoes",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "Made of hard-wearing wood, increase the surface area of the wearer's tread in arctic conditions. Halves any movement penalty when travelling over deep snow.",
+    "cost": "5gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 18700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,174 @@
+{
+  "_id": "x4yfpARHeT9RlxOY",
+  "_key": "!actors!x4yfpARHeT9RlxOY",
+  "name": "Lizard, Giant",
+  "type": "npc",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 16
+      },
+      "dex": {
+        "value": 5
+      },
+      "end": {
+        "value": 15
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 3
+      }
+    },
+    "lifeblood": {
+      "value": 36,
+      "max": 36
+    },
+    "stamina": {
+      "value": 18,
+      "max": 18
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "800kg Beast (Hunter), desert walker, #App: 1d6, Treasure: None. Teeth (3d6), Claws (2d6); armor 3; speed 20m/action; Morale -1. A gigantic variant of an agamid or lacertid lizard, this monstrosity stalks deserts for prey and plant material. Some giant lizards exist in warm caverns as well, and some barbaric tribes occasionally tame them as riding and war beasts. (Instinct 9, Pack 3)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "LAj9AbLehgHeNwuq",
+      "_key": "!actors.items!x4yfpARHeT9RlxOY.LAj9AbLehgHeNwuq",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 3,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "1nax8xg5kTtYEGR1",
+      "_key": "!actors.items!x4yfpARHeT9RlxOY.1nax8xg5kTtYEGR1",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "IL3k6yvT8GK0DhaF",
+      "_key": "!actors.items!x4yfpARHeT9RlxOY.IL3k6yvT8GK0DhaF",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 6000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

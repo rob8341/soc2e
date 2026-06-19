@@ -1,0 +1,22 @@
+{
+  "_id": "DM3HuWzUZsStHmQX",
+  "_key": "!items!DM3HuWzUZsStHmQX",
+  "name": "Sleeping Smoke",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "When this incense stick is burned, all living targets must roll END 10+ or fall into a deep magical slumber for 1d6 turns. The owner of the incense stick is immune, as are any of the owner's allies.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 30500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

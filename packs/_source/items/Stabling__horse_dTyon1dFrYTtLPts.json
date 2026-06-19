@@ -1,0 +1,22 @@
+{
+  "_id": "dTyon1dFrYTtLPts",
+  "_key": "!items!dTyon1dFrYTtLPts",
+  "name": "Stabling, horse",
+  "type": "adventuring",
+  "img": "icons/sundries/misc/horseshoe-iron.webp",
+  "system": {
+    "description": "Cost to feed and protect a horse for one night within a barn or other building. Feed is 5cp per day.",
+    "cost": "5sp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 11400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

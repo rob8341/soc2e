@@ -1,0 +1,22 @@
+{
+  "_id": "I5z52Dm7tO4fJHS6",
+  "_key": "!items!I5z52Dm7tO4fJHS6",
+  "name": "Meal, feast",
+  "type": "adventuring",
+  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "system": {
+    "description": "A feast-quality meal.",
+    "cost": "10gp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 10300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

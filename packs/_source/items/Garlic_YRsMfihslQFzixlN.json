@@ -1,0 +1,22 @@
+{
+  "_id": "YRsMfihslQFzixlN",
+  "_key": "!items!YRsMfihslQFzixlN",
+  "name": "Garlic",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "Believed to repel vampires and similar undead creatures. Garlic causes vampires to cringe and hesitate for 1d6 rounds.",
+    "cost": "5gp",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "IqK3yn9FfcgMXAdx",
+  "sort": 14000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

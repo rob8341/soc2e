@@ -1,0 +1,22 @@
+{
+  "_id": "P5y78tIapMW1Z4RO",
+  "_key": "!items!P5y78tIapMW1Z4RO",
+  "name": "Mirage",
+  "type": "spell",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "school": "arcane",
+    "range": "240m",
+    "duration": "Special",
+    "effect": "This spell makes a structure or terrain feature look like something else. For example, it could make a tower or castle appear to be a hill. The entire terrain feature must be within the spell's range. The affected terrain looks, sounds, and smells exactly like the illusion. Intelligent creatures who suspect that this is an illusion may throw INT 8+ to disbelieve it. The Mirage lasts until someone casts a Quell Enchantment spell, or it dismissed by the Sorcerer who created it.",
+    "critSuccess": "The illusion is so perfect that it requires an INT 10+ throw to pierce, rather than INT 8+."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 21800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

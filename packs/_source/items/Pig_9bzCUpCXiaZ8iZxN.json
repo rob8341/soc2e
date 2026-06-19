@@ -1,0 +1,21 @@
+{
+  "_id": "9bzCUpCXiaZ8iZxN",
+  "_key": "!items!9bzCUpCXiaZ8iZxN",
+  "name": "Pig",
+  "type": "animal",
+  "img": "icons/creatures/mammals/livestock-pig-green.webp",
+  "system": {
+    "description": "A domesticated pig will produce a dozen young per year. A typical pig weighs 50kg.",
+    "cost": "3gp",
+    "speed": 15,
+    "carryingCapacity": "12kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 16600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

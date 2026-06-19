@@ -1,0 +1,143 @@
+{
+  "_id": "j6A05f8ld8OK8Mzc",
+  "_key": "!actors!j6A05f8ld8OK8Mzc",
+  "name": "Leech, Giant",
+  "type": "npc",
+  "img": "icons/creatures/invertebrates/leech-attack-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 5
+      },
+      "dex": {
+        "value": 5
+      },
+      "end": {
+        "value": 7
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 5
+      },
+      "soc": {
+        "value": 5
+      }
+    },
+    "lifeblood": {
+      "value": 16,
+      "max": 16
+    },
+    "stamina": {
+      "value": 8,
+      "max": 8
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "25kg Beast (Trapper), swamp swimmer, #App: 1d6, Treasure: None. Mouth parts (1d6); armor 1; swim 10m/action; Morale +2. A giant parasitic worm native to swamps and other bodies of stagnant water. Upon a successful attack, the leech immediately grapples its victim. The victim may try to break the grapple on the next round, or any subsequent round, but the leech enjoys a +1 bonus to grapple throws. Each round it grapples a victim, the leech automatically causes 1d6 damage via blood drain to its opponent. (Instinct 5, Pack 5)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 0,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 0,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "oEQ7OxQXOW1OrOwh",
+      "_key": "!actors.items!j6A05f8ld8OK8Mzc.oEQ7OxQXOW1OrOwh",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 1,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "fEPFbJJqUXlENAJg",
+      "_key": "!actors.items!j6A05f8ld8OK8Mzc.fEPFbJJqUXlENAJg",
+      "name": "Mouth parts",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-broad-worn.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "1d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 5800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "WDwIptvRT1OUBRkn",
+  "_key": "!items!WDwIptvRT1OUBRkn",
+  "name": "Dream Communication",
+  "type": "spell",
+  "img": "icons/magic/time/day-night-sun-moon.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "10km or Scrying range",
+    "duration": "One night's dream, or 10 minutes of real time",
+    "effect": "Casting Time: This spell requires 2d6 turns to cast. The caster communicates with a sleeping target via the target's dreams: the target receives a message from the sorcerer. This message can be true, false, helpful, or harmful in some way. If the target acts on the information, they gain a +1DM bonus to one skill roll related to the message during the next day.",
+    "critSuccess": "The message can be extended over multiple nights, giving the target the +1DM bonus for longer."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 24300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "hmiXbIwXILft9SGV",
+  "_key": "!items!hmiXbIwXILft9SGV",
+  "name": "Tent",
+  "type": "adventuring",
+  "img": "icons/sundries/survival/shelter-tent-small.webp",
+  "system": {
+    "description": "A semi-watertight covering held in place by wooden rods. Can hold two people in cramped conditions.",
+    "cost": "20gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 8700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

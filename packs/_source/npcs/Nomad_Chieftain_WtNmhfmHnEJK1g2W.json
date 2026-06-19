@@ -1,0 +1,227 @@
+{
+  "_id": "WtNmhfmHnEJK1g2W",
+  "_key": "!actors!WtNmhfmHnEJK1g2W",
+  "name": "Nomad Chieftain",
+  "type": "npc",
+  "img": "icons/equipment/head/crown-feather-brown.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 8
+      },
+      "dex": {
+        "value": 9
+      },
+      "end": {
+        "value": 9
+      },
+      "int": {
+        "value": 8
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 9
+      }
+    },
+    "lifeblood": {
+      "value": 18,
+      "max": 18
+    },
+    "stamina": {
+      "value": 9,
+      "max": 9
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "The tough, hardened leader of a nomad tribe. A nomad chieftain has to ensure that their people have good lands to pasture their flocks and are constantly on guard for threats to their rule. Equipment: Scale Armor (5), Saber (3d6), Short Bow (2d6), Spear (2d6), Light Horse.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": 1,
+      "battle": 2,
+      "carousing": -3,
+      "craft": -3,
+      "deception": 1,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": 2,
+      "liaison": 1,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 2,
+      "religion": -3,
+      "riding": 2,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "mXMCaULEkFF6s1pr",
+      "_key": "!actors.items!WtNmhfmHnEJK1g2W.mXMCaULEkFF6s1pr",
+      "name": "Scale Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-scale-leather.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 5,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ItB86Et8DkeAs5BN",
+      "_key": "!actors.items!WtNmhfmHnEJK1g2W.ItB86Et8DkeAs5BN",
+      "name": "Saber",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-flanged-lightning.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "HlWVnFtGgsLJjjVW",
+      "_key": "!actors.items!WtNmhfmHnEJK1g2W.HlWVnFtGgsLJjjVW",
+      "name": "Short Bow",
+      "type": "weapon",
+      "img": "icons/weapons/bows/bow-recurve-black.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": true,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "0Lj78OWWq5D1siuv",
+      "_key": "!actors.items!WtNmhfmHnEJK1g2W.0Lj78OWWq5D1siuv",
+      "name": "Spear",
+      "type": "weapon",
+      "img": "icons/weapons/polearms/spear-flared-wrapped.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "UBAyzVz8vX8VbRmS",
+      "_key": "!actors.items!WtNmhfmHnEJK1g2W.UBAyzVz8vX8VbRmS",
+      "name": "Light Horse",
+      "type": "adventuring",
+      "img": "icons/sundries/lights/flash-light.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 11500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

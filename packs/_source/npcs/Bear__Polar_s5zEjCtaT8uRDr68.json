@@ -1,0 +1,174 @@
+{
+  "_id": "s5zEjCtaT8uRDr68",
+  "_key": "!actors!s5zEjCtaT8uRDr68",
+  "name": "Bear, Polar",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 20
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 15
+      },
+      "int": {
+        "value": 1
+      },
+      "edu": {
+        "value": 10
+      },
+      "soc": {
+        "value": 2
+      }
+    },
+    "lifeblood": {
+      "value": 34,
+      "max": 34
+    },
+    "stamina": {
+      "value": 17,
+      "max": 17
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "800kg Beast (Pouncer), arctic walker and swimmer, #App: 1d6, Treasure: None. Claws (3d6), Teeth (3d6); armor 3; walking speed 10m/action, swimming speed 20m/action; Morale +1. One of the largest bear species, the polar bear is a majestic predator at home both on snow, ice and underwater. The same game statistics can also serve to describe the prehistoric cave and short-faced bears, which were similar in size.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 2,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "JjJ4BQT3iIty0Bfd",
+      "_key": "!actors.items!s5zEjCtaT8uRDr68.JjJ4BQT3iIty0Bfd",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 3,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "NKn6rbHBPfFmtL64",
+      "_key": "!actors.items!s5zEjCtaT8uRDr68.NKn6rbHBPfFmtL64",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "wj0wxrv82fTB9XrX",
+      "_key": "!actors.items!s5zEjCtaT8uRDr68.wj0wxrv82fTB9XrX",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

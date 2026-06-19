@@ -1,0 +1,22 @@
+{
+  "_id": "vSFkpBBGjxrzuLWO",
+  "_key": "!items!vSFkpBBGjxrzuLWO",
+  "name": "Manacles",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "Metal clamps designed to bind the hands or feet. Escaping requires Contortionism + DEX 10+ throw, or Craft/DEX 10+ to pick.",
+    "cost": "5gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 6900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

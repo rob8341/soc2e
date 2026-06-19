@@ -1,0 +1,31 @@
+{
+  "_id": "VxUZpfbH9vOWOU6m",
+  "_key": "!items!VxUZpfbH9vOWOU6m",
+  "name": "Dagger",
+  "type": "weapon",
+  "img": "icons/weapons/daggers/dagger-blue.webp",
+  "system": {
+    "description": "A straight, short knife. Daggers are usually quite concealable.",
+    "cost": "3gp",
+    "damage": "2d6",
+    "range": "",
+    "aspects": "Thrown",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": true,
+    "ranged": true,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

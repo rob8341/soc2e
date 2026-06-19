@@ -1,0 +1,22 @@
+{
+  "_id": "AgHR8WO6UjCufdXI",
+  "_key": "!items!AgHR8WO6UjCufdXI",
+  "name": "Respite",
+  "type": "spell",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "school": "arcane",
+    "range": "Touch.",
+    "duration": "Instantaneous.",
+    "effect": "Heals the target character as if they have fully rested for 5d6 days.",
+    "critSuccess": "Completely heals the target character."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 22400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

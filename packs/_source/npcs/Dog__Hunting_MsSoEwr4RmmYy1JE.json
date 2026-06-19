@@ -1,0 +1,119 @@
+{
+  "_id": "MsSoEwr4RmmYy1JE",
+  "_key": "!actors!MsSoEwr4RmmYy1JE",
+  "name": "Dog, Hunting",
+  "type": "npc",
+  "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 3
+      },
+      "dex": {
+        "value": 10
+      },
+      "end": {
+        "value": 3
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 10
+      },
+      "soc": {
+        "value": 7
+      }
+    },
+    "lifeblood": {
+      "value": 8,
+      "max": 8
+    },
+    "stamina": {
+      "value": 4,
+      "max": 4
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "25kg Beast (Chaser), forest walker, #App: 2d6, Treasure: None. Bite (1d6); armor 0; speed 30m/action; Morale +0. The hunting dog is a lean, fast hound, bred to chase and catch prey.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -1,
+      "archery": -3,
+      "battle": -1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": -1,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "IOJQJeheqJoGWlQ9",
+      "_key": "!actors.items!MsSoEwr4RmmYy1JE.IOJQJeheqJoGWlQ9",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "1d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 3500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "_id": "HuQ9UyGrRm1yiUJX",
+  "_key": "!actors!HuQ9UyGrRm1yiUJX",
+  "name": "Insect Swarm",
+  "type": "npc",
+  "img": "icons/creatures/invertebrates/wasp-swarm-attack.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 5
+      },
+      "dex": {
+        "value": 12
+      },
+      "end": {
+        "value": 5
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 9,
+      "max": 9
+    },
+    "stamina": {
+      "value": 3,
+      "max": 3
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "25kg Beast (Reducer), plains walker or flyer, #App: 1, Treasure: None. Special (see below); armor 1; crawl or fly 10m/action; Morale +3. An insect swarm is a special type of monster representing a huge mass of insects, such as wasps, locusts, or cockroaches acting as one unit. The swarm typically occupies a space of 3m by 3m but may expand or shrink as conditions dictate. Swarms do not need to roll to hit. They automatically cause 1 point of damage per round to characters engulfed by the swarm. A character who flees from the swarm will require 2 more rounds to drive away the swarm's remnants and swat insects, during which they will continue to suffer damage. If the character damaged the swarm, it will chase the character. The swarm causes double damage to unarmored characters. Swarms are immune to regular damage. They are only damaged by fire (a successful hit with a torch causes 1d6 damage to a swarm) or any fire, gas, or ice magical area effects, which automatically dissipate the swarm. (Instinct 7, Pack 0)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 3,
+      "archery": -3,
+      "battle": 0,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 0,
+      "naturalphilosophy": -3,
+      "scout": 0,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "0RCkiRsinUTaTJQ9",
+      "_key": "!actors.items!HuQ9UyGrRm1yiUJX.0RCkiRsinUTaTJQ9",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 1,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 5700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "_id": "ZihSiR1hnDU6w7Lz",
+  "_key": "!actors!ZihSiR1hnDU6w7Lz",
+  "name": "Dinosaur, Edmontosaurus",
+  "type": "npc",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 25
+      },
+      "dex": {
+        "value": 6
+      },
+      "end": {
+        "value": 25
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 12
+      }
+    },
+    "lifeblood": {
+      "value": 54,
+      "max": 54
+    },
+    "stamina": {
+      "value": 27,
+      "max": 27
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "3200kg Beast (Grazer), plains walker, #App: 3d6+10, Treasure: None. Trample (2d6); armor 2; speed 30m/action; Morale -1. A herbivorous dinosaur that travels in mighty herds, the Edmontosaurus sometimes serves as a riding beast for barbarian tribes, depending on the locale.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 2,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 0,
+      "naturalphilosophy": -3,
+      "scout": 0,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "hJcjx9sEXiKd33nY",
+      "_key": "!actors.items!ZihSiR1hnDU6w7Lz.hJcjx9sEXiKd33nY",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 2,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "Ehv1zJJ3WDSLVFCB",
+      "_key": "!actors.items!ZihSiR1hnDU6w7Lz.Ehv1zJJ3WDSLVFCB",
+      "name": "Trample",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 3000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

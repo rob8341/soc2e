@@ -1,0 +1,174 @@
+{
+  "_id": "sxtXuImnF1gpuDSD",
+  "_key": "!actors!sxtXuImnF1gpuDSD",
+  "name": "Pirate",
+  "type": "npc",
+  "img": "icons/skills/trades/profession-sailing-pirate.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 7
+      },
+      "int": {
+        "value": 7
+      },
+      "edu": {
+        "value": 5
+      },
+      "soc": {
+        "value": 5
+      }
+    },
+    "lifeblood": {
+      "value": 16,
+      "max": 16
+    },
+    "stamina": {
+      "value": 8,
+      "max": 8
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A sea-going bandit that raids ships and coastal settlements for plunder. Some pirates are career criminals, but others are sailors desperate enough to join a pirate crew. Equipment: Leather Armor (4), Cutlass (3d6), Dagger (2d6).",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": 1,
+      "art": -3,
+      "athletics": 1,
+      "archery": 1,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": 1
+    }
+  },
+  "items": [
+    {
+      "_id": "8cOQ4ErLxgNrw5gi",
+      "_key": "!actors.items!sxtXuImnF1gpuDSD.8cOQ4ErLxgNrw5gi",
+      "name": "Leather Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-reinforced-leather.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 4,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "UuWzjjsmfpJVqGsb",
+      "_key": "!actors.items!sxtXuImnF1gpuDSD.UuWzjjsmfpJVqGsb",
+      "name": "Cutlass",
+      "type": "weapon",
+      "img": "icons/weapons/swords/swords-cutlasses-white.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "VeWSt04B2lDCuQRp",
+      "_key": "!actors.items!sxtXuImnF1gpuDSD.VeWSt04B2lDCuQRp",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-blue.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 11600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

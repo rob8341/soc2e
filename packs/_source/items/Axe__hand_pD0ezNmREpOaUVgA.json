@@ -1,0 +1,31 @@
+{
+  "_id": "pD0ezNmREpOaUVgA",
+  "_key": "!items!pD0ezNmREpOaUVgA",
+  "name": "Axe, hand",
+  "type": "weapon",
+  "img": "icons/weapons/axes/axe-battle.webp",
+  "system": {
+    "description": "A small axe made from metal or stone, anything from a stone-age tool to a medieval war hatchet.",
+    "cost": "4gp",
+    "damage": "2d6+1",
+    "range": "",
+    "aspects": "Thrown",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": true,
+    "ranged": true,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 1600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

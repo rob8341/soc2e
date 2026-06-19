@@ -1,0 +1,22 @@
+{
+  "_id": "gYXuOXHyzMH8xvYK",
+  "_key": "!items!gYXuOXHyzMH8xvYK",
+  "name": "Cup of Life and Death",
+  "type": "adventuring",
+  "img": "icons/containers/kitchenware/goblet-worn-engraved-wooden-brown.webp",
+  "system": {
+    "description": "Hushed and terrified whispers about this foul object can be heard from time to time. The owner of the Cup need only kill a victim, drain their blood into the Cup, and then drink from the Cup. They gain 2d6 years of life in this process. Every time they use the Cup, apply a -1 penalty to the roll. Once a result of zero occurs, the Cup must be used daily to sustain the owner's life.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 31400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

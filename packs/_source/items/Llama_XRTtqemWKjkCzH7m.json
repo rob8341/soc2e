@@ -1,0 +1,21 @@
+{
+  "_id": "XRTtqemWKjkCzH7m",
+  "_key": "!items!XRTtqemWKjkCzH7m",
+  "name": "Llama",
+  "type": "animal",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "A mountain animal slightly smaller than a light horse, very sure-footed, provides milk and meat. Their wool is used for clothing.",
+    "cost": "50gp",
+    "speed": 30,
+    "carryingCapacity": "100kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 16400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

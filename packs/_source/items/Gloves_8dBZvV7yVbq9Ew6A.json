@@ -1,0 +1,22 @@
+{
+  "_id": "8dBZvV7yVbq9Ew6A",
+  "_key": "!items!8dBZvV7yVbq9Ew6A",
+  "name": "Gloves",
+  "type": "adventuring",
+  "img": "icons/equipment/hand/gloves-motorcycle-fingerless.webp",
+  "system": {
+    "description": "Garments covering the hands, worn for comfort, fashion, or protection. Does not protect against magical curses or slimes. Actions requiring a delicate touch cannot be performed while wearing gloves.",
+    "cost": "4sp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 12700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

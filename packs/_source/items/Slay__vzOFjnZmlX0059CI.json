@@ -1,0 +1,22 @@
+{
+  "_id": "vzOFjnZmlX0059CI",
+  "_key": "!items!vzOFjnZmlX0059CI",
+  "name": "Slay!",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-green.webp",
+  "system": {
+    "school": "arcane",
+    "range": "150m.",
+    "duration": "Instantaneous.",
+    "effect": "This spell will kill 1d6 human-sized creatures or one larger creature per the sorcerer's Sorcery skill ranks (1 at Sorcery 0). The targets must all be located within a 10m radius sphere centered on any point the sorcerer wishes, within range. Each affected creature must throw END 12+ or die immediately.",
+    "critSuccess": "Double the number of affected creatures and double the radius of effect to 20m."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 22800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

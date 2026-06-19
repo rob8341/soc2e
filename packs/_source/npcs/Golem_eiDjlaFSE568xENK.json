@@ -1,0 +1,143 @@
+{
+  "_id": "eiDjlaFSE568xENK",
+  "_key": "!actors!eiDjlaFSE568xENK",
+  "name": "Golem",
+  "type": "npc",
+  "img": "icons/creatures/magical/construct-golem-robot-blue.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 18
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 16
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 0
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 36,
+      "max": 36
+    },
+    "stamina": {
+      "value": 18,
+      "max": 18
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "150kg Construct, walker, #App: 1, Treasure: None. Fist (2d6+4); armor 5; speed 10m/action; Morale N/A. A 2-3m tall humanoid construct created out of clay or stone. They serve their creators until such time as they inevitably rebel. Can only be damaged by magical weapons. Unharmed by fire or cold.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 2,
+      "archery": -3,
+      "battle": 2,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "zc5xJmBp4SFEQRO5",
+      "_key": "!actors.items!eiDjlaFSE568xENK.zc5xJmBp4SFEQRO5",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 5,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "TpcYNPROqCQpL70a",
+      "_key": "!actors.items!eiDjlaFSE568xENK.TpcYNPROqCQpL70a",
+      "name": "Fist",
+      "type": "weapon",
+      "img": "icons/weapons/fist/fist-knuckles-teeth.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6+4",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 5000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

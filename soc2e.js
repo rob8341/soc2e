@@ -289,7 +289,14 @@ Hooks.on("renderChatMessageHTML", (message, html) => {
       if (rerollBtnWrap) rerollBtnWrap.style.display = "none";
     } else {
       const btn = rerollBtnWrap?.querySelector(".soc2e-reroll");
-      if (btn) btn.addEventListener("click", async () => {
+      if (btn) {
+        fromUuid(btn.dataset.actorUuid).then(actor => {
+          if (!actor?.isOwner) {
+            btn.disabled = true;
+            btn.title = "Only the actor's owner can reroll.";
+          }
+        });
+        btn.addEventListener("click", async () => {
       // Guard against duplicate handlers firing on the same click
       if (btn.dataset.rerolling) return;
       btn.dataset.rerolling = "true";
@@ -400,6 +407,7 @@ Hooks.on("renderChatMessageHTML", (message, html) => {
       if (initiativeMeta) updateData["flags.soc2e.initiativeMeta"] = initiativeMeta;
       await message.update(updateData);
     }); // end click handler
+      } // end if (btn)
     } // end else (no stored result)
 
     // Sorcery keep-choice buttons (shown after a sorcery reroll)
@@ -431,11 +439,28 @@ Hooks.on("renderChatMessageHTML", (message, html) => {
         if (keepOriginalSlot) keepOriginalSlot.appendChild(makeKeepBtn("original"));
         if (keepRerollSlot)   keepRerollSlot.appendChild(makeKeepBtn("reroll"));
 
-        html.querySelectorAll(".soc2e-keep-choice").forEach(keepBtn => {
+        const keepBtns = html.querySelectorAll(".soc2e-keep-choice");
+        fromUuid(meta.actorUuid).then(actor => {
+          if (!actor?.isOwner) {
+            keepBtns.forEach(b => {
+              b.disabled = true;
+              b.title = "Only the actor's owner can choose.";
+            });
+          }
+        });
+        keepBtns.forEach(keepBtn => {
           keepBtn.addEventListener("click", async () => {
             if (keepBtn.dataset.choosing) return;
             keepBtn.dataset.choosing = "true";
             keepBtn.disabled = true;
+
+            const kActorCheck = await fromUuid(keepBtn.dataset.actorUuid);
+            if (!kActorCheck?.isOwner) {
+              ui.notifications.warn("Only the actor's owner can choose.");
+              keepBtn.disabled = false;
+              delete keepBtn.dataset.choosing;
+              return;
+            }
 
             const choice       = keepBtn.dataset.choice;
             const kChanneling  = keepBtn.dataset.channeling  === "true";
@@ -492,11 +517,28 @@ Hooks.on("renderChatMessageHTML", (message, html) => {
       if (keepOriginalSlot) keepOriginalSlot.appendChild(makeKeepBtn("original"));
       if (keepRerollSlot)   keepRerollSlot.appendChild(makeKeepBtn("reroll"));
 
-      html.querySelectorAll(".soc2e-keep-choice").forEach(keepBtn => {
+      const initKeepBtns = html.querySelectorAll(".soc2e-keep-choice");
+      fromUuid(initiativeMeta.actorUuid).then(actor => {
+        if (!actor?.isOwner) {
+          initKeepBtns.forEach(b => {
+            b.disabled = true;
+            b.title = "Only the actor's owner can choose.";
+          });
+        }
+      });
+      initKeepBtns.forEach(keepBtn => {
         keepBtn.addEventListener("click", async () => {
           if (keepBtn.dataset.choosing) return;
           keepBtn.dataset.choosing = "true";
           keepBtn.disabled = true;
+
+          const kActorCheck = await fromUuid(keepBtn.dataset.actorUuid);
+          if (!kActorCheck?.isOwner) {
+            ui.notifications.warn("Only the actor's owner can choose.");
+            keepBtn.disabled = false;
+            delete keepBtn.dataset.choosing;
+            return;
+          }
 
           const choice      = keepBtn.dataset.choice;
           const rerollValue = parseInt(keepBtn.dataset.rerollValue, 10);
@@ -518,6 +560,12 @@ Hooks.on("renderChatMessageHTML", (message, html) => {
   }
 
   html.querySelectorAll(".soc2e-roll-damage").forEach(btn => {
+    fromUuid(btn.dataset.actorUuid).then(actor => {
+      if (!actor?.isOwner) {
+        btn.disabled = true;
+        btn.title = "Only the actor's owner can roll damage.";
+      }
+    });
     btn.addEventListener("click", async () => {
       btn.disabled = true;
 
@@ -530,6 +578,7 @@ Hooks.on("renderChatMessageHTML", (message, html) => {
 
       const actor = await fromUuid(actorUuid);
       if (!actor) { ui.notifications.error("Actor not found."); return; }
+      if (!actor.isOwner) { ui.notifications.warn("Only the actor's owner can roll damage."); btn.disabled = false; return; }
 
       const strDm = addStrDm ? (actor.system.attributes.str?.dm ?? 0) : 0;
       const mod   = effect + strDm;

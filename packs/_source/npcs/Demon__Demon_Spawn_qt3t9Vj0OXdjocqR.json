@@ -1,0 +1,174 @@
+{
+  "_id": "qt3t9Vj0OXdjocqR",
+  "_key": "!actors!qt3t9Vj0OXdjocqR",
+  "name": "Demon, Demon Spawn",
+  "type": "npc",
+  "img": "icons/creatures/unholy/demon-fire-imp.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 6
+      },
+      "dex": {
+        "value": 6
+      },
+      "end": {
+        "value": 6
+      },
+      "int": {
+        "value": 7
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 14,
+      "max": 14
+    },
+    "stamina": {
+      "value": 7,
+      "max": 7
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "50kg Outsider, extraplanar flyer, #App: 1, Treasure: None. Claws (1d6), maw (2d6); armor 1; flies 10m/action; Morale +0. Demon spawn are wretched underlings of the demonic spheres, foot soldiers of horror and corruption. Immune to poison and disease. The Demon Spawn possesses one special ability (roll on the Demonic Powers d66 table).",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "B95cwREE01hf1lkF",
+      "_key": "!actors.items!qt3t9Vj0OXdjocqR.B95cwREE01hf1lkF",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 1,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "q3KK8GJzeVP3bQQy",
+      "_key": "!actors.items!qt3t9Vj0OXdjocqR.q3KK8GJzeVP3bQQy",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "1d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "K6ZjfZOC7Ka8O6uT",
+      "_key": "!actors.items!qt3t9Vj0OXdjocqR.K6ZjfZOC7Ka8O6uT",
+      "name": "Maw",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 2300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

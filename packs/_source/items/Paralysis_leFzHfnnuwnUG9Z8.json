@@ -1,0 +1,22 @@
+{
+  "_id": "leFzHfnnuwnUG9Z8",
+  "_key": "!items!leFzHfnnuwnUG9Z8",
+  "name": "Paralysis",
+  "type": "spell",
+  "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+  "system": {
+    "school": "arcane",
+    "range": "100m.",
+    "duration": "10 turns.",
+    "effect": "This spell paralyzes any living being, freezing them in place like living statues. The target may make a STR 10+ throw to avoid the effect of this spell. The caster may paralyze one target, plus one additional target per Sorcery skill level. A paralyzed target is still aware and may breathe normally but cannot take any action or speak. Moving targets that are paralyzed topple over, and flying targets that rely on wings to fly plummet out of the sky. They take normal falling damage. Swimming paralyzed targets sink immediately and will drown without any outside assistance.",
+    "critSuccess": "The spell's duration is 1 day rather than 10 turns."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 22100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

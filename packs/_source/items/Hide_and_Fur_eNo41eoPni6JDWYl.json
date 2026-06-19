@@ -1,0 +1,24 @@
+{
+  "_id": "eNo41eoPni6JDWYl",
+  "_key": "!items!eNo41eoPni6JDWYl",
+  "name": "Hide and Fur",
+  "type": "armor",
+  "img": "icons/equipment/chest/shirt-collared-grey.webp",
+  "system": {
+    "description": "Crude armor made from animal skin. Provides good protection from the cold but minimal protection from all but the crudest weapons.",
+    "cost": "10gp",
+    "shield": false,
+    "protection": 3,
+    "sneakModifier": 0,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "nKYaXRvj7uff0LYT",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

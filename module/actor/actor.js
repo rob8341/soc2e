@@ -426,7 +426,7 @@ export class Soc2eActor extends Actor {
     </div>`;
 
     const speaker = _makeSpeaker(this);
-    await roll.toMessage({ speaker, flavor, rollMode: game.settings.get("core", "rollMode") });
+    await roll.toMessage({ speaker, flavor, author: _messageAuthorFor(this), rollMode: game.settings.get("core", "rollMode") });
 
     return roll.total;
   }
@@ -519,6 +519,22 @@ function _makeSpeaker(actor) {
   const speaker = ChatMessage.getSpeaker({ actor });
   if (actor.type === "npc") speaker.alias = `${speaker.alias} (NPC)`;
   return speaker;
+}
+
+/**
+ * Determine the ChatMessage author for a roll on this actor.
+ *
+ * ChatMessage permissions are author-or-GM only (no per-user ownership field),
+ * so a roll the GM triggers on behalf of a player's actor would otherwise leave
+ * that player unable to use the reroll/keep/damage buttons on their own card.
+ * GMs are allowed to create messages under another user's authorship, so when
+ * the GM is rolling, attribute the message to a non-GM owner of the actor if
+ * one exists — letting that player interact with the card afterward.
+ */
+function _messageAuthorFor(actor) {
+  if (!game.user.isGM) return game.user.id;
+  const owner = game.users.find(u => !u.isGM && actor.testUserPermission(u, "OWNER"));
+  return owner?.id ?? game.user.id;
 }
 
 /**
@@ -707,7 +723,7 @@ async function _rollSoc2e(actor, label, baseMod, skillKey = null, defaultStatKey
 
   const rollMode = game.settings.get("core", "rollMode");
   const speaker  = _makeSpeaker(actor);
-  await roll.toMessage({ speaker, flavor, rollMode });
+  await roll.toMessage({ speaker, flavor, author: _messageAuthorFor(actor), rollMode });
 
   return true;
 }
@@ -923,7 +939,7 @@ async function _rollSorcery(actor, spellItem = null) {
 
   const rollMode = game.settings.get("core", "rollMode");
   const speaker  = _makeSpeaker(actor);
-  await roll.toMessage({ speaker, flavor, rollMode });
+  await roll.toMessage({ speaker, flavor, author: _messageAuthorFor(actor), rollMode });
 
   if (corruptionGain > 0) {
     await actor.update({ "system.corruption": (actor.system.corruption ?? 0) + corruptionGain });

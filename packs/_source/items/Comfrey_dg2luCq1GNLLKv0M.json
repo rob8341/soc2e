@@ -1,0 +1,22 @@
+{
+  "_id": "dg2luCq1GNLLKv0M",
+  "_key": "!items!dg2luCq1GNLLKv0M",
+  "name": "Comfrey",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "A powerful healing herb. A character with Healing skill can create a poultice to heal 1 point of Lifeblood damage immediately, once per day per character.",
+    "cost": "10gp",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "IqK3yn9FfcgMXAdx",
+  "sort": 13900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

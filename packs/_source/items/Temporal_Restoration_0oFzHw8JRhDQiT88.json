@@ -1,0 +1,22 @@
+{
+  "_id": "0oFzHw8JRhDQiT88",
+  "_key": "!items!0oFzHw8JRhDQiT88",
+  "name": "Temporal Restoration",
+  "type": "adventuring",
+  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "system": {
+    "description": "This straight wand of black obsidian is 1m long is etched with runes and cold to the touch. When used, it can restore a broken or inoperable device back to full functionality. The effect is temporary unless the user wishes to take 1d6 points of Corruption, in which case it is permanent.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 32100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

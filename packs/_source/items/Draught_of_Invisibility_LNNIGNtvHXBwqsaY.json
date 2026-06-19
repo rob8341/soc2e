@@ -1,0 +1,22 @@
+{
+  "_id": "LNNIGNtvHXBwqsaY",
+  "_key": "!items!LNNIGNtvHXBwqsaY",
+  "name": "Draught of Invisibility",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "The imbiber of this potion becomes invisible for one day, or until they attack another creature.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 26100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

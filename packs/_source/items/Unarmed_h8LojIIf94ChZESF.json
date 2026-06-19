@@ -1,0 +1,31 @@
+{
+  "_id": "h8LojIIf94ChZESF",
+  "_key": "!items!h8LojIIf94ChZESF",
+  "name": "Unarmed",
+  "type": "weapon",
+  "img": "icons/weapons/fist/fist-knuckles-teeth.webp",
+  "system": {
+    "description": "Any character can inflict at least 1 point of unarmed damage (before armor) even if their STR modifier is 0 or lower.",
+    "cost": "-",
+    "damage": "STR Modifier",
+    "range": "",
+    "aspects": "",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 0,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 3800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "IgrHvzxELcriLRc3",
+  "_key": "!items!IgrHvzxELcriLRc3",
+  "name": "Quick Sheath",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "A common sword sheath with an additional clasp and brass mechanism that partially ejects a weapon for faster drawing. Gains a +1 bonus to initiative roll at the start of any combat in which the weapon is sheathed.",
+    "cost": "20gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 18500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

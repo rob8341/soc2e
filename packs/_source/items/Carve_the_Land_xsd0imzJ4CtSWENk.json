@@ -1,0 +1,22 @@
+{
+  "_id": "xsd0imzJ4CtSWENk",
+  "_key": "!items!xsd0imzJ4CtSWENk",
+  "name": "Carve the Land",
+  "type": "spell",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "school": "arcane",
+    "range": "75m.",
+    "duration": "6 turns.",
+    "effect": "With this spell, the Sorcerer can move large volumes of soil: up to 10m x 10m x 10m in volume, including altering terrain features within range. The Sorcerer may move earth at a rate of 20m per turn, as desired. The spell cannot affect rock formations, mountains, or stone structures only natural soil. However, it can be used to dig under stone and rock formations.",
+    "critSuccess": "The spell can affect hard stone as well."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 19600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

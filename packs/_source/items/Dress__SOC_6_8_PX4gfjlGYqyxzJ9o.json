@@ -1,0 +1,22 @@
+{
+  "_id": "PX4gfjlGYqyxzJ9o",
+  "_key": "!items!PX4gfjlGYqyxzJ9o",
+  "name": "Dress, SOC 6-8",
+  "type": "adventuring",
+  "img": "icons/equipment/feet/socks-crew-padded.webp",
+  "system": {
+    "description": "An outfit appropriate to Social Standing 6-8.",
+    "cost": "4gp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 12300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "ij6X7Ok8R5WnKktQ",
+  "_key": "!items!ij6X7Ok8R5WnKktQ",
+  "name": "Whip",
+  "type": "weapon",
+  "img": "icons/weapons/misc/whip-leather.webp",
+  "system": {
+    "description": "A 2m length of twine made from braided animal hair or woven grasses. Designed to cause pain, not necessarily damage. Can be used to cause damage or entangle a target, attacker's choice.",
+    "cost": "5gp",
+    "damage": "1d6",
+    "range": "",
+    "aspects": "Entangle, Reach",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 17400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

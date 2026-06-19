@@ -1,0 +1,22 @@
+{
+  "_id": "QO9IEitBdwaiY7FE",
+  "_key": "!items!QO9IEitBdwaiY7FE",
+  "name": "Goldenrod",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "A healing herb used to treat many common joint ailments. Provides a +1 modifier on any Healing throw to cure these types of diseases.",
+    "cost": "10gp",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "IqK3yn9FfcgMXAdx",
+  "sort": 14100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

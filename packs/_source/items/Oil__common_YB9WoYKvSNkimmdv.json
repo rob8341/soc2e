@@ -1,0 +1,22 @@
+{
+  "_id": "YB9WoYKvSNkimmdv",
+  "_key": "!items!YB9WoYKvSNkimmdv",
+  "name": "Oil, common",
+  "type": "adventuring",
+  "img": "icons/tools/hand/ladder-common-wood.webp",
+  "system": {
+    "description": "Common oil used as fuel in lamps, lanterns, or as a lubricant.",
+    "cost": "3sp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 14400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

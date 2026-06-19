@@ -1,0 +1,22 @@
+{
+  "_id": "cb51JJRzhbuXMZ5f",
+  "_key": "!items!cb51JJRzhbuXMZ5f",
+  "name": "Healer's Kit",
+  "type": "adventuring",
+  "img": "icons/consumables/drinks/bottle-soda.webp",
+  "system": {
+    "description": "A well-packed collection of herbs, bandages, needles, scalpels, and other items used to treat injuries, diseases, and poisons.",
+    "cost": "10gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 6400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

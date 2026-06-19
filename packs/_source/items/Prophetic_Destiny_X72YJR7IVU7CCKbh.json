@@ -1,0 +1,22 @@
+{
+  "_id": "X72YJR7IVU7CCKbh",
+  "_key": "!items!X72YJR7IVU7CCKbh",
+  "name": "Prophetic Destiny",
+  "type": "spell",
+  "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "Self",
+    "duration": "One year",
+    "effect": "Casting Time: One week. The caster invokes a communion with the Fates: those enigmatic gods that control the lines of destiny running through all things. In the ritual, the caster gains access to destiny itself, and learns how to bring about a goal, event, or other happening that they would like to see occur. The caster has a near-complete picture of the plan, all the goals that need achieving, and learns the means of achieving them. They have one year to achieve them; after a year, the glimpse into the future is clouded and mysterious. This ritual requires some work with the Referee to develop a series of goals and events that reasonably need to occur for whatever greater goal the Player Character wishes to achieve. For example, a PC may wish to overthrow a king and rule the kingdom instead. The Referee would need to develop a series of tasks that the PC would have to achieve for this to reasonably be accomplished. Then, the PC needs to accomplish these tasks to usurp the king. This powerful ritual takes a week to perform. Any disturbances will break the spell, causing a Critical Failure.",
+    "critSuccess": "No additional effect."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 24800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

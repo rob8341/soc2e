@@ -1,0 +1,22 @@
+{
+  "_id": "g5PPMVHcDME931E9",
+  "_key": "!items!g5PPMVHcDME931E9",
+  "name": "Summon Demon",
+  "type": "spell",
+  "img": "icons/magic/unholy/projectile-bullet-orb-pink.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "75m",
+    "duration": "1 day",
+    "effect": "Casting Time: This spell requires 2d6 turns to cast. The Sorcerer opens a portal to the Outer Dark and summons a Cacodemon. Generate the Cacodemon with 2 special abilities as per the Random Demon rules in the Monsters chapter. A sorcerer may only successfully summon one Cacodemon per day. The demon serves the caster for up to one day, as long as the caster concentrates on controlling it. If the sorcerer suffers damage while concentrating on controlling the Cacodemon, they break concentration and lose control. If they cast another spell, they also break concentration. The sorcerer may send the demon back to the Outer Dark at will: this requires one action if in combat. However, if the caster loses concentration without first dismissing the demon, it will attack the caster and their allies. Only slaying the Cacodemon or using a Quell Enchantment or Exorcism spell will banish it once it is no longer controlled. A Cacodemon can return to its home dimension at will, but most are eager to roam the world of mortals, wreaking havoc and spreading Chaos.",
+    "critSuccess": "The demon is summoned with 3 special abilities rather than 2."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 25100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

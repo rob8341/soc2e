@@ -1,0 +1,174 @@
+{
+  "_id": "4bAjOo2x2Zgkgg7w",
+  "_key": "!actors!4bAjOo2x2Zgkgg7w",
+  "name": "Orc Chieftain",
+  "type": "npc",
+  "img": "icons/creatures/magical/humanoid-silhouette-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 10
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 10
+      },
+      "int": {
+        "value": 8
+      },
+      "edu": {
+        "value": 3
+      },
+      "soc": {
+        "value": 7
+      }
+    },
+    "lifeblood": {
+      "value": 24,
+      "max": 24
+    },
+    "stamina": {
+      "value": 12,
+      "max": 12
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "Humanoid, forest & mountain walker. Great Axe (3d6+4), Spear (2d6+2); armor 6; speed 10m/action; Morale +1. The leader of an orc band, tougher and more skilled than a typical orc.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 2,
+      "archery": -3,
+      "battle": 2,
+      "carousing": 1,
+      "craft": -3,
+      "deception": 1,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": 2,
+      "healing": -3,
+      "meleecombat": 3,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "Mh553LlGLQjPsYvg",
+      "_key": "!actors.items!4bAjOo2x2Zgkgg7w.Mh553LlGLQjPsYvg",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 6,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "4P5YSea5jOtySWDe",
+      "_key": "!actors.items!4bAjOo2x2Zgkgg7w.4P5YSea5jOtySWDe",
+      "name": "Great Axe",
+      "type": "weapon",
+      "img": "icons/weapons/axes/axe-battle.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6+4",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "J7rf9lxtAQzXuXOp",
+      "_key": "!actors.items!4bAjOo2x2Zgkgg7w.J7rf9lxtAQzXuXOp",
+      "name": "Spear",
+      "type": "weapon",
+      "img": "icons/weapons/polearms/spear-flared-wrapped.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6+2",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 6900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

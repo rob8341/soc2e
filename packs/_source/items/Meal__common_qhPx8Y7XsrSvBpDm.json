@@ -1,0 +1,22 @@
+{
+  "_id": "qhPx8Y7XsrSvBpDm",
+  "_key": "!items!qhPx8Y7XsrSvBpDm",
+  "name": "Meal, common",
+  "type": "adventuring",
+  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "system": {
+    "description": "A common meal.",
+    "cost": "1sp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 10100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

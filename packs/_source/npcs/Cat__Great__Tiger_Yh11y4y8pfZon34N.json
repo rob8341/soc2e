@@ -1,0 +1,174 @@
+{
+  "_id": "Yh11y4y8pfZon34N",
+  "_key": "!actors!Yh11y4y8pfZon34N",
+  "name": "Cat, Great, Tiger",
+  "type": "npc",
+  "img": "icons/creatures/mammals/cat-hunched-glowing-red.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 14
+      },
+      "dex": {
+        "value": 10
+      },
+      "end": {
+        "value": 13
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 10
+      },
+      "soc": {
+        "value": 1
+      }
+    },
+    "lifeblood": {
+      "value": 28,
+      "max": 28
+    },
+    "stamina": {
+      "value": 14,
+      "max": 14
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "200kg Beast (Pouncer), plains walker, #App: 1 or 2, Treasure: None. Claws (3d6), Teeth (3d6); armor 1; speed 20m/round; Morale +1. The heaviest of the great cats, the tiger is as deadly as it is beautiful, the ultimate apex predator of the forest.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 3,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": 1,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 0,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "2Vzc1Z6Dz0S2YZRF",
+      "_key": "!actors.items!Yh11y4y8pfZon34N.2Vzc1Z6Dz0S2YZRF",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 1,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "vLYTCbdNNXiyMtfj",
+      "_key": "!actors.items!Yh11y4y8pfZon34N.vLYTCbdNNXiyMtfj",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "G8ZV0QXtDTqQZXmz",
+      "_key": "!actors.items!Yh11y4y8pfZon34N.G8ZV0QXtDTqQZXmz",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 2000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

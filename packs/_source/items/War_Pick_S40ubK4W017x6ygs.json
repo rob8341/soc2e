@@ -1,0 +1,31 @@
+{
+  "_id": "S40ubK4W017x6ygs",
+  "_key": "!items!S40ubK4W017x6ygs",
+  "name": "War Pick",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/javelin.webp",
+  "system": {
+    "description": "A specially designed weapon intended to attack structures as much as it is a melee weapon. A war pick counts as two items for encumbrance.",
+    "cost": "50gp",
+    "damage": "4d6",
+    "range": "",
+    "aspects": "AV 2d6, Bulky, Two-Handed",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 2,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 17300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

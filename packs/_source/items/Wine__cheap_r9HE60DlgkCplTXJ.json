@@ -1,0 +1,22 @@
+{
+  "_id": "r9HE60DlgkCplTXJ",
+  "_key": "!items!r9HE60DlgkCplTXJ",
+  "name": "Wine, cheap",
+  "type": "adventuring",
+  "img": "icons/consumables/drinks/wine-amphora-clay-gray.webp",
+  "system": {
+    "description": "Cheap wine.",
+    "cost": "2cp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 10500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

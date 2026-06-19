@@ -1,0 +1,22 @@
+{
+  "_id": "02blZZpC4RqZFNhb",
+  "_key": "!items!02blZZpC4RqZFNhb",
+  "name": "Spyglass",
+  "type": "adventuring",
+  "img": "icons/tools/navigation/spyglass-telescope-blue.webp",
+  "system": {
+    "description": "A rare great-work item that magnifies anything viewed through it two-fold, doubling the distance objects or people can be spotted. Grants a +1 bonus to vehicle Surprise rolls.",
+    "cost": "1000gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 18800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

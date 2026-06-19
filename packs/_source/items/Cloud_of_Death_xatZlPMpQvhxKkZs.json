@@ -1,0 +1,22 @@
+{
+  "_id": "xatZlPMpQvhxKkZs",
+  "_key": "!items!xatZlPMpQvhxKkZs",
+  "name": "Cloud of Death",
+  "type": "spell",
+  "img": "icons/magic/air/weather-clouds.webp",
+  "system": {
+    "school": "arcane",
+    "range": "Special.",
+    "duration": "6 turns (1 hour).",
+    "effect": "The Sorcerer draws forth a cloud of poison from the dark miasmas of the atmosphere. As this spell draws its power from natural miasmas, it may only be cast outdoors or in a well-ventilated room. The cloud is 10m in diameter and spreads out from the Sorcerer's fingertips. It moves at 20m per round away from the spellcaster. The poison gas is heavier than air and will sink down holes or slide downhill. The cloud acts as a poison with virulence 10+ and 1d6 damage. Any character staying within the cloud must throw against its virulence again each round that they remain in the cloud. Cloud of Death cannot be channeled.",
+    "critSuccess": "The cloud's damage is increased to 2d6."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 19800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

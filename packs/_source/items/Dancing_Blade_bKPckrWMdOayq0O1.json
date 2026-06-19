@@ -1,0 +1,22 @@
+{
+  "_id": "bKPckrWMdOayq0O1",
+  "_key": "!items!bKPckrWMdOayq0O1",
+  "name": "Dancing Blade",
+  "type": "adventuring",
+  "img": "icons/weapons/swords/sword-flanged-lightning.webp",
+  "system": {
+    "description": "This sword can operate independently from its wielder. By using one action, the wielder can deploy the weapon to operate on its own: it floats nearby and will attack any enemies that approach, as if on Overwatch. It can also be ordered to attack a target within 10m of the owner. The Dancing Blade has one independent action per turn. Commanding the blade once it is deployed does not expend an action.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 28500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

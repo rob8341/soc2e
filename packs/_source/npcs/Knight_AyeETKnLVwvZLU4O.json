@@ -1,0 +1,251 @@
+{
+  "_id": "AyeETKnLVwvZLU4O",
+  "_key": "!actors!AyeETKnLVwvZLU4O",
+  "name": "Knight",
+  "type": "npc",
+  "img": "icons/environment/people/cavalry-heavy.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 9
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 8
+      },
+      "int": {
+        "value": 7
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 9
+      }
+    },
+    "lifeblood": {
+      "value": 18,
+      "max": 18
+    },
+    "stamina": {
+      "value": 9,
+      "max": 9
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A member of society's upper classes, raised to be a professional warrior. They focus on mounted combat and are equipped with the best weapons and armor their lords can afford. Equipment: Plate Armor (10), Sword (3d6), Lance (2d6), Dagger (2d6), Shield, Heavy Horse.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": 1,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": 2,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "ilnAvOArxYc7AkQZ",
+      "_key": "!actors.items!AyeETKnLVwvZLU4O.ilnAvOArxYc7AkQZ",
+      "name": "Plate Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 10,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "CfQg1XatJxCE7yVs",
+      "_key": "!actors.items!AyeETKnLVwvZLU4O.CfQg1XatJxCE7yVs",
+      "name": "Sword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "qNLXBxDuHwW8GxPj",
+      "_key": "!actors.items!AyeETKnLVwvZLU4O.qNLXBxDuHwW8GxPj",
+      "name": "Lance",
+      "type": "weapon",
+      "img": "icons/weapons/polearms/spear-flared-wrapped.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "u5KmYTCdrhEw3Qpu",
+      "_key": "!actors.items!AyeETKnLVwvZLU4O.u5KmYTCdrhEw3Qpu",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-blue.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "sYHlwbuNKwcTpffT",
+      "_key": "!actors.items!AyeETKnLVwvZLU4O.sYHlwbuNKwcTpffT",
+      "name": "Shield",
+      "type": "armor",
+      "img": "icons/equipment/shield/shield-round-boss-wood-brown.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": true,
+        "protection": -1,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "NAr8QpZZTGCexj8N",
+      "_key": "!actors.items!AyeETKnLVwvZLU4O.NAr8QpZZTGCexj8N",
+      "name": "Heavy Horse",
+      "type": "adventuring",
+      "img": "icons/tools/medical/medkit-heavy.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 11000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

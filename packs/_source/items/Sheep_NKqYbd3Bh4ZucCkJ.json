@@ -1,0 +1,21 @@
+{
+  "_id": "NKqYbd3Bh4ZucCkJ",
+  "_key": "!items!NKqYbd3Bh4ZucCkJ",
+  "name": "Sheep",
+  "type": "animal",
+  "img": "icons/creatures/mammals/livestock-sheep-green.webp",
+  "system": {
+    "description": "Valued primarily for their wool and as food, a normal sheep weighs 40kg.",
+    "cost": "2gp",
+    "speed": 24,
+    "carryingCapacity": "12kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 16700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

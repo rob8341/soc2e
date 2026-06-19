@@ -1,0 +1,22 @@
+{
+  "_id": "3BfQ0tveH30S5NXF",
+  "_key": "!items!3BfQ0tveH30S5NXF",
+  "name": "Stakes (5) and Mallet",
+  "type": "adventuring",
+  "img": "icons/tools/hand/mallet-wood.webp",
+  "system": {
+    "description": "Five 30cm-long sharpened wooden shafts made famous by horror tales about vampires. The mallet is equivalent to a small hammer.",
+    "cost": "3gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 8600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

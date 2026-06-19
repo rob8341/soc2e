@@ -1,0 +1,174 @@
+{
+  "_id": "nVOrmXQ8DkPcNrAu",
+  "_key": "!actors!nVOrmXQ8DkPcNrAu",
+  "name": "Basilisk",
+  "type": "npc",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 14
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 12
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 26,
+      "max": 26
+    },
+    "stamina": {
+      "value": 13,
+      "max": 13
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "200kg Beast (Trapper), desert walker, #App: 1, Treasure: Small. Claws (2d6), Teeth (2d6); armor 3; speed 5m/action; Morale +1. The basilisk is a horrid lizard-like monster capable of turning its prey into stone. It then eats and digests that stone. Any creature caught in the basilisk's gaze must throw END 8+ or be turned to stone. Night vision.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": 1,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "XVcT5kWEh3SKumPu",
+      "_key": "!actors.items!nVOrmXQ8DkPcNrAu.XVcT5kWEh3SKumPu",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 3,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "WugT1xnDE3i5CyiS",
+      "_key": "!actors.items!nVOrmXQ8DkPcNrAu.WugT1xnDE3i5CyiS",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "N8mhQdi0Ckv2LWNL",
+      "_key": "!actors.items!nVOrmXQ8DkPcNrAu.N8mhQdi0Ckv2LWNL",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

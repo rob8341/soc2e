@@ -1,0 +1,21 @@
+{
+  "_id": "qexF3lX87eCr0uIa",
+  "_key": "!items!qexF3lX87eCr0uIa",
+  "name": "Horse, heavy",
+  "type": "animal",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "Sturdy, if slow, horses usually trained for pulling carts, plows, or other heavy loads. A heavy war horse costs 700gp.",
+    "cost": "50gp",
+    "speed": 30,
+    "carryingCapacity": "250kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 16000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

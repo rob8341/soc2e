@@ -1,0 +1,87 @@
+{
+  "_id": "9egVuBpFCeRUxU1y",
+  "_key": "!actors!9egVuBpFCeRUxU1y",
+  "name": "Ghost",
+  "type": "npc",
+  "img": "icons/magic/death/undead-ghost-scream-teal.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 0
+      },
+      "dex": {
+        "value": 0
+      },
+      "end": {
+        "value": 12
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 24,
+      "max": 24
+    },
+    "stamina": {
+      "value": 12,
+      "max": 12
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "0kg Undead, urban flyer, #App: 1, Treasure: Small. Special attack; armor 0; flying speed 10m/action; Morale +4. Ghosts are incorporeal spirits of the dead. They often haunt the places related to their death, such as a cemetery, gallows, battlefield, or an abandoned location. Undead: immune to poison, disease, and suffocation. Incorporeal: immune to non-silver, non-magical weapons. Immune to mind-affecting magic. The ghost may possess a target. The target must throw INT 8+ or be possessed and controlled by the ghost. The target may attempt another INT 8+ throw once a week to end the possession. The Exorcism spell will remove the ghost immediately and force it to leave the victim's body. A ghost may only possess one victim at a time. Ghosts always haunt for a reason: be it murder, unjust execution, or improper burial. Without remedying this reason, a defeated ghost will reappear within 3d6 nights. Exorcism, however, will permanently remove a ghost from its haunt and sent its spirit straight to Hell.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 0,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 0,
+      "naturalphilosophy": -3,
+      "scout": 3,
+      "sorcery": -3,
+      "sneak": 3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 4600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

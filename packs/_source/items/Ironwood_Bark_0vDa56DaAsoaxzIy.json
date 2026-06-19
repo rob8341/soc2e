@@ -1,0 +1,22 @@
+{
+  "_id": "0vDa56DaAsoaxzIy",
+  "_key": "!items!0vDa56DaAsoaxzIy",
+  "name": "Ironwood Bark",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "When drunk, the imbiber gains 1d6+6 points of armor protection. This does not combine with any worn armor. Use the higher protection value. The imbiber moves at half speed for the potion's duration (10 rounds) and suffers a -2 penalty on any DEX throws. They gain Advantage to any END throws.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 26200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "6Eoie0gVZ2cuVixk",
+  "_key": "!items!6Eoie0gVZ2cuVixk",
+  "name": "Padlock",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "A common iron lock with a key.",
+    "cost": "20gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 7200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

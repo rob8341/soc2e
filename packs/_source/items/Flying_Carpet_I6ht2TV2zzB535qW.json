@@ -1,0 +1,22 @@
+{
+  "_id": "I6ht2TV2zzB535qW",
+  "_key": "!items!I6ht2TV2zzB535qW",
+  "name": "Flying Carpet",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "A wondrous conveyance of legend! A flying carpet can carry up to four passengers and has a normal flying speed of 20m/round per action, with an Agility of 0. When not in use, the carpet will roll itself up and counts as one encumbrance item.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 29000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,143 @@
+{
+  "_id": "pvr1PVjfq9mKfnDv",
+  "_key": "!actors!pvr1PVjfq9mKfnDv",
+  "name": "Whale, Sperm",
+  "type": "npc",
+  "img": "icons/creatures/fish/fish-carp-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 30
+      },
+      "dex": {
+        "value": 2
+      },
+      "end": {
+        "value": 30
+      },
+      "int": {
+        "value": 2
+      },
+      "edu": {
+        "value": 15
+      },
+      "soc": {
+        "value": 3
+      }
+    },
+    "lifeblood": {
+      "value": 66,
+      "max": 66
+    },
+    "stamina": {
+      "value": 33,
+      "max": 33
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "40000kg Beast (Chaser), ocean swimmer, #App: 1d6, Treasure: Incidental. Teeth (4d6); armor 5; swim 10m/action; Morale -1. The sperm whale is a large marine mammalian predator, capable of long stays underwater. Sperm whales and giant octopi are natural enemies - the sperm whales will aggressively prey on such deep-ocean monstrosities! The sperm whale may swallow its victim whole if it hits its victim with an Effect of +4 or better. A swallowed victim takes damage equal to that of the whale's bite per round, until the beast is killed, or the victim dies. Sperm whales may, on rare occasions (or if attacked), attack ships, having an AV rating of 3d6 against wooden ships. (Instinct 15, Pack 3)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": -3,
+      "naturalphilosophy": -3,
+      "scout": -2,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -2,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "YNA7gqstIQtJQmiI",
+      "_key": "!actors.items!pvr1PVjfq9mKfnDv.YNA7gqstIQtJQmiI",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 5,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "sfJMHx2BiBt5SDAA",
+      "_key": "!actors.items!pvr1PVjfq9mKfnDv.sfJMHx2BiBt5SDAA",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "4d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 8800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

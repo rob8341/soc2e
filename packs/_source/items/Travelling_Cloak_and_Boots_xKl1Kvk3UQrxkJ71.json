@@ -1,0 +1,22 @@
+{
+  "_id": "xKl1Kvk3UQrxkJ71",
+  "_key": "!items!xKl1Kvk3UQrxkJ71",
+  "name": "Travelling Cloak and Boots",
+  "type": "adventuring",
+  "img": "icons/equipment/back/cloak-brown.webp",
+  "system": {
+    "description": "A heavy cloak and knee-high boots worn primarily by elves, manufactured using a secret technique that provides a +1 bonus to all Sneak throws. The cloak blends with the colors of whatever terrain the wearer is in.",
+    "cost": "50gp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 18900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

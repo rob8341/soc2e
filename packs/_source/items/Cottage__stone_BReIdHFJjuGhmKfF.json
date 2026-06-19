@@ -1,0 +1,22 @@
+{
+  "_id": "BReIdHFJjuGhmKfF",
+  "_key": "!items!BReIdHFJjuGhmKfF",
+  "name": "Cottage, stone",
+  "type": "adventuring",
+  "img": "icons/tools/hand/pickaxe-simple-stone.webp",
+  "system": {
+    "description": "A stone cottage with thatched roof and wooden floor, owned by wealthy freeholders and poorer nobles (SOC 7-8). Lodging cost, not per night.",
+    "cost": "1000gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 10900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

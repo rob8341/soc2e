@@ -1,0 +1,22 @@
+{
+  "_id": "0EilbVaqzU9Ue591",
+  "_key": "!items!0EilbVaqzU9Ue591",
+  "name": "Hat of the Fool",
+  "type": "adventuring",
+  "img": "icons/equipment/head/hat-cowboy.webp",
+  "system": {
+    "description": "Upon donning this hat, the wearer gains Advantage to all Athletics throws pertaining to gymnastics, tumbling, running, and juggling. However, the wearer automatically fails Sneak checks to remain unseen and unheard. As well, the wearer of the Hat of the Fool is incapable of telling lies to anyone with a higher Social Status attribute. The wearer gets a free Hero Point every time they must tell the truth to anyone of a higher SOC.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 29200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

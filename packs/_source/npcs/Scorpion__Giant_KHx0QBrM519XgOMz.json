@@ -1,0 +1,174 @@
+{
+  "_id": "KHx0QBrM519XgOMz",
+  "_key": "!actors!KHx0QBrM519XgOMz",
+  "name": "Scorpion, Giant",
+  "type": "npc",
+  "img": "icons/creatures/invertebrates/scorpion-yellow.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 12
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 7
+      }
+    },
+    "lifeblood": {
+      "value": 28,
+      "max": 28
+    },
+    "stamina": {
+      "value": 14,
+      "max": 14
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "200kg Beast (Pouncer), desert walker, #App: 1d6, Treasure: Incidental. Claws (3d6), Stinger (2d6); armor 8; speed 10m/action; Morale +1. Giant scorpions are deadly nightmarish predators with armored carapaces and deadly stinging tails. Venom: 10+/2d6 delivered by tail stinger. (Instinct 7, Pack 7)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "EU5gBKcrAnCxmDh7",
+      "_key": "!actors.items!KHx0QBrM519XgOMz.EU5gBKcrAnCxmDh7",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 8,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "4zYRTaxnr2qZXzo3",
+      "_key": "!actors.items!KHx0QBrM519XgOMz.4zYRTaxnr2qZXzo3",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "zajxYYLu79o8lNZX",
+      "_key": "!actors.items!KHx0QBrM519XgOMz.zajxYYLu79o8lNZX",
+      "name": "Stinger",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 7700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

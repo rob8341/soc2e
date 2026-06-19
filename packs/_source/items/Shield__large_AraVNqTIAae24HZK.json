@@ -1,0 +1,24 @@
+{
+  "_id": "AraVNqTIAae24HZK",
+  "_key": "!items!AraVNqTIAae24HZK",
+  "name": "Shield, large",
+  "type": "armor",
+  "img": "icons/equipment/shield/shield-round-boss-wood-brown.webp",
+  "system": {
+    "description": "A large shield must be strapped to the shoulder and does not allow the wearer to hold anything in that hand. When combining a large shield with the Overwatch action in combat, a full shield provides a -2 cover bonus.",
+    "cost": "25gp",
+    "shield": true,
+    "protection": -1,
+    "sneakModifier": 0,
+    "encumbrance": 2,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "nKYaXRvj7uff0LYT",
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

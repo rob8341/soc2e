@@ -1,0 +1,31 @@
+{
+  "_id": "rim2GNXX9WwHE4Fy",
+  "_key": "!items!rim2GNXX9WwHE4Fy",
+  "name": "Boomerang",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/boomerang.webp",
+  "system": {
+    "description": "A thrown weapon made of wood or bone, constructed as a flat airfoil. Returns to the thrower if it misses the target. First damage value is thrown, second is when used as a war club.",
+    "cost": "2gp",
+    "damage": "1d6/2d6",
+    "range": "",
+    "aspects": "Thrown, Returning",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": true,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 16900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

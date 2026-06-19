@@ -1,0 +1,174 @@
+{
+  "_id": "7Eb1fL13zwOf6Sig",
+  "_key": "!actors!7Eb1fL13zwOf6Sig",
+  "name": "Cat, Great, Smilodon",
+  "type": "npc",
+  "img": "icons/creatures/mammals/cat-hunched-glowing-red.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 15
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 12
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 10
+      },
+      "soc": {
+        "value": 3
+      }
+    },
+    "lifeblood": {
+      "value": 26,
+      "max": 26
+    },
+    "stamina": {
+      "value": 13,
+      "max": 13
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "200kg Beast (Pouncer), plains walker, #App: 1d6, Treasure: None. Claws (3d6), Teeth (4d6); armor 2; speed 20m/round; Morale +1. A prehistoric great cat, the Smilodon was (probably) a pack hunter similar to lions. It preyed upon the great beasts of its day, including mammoths.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 3,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": 1,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 0,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "T5GZ65p2ohYuKyUo",
+      "_key": "!actors.items!7Eb1fL13zwOf6Sig.T5GZ65p2ohYuKyUo",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 2,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "Aik8BpKEx6tAQ726",
+      "_key": "!actors.items!7Eb1fL13zwOf6Sig.Aik8BpKEx6tAQ726",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "wSYb7L0P6QWoIt7w",
+      "_key": "!actors.items!7Eb1fL13zwOf6Sig.wSYb7L0P6QWoIt7w",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "4d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 1900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

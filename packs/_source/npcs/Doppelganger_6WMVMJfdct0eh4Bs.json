@@ -1,0 +1,119 @@
+{
+  "_id": "6WMVMJfdct0eh4Bs",
+  "_key": "!actors!6WMVMJfdct0eh4Bs",
+  "name": "Doppelganger",
+  "type": "npc",
+  "img": "icons/creatures/magical/humanoid-silhouette-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 9
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 9
+      },
+      "int": {
+        "value": 9
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 18,
+      "max": 18
+    },
+    "stamina": {
+      "value": 9,
+      "max": 9
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "100kg Humanoid, urban walker, #App: 1, Treasure: Small. Claws (1d6) or by weapon; armor 0 or as worn; speed 10m/action; Morale +2. The doppelganger is an intelligent shapeshifting monster capable of replacing and mimicking persons for its own nefarious and murderous purposes. Can change shape into another creature within 1d6 rounds. Requires an INT 10+ throw to detect.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 0,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": 2,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": 2,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 0,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "MeQIsxfUoLOaxX2M",
+      "_key": "!actors.items!6WMVMJfdct0eh4Bs.MeQIsxfUoLOaxX2M",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "1d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 3700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "dNRXho8WUXBlQwi3",
+  "_key": "!items!dNRXho8WUXBlQwi3",
+  "name": "Purification Potion",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/potion-flask-stopped-red.webp",
+  "system": {
+    "description": "This rare potion will cleanse the drinker of any poisons, diseases, curses, magical effects, and other magical and non-magical foreign impurities that are in their bodies or on their skin. This potion can be drunk up to one hour prior to coming into contact with harmful substances or magicks, but only ever works once for a given character.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 26900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

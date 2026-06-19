@@ -1,0 +1,143 @@
+{
+  "_id": "l6wsgaI1uTwWGxOn",
+  "_key": "!actors!l6wsgaI1uTwWGxOn",
+  "name": "Mummy",
+  "type": "npc",
+  "img": "icons/magic/death/undead-skeleton-rags-fire-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 15
+      },
+      "dex": {
+        "value": 5
+      },
+      "end": {
+        "value": 18
+      },
+      "int": {
+        "value": 7
+      },
+      "edu": {
+        "value": 10
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 38,
+      "max": 38
+    },
+    "stamina": {
+      "value": 19,
+      "max": 19
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "50kg Undead, desert walker, #App: 1d6, Treasure: Large. Claws (2d6+2); armor 4; walks 10m/action; Morale +4. Mummified remains of ancient sorcerers and kings may walk the dead halls of their tombs, forever guarding against interlopers. Undead: immune to poison, disease, and suffocation. Immune to mind-affecting spells. On a successful attack, the mummy exposes the target to a vile, wasting magical disease (9+/2d6/1 day). An infected character cannot heal or enjoy the benefits of magical healing. This is only curable by the Restoration spell. Immune to non-magical weapons, other than fire. Takes double damage from fire-based attacks. A lit torch causes 1d6 damage to mummies.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 3,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": 1,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "x3iUhK4OlR5eHvS9",
+      "_key": "!actors.items!l6wsgaI1uTwWGxOn.x3iUhK4OlR5eHvS9",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 4,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "mSclIp20483BS4ez",
+      "_key": "!actors.items!l6wsgaI1uTwWGxOn.mSclIp20483BS4ez",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6+2",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 6500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

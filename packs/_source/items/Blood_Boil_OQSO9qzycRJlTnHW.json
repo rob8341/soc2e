@@ -1,0 +1,22 @@
+{
+  "_id": "OQSO9qzycRJlTnHW",
+  "_key": "!items!OQSO9qzycRJlTnHW",
+  "name": "Blood Boil",
+  "type": "spell",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "school": "arcane",
+    "range": "50m.",
+    "duration": "Instantaneous.",
+    "effect": "This spell boils the blood of a single living creature, causing great suffering and severe wounds \u2013 and potentially causing the victim to explode! The target must throw END 10+; if failed, it suffers 5d6 damage and loses its next combat round's worth of actions. If the throw is successful, the target is not stunned, but still takes 3d6 damage. In either case, if the spell's damage reduces the target's Lifeblood to zero, the target explodes, killing it immediately. Each creature or object within 2m of the target suffers 1d6 damage.",
+    "critSuccess": "Damage dice are doubled."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 19300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

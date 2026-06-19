@@ -1,0 +1,22 @@
+{
+  "_id": "5e5bzVV8OA9x14xQ",
+  "_key": "!items!5e5bzVV8OA9x14xQ",
+  "name": "Hut, wood",
+  "type": "adventuring",
+  "img": "icons/tools/hand/mallet-wood.webp",
+  "system": {
+    "description": "A hut with wooden walls providing slightly more protection from the weather, may be used by SOC 3-4. Lodging cost, not per night.",
+    "cost": "50gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 11100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

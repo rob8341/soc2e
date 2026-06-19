@@ -1,0 +1,22 @@
+{
+  "_id": "UzgNwCP2klyuj9Bv",
+  "_key": "!items!UzgNwCP2klyuj9Bv",
+  "name": "Assassin's Dagger",
+  "type": "adventuring",
+  "img": "icons/weapons/daggers/dagger-poisoned.webp",
+  "system": {
+    "description": "By concentrating for a minute, the owner of this dagger can make it disappear on their person. In this state, the dagger is unusable. The dagger still exists but is undetectable by anything short of a true seeing spell. The dagger can be willed back into view (and thus be used) by spending an action.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 27500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

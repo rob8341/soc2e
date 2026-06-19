@@ -1,0 +1,167 @@
+{
+  "_id": "2wvF4OLBzJZhHWzK",
+  "_key": "!actors!2wvF4OLBzJZhHWzK",
+  "name": "Bodyguard",
+  "type": "npc",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 8
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 9
+      },
+      "int": {
+        "value": 6
+      },
+      "edu": {
+        "value": 6
+      },
+      "soc": {
+        "value": 6
+      }
+    },
+    "lifeblood": {
+      "value": 20,
+      "max": 20
+    },
+    "stamina": {
+      "value": 10,
+      "max": 10
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A mercenary hired to protect an important charge. They are trained to spot threats. Equipment: Scale Armor (5), Sword (3d6), Shield.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": 1,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "iqrtfA8JNV32ahqI",
+      "_key": "!actors.items!2wvF4OLBzJZhHWzK.iqrtfA8JNV32ahqI",
+      "name": "Scale Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-scale-leather.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 5,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "5UhcAQ9i144vyISh",
+      "_key": "!actors.items!2wvF4OLBzJZhHWzK.5UhcAQ9i144vyISh",
+      "name": "Sword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "33KM9cTwBzBZrDil",
+      "_key": "!actors.items!2wvF4OLBzJZhHWzK.33KM9cTwBzBZrDil",
+      "name": "Shield",
+      "type": "armor",
+      "img": "icons/equipment/shield/shield-round-boss-wood-brown.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": true,
+        "protection": -1,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 9900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

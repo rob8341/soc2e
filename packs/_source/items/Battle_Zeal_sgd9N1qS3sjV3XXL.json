@@ -1,0 +1,22 @@
+{
+  "_id": "sgd9N1qS3sjV3XXL",
+  "_key": "!items!sgd9N1qS3sjV3XXL",
+  "name": "Battle Zeal",
+  "type": "spell",
+  "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+  "system": {
+    "school": "arcane",
+    "range": "100m radius",
+    "duration": "1 day, or until the end of the battle.",
+    "effect": "Upon successfully casting this spell in front of allied warriors, those who witness the ritual's magicks are imbued with fighting zeal: they gain a +1 bonus to all morale checks in a looming battle. However, these warriors will also be more difficult to control once the fighting begins: apply a -2 penalty whenever attempting to re-organize any warriors filled with Zeal for Battle.",
+    "critSuccess": "The affected warriors gain a +1 bonus to damage rolls as well."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 19200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "dwcm4wDCc8uRGZZq",
+  "_key": "!items!dwcm4wDCc8uRGZZq",
+  "name": "Ward Alarm",
+  "type": "spell",
+  "img": "icons/magic/defensive/armor-stone-skin.webp",
+  "system": {
+    "school": "arcane",
+    "range": "10m at casting.",
+    "duration": "1 year.",
+    "effect": "The ritual creates a system of magical alarms that alert the caster that unwanted visitors have entered the warded area. The ward alerts the sorcerer regardless of how far away the sorcerer is. The sorcerer can also combine the Ward spell with another spell in a more complicated ritual: penalize the Sorcery roll by -2 modifier. If successful, when the Ward is triggered, the second spell is also triggered. This is a good way to make magical traps.",
+    "critSuccess": "The ward is permanent."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 23400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

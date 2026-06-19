@@ -1,0 +1,22 @@
+{
+  "_id": "NAxvpCPZygFP0xOL",
+  "_key": "!items!NAxvpCPZygFP0xOL",
+  "name": "Animate Dead",
+  "type": "spell",
+  "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+  "system": {
+    "school": "arcane",
+    "range": "10m radius around the Sorcerer.",
+    "duration": "1 day.",
+    "effect": "The spell turns the bones or bodies of dead creatures into undead skeletons or zombies that follow the sorcerer's spoken commands. The caster may animate a number of skeletons equal to four times their Sorcery skill, or half that number in zombies. An animated skeleton requires a relatively intact skeleton; an animated zombie requires a relatively intact corpse. The undead crumble to dust once the spell expires.",
+    "critSuccess": "The undead serve the Sorcerer for one week rather than one day."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 19100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

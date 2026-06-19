@@ -1,0 +1,24 @@
+{
+  "_id": "zKG5mSoyPstUeC99",
+  "_key": "!items!zKG5mSoyPstUeC99",
+  "name": "Banded or Lamellar",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-banded-blue.webp",
+  "system": {
+    "description": "Armor made of overlapping horizontal strips of laminated metal attached to leather backing. Banded or lamellar armor is heavy but provides significant protection.",
+    "cost": "50gp",
+    "shield": false,
+    "protection": 8,
+    "sneakModifier": -3,
+    "encumbrance": 3,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "nKYaXRvj7uff0LYT",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

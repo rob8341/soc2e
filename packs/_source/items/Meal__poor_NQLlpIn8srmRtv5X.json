@@ -1,0 +1,22 @@
+{
+  "_id": "NQLlpIn8srmRtv5X",
+  "_key": "!items!NQLlpIn8srmRtv5X",
+  "name": "Meal, poor",
+  "type": "adventuring",
+  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "system": {
+    "description": "A poor quality meal.",
+    "cost": "1cp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 10000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

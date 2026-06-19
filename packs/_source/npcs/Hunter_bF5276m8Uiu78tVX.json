@@ -1,0 +1,150 @@
+{
+  "_id": "bF5276m8Uiu78tVX",
+  "_key": "!actors!bF5276m8Uiu78tVX",
+  "name": "Hunter",
+  "type": "npc",
+  "img": "icons/skills/ranged/archery-bow-attack-yellow.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 7
+      },
+      "int": {
+        "value": 7
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 9
+      }
+    },
+    "lifeblood": {
+      "value": 18,
+      "max": 18
+    },
+    "stamina": {
+      "value": 9,
+      "max": 9
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A typical commoner looking for food. Equipment: Short Bow (2d6), Staff (2d6).",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": 1,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": -3,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": 1,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "Ckaj2seomfpQ0xDv",
+      "_key": "!actors.items!bF5276m8Uiu78tVX.Ckaj2seomfpQ0xDv",
+      "name": "Short Bow",
+      "type": "weapon",
+      "img": "icons/weapons/bows/bow-recurve-black.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": true,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "DQR4PZRVfhViV3YT",
+      "_key": "!actors.items!bF5276m8Uiu78tVX.DQR4PZRVfhViV3YT",
+      "name": "Staff",
+      "type": "weapon",
+      "img": "icons/weapons/staves/staff-ornate.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 10900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

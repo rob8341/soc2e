@@ -1,0 +1,22 @@
+{
+  "_id": "ZbcJjNcJdql7LIbS",
+  "_key": "!items!ZbcJjNcJdql7LIbS",
+  "name": "Winged Flight",
+  "type": "spell",
+  "img": "icons/magic/light/projectile-smoke-yellow.webp",
+  "system": {
+    "school": "arcane",
+    "range": "Self.",
+    "duration": "3 turns per Sorcery skill level.",
+    "effect": "The Sorcerer grows two large wings from their shoulders. The wings' appearance can be chosen by the Sorcerer. The wings allow the Sorcerer to fly at a rate of 40m per combat round, or 2000m per turn while exploring. Winged flight requires no more concentration than walking, and the sorcerer may attack or cast spells normally. If the spell is dispelled or ends when the sorcerer is aloft, they will fall to the ground, potentially taking falling damage.",
+    "critSuccess": "The spell's duration is doubled."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 23700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "PzU0r0YGbjPmUjrp",
+  "_key": "!items!PzU0r0YGbjPmUjrp",
+  "name": "Invoke the Frozen Wastes",
+  "type": "spell",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "school": "arcane",
+    "range": "150m.",
+    "duration": "1 turn.",
+    "effect": "This spell calls down a storm of freezing, razor-sharp hail from the heavens on a target location no more than 20m in diameter. Any creature or object beginning their combat round in or entering the ice storm must throw DEX 10+ or suffer 2d6 damage per caster's Sorcery skill rank (or 1d6 AV per Sorcery skill rank). Any movement through an ice storm's area is at half the normal movement rate. If cast underground or inside a building, the storm will strike the ceiling or the surface above the desired target area; it will reach the target only if it does enough damage to break through to it. The sorcerer gains an Advantage when casting this spell in icy or stormy weather. If cast under a clear sky, the sorcerer is incurred with a -2 penalty to the throw.",
+    "critSuccess": "The spell's duration is 1 hour rather than 1 turn."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 21600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

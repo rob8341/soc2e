@@ -1,0 +1,143 @@
+{
+  "_id": "8twQXGLnyHCi6ZEC",
+  "_key": "!actors!8twQXGLnyHCi6ZEC",
+  "name": "Hydra",
+  "type": "npc",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 20
+      },
+      "dex": {
+        "value": 4
+      },
+      "end": {
+        "value": 20
+      },
+      "int": {
+        "value": 5
+      },
+      "edu": {
+        "value": 12
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 42,
+      "max": 42
+    },
+    "stamina": {
+      "value": 21,
+      "max": 21
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "3200kg Beast (Killer), mountains walker, #App: 1, Treasure: Hoard. 8x Teeth (3d6); armor 7; walk 10m/action; Morale +2. The hydra is a reptilian beast with eight heads, each with its own vicious maw and voracious appetite. It possesses the uncanny ability to regenerate its heads, making it an almost invincible enemy. The hydra attacks once per head, per round. Every time it suffers a full 6 points of damage, however, it loses a head, and thus an attack. It dies when it loses all eight heads. However, after losing a head, a hydra will grow two heads within 1d6 rounds. The maximum number of heads a hydra may have at any given time is twelve. The only way to prevent new heads from growing is to cauterize the severed head's stump with fire or acid before it regrows. (Instinct 12, Pack 0)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 0,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "LjPXRLt9h9RDZERx",
+      "_key": "!actors.items!8twQXGLnyHCi6ZEC.LjPXRLt9h9RDZERx",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 7,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "8uZnTYRd1lEy9O09",
+      "_key": "!actors.items!8twQXGLnyHCi6ZEC.8uZnTYRd1lEy9O09",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 5600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

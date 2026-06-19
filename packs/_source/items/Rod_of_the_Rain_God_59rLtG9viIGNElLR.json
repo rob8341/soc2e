@@ -1,0 +1,22 @@
+{
+  "_id": "59rLtG9viIGNElLR",
+  "_key": "!items!59rLtG9viIGNElLR",
+  "name": "Rod of the Rain God",
+  "type": "adventuring",
+  "img": "icons/containers/bags/sack-open-grain-tan.webp",
+  "system": {
+    "description": "Once per day, the user may utter a command word and bring forth a weather condition of their choice within a 100m radius. The weather lasts as long as the user keeps the rod raised overhead. If rainy weather is selected, however, the range extends to 1 kilometer.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 30200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

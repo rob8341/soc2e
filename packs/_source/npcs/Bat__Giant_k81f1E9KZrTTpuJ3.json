@@ -1,0 +1,143 @@
+{
+  "_id": "k81f1E9KZrTTpuJ3",
+  "_key": "!actors!k81f1E9KZrTTpuJ3",
+  "name": "Bat, Giant",
+  "type": "npc",
+  "img": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 13
+      },
+      "int": {
+        "value": 1
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 7
+      }
+    },
+    "lifeblood": {
+      "value": 26,
+      "max": 26
+    },
+    "stamina": {
+      "value": 13,
+      "max": 13
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "100kg Beast (Hunter), hill and cave flyer, #App: 2d6, Treasure: None. Teeth (2d6); armor 1; flying speed 30m/action; Morale +0. One hundred times the size of an ordinary bat, this monstrosity dwells in ruins and caves and preys upon the weak - including humans. Sonar vision: Giant Bats do not suffer negative modifiers for low light and darkness.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 0,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "KjJa8cDVcGDXYCoI",
+      "_key": "!actors.items!k81f1E9KZrTTpuJ3.KjJa8cDVcGDXYCoI",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 1,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "aT6isOfDsR1UbCV2",
+      "_key": "!actors.items!k81f1E9KZrTTpuJ3.aT6isOfDsR1UbCV2",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

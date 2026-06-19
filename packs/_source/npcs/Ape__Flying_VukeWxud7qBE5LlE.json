@@ -1,0 +1,174 @@
+{
+  "_id": "VukeWxud7qBE5LlE",
+  "_key": "!actors!VukeWxud7qBE5LlE",
+  "name": "Ape, Flying",
+  "type": "npc",
+  "img": "icons/creatures/mammals/bat-movement-flying-purple.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 12
+      },
+      "int": {
+        "value": 2
+      },
+      "edu": {
+        "value": 10
+      },
+      "soc": {
+        "value": 7
+      }
+    },
+    "lifeblood": {
+      "value": 26,
+      "max": 26
+    },
+    "stamina": {
+      "value": 13,
+      "max": 13
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "150kg Beast (Hunter), mountain flier, #App: 2d6, Treasure: Incidental. Fists (2d6), Teeth (2d6); armor 3; walking speed 10m/action, flying speed 20m/action; Morale -1. A fantastic omnivorous winged ape capable of flight. It is intelligent enough to use tactics such as dropping rocks from the air on potential prey. These do 4d6 damage, but targets can dive for cover and take half damage, as per the normal dive for cover rules (p.120). Attacks from the ground against flying apes suffer a -2 penalty to hit.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": 1,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "iVnN4SgeJpB3jN5P",
+      "_key": "!actors.items!VukeWxud7qBE5LlE.iVnN4SgeJpB3jN5P",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 3,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "qR4JF6EB0WWHa7YD",
+      "_key": "!actors.items!VukeWxud7qBE5LlE.qR4JF6EB0WWHa7YD",
+      "name": "Fists",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "J5wQyN7fH7eCVOkc",
+      "_key": "!actors.items!VukeWxud7qBE5LlE.J5wQyN7fH7eCVOkc",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

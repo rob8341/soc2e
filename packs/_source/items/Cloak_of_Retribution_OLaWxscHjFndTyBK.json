@@ -1,0 +1,22 @@
+{
+  "_id": "OLaWxscHjFndTyBK",
+  "_key": "!items!OLaWxscHjFndTyBK",
+  "name": "Cloak of Retribution",
+  "type": "adventuring",
+  "img": "icons/equipment/back/cloak-brown.webp",
+  "system": {
+    "description": "Each time the wearer of this cloak suffers damage, it grants the cloak 1d6, to a maximum of 4d6. At any point later, the wearer can discharge these accumulated dice as an attack, doing the damage to a single target within 20m. The target can roll DEX 10+ to take half damage. Vehicles take half AV damage (rounded down). The Cloak will fray to nothing after 1d3+3 uses.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 28000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

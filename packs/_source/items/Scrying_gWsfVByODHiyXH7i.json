@@ -1,0 +1,22 @@
+{
+  "_id": "gWsfVByODHiyXH7i",
+  "_key": "!items!gWsfVByODHiyXH7i",
+  "name": "Scrying",
+  "type": "spell",
+  "img": "icons/magic/air/air-smoke-casting.webp",
+  "system": {
+    "school": "arcane",
+    "range": "Special.",
+    "duration": "1 turn.",
+    "effect": "This spell allows the sorcerer to see images of distant creatures, objects, or places. This requires a mirror, a crystal, or a clear pool, through which the visions will be seen. The caster must know the creature, object, or place being viewed. Otherwise, they must have a sample of the creature or object such as a hair clipping or a paint chip. The vision lasts 1 turn, and the sorcerer must concentrate and remain motionless while scrying.",
+    "critSuccess": "The spell lasts 1 hour rather than 1 turn."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 22600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

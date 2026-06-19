@@ -1,0 +1,174 @@
+{
+  "_id": "2x8e5UAb6pO2ZAhl",
+  "_key": "!actors!2x8e5UAb6pO2ZAhl",
+  "name": "Local Guide",
+  "type": "npc",
+  "img": "icons/sundries/survival/bedroll-brown.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 8
+      },
+      "int": {
+        "value": 9
+      },
+      "edu": {
+        "value": 6
+      },
+      "soc": {
+        "value": 6
+      }
+    },
+    "lifeblood": {
+      "value": 16,
+      "max": 16
+    },
+    "stamina": {
+      "value": 8,
+      "max": 8
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A skilled tracker and hunter, a good guide is often the only thing standing between a successful cross-country expedition and a disaster. Equipment: Short Bow (2d6), Leather Armor (4), Spear (2d6).",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": 1,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 2,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 2,
+      "religion": -3,
+      "riding": 1,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "qsF0pXxDVBUWrPL4",
+      "_key": "!actors.items!2x8e5UAb6pO2ZAhl.qsF0pXxDVBUWrPL4",
+      "name": "Short Bow",
+      "type": "weapon",
+      "img": "icons/weapons/bows/bow-recurve-black.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": true,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "QqzbziqL8tnbudrS",
+      "_key": "!actors.items!2x8e5UAb6pO2ZAhl.QqzbziqL8tnbudrS",
+      "name": "Leather Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-reinforced-leather.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 4,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ZKNuy5avvBCUnRPp",
+      "_key": "!actors.items!2x8e5UAb6pO2ZAhl.ZKNuy5avvBCUnRPp",
+      "name": "Spear",
+      "type": "weapon",
+      "img": "icons/weapons/polearms/spear-flared-wrapped.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 11100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

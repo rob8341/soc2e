@@ -1,0 +1,13 @@
+{
+  "_id": "H8xIZM1JRcoreogr",
+  "name": "Adventuring Gear",
+  "type": "Item",
+  "description": "",
+  "sorting": "a",
+  "folder": null,
+  "color": null,
+  "flags": {},
+  "_stats": {},
+  "sort": 200000,
+  "_key": "!folders!H8xIZM1JRcoreogr"
+}

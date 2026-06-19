@@ -1,0 +1,22 @@
+{
+  "_id": "GuyjvvMo8FYM23Yb",
+  "_key": "!items!GuyjvvMo8FYM23Yb",
+  "name": "Drum of the Deep",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "Beating this drum when on the open seas creates a wave that can inflict one critical damage result on a target vessel within view. Alternatively, beating the drum can create a current that will drive the drummer's vessel at twice normal speed for one day. Either use expends one charge. Typically, this item has 2d6 charges.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 28700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

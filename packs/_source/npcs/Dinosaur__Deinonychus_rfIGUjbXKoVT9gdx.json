@@ -1,0 +1,174 @@
+{
+  "_id": "rfIGUjbXKoVT9gdx",
+  "_key": "!actors!rfIGUjbXKoVT9gdx",
+  "name": "Dinosaur, Deinonychus",
+  "type": "npc",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 9
+      },
+      "dex": {
+        "value": 16
+      },
+      "end": {
+        "value": 9
+      },
+      "int": {
+        "value": 1
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 8
+      }
+    },
+    "lifeblood": {
+      "value": 22,
+      "max": 22
+    },
+    "stamina": {
+      "value": 11,
+      "max": 11
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "50kg Beast (Chaser), plains walker, #App: 1d6+4, Treasure: None. Claws (2d6), teeth (2d6); armor 1; speed 30m/action; Morale +1. Often confused with the much smaller velociraptor, the deinonychus is a medium-sized carnivorous theropod dinosaur. It grows up to 3 meters in length, and about 2m in height. Deinonychus is a pack hunter with a keen mind and instincts as sharp as its claws. The pack will use sophisticated hunting tactics to bring down prey.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 2,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": 0,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 0,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "MvcOhsTC8X9J3MHK",
+      "_key": "!actors.items!rfIGUjbXKoVT9gdx.MvcOhsTC8X9J3MHK",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 1,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "vrWSPSGpuKZwgSZf",
+      "_key": "!actors.items!rfIGUjbXKoVT9gdx.vrWSPSGpuKZwgSZf",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "d3DBwGKGyqEAB5E8",
+      "_key": "!actors.items!rfIGUjbXKoVT9gdx.d3DBwGKGyqEAB5E8",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 2900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

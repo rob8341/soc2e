@@ -1,0 +1,31 @@
+{
+  "_id": "EfvuP1uRr6YICtu8",
+  "_key": "!items!EfvuP1uRr6YICtu8",
+  "name": "Sword, short",
+  "type": "weapon",
+  "img": "icons/weapons/swords/swords-short.webp",
+  "system": {
+    "description": "An intermediate weapon between a dagger and a sword, designed for maneuverability and stabbing.",
+    "cost": "5gp",
+    "damage": "2d6",
+    "range": "",
+    "aspects": "",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 3600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

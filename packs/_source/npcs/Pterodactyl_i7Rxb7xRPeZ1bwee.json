@@ -1,0 +1,119 @@
+{
+  "_id": "i7Rxb7xRPeZ1bwee",
+  "_key": "!actors!i7Rxb7xRPeZ1bwee",
+  "name": "Pterodactyl",
+  "type": "npc",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 6
+      },
+      "dex": {
+        "value": 12
+      },
+      "end": {
+        "value": 5
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 6
+      }
+    },
+    "lifeblood": {
+      "value": 14,
+      "max": 14
+    },
+    "stamina": {
+      "value": 7,
+      "max": 7
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "25kg Beast (Pouncer), mountain flyer, #App: 2d6, Treasure: None. Bite (1d6); armor 0; fly 30m/action; Morale -1. A large, winged reptile, the pterodactyl is typically harmless to humanoids, but may attack them if it is particularly hungry. (Instinct 9, Pack 6)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 2,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 0,
+      "naturalphilosophy": -3,
+      "scout": 2,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "JYjlUURszuWRrj2b",
+      "_key": "!actors.items!i7Rxb7xRPeZ1bwee.JYjlUURszuWRrj2b",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "1d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 7100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "VnvZ7sGRckiSSgLl",
+  "_key": "!items!VnvZ7sGRckiSSgLl",
+  "name": "Gate Crashing",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-green.webp",
+  "system": {
+    "school": "arcane",
+    "range": "300m",
+    "duration": "Instant",
+    "effect": "When this ritual is complete, the sorcerer chooses a 10m-by-10m section of a wall, doorway, or gate, and causes it to topple in dramatic, spectacular fashion. This includes city walls, fortifications and castles, if the structure is built up over the natural landscape. This spell can be used on indoor or outdoors\u2014though using it underground to topple a wall may collapse the roof overhead.",
+    "critSuccess": "The breach caused can be triple the size."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 21100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

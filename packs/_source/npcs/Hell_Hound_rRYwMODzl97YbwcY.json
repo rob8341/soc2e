@@ -1,0 +1,143 @@
+{
+  "_id": "rRYwMODzl97YbwcY",
+  "_key": "!actors!rRYwMODzl97YbwcY",
+  "name": "Hell Hound",
+  "type": "npc",
+  "img": "icons/creatures/unholy/demon-fire-imp.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 8
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 8
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 3
+      }
+    },
+    "lifeblood": {
+      "value": 18,
+      "max": 18
+    },
+    "stamina": {
+      "value": 9,
+      "max": 9
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "50kg Beast (Chaser), urban walker, #App: 1d6, Treasure: None. Teeth (2d6+2); armor 3; speed 30m/action; Morale +2. A canine monstrosity born in the fires of hell, the hellhound is a vicious and cruel hunter. Sorcerers often summon hell hounds to do their dark bidding. Three times a day, the hell hound may breathe fire, dealing 2d6 fire damage to all targets within a 10m long, 3m wide cone. (Instinct 9, Pack 3)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 0,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "uBLyLfA55914Tsmi",
+      "_key": "!actors.items!rRYwMODzl97YbwcY.uBLyLfA55914Tsmi",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 3,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "GJ1FhXsPI2kBhPon",
+      "_key": "!actors.items!rRYwMODzl97YbwcY.GJ1FhXsPI2kBhPon",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6+2",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 5400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

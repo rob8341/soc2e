@@ -1,0 +1,143 @@
+{
+  "_id": "SrUyItLyRC07hxMb",
+  "_key": "!actors!SrUyItLyRC07hxMb",
+  "name": "Spider, Giant",
+  "type": "npc",
+  "img": "icons/creatures/invertebrates/spider-pink-purple.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 5
+      },
+      "dex": {
+        "value": 12
+      },
+      "end": {
+        "value": 5
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 8
+      },
+      "soc": {
+        "value": 5
+      }
+    },
+    "lifeblood": {
+      "value": 12,
+      "max": 12
+    },
+    "stamina": {
+      "value": 6,
+      "max": 6
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "50kg Beast (Trapper), underground or forest walker, #App: 1d6, Treasure: Incidental. Fangs (1d6+3); armor 1; walk 10m/action; Morale DM-1. A giant variant of a black widow, this arachnid is a horror to behold. May walk on walls and ceilings; may \"rappel\" down a string of web to long distances. Advantage to Surprise checks due to its ability to lurk anywhere. Webbing: Characters who fight giant spiders may get caught in their webbing. If the spider attacks from ambush, Roll DEX 8+ each round to avoid being caught in webbing. Characters who are caught in webbing cannot move and attack at -2 penalty. It requires 1d6 fire or slashing damage to free a character from a web. Characters may break free from webbing on a STR 10+ throw. Venom: 8+/3d6 toxin. (Instinct 8, Pack 5)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 0,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 2,
+      "sorcery": -3,
+      "sneak": 2,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "caguQBkl3w3951qW",
+      "_key": "!actors.items!SrUyItLyRC07hxMb.caguQBkl3w3951qW",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 1,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "g6euLYqkiCh1U37z",
+      "_key": "!actors.items!SrUyItLyRC07hxMb.g6euLYqkiCh1U37z",
+      "name": "Fangs",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "1d6+3",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 8300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

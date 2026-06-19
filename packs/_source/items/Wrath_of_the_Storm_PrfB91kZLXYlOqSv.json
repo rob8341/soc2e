@@ -1,0 +1,22 @@
+{
+  "_id": "PrfB91kZLXYlOqSv",
+  "_key": "!items!PrfB91kZLXYlOqSv",
+  "name": "Wrath of the Storm",
+  "type": "spell",
+  "img": "icons/magic/fire/projectile-needles-salvo-red.webp",
+  "system": {
+    "school": "arcane",
+    "range": "120m.",
+    "duration": "3 turns per Sorcery skill rank.",
+    "effect": "This spell only works when a storm is within range. It enables the Sorcerer to call down a lightning bolt every turn (10 minutes) on any point within the spell's range. The lightning bolt strikes from the sky, blasting an area 6m in diameter. All creatures within the blast area suffer 6d6 damage, or 3d6 if they successfully throw DEX 8+. The lightning bolts will remain available until either the storm or the spell ends. Wrath of the Storm may damage vehicles: it has an AV value of 3d6 and will set wooden ships on fire.",
+    "critSuccess": "Double the spell's duration."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 23800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

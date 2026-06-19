@@ -1,0 +1,22 @@
+{
+  "_id": "haOQtwjOp1AwrQUz",
+  "_key": "!items!haOQtwjOp1AwrQUz",
+  "name": "Commune With the Gods",
+  "type": "spell",
+  "img": "icons/magic/time/day-night-sun-moon.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "Self",
+    "duration": "3 turns",
+    "effect": "Casting Time: Commune With the Gods requires 2d6 turns to cast. It cannot be channeled. The sorcerer enters a trance and reaches out to the Greater Powers or Spirits, who will answer three yes-or-no questions. The being contacted may or may not be omniscient but will provide truthful answers. The sorcerer may cast this spell at most once per week.",
+    "critSuccess": "The being will answer 6 questions rather than 3."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 24200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

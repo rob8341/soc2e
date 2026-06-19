@@ -1,0 +1,31 @@
+{
+  "_id": "HioRRdzHzmA4KR1V",
+  "_key": "!items!HioRRdzHzmA4KR1V",
+  "name": "Club",
+  "type": "weapon",
+  "img": "icons/weapons/clubs/club-barbed.webp",
+  "system": {
+    "description": "The simplest of weapons, a heavy stick.",
+    "cost": "1gp",
+    "damage": "1d6",
+    "range": "",
+    "aspects": "",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 1900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

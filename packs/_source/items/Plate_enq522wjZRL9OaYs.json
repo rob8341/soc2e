@@ -1,0 +1,24 @@
+{
+  "_id": "enq522wjZRL9OaYs",
+  "_key": "!items!enq522wjZRL9OaYs",
+  "name": "Plate",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-purple.webp",
+  "system": {
+    "description": "Armor made from large, overlapping metal plates worn over the chest and vital areas. Plate armor includes chain armor sections that cover the joints.",
+    "cost": "600gp",
+    "shield": false,
+    "protection": 10,
+    "sneakModifier": -4,
+    "encumbrance": 3,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "nKYaXRvj7uff0LYT",
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

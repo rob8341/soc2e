@@ -1,0 +1,87 @@
+{
+  "_id": "LVvSbYn1iohieQWe",
+  "_key": "!actors!LVvSbYn1iohieQWe",
+  "name": "Black Pudding",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 10
+      },
+      "dex": {
+        "value": 3
+      },
+      "end": {
+        "value": 8
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 8
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 16,
+      "max": 16
+    },
+    "stamina": {
+      "value": 8,
+      "max": 8
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "200kg Beast (Reducer), subterranean walker, #App: 1, Treasure: None. Special attack; armor 0; speed 5m/action; Morale: automatic success. A black pudding is a dark, oily, amorphous glob with an acidic surface living off the detritus of the underground. Acid: any creature coming into contact with the black pudding - either after the pudding's successful attack or otherwise touching it - suffers 2d6 damage per round. Contact with the black pudding will corrode metal in 1d6 rounds. Immune to magic, cold, and lightning. Not immune to fire.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 0,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 0,
+      "naturalphilosophy": -3,
+      "scout": 0,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 0,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 1300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "We9DyF5QHXw3HNfV",
+  "_key": "!items!We9DyF5QHXw3HNfV",
+  "name": "Wool, cheap",
+  "type": "adventuring",
+  "img": "icons/sundries/misc/admission-ticket-grey.webp",
+  "system": {
+    "description": "One square meter of cheap wool material.",
+    "cost": "6sp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 13400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

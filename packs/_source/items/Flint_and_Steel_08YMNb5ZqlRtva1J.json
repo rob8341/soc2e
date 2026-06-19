@@ -1,0 +1,22 @@
+{
+  "_id": "08YMNb5ZqlRtva1J",
+  "_key": "!items!08YMNb5ZqlRtva1J",
+  "name": "Flint and Steel",
+  "type": "adventuring",
+  "img": "icons/containers/misc/bucket-steel.webp",
+  "system": {
+    "description": "Used to start fires with ease. Lighting a fire with flint and steel takes 1 combat round (6 seconds).",
+    "cost": "1gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 6000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

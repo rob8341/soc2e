@@ -1,0 +1,22 @@
+{
+  "_id": "Dv3q6Q4EmT2mmpMj",
+  "_key": "!items!Dv3q6Q4EmT2mmpMj",
+  "name": "Rend Reality",
+  "type": "spell",
+  "img": "icons/magic/time/day-night-sun-moon.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "N/A",
+    "duration": "Permanent",
+    "effect": "Casting Time: One week. This legendary ritual takes one week to perform, and the Sorcery roll is penalized by -4. On completion, the sorcerer may alter reality in some direct and permanent way: reviving a dead friend, changing the course of current or historical events, and the like. Of course, the phrasing the spell itself has led to the downfall of countless sorcerers. The unintended consequences of this spell can be the subject of an entire campaign.",
+    "critSuccess": "No additional effect."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 25000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

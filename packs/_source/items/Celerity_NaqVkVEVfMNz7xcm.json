@@ -1,0 +1,22 @@
+{
+  "_id": "NaqVkVEVfMNz7xcm",
+  "_key": "!items!NaqVkVEVfMNz7xcm",
+  "name": "Celerity",
+  "type": "spell",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "school": "arcane",
+    "range": "75m.",
+    "duration": "3 turns",
+    "effect": "The spell greatly accelerates the movement of those targeted. Up to two targets per the caster's Sorcery skill level can be affected. The hastened creatures enjoy twice as many actions per combat round, meaning that they could attack up to four times, or move up to 40m in one six-second round. Frenzy results and grapples are dealt with accordingly. Note that spellcasting is not accelerated, nor is the use of any magical items, which still may only be used once per round.",
+    "critSuccess": "Duration is 3 hours rather than 3 turns."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 19700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

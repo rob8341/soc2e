@@ -1,0 +1,31 @@
+{
+  "_id": "AwFv0Yg7NZRBT7qY",
+  "_key": "!items!AwFv0Yg7NZRBT7qY",
+  "name": "Halberd",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/halberd-crescent-engraved.webp",
+  "system": {
+    "description": "This weapon consists of a wide slashing blade and a long spike mounted atop a long shaft. A halberd counts as two items for encumbrance purposes.",
+    "cost": "7gp",
+    "damage": "4d6",
+    "range": "",
+    "aspects": "AV 1d6, Bulky, Reach, Two-Handed",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 2,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 2500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "KUSyekoZy3uUi9SF",
+  "_key": "!items!KUSyekoZy3uUi9SF",
+  "name": "Dress, SOC 15-16",
+  "type": "adventuring",
+  "img": "icons/equipment/feet/socks-crew-padded.webp",
+  "system": {
+    "description": "An outfit appropriate to Social Standing 15-16.",
+    "cost": "1000gp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 12600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

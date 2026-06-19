@@ -1,0 +1,21 @@
+{
+  "_id": "KG895i1JwQV7Vbeq",
+  "_key": "!items!KG895i1JwQV7Vbeq",
+  "name": "Dog, war",
+  "type": "animal",
+  "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+  "system": {
+    "description": "Massive mastiffs, trained to be loyal to their master and will kill on command. A well-bred, well-trained war dog is fiercer than most human soldiers.",
+    "cost": "75gp",
+    "speed": 30,
+    "carryingCapacity": "25kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 15400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

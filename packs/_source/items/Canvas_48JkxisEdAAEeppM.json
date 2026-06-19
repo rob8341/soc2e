@@ -1,0 +1,22 @@
+{
+  "_id": "48JkxisEdAAEeppM",
+  "_key": "!items!48JkxisEdAAEeppM",
+  "name": "Canvas",
+  "type": "adventuring",
+  "img": "icons/sundries/misc/admission-ticket-grey.webp",
+  "system": {
+    "description": "One square meter of woven material used to make clothing and other items. Often transported in bolts ranging from 30 to 90 meters in length.",
+    "cost": "1sp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 13000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

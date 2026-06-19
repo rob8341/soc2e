@@ -1,0 +1,143 @@
+{
+  "_id": "UFaZQ2IZ4FRAj8G8",
+  "_key": "!actors!UFaZQ2IZ4FRAj8G8",
+  "name": "Plesiosaur",
+  "type": "npc",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 20
+      },
+      "dex": {
+        "value": 2
+      },
+      "end": {
+        "value": 20
+      },
+      "int": {
+        "value": 1
+      },
+      "edu": {
+        "value": 10
+      },
+      "soc": {
+        "value": 3
+      }
+    },
+    "lifeblood": {
+      "value": 46,
+      "max": 46
+    },
+    "stamina": {
+      "value": 23,
+      "max": 23
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "10000kg Beast (Killer), ocean swimmer, #App: 1d6, Treasure: Incidental. Teeth (4d6); armor 5; swim 10m/action; Morale -1. The plesiosaur is an enormous prehistoric marine reptile, an apex predator and the terror of the Jurassic seas. The above data refer to the largest species of short-necked plesiosaurs, which could reach up to 17m in length. The plesiosaur may swallow its victim whole if its attack lands with an Effect of +4 or better. A swallowed victim takes damage equal to that of the plesiosaur's bite per round, until the beast is killed or the victim dies. Plesiosauri may, on rare occasions (or if attacked), attack ships. Their attacks have an AV rating of 3d6 against wooden ships. (Instinct 10, Pack 3)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 3,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 3,
+      "naturalphilosophy": -3,
+      "scout": 2,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 2,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "hnMnlUI0YDtNZkXO",
+      "_key": "!actors.items!UFaZQ2IZ4FRAj8G8.hnMnlUI0YDtNZkXO",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 5,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "mgeL0brHeLUtINcq",
+      "_key": "!actors.items!UFaZQ2IZ4FRAj8G8.mgeL0brHeLUtINcq",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "4d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 7200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "wqFEg8D04wzInjq5",
+  "_key": "!items!wqFEg8D04wzInjq5",
+  "name": "Cloak, hooded",
+  "type": "adventuring",
+  "img": "icons/equipment/back/cloak-hooded-pink.webp",
+  "system": {
+    "description": "A hooded cloak.",
+    "cost": "1gp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 11900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

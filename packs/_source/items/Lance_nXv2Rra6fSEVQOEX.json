@@ -1,0 +1,31 @@
+{
+  "_id": "nXv2Rra6fSEVQOEX",
+  "_key": "!items!nXv2Rra6fSEVQOEX",
+  "name": "Lance",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-flared-wrapped.webp",
+  "system": {
+    "description": "A long, spear-like weapon designed for use while mounted. Lances count as two items for encumbrance purposes. This weapon is most effective in a mounted charge: add 2d6 damage when using a lance in a mounted charge.",
+    "cost": "10gp",
+    "damage": "2d6",
+    "range": "",
+    "aspects": "Mounted, Reach",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 2,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 2700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

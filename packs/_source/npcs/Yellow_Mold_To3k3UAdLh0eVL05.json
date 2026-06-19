@@ -1,0 +1,119 @@
+{
+  "_id": "To3k3UAdLh0eVL05",
+  "_key": "!actors!To3k3UAdLh0eVL05",
+  "name": "Yellow Mold",
+  "type": "npc",
+  "img": "icons/creatures/slimes/slime-movement-splashing-yellow.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 0
+      },
+      "end": {
+        "value": 12
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 8
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 24,
+      "max": 24
+    },
+    "stamina": {
+      "value": 12,
+      "max": 12
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "100kg Beast (Reducer), subterranean crawler, #App: 1, Treasure: None. Acid (1d6); automatically hit if attacked; sedentary; Morale: automatic success. Yellow mold, a sessile monstrous fungus, typically covers an approximate area of 3m by 3m. It does not move or attack, but it causes 1d6 acid damage if touched. While all attacks automatically hit a yellow mold, it is immune to all damage except for fire damage. A torch causes it 1d6 damage, while fire-based magic or burning oil will cause their normal damage to a yellow mold. Every time a creature or object touches the yellow mold, throw 1d6; on 4-6, it emits a cloud of poisonous spores, filling a 3m-cubed area. Any creature caught within this cloud suffers the effect of an 8+/3d6 poison. Immune to mind-affecting spells. (Instinct 8, Pack 0)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 0,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 0,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "tRx9JmpBrmkYYlKN",
+      "_key": "!actors.items!To3k3UAdLh0eVL05.tRx9JmpBrmkYYlKN",
+      "name": "Acid",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-broad-worn.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "1d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 9300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

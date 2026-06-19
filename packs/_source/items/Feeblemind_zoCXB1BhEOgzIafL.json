@@ -1,0 +1,22 @@
+{
+  "_id": "zoCXB1BhEOgzIafL",
+  "_key": "!items!zoCXB1BhEOgzIafL",
+  "name": "Feeblemind",
+  "type": "spell",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "school": "arcane",
+    "range": "60m.",
+    "duration": "Permanent.",
+    "effect": "The target of this spell must throw INT 10+. On a success, the spell has no effect. On failure, the target becomes a helpless idiot incapable of casting spells, understanding language, communicating coherently, or fighting effectively. The victim only dimly remembers who their friends are and may follow their simple instructions. This state lasts until Quell Enchantment or Restoration is cast on the victim.",
+    "critSuccess": "The target is not granted the INT throw to resist this spell."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 20900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

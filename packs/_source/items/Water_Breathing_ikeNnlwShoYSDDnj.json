@@ -1,0 +1,22 @@
+{
+  "_id": "ikeNnlwShoYSDDnj",
+  "_key": "!items!ikeNnlwShoYSDDnj",
+  "name": "Water Breathing",
+  "type": "spell",
+  "img": "icons/magic/water/water-well.webp",
+  "system": {
+    "school": "arcane",
+    "range": "10m.",
+    "duration": "1 day.",
+    "effect": "This spell allows one target per the caster's Sorcery skill (1 at Sorcery 0 or 1) to breathe underwater at any depth. The spell does not prevent the target from breathing air, nor does it provide any special ability to move underwater.",
+    "critSuccess": "The spell's duration is 1 week rather than 1 day."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 23600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

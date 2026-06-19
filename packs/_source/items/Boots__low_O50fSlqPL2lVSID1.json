@@ -1,0 +1,22 @@
+{
+  "_id": "O50fSlqPL2lVSID1",
+  "_key": "!items!O50fSlqPL2lVSID1",
+  "name": "Boots, low",
+  "type": "adventuring",
+  "img": "icons/equipment/feet/boots-hiking.webp",
+  "system": {
+    "description": "Sturdy foot-ware rising just above the ankle. Provides the equivalent of Protection 2 against snake bites and other ground-level hazards.",
+    "cost": "6sp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 11700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "SV2ceN59UAgN2BR4",
+  "_key": "!items!SV2ceN59UAgN2BR4",
+  "name": "Bow, composite",
+  "type": "weapon",
+  "img": "icons/weapons/bows/bow-recurve-black.webp",
+  "system": {
+    "description": "A recurved bow made of laminated wood, horn, and sinew. Composite bows are difficult and expensive to craft but offer an exceptionally good combination of mobility and power. A composite bow may be fired from horseback. Loading a bow is a free action done as part of the firing or aiming action.",
+    "cost": "15gp",
+    "damage": "3d6",
+    "range": "50/100",
+    "aspects": "AV 1d6",
+    "ammo": 0,
+    "ammoMax": 20,
+    "ammoCost": "1gp",
+    "ammoType": "Arrows",
+    "thrown": false,
+    "ranged": true,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 4300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

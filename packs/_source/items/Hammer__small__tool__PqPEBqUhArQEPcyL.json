@@ -1,0 +1,22 @@
+{
+  "_id": "PqPEBqUhArQEPcyL",
+  "_key": "!items!PqPEBqUhArQEPcyL",
+  "name": "Hammer (small; tool)",
+  "type": "adventuring",
+  "img": "icons/weapons/hammers/hammer-square-white.webp",
+  "system": {
+    "description": "Used for work or driving iron or wooden spikes. If used in combat, inflicts 1d6 damage.",
+    "cost": "2gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 6200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

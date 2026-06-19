@@ -1,0 +1,163 @@
+{
+  "_id": "ix6PqjYTrm261Uae",
+  "_key": "!actors!ix6PqjYTrm261Uae",
+  "name": "Courtesan",
+  "type": "npc",
+  "img": "icons/equipment/chest/robe-collared-pink.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 7
+      },
+      "int": {
+        "value": 7
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 8
+      }
+    },
+    "lifeblood": {
+      "value": 14,
+      "max": 14
+    },
+    "stamina": {
+      "value": 7,
+      "max": 7
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A professional companion or escort. A courtesan often hears and sees things that they should not have. Their discretion always comes at a price. SOC is typically 5-10. Equipment: Dagger (2d6), Wineskin, Lute or another musical instrument.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": 1,
+      "craft": -3,
+      "deception": 1,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": 1,
+      "healing": -3,
+      "meleecombat": -3,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": 1,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "ImlzqxKNEOlsosEX",
+      "_key": "!actors.items!ix6PqjYTrm261Uae.ImlzqxKNEOlsosEX",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-blue.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ywDfg2Ur8uPhCthR",
+      "_key": "!actors.items!ix6PqjYTrm261Uae.ywDfg2Ur8uPhCthR",
+      "name": "Wineskin",
+      "type": "adventuring",
+      "img": "icons/consumables/food/steak-aged-brown.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "RVDXEzosF3WdVqty",
+      "_key": "!actors.items!ix6PqjYTrm261Uae.RVDXEzosF3WdVqty",
+      "name": "Lute or another musical instrument",
+      "type": "adventuring",
+      "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 10100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

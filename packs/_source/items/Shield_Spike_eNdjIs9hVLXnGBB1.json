@@ -1,0 +1,31 @@
+{
+  "_id": "eNdjIs9hVLXnGBB1",
+  "_key": "!items!eNdjIs9hVLXnGBB1",
+  "name": "Shield Spike",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-hooked-spike.webp",
+  "system": {
+    "description": "A wooden, bone or metal spike added to a shield. The spike allows the shield to be used as a weapon as well as a shield.",
+    "cost": "5gp",
+    "damage": "1d6",
+    "range": "",
+    "aspects": "",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 3100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

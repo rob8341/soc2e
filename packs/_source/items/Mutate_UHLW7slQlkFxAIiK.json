@@ -1,0 +1,22 @@
+{
+  "_id": "UHLW7slQlkFxAIiK",
+  "_key": "!items!UHLW7slQlkFxAIiK",
+  "name": "Mutate",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-green.webp",
+  "system": {
+    "school": "arcane",
+    "range": "10m",
+    "duration": "Permanent.",
+    "effect": "The caster points at a target who mutates! Roll on the Mutation Table (p.185) and apply the mutation immediately!",
+    "critSuccess": "The caster rolls twice on the Mutation Table and chooses the result they wish to inflict on the target."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 21900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

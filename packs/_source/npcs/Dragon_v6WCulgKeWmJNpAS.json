@@ -1,0 +1,174 @@
+{
+  "_id": "v6WCulgKeWmJNpAS",
+  "_key": "!actors!v6WCulgKeWmJNpAS",
+  "name": "Dragon",
+  "type": "npc",
+  "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 30
+      },
+      "dex": {
+        "value": 9
+      },
+      "end": {
+        "value": 30
+      },
+      "int": {
+        "value": 15
+      },
+      "edu": {
+        "value": 15
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 62,
+      "max": 62
+    },
+    "stamina": {
+      "value": 31,
+      "max": 31
+    },
+    "spellcaster": true,
+    "monster": true,
+    "notes": "10000kg Beast (Killer), mountains flyer, #App: 1, Treasure: Hoard. Teeth (4d6), claws (3d6); armor 8; fly 30m/action; Morale +2. The majestic dragon is one of the greatest monsters of legend, a fire-breathing reptile of great size and even greater greed. 3 times a day a dragon may breathe fire, causing 5d6 fire damage to all within a 10m long, 5m wide cone emanating from its mouth. Victims may throw DEX 8+ to only suffer half damage (rounded down). A dragon's fire has an AV 4d6 rating vs. vehicles and may set them ablaze as described in the Combat chapter. Knows 2d6 spells. In addition to using them itself, it may also teach them to its mortal allies. Dragons are immune to Corruption from spellcasting.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 3,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": 3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 0,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "BpXdtB7Ut2Wjtvwa",
+      "_key": "!actors.items!v6WCulgKeWmJNpAS.BpXdtB7Ut2Wjtvwa",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 8,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "KQdFZ1Amm4WvPR8L",
+      "_key": "!actors.items!v6WCulgKeWmJNpAS.KQdFZ1Amm4WvPR8L",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "4d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "uJ7MzkCWcnanoMoT",
+      "_key": "!actors.items!v6WCulgKeWmJNpAS.uJ7MzkCWcnanoMoT",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 3800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

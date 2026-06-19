@@ -1,0 +1,22 @@
+{
+  "_id": "sTKu39v3wl64zoTi",
+  "_key": "!items!sTKu39v3wl64zoTi",
+  "name": "Command the Weather",
+  "type": "spell",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "school": "arcane",
+    "range": "100m radius.",
+    "duration": "Special.",
+    "effect": "This spell allows the Sorcerer to create a special weather condition in their vicinity. The spell only works outdoors, and the radius is limited to 100m. The spell works indefinitely as long as the sorcerer is stationary and concentrates on it. Command the Weather cannot be channeled. Weather options (Command Weather Table): Calm - Dissipates foul weather. Sailing ships may not move. Hot - Dries wet conditions. Land movement rates halved. Cold - Water and mud freeze. Icy surfaces slow movement rates by half. Severe winds - All movement rates halved. Movement via flight is impossible. The use of ranged weapons is impossible. In sandy or dusty terrain, reduce visibility to 6m range. Sailing ships move at double speed but must throw Watercraft/INT 8+ or suffer one Regular Damage result per 4 hours. Tornado - The sorcerer directs the whirlwind, which moves at 40m per round. The tornado may attack as an air elemental. Sea vessels struck by a tornado automatically suffer 1d6 Regular damage hits. Foggy - This thick fog reduces visibility range to 6m. Movement rates are reduced by half. Rainy - Ranged attacks suffer a -1 penalty to hit. Mud forms within 3 turns, which halves land movement rates. Blizzard - The snowstorm drops visibility to 6m range. Movement rates are halved. Characters take damage as per Arctic conditions.",
+    "critSuccess": "Radius is increased to one kilometer!"
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 19900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

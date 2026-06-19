@@ -1,0 +1,174 @@
+{
+  "_id": "By4qTvYtzJkmM6Mu",
+  "_key": "!actors!By4qTvYtzJkmM6Mu",
+  "name": "Cultist",
+  "type": "npc",
+  "img": "icons/svg/cowled.svg",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 6
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 7
+      },
+      "int": {
+        "value": 6
+      },
+      "edu": {
+        "value": 6
+      },
+      "soc": {
+        "value": 6
+      }
+    },
+    "lifeblood": {
+      "value": 14,
+      "max": 14
+    },
+    "stamina": {
+      "value": 7,
+      "max": 7
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A devoted, fanatical member of a horrible cult. They are used to operating in secrecy and will kill if given the order. Equipment: Short Sword (2d6), Throwing Steel (2d6), Leather Armor (4).",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": 1,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": 1,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "LbSXfR4VIOGwmjH1",
+      "_key": "!actors.items!By4qTvYtzJkmM6Mu.LbSXfR4VIOGwmjH1",
+      "name": "Short Sword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/swords-short.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "oX4unT6cb6gyEjso",
+      "_key": "!actors.items!By4qTvYtzJkmM6Mu.oX4unT6cb6gyEjso",
+      "name": "Throwing Steel",
+      "type": "weapon",
+      "img": "icons/weapons/thrown/throwing-trident-steel.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": true,
+        "ranged": true,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "VpqhWOiTqfeSVzaZ",
+      "_key": "!actors.items!By4qTvYtzJkmM6Mu.VpqhWOiTqfeSVzaZ",
+      "name": "Leather Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-reinforced-leather.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 4,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 10200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "hDiLZ3WOGwcGoXWx",
+  "_key": "!items!hDiLZ3WOGwcGoXWx",
+  "name": "Binding",
+  "type": "spell",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "10m",
+    "duration": "1 year, less a day",
+    "effect": "Casting Time: This spell requires 2d6 turns to cast. The spell's sorcerous energies magically chain an unwilling target to a location. This is usually a castle, valley, cave, or other well-defined, but not too confining area. The target must be present at the ritual, which usually requires it to be restrained, coerced, or even unconscious. After being bound to the location, the target cannot physically leave the location for the duration; the act of leaving is simply impossible.",
+    "critSuccess": "The duration is permanent."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 24000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

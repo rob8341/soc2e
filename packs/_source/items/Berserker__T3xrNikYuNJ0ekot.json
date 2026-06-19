@@ -1,0 +1,22 @@
+{
+  "_id": "T3xrNikYuNJ0ekot",
+  "_key": "!items!T3xrNikYuNJ0ekot",
+  "name": "Berserker!",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "This potion will drive the drinker into a barely contained bloodthirsty rage. They gain +2 to hit and damage on all melee attacks, as well as 3d6 bonus Stamina points. Enemies gain a +1 to hit berserkers. The rage lasts for 1d6+6 combat rounds. If no enemies remain standing, the berserker must roll INT 8+ to avoid attacking friends.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 25700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

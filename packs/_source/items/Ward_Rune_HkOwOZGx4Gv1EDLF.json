@@ -1,0 +1,22 @@
+{
+  "_id": "HkOwOZGx4Gv1EDLF",
+  "_key": "!items!HkOwOZGx4Gv1EDLF",
+  "name": "Ward Rune",
+  "type": "spell",
+  "img": "icons/magic/air/air-smoke-casting.webp",
+  "system": {
+    "school": "arcane",
+    "range": "3m radius.",
+    "duration": "12 turns (2 hours).",
+    "effect": "The Sorcerer draws a protective rune in the air which stops any spell or spell-like effect (including the Sorcerer's own magic) from passing. The barrier extends around the Sorcerer to a radius of 3m. The spell can be dismissed at will, or will last for the duration. Spells with a range of Self or Touch cast by the Sorcerer inside the Ward Rune are not blocked. The Ward Rune can be removed by a Quell Enchantment spell or similar effect or be dismissed by the sorcerer who cast it.",
+    "critSuccess": "The Ward Rune's duration is doubled."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 23500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

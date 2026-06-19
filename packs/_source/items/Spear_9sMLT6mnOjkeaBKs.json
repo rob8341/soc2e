@@ -1,0 +1,31 @@
+{
+  "_id": "9sMLT6mnOjkeaBKs",
+  "_key": "!items!9sMLT6mnOjkeaBKs",
+  "name": "Spear",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-flared-wrapped.webp",
+  "system": {
+    "description": "A wooden shaft or a sharpened or metal-tipped end, this is a basic, yet effective, melee weapon.",
+    "cost": "3gp",
+    "damage": "2d6+1",
+    "range": "",
+    "aspects": "Reach, Thrown",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": true,
+    "ranged": true,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 3200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,143 @@
+{
+  "_id": "OtRF19fgRxUkUkB8",
+  "_key": "!actors!OtRF19fgRxUkUkB8",
+  "name": "Degenerate",
+  "type": "npc",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 8
+      },
+      "int": {
+        "value": 5
+      },
+      "edu": {
+        "value": 5
+      },
+      "soc": {
+        "value": 2
+      }
+    },
+    "lifeblood": {
+      "value": 18,
+      "max": 18
+    },
+    "stamina": {
+      "value": 9,
+      "max": 9
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A half-feral human reduced to eking out an existence on the margins of society: either in the dungeons and crypts under the city, or in crumbling ruins in the wilderness. Degenerates are barely capable of speech and are quite comfortable resorting to cannibalism. Equipment: Hide Armor (3), Club (1d6).",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": 1,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "cAkXEUHysAs5PGMx",
+      "_key": "!actors.items!OtRF19fgRxUkUkB8.cAkXEUHysAs5PGMx",
+      "name": "Hide Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 3,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "OiGmMSGpC65S0iGZ",
+      "_key": "!actors.items!OtRF19fgRxUkUkB8.OiGmMSGpC65S0iGZ",
+      "name": "Club",
+      "type": "weapon",
+      "img": "icons/weapons/clubs/club-barbed.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "1d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 10400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

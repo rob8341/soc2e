@@ -1,0 +1,31 @@
+{
+  "_id": "ZH3UDqpNVGMrerqt",
+  "_key": "!items!ZH3UDqpNVGMrerqt",
+  "name": "Bola",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/bolas-stone.webp",
+  "system": {
+    "description": "These are thrown weapons made of weights on the ends of interconnected cords, designed to capture their target by entangling the legs. A bola will cause the target to be knocked down with a successful thrown entangling attack.",
+    "cost": "5gp",
+    "damage": "1d3",
+    "range": "",
+    "aspects": "Entangle, Thrown",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": true,
+    "ranged": true,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 1800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

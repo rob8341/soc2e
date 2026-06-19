@@ -1,0 +1,21 @@
+{
+  "_id": "oORaDioQaRY9Aiex",
+  "_key": "!items!oORaDioQaRY9Aiex",
+  "name": "Camel",
+  "type": "animal",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "A desert-dwelling animal about the size of a heavy horse. Can travel for up to two weeks without needing water. Does not carry water in its humps.",
+    "cost": "100gp",
+    "speed": 60,
+    "carryingCapacity": "125kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 15000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

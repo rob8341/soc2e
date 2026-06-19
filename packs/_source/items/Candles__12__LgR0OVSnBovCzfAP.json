@@ -1,0 +1,22 @@
+{
+  "_id": "LgR0OVSnBovCzfAP",
+  "_key": "!items!LgR0OVSnBovCzfAP",
+  "name": "Candles (12)",
+  "type": "adventuring",
+  "img": "icons/sundries/lights/candles-lit-red-evil.webp",
+  "system": {
+    "description": "Illuminates a radius of approximately 2m and burns for an hour.",
+    "cost": "5sp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 5700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

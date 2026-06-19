@@ -1,0 +1,22 @@
+{
+  "_id": "JzjuxZEOQpY7NEkX",
+  "_key": "!items!JzjuxZEOQpY7NEkX",
+  "name": "Cloak, winter",
+  "type": "adventuring",
+  "img": "icons/equipment/back/cloak-brown.webp",
+  "system": {
+    "description": "A heavy winter cloak.",
+    "cost": "15gp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 12000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "BZc9GyTIFNdsysZC",
+  "_key": "!items!BZc9GyTIFNdsysZC",
+  "name": "Lion Shaman's Mask",
+  "type": "adventuring",
+  "img": "icons/equipment/head/gas-mask.webp",
+  "system": {
+    "description": "Great cats treat the wearer of this mask as a friend rather than prey. They obey the mask wearer's commands and serve loyally. The effect persists until the wearer distances themselves by one kilometer or more from the great cats.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 29400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

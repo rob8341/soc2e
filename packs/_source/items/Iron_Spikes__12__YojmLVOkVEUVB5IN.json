@@ -1,0 +1,22 @@
+{
+  "_id": "YojmLVOkVEUVB5IN",
+  "_key": "!items!YojmLVOkVEUVB5IN",
+  "name": "Iron Spikes (12)",
+  "type": "adventuring",
+  "img": "icons/sundries/misc/horseshoe-iron.webp",
+  "system": {
+    "description": "Twelve metal pitons used to secure ropes, or to spike doors open or shut.",
+    "cost": "1gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 6600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

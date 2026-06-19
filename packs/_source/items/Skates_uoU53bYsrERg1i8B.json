@@ -1,0 +1,22 @@
+{
+  "_id": "uoU53bYsrERg1i8B",
+  "_key": "!items!uoU53bYsrERg1i8B",
+  "name": "Skates",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "Hard leather shoes with sharp blades fixed to their soles. Using skates doubles a character's movement rate on ice. Can also be used as a weapon, inflicting 1d6 damage on kicks.",
+    "cost": "4gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 18600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

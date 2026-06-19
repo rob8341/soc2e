@@ -1,0 +1,22 @@
+{
+  "_id": "HmiHX1tRGi98i54t",
+  "_key": "!items!HmiHX1tRGi98i54t",
+  "name": "Flaming Sword",
+  "type": "adventuring",
+  "img": "icons/weapons/swords/sword-guard.webp",
+  "system": {
+    "description": "By uttering a command word (determined by the Referee or player) this sword's blade ignites. A lit flaming sword functions exactly as a torch, and inflicts 1d6 Fire damage in addition to its normal damage. Flaming long swords and sabers are the most common, but flaming great swords are not unknown.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 28900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

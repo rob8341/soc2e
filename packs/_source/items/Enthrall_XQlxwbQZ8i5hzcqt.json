@@ -1,0 +1,22 @@
+{
+  "_id": "XQlxwbQZ8i5hzcqt",
+  "_key": "!items!XQlxwbQZ8i5hzcqt",
+  "name": "Enthrall",
+  "type": "spell",
+  "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+  "system": {
+    "school": "arcane",
+    "range": "20m.",
+    "duration": "Special.",
+    "effect": "This spell causes one living intelligent creature to consider the Sorcerer as a trusted friend and ally. The target must throw INT 10+ or be charmed. Large, powerful creatures such as dragons are immune to this effect at the Referee's discretion. If currently under attack by the sorcerer of the sorcerer's allies, the target enjoys an Advantage on this throw. The spell does not allow its caster to directly control the targets, but rather, the subject interprets the caster's words and actions in the most favorable way. The target will not do anything it would not normally do, and unusual requests will grant another INT 10+ throw to resist the effect. The caster must speak the subject's language to give commands. Of course, if the caster is attacked, the charmed creature will rush to defend its \"friend\". The subject receives another INT 10+ throw to resist the spell once a day if it has INT 10 or better, every week if it has INT 7-9, or every month if it has INT 6 or less. Casting the Quell Enchantment spell will instantly free the enthralled creature.",
+    "critSuccess": "The target is Enthralled as if their INT is one category lower."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 20600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

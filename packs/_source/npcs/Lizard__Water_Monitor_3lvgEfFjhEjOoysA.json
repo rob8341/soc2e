@@ -1,0 +1,143 @@
+{
+  "_id": "3lvgEfFjhEjOoysA",
+  "_key": "!actors!3lvgEfFjhEjOoysA",
+  "name": "Lizard, Water Monitor",
+  "type": "npc",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 4
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 4
+      },
+      "int": {
+        "value": 1
+      },
+      "edu": {
+        "value": 10
+      },
+      "soc": {
+        "value": 3
+      }
+    },
+    "lifeblood": {
+      "value": 10,
+      "max": 10
+    },
+    "stamina": {
+      "value": 5,
+      "max": 5
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "12kg Beast (Hunter), river walker and swimmer, #App: 1d6, Treasure: None. Teeth (1d6); armor 1; walk or swim 10m/action; Morale -2. The water monitor is a large lizard native to tropical rivers and jungles. It is quite intelligent and trainable as a pet. (Instinct 10, Pack 3)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "lYgB0kvAw1mlcyU3",
+      "_key": "!actors.items!3lvgEfFjhEjOoysA.lYgB0kvAw1mlcyU3",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 1,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "jmDPqAIXSuV2F50y",
+      "_key": "!actors.items!3lvgEfFjhEjOoysA.jmDPqAIXSuV2F50y",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "1d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 6300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

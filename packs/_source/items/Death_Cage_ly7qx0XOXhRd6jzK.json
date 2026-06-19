@@ -1,0 +1,22 @@
+{
+  "_id": "ly7qx0XOXhRd6jzK",
+  "_key": "!items!ly7qx0XOXhRd6jzK",
+  "name": "Death Cage",
+  "type": "spell",
+  "img": "icons/magic/death/grave-tombstone-glow-teal.webp",
+  "system": {
+    "school": "arcane",
+    "range": "50m, in a 10m square.",
+    "duration": "1Dx10 minutes.",
+    "effect": "The caster summons a cage to capture any number of targets in a 10m x 10m square. The cage has a 3m tall ceiling. The bars of the cage are coated with any number of toxic chemicals, psychedelics, or razor-sharp blades. Everyone trapped in the cage must roll to resist a Virulence 9 poison that does 1 point of damage every round. Breaking the cage requires a STR/10+ roll, and automatically does 2d6 damage to anyone making the attempt.",
+    "critSuccess": "The poison is Virulence 10 and does 1D3 points of damage."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 20500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

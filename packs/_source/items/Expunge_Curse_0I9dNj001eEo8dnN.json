@@ -1,0 +1,22 @@
+{
+  "_id": "0I9dNj001eEo8dnN",
+  "_key": "!items!0I9dNj001eEo8dnN",
+  "name": "Expunge Curse",
+  "type": "spell",
+  "img": "icons/magic/death/grave-tombstone-glow-teal.webp",
+  "system": {
+    "school": "arcane",
+    "range": "10m.",
+    "duration": "Instantaneous.",
+    "effect": "This spell instantaneously removes all curses from one target creature per Sorcery skill level (1 creature at Sorcery 0 or 1). If cast on a cursed item, the spell does not remove the curse from the item itself but allows the item's bearer to get rid of it.",
+    "critSuccess": "The spell can permanently remove a curse from a cursed item."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 20800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

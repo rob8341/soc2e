@@ -1,0 +1,31 @@
+{
+  "_id": "ppaX3QjBvKNAp0mx",
+  "_key": "!items!ppaX3QjBvKNAp0mx",
+  "name": "Bow, short",
+  "type": "weapon",
+  "img": "icons/weapons/bows/bow-recurve-black.webp",
+  "system": {
+    "description": "A short bow made of a single piece of wood or bamboo. The easiest bow to make using non-specialist types of timber. This bow may be fired from horseback. Loading a bow is a free action done as part of the firing or aiming action.",
+    "cost": "3gp",
+    "damage": "2d6",
+    "range": "30/60",
+    "aspects": "",
+    "ammo": 0,
+    "ammoMax": 20,
+    "ammoCost": "1gp",
+    "ammoType": "Arrows",
+    "thrown": false,
+    "ranged": true,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 4500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "d9n0Xv00kKXR4bR6",
+  "_key": "!items!d9n0Xv00kKXR4bR6",
+  "name": "Nunchaku",
+  "type": "weapon",
+  "img": "icons/weapons/misc/nunchaku.webp",
+  "system": {
+    "description": "Two wooden or metal bars connected by a small length of rope or chain.",
+    "cost": "2gp",
+    "damage": "2d6+1",
+    "range": "",
+    "aspects": "-",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 17100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

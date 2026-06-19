@@ -1,0 +1,24 @@
+{
+  "name": "soc2e",
+  "version": "1.0.0",
+  "description": "A Foundry VTT game system for **The Sword of Cepheus 2nd Edition**, a 2d6 fantasy RPG based on Traveller mechanics.",
+  "main": "soc2e.js",
+  "private": true,
+  "scripts": {
+    "build:packs": "node scripts/build-packs.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rob8341/soc2e.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rob8341/soc2e/issues"
+  },
+  "homepage": "https://github.com/rob8341/soc2e#readme"
+}

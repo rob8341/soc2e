@@ -1,0 +1,174 @@
+{
+  "_id": "B1uXPzoyH73TO1RJ",
+  "_key": "!actors!B1uXPzoyH73TO1RJ",
+  "name": "Dinosaur, Triceratops",
+  "type": "npc",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 25
+      },
+      "dex": {
+        "value": 5
+      },
+      "end": {
+        "value": 25
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 10
+      }
+    },
+    "lifeblood": {
+      "value": 52,
+      "max": 52
+    },
+    "stamina": {
+      "value": 26,
+      "max": 26
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "10000kg Beast (Intermittent), plains walker, #App: 3d6, Treasure: None. Trample (3d6), horns (4d6); armor 5; speed 10m/action; Morale +0. The mighty triceratops is a medium-sized (for a dinosaur, that is) herbivore, sometimes tamed by barbarian tribes as a beast of burden.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 0,
+      "naturalphilosophy": -3,
+      "scout": 0,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "XRIhIlMJdJlD3h6l",
+      "_key": "!actors.items!B1uXPzoyH73TO1RJ.XRIhIlMJdJlD3h6l",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 5,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "bWpR3BYLyc1bBz1t",
+      "_key": "!actors.items!B1uXPzoyH73TO1RJ.bWpR3BYLyc1bBz1t",
+      "name": "Trample",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "phgkipftzkMubdyt",
+      "_key": "!actors.items!B1uXPzoyH73TO1RJ.phgkipftzkMubdyt",
+      "name": "Horns",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "4d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 3100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

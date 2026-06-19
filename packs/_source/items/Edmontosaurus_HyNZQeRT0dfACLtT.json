@@ -1,0 +1,21 @@
+{
+  "_id": "HyNZQeRT0dfACLtT",
+  "_key": "!items!HyNZQeRT0dfACLtT",
+  "name": "Edmontosaurus",
+  "type": "animal",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "A bulky four-legged dinosaur weighing up to 4 tons, with a long, laterally flattened tail and a duck-like beak. Quite docile and easily tamed. War-trained costs 3000gp.",
+    "cost": "900gp",
+    "speed": 30,
+    "carryingCapacity": "1000kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 15600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

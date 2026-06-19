@@ -1,0 +1,22 @@
+{
+  "_id": "CKoxgm1FAjfDMcWF",
+  "_key": "!items!CKoxgm1FAjfDMcWF",
+  "name": "Banishment",
+  "type": "spell",
+  "img": "icons/magic/time/day-night-sun-moon.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "10m",
+    "duration": "One Year",
+    "effect": "Casting Time: This spell requires 2d6 turns to cast. The target of this spell is forced to leave a 50km radius from the point of casting. This ritual requires that the target be subdued or immobile. If the casting is successful, the target feels an urgent compulsion to leave. Any delay will cause 1D3 damage per hour\u2014it is likely the target will take damage as they depart! If anyone subject to the Banishment ritual attempts to re-enter the forbidden region, their skin blisters and their body is wracked with pain: they suffer 1d6 damage per exploration turn.",
+    "critSuccess": "The banishment is permanent."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 23900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

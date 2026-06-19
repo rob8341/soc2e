@@ -1,0 +1,21 @@
+{
+  "_id": "ThRRk7GWSkhWq2Vb",
+  "_key": "!items!ThRRk7GWSkhWq2Vb",
+  "name": "Elephant",
+  "type": "animal",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "One of the mightiest and most memorable animals. A war-trained elephant costs 3500gp.",
+    "cost": "1000gp",
+    "speed": 15,
+    "carryingCapacity": "1250kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 15700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

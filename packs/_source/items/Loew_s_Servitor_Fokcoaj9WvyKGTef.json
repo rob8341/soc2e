@@ -1,0 +1,22 @@
+{
+  "_id": "Fokcoaj9WvyKGTef",
+  "_key": "!items!Fokcoaj9WvyKGTef",
+  "name": "Loew's Servitor",
+  "type": "spell",
+  "img": "icons/magic/water/pseudopod-teal.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "N/A",
+    "duration": "Permanent",
+    "effect": "Casting Time: This spell requires 2d6 turns to cast. It cannot be channeled. The caster creates an artificial servant fashioned out of clay or stone. The golem will do whatever the caster commands. Care must be given in how commands are phrased, as the golem is an unthinking automaton powered by dark magicks. Worse still, after 1d6 weeks of service, the golem will begin to revolt against its orders. Roll 2d6 every time a command is given: on a result of 2, the golem will act out, rolling on the Golem Revolt Table (1: Secretly destroying property in nearby villages and towns at night. 2: Killing livestock in a gruesome fashion; no one knows who the culprit is. 3: Defacing local public venues with strange graffiti symbols that seem magical in nature, but really only subtly incriminate the golem's master. 4: Ignoring commands and standing still like a statue at the most inopportune times. 5: Kidnapping a young child! The local villagers will be distressed and might be suspicious of any sorcerers known to operate in the area. 6: Going on a killing spree, killing people and animals at random in broad daylight!).",
+    "critSuccess": "The golem will not revolt for 2d6 weeks."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 24600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

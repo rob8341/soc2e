@@ -1,0 +1,22 @@
+{
+  "_id": "1pSZVPEJqzCN2fFr",
+  "_key": "!items!1pSZVPEJqzCN2fFr",
+  "name": "Soap",
+  "type": "adventuring",
+  "img": "icons/sundries/survival/soap.webp",
+  "system": {
+    "description": "Used to clean clothing and people.",
+    "cost": "Soap",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 14600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

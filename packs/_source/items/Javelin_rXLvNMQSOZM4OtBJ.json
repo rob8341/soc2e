@@ -1,0 +1,31 @@
+{
+  "_id": "rXLvNMQSOZM4OtBJ",
+  "_key": "!items!rXLvNMQSOZM4OtBJ",
+  "name": "Javelin",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/javelin.webp",
+  "system": {
+    "description": "A short spear balanced for throwing, a javelin has much greater range than a spear.",
+    "cost": "5gp",
+    "damage": "2d6",
+    "range": "20/40",
+    "aspects": "",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": true,
+    "ranged": true,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 4700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

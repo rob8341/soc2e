@@ -1,0 +1,21 @@
+{
+  "_id": "cdWFMFzRfHMrtFmY",
+  "_key": "!items!cdWFMFzRfHMrtFmY",
+  "name": "Donkey",
+  "type": "animal",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "A sturdy ass. A hardy and sure-footed beast of burden and draft animal.",
+    "cost": "8gp",
+    "speed": 24,
+    "carryingCapacity": "40kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 15500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

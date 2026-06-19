@@ -1,0 +1,24 @@
+{
+  "_id": "nYCsXoblu17rNy8H",
+  "_key": "!items!nYCsXoblu17rNy8H",
+  "name": "Barding, chain",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-scale-leather.webp",
+  "system": {
+    "description": "Armor for a light warhorse made from chain. Barding for other riding creatures have costs that vary with the animal size.",
+    "cost": "150gp",
+    "shield": false,
+    "protection": 5,
+    "sneakModifier": -2,
+    "encumbrance": 30,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "nKYaXRvj7uff0LYT",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

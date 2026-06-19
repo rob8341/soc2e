@@ -1,0 +1,119 @@
+{
+  "_id": "IAvbwCPTnI96xlUa",
+  "_key": "!actors!IAvbwCPTnI96xlUa",
+  "name": "Farmer",
+  "type": "npc",
+  "img": "icons/skills/trades/farming-wheat-circle-yellow.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 8
+      },
+      "int": {
+        "value": 7
+      },
+      "edu": {
+        "value": 5
+      },
+      "soc": {
+        "value": 6
+      }
+    },
+    "lifeblood": {
+      "value": 16,
+      "max": 16
+    },
+    "stamina": {
+      "value": 8,
+      "max": 8
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A stout peasant farmer, the backbone of any fantasy world. Equipment: Pitchfork (2d6).",
+    "skills": {
+      "alchemy": -3,
+      "animals": 1,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": 1,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": -3,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": 1,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "BGatfwp5LcrDcRpM",
+      "_key": "!actors.items!IAvbwCPTnI96xlUa.BGatfwp5LcrDcRpM",
+      "name": "Pitchfork",
+      "type": "weapon",
+      "img": "icons/weapons/polearms/spear-flared-wrapped.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 10600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

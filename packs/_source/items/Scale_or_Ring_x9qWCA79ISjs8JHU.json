@@ -1,0 +1,24 @@
+{
+  "_id": "x9qWCA79ISjs8JHU",
+  "_key": "!items!x9qWCA79ISjs8JHU",
+  "name": "Scale or Ring",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-scale-leather.webp",
+  "system": {
+    "description": "Armor manufactured of many small metal, leather, or horn scales, or rings attached to a backing material such as cloth or leather.",
+    "cost": "30gp",
+    "shield": false,
+    "protection": 5,
+    "sneakModifier": -2,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "nKYaXRvj7uff0LYT",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

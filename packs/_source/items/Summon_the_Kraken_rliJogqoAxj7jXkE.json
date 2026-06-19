@@ -1,0 +1,22 @@
+{
+  "_id": "rliJogqoAxj7jXkE",
+  "_key": "!items!rliJogqoAxj7jXkE",
+  "name": "Summon the Kraken",
+  "type": "spell",
+  "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "Special",
+    "duration": "1 day",
+    "effect": "Casting Time: This spell requires 2d6 turns to cast. This spell works only in the open sea, and calls a giant octopus (p.267), to serve as the sorcerer's companion. The cephalopod will take 2d6 turns to arrive, and will travel as close as possible to the sorcerer: near their boat, along the shore, etc. For the spell's duration, the kraken will serve as a friend and companion; it will even allow the sorcerer to ride it, or attack ships and monsters at their command. The spell persists until the creature is slain, the spell is broken with quell enchantment, or one day passes (at that time, the squid departs). The sorcerer may increase the spell's duration by casting it again a short time before that day ends.",
+    "critSuccess": "The spell's duration is increased to one week."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 25400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

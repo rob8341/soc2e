@@ -1,0 +1,87 @@
+{
+  "_id": "UaK9gGaL9V5DuAw3",
+  "_key": "!actors!UaK9gGaL9V5DuAw3",
+  "name": "Green Slime",
+  "type": "npc",
+  "img": "icons/creatures/slimes/slime-bubble-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 10
+      },
+      "dex": {
+        "value": 5
+      },
+      "end": {
+        "value": 10
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 20,
+      "max": 20
+    },
+    "stamina": {
+      "value": 10,
+      "max": 10
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "100kg Beast (Reducer), subterranean crawler, #App: 1, Treasure: None. Special attack; armor 0; speed 1.5m/action; Morale: automatic success. This mobile viscous green slime feeds on plants, animals, and metals, including weapons and armor. Green slime cannot dissolve stone. The slime will typically lurk on a ceiling or other high place, then drop upon an unsuspecting victim and attempt to engulf it. The victim of dropping green slime must throw DEX 8+ or be engulfed. The slime will completely digest an engulfed creature within 2d6 rounds. No magic can bring back a digested creature or its possessions. The slime is immune to all non-magical weapons but suffers double damage from any source of fire; even a lit torch will cause it 2d6 damage per attack. The engulfed victim, however, also suffers from such fire damage: victims take half the fire damage the slime takes (rounded up). A Restoration spell will immediately remove the slime from its victim. Immune to mind-affecting spells. (Instinct 0, Pack 7)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 0,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 0,
+      "naturalphilosophy": -3,
+      "scout": 0,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 0,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 5200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

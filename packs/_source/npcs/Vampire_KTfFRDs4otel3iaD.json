@@ -1,0 +1,174 @@
+{
+  "_id": "KTfFRDs4otel3iaD",
+  "_key": "!actors!KTfFRDs4otel3iaD",
+  "name": "Vampire",
+  "type": "npc",
+  "img": "icons/magic/death/mouth-bite-fangs-vampire.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 11
+      },
+      "end": {
+        "value": 12
+      },
+      "int": {
+        "value": 12
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 30,
+      "max": 30
+    },
+    "stamina": {
+      "value": 15,
+      "max": 15
+    },
+    "spellcaster": true,
+    "monster": true,
+    "notes": "100kg Undead, urban walker, #App: 1d6, Treasure: Large. Claws (2d6), Bite (3d6); armor 5; walks 10m/action, flies 10m/action; Morale +3. One of the greatest and most fearsome undead beings, the vampire is a sophisticated predatory corpse. Vampires are cursed to persist for eternity and sustain themselves on the blood of innocents, possessing inhuman fortitude. Undead: immune to poison, disease, and suffocation. Immune to mind-affecting magic. Vampires may only be harmed by silver or magical weapons. On a successful bite attack, the vampire heals itself half as much damage (rounded down) as it has caused its victim. Vampires suffer 1d6 damage per round of exposure to direct sunlight or submersion in running water. If confidently confronted by a holy symbol of a good deity, a mirror, or garlic, a vampire will keep a 3m distance from the offending item and will try to circumvent it with a ranged or flanking attack, or spell. Vampires possess 1d6 spells, chosen randomly. They do not suffer Corruption if channeling. Any character slain by a vampire will rise as a vampire the following midnight. The new vampire will be under the control of the vampire that killed the character. Decapitating the corpse, or driving a stake through its heart will prevent the new vampire from rising. Vampires may, three times a day, attempt to enthrall a target, as per the Enthrall spell. The target must throw INT 8+ to avoid the effect. A vampire may shape-change, at will into either a dire wolf or a giant bat. Three times a day, a vampire may summon 1d6 bat swarms (treat as insect swarms) when underground or 1d6 dire wolves when above ground. The monsters will arrive within 2d6 rounds. Reducing a vampire's three physical characteristics to zero does not slay it. It merely forces the vampire into a gaseous form. A gaseous vampire may pass through any crack, is immune to all damage except for direct sunlight (which will slay it instantly) and will attempt to reach its coffin as soon as possible. It will reform into its corporeal form, with full characteristics, after 24 hours of rest in its coffin. Even if all its coffins are destroyed, the vampire will not be destroyed, but rather forced into gaseous form until a minion builds a new coffin for it. Driving a stake into a vampire's heart will paralyze it, but not destroy it. It will revive once the stake is removed. Decapitating a resting vampire in its coffin after its heart has been staked will destroy the monster. Vampires suffer 1d6 damage per round in direct sunlight.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": 2,
+      "sorcery": 2,
+      "sneak": 2,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 2,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "ulqeQ0K8KEpgYJ9Z",
+      "_key": "!actors.items!KTfFRDs4otel3iaD.ulqeQ0K8KEpgYJ9Z",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 5,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "GkjfsTCT9pEwavS3",
+      "_key": "!actors.items!KTfFRDs4otel3iaD.GkjfsTCT9pEwavS3",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "W13KgQTb81OiEpT8",
+      "_key": "!actors.items!KTfFRDs4otel3iaD.W13KgQTb81OiEpT8",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 8600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "Uk98YhA9A9MZp44e",
+  "_key": "!items!Uk98YhA9A9MZp44e",
+  "name": "Hourglass",
+  "type": "adventuring",
+  "img": "icons/tools/navigation/hourglass.webp",
+  "system": {
+    "description": "A specially blown tube of curved glass set into a wooden or brass frame, filled with fine sand that takes exactly an hour's time to pass through.",
+    "cost": "25gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 18300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

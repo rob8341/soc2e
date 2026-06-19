@@ -1,0 +1,22 @@
+{
+  "_id": "5TGWi2Y6PiSCSGa5",
+  "_key": "!items!5TGWi2Y6PiSCSGa5",
+  "name": "Vulcan Lens",
+  "type": "adventuring",
+  "img": "icons/tools/scribal/lens-blue.webp",
+  "system": {
+    "description": "This palm-sized copper lens can be activated at will. Five rounds after activation, it will create an area of intense heat in a 5m radius. Everything in the radius takes 4d6 damage (2d6 AV) for 1d3+1 rounds. Creatures in the area of effect can roll END 10+ to take half damage. Once used, the Vulcan Lens melts to slag.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 30800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

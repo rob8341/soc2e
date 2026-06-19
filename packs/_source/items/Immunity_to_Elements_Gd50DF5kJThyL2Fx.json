@@ -1,0 +1,22 @@
+{
+  "_id": "Gd50DF5kJThyL2Fx",
+  "_key": "!items!Gd50DF5kJThyL2Fx",
+  "name": "Immunity to Elements",
+  "type": "spell",
+  "img": "icons/magic/fire/flame-burning-skeleton-explosion.webp",
+  "system": {
+    "school": "arcane",
+    "range": "Touch.",
+    "duration": "6 turns.",
+    "effect": "This spell grants one creature per Sorcery skill level (one creature at Sorcery 0 or 1) complete immunity to one elemental force: cold, electricity, or fire for its duration. The immunity also protects any items the creature is carrying.",
+    "critSuccess": "Duration is 6 hours rather than 6 turns."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 21300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

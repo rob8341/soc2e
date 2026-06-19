@@ -1,0 +1,22 @@
+{
+  "_id": "FVr9Qh8yXv6UmFFc",
+  "_key": "!items!FVr9Qh8yXv6UmFFc",
+  "name": "Cheese, 1kg",
+  "type": "adventuring",
+  "img": "icons/consumables/food/cheese-cube-gold.webp",
+  "system": {
+    "description": "One kilogram of cheese.",
+    "cost": "1sp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 9500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

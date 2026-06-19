@@ -1,0 +1,167 @@
+{
+  "_id": "eBFouxZzN2iuWuzO",
+  "_key": "!actors!eBFouxZzN2iuWuzO",
+  "name": "Berserker",
+  "type": "npc",
+  "img": "icons/weapons/axes/axe-battle.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 10
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 12
+      },
+      "int": {
+        "value": 6
+      },
+      "edu": {
+        "value": 5
+      },
+      "soc": {
+        "value": 5
+      }
+    },
+    "lifeblood": {
+      "value": 28,
+      "max": 28
+    },
+    "stamina": {
+      "value": 14,
+      "max": 14
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A warrior who works themselves up into a bloodthirsty frenzy in battle! They are fearless and fearsome fighters who scorn heavy armor. Berserkers never check morale while in their frenzy. Equipment: Hide Armor (3), Battleaxe (3d6), Shield.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 2,
+      "archery": -3,
+      "battle": 1,
+      "carousing": 1,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "D8Mjc54bLYFWFKvn",
+      "_key": "!actors.items!eBFouxZzN2iuWuzO.D8Mjc54bLYFWFKvn",
+      "name": "Hide Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 3,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ZcTx9ee6nFJHzT0G",
+      "_key": "!actors.items!eBFouxZzN2iuWuzO.ZcTx9ee6nFJHzT0G",
+      "name": "Battleaxe",
+      "type": "weapon",
+      "img": "icons/weapons/axes/axe-broad-hooked.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "dDGBqZsppVwCUhoT",
+      "_key": "!actors.items!eBFouxZzN2iuWuzO.dDGBqZsppVwCUhoT",
+      "name": "Shield",
+      "type": "armor",
+      "img": "icons/equipment/shield/shield-round-boss-wood-brown.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": true,
+        "protection": -1,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 9800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

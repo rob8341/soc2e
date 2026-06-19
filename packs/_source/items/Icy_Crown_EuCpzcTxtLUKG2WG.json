@@ -1,0 +1,22 @@
+{
+  "_id": "EuCpzcTxtLUKG2WG",
+  "_key": "!items!EuCpzcTxtLUKG2WG",
+  "name": "Icy Crown",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "The wearer of this crown is immune to cold, both natural and magical. Additionally, once per week, the wearer may invoke an ice storm identical to the one created by the Invoke the Frozen Wastes spell at level 2.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 29300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

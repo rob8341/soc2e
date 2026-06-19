@@ -1,0 +1,185 @@
+{
+  "_id": "I9CJdMEB7kIIdv1j",
+  "_key": "!actors!I9CJdMEB7kIIdv1j",
+  "name": "Sorcerer",
+  "type": "npc",
+  "img": "icons/svg/mage-shield.svg",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 6
+      },
+      "dex": {
+        "value": 6
+      },
+      "end": {
+        "value": 10
+      },
+      "int": {
+        "value": 10
+      },
+      "edu": {
+        "value": 12
+      },
+      "soc": {
+        "value": 8
+      }
+    },
+    "lifeblood": {
+      "value": 20,
+      "max": 20
+    },
+    "stamina": {
+      "value": 10,
+      "max": 10
+    },
+    "spellcaster": true,
+    "monster": false,
+    "notes": "A powerful magic user well-trained in various arts. This sorcerer knows at least 4 spells, and is also familiar with techniques for brewing potions and for summoning otherworldly servitors. Known Spells: Animate Dead, Enthrall, Killing Fog, Mirage. Equipment: Spellbook, Ink bottles, Quills, Dagger (2d6).",
+    "skills": {
+      "alchemy": 1,
+      "animals": -3,
+      "artifice": 1,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": 1,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": 1,
+      "healing": 1,
+      "meleecombat": -3,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": 2,
+      "sneak": 1,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": 2,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "QeSJ6TSER69nCHPu",
+      "_key": "!actors.items!I9CJdMEB7kIIdv1j.QeSJ6TSER69nCHPu",
+      "name": "Spellbook",
+      "type": "adventuring",
+      "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "J26iHQtaLSwh8MGT",
+      "_key": "!actors.items!I9CJdMEB7kIIdv1j.J26iHQtaLSwh8MGT",
+      "name": "Ink bottles",
+      "type": "adventuring",
+      "img": "icons/tools/scribal/ink-quill-pink.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "TpLVllOEhf6J6yzR",
+      "_key": "!actors.items!I9CJdMEB7kIIdv1j.TpLVllOEhf6J6yzR",
+      "name": "Quills",
+      "type": "adventuring",
+      "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ivfwR2Elyo9NvUGb",
+      "_key": "!actors.items!I9CJdMEB7kIIdv1j.ivfwR2Elyo9NvUGb",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-blue.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 12300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

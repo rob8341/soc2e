@@ -1,0 +1,174 @@
+{
+  "_id": "gAfOJppfFhPllyf2",
+  "_key": "!actors!gAfOJppfFhPllyf2",
+  "name": "Demon, Fiend",
+  "type": "npc",
+  "img": "icons/creatures/unholy/demon-fire-imp.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 18
+      },
+      "dex": {
+        "value": 12
+      },
+      "end": {
+        "value": 18
+      },
+      "int": {
+        "value": 12
+      },
+      "edu": {
+        "value": 10
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 40,
+      "max": 40
+    },
+    "stamina": {
+      "value": 20,
+      "max": 20
+    },
+    "spellcaster": true,
+    "monster": true,
+    "notes": "100kg Outsider, extraplanar flyer, #App: 1, Treasure: None. Claws (3d6), maw (4d6); armor 9; flies 20m/action; Morale +2. Fiends are the mightiest of demons, a scourge upon the earth: princes of destruction and corruption. Immune to all weapons except for magical weapons. Immune to poison and disease. Knows 2d6 spells. In addition to using them itself, it may also teach them to its mortal allies or summoners. Enjoys Advantage to resist hostile magic. The Fiend possesses four special abilities, per the Demonic Powers table.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 2,
+      "archery": -3,
+      "battle": 2,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": 2,
+      "sorcery": 3,
+      "sneak": 2,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "sKCPMq72llUL2gHa",
+      "_key": "!actors.items!gAfOJppfFhPllyf2.sKCPMq72llUL2gHa",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 9,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "hkDQ17LEM8wPQysh",
+      "_key": "!actors.items!gAfOJppfFhPllyf2.hkDQ17LEM8wPQysh",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "aga81mOOBMWlsCDb",
+      "_key": "!actors.items!gAfOJppfFhPllyf2.aga81mOOBMWlsCDb",
+      "name": "Maw",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "4d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 2500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

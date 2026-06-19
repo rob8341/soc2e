@@ -1,0 +1,143 @@
+{
+  "_id": "2Uo3lbPCq5fAjFFd",
+  "_key": "!actors!2Uo3lbPCq5fAjFFd",
+  "name": "Troll",
+  "type": "npc",
+  "img": "icons/creatures/magical/humanoid-silhouette-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 15
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 10
+      },
+      "int": {
+        "value": 8
+      },
+      "edu": {
+        "value": 4
+      },
+      "soc": {
+        "value": 5
+      }
+    },
+    "lifeblood": {
+      "value": 22,
+      "max": 22
+    },
+    "stamina": {
+      "value": 11,
+      "max": 11
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "200kg Humanoid, underground walker, #App: 2d6, Treasure: Small. Claws (2d6+3); armor 4; speed 10m/action; Morale 0. Tall (2m), highly intelligent, predatory humanoids with greenish, rubbery skin and an appetite for human flesh. Trolls can regenerate! Once per day, they may restore all their Stamina and Lifeblood. This takes 1d6 rounds and will automatically happen if the Troll is killed.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": 1,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": 1,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "qgOTAsyKGEAQO7nd",
+      "_key": "!actors.items!2Uo3lbPCq5fAjFFd.qgOTAsyKGEAQO7nd",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 4,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "cqegoMSygT2qmWvr",
+      "_key": "!actors.items!2Uo3lbPCq5fAjFFd.cqegoMSygT2qmWvr",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6+3",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 8500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

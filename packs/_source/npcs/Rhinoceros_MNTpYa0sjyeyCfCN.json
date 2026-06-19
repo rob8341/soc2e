@@ -1,0 +1,174 @@
+{
+  "_id": "MNTpYa0sjyeyCfCN",
+  "_key": "!actors!MNTpYa0sjyeyCfCN",
+  "name": "Rhinoceros",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 20
+      },
+      "dex": {
+        "value": 3
+      },
+      "end": {
+        "value": 20
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 10
+      }
+    },
+    "lifeblood": {
+      "value": 46,
+      "max": 46
+    },
+    "stamina": {
+      "value": 23,
+      "max": 23
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "5000kg Beast (Intermittent), plains walker, #App: 3d6, Treasure: None. Trample (3d6), horn (3d6); armor 4; walk 20m/action; Morale -2. A large land mammal, the rhinoceros is notorious for its bad temper. A rhinoceros may charge at a target at least 20m away from it. A successful charge attack causes double horn and trample (both!) damage. (Instinct 9, Pack 10)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "3CfT45Vmut9ERDrc",
+      "_key": "!actors.items!MNTpYa0sjyeyCfCN.3CfT45Vmut9ERDrc",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 4,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "jDNtbLx6wADd17Qq",
+      "_key": "!actors.items!MNTpYa0sjyeyCfCN.jDNtbLx6wADd17Qq",
+      "name": "Trample",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "NfezsS2GPqZf3vUk",
+      "_key": "!actors.items!MNTpYa0sjyeyCfCN.NfezsS2GPqZf3vUk",
+      "name": "Horn",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 7500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "qZuJJEvQdgWCh1Ba",
+  "_key": "!items!qZuJJEvQdgWCh1Ba",
+  "name": "Spices, rare",
+  "type": "adventuring",
+  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "system": {
+    "description": "Rare spices include saffron, cinnamon, and nutmeg.",
+    "cost": "15gp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 14800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

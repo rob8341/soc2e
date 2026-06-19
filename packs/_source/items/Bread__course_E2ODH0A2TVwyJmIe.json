@@ -1,0 +1,22 @@
+{
+  "_id": "E2ODH0A2TVwyJmIe",
+  "_key": "!items!E2ODH0A2TVwyJmIe",
+  "name": "Bread, course",
+  "type": "adventuring",
+  "img": "icons/consumables/food/bread-toast-tan.webp",
+  "system": {
+    "description": "Coarse bread.",
+    "cost": "2cp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 9400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

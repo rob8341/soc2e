@@ -1,0 +1,22 @@
+{
+  "_id": "DDBRtsYh0OPk9pkj",
+  "_key": "!items!DDBRtsYh0OPk9pkj",
+  "name": "Belladonna",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "Also known as deadly nightshade, a poisonous flower. Eating 0.5kg within one hour of being infected with lycanthropy allows an END 8+ throw to resist the affliction; failure means death within 10 minutes.",
+    "cost": "10gp",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "IqK3yn9FfcgMXAdx",
+  "sort": 13700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

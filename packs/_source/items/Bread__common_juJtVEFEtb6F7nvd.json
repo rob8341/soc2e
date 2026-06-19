@@ -1,0 +1,22 @@
+{
+  "_id": "juJtVEFEtb6F7nvd",
+  "_key": "!items!juJtVEFEtb6F7nvd",
+  "name": "Bread, common",
+  "type": "adventuring",
+  "img": "icons/consumables/food/bread-toast-tan.webp",
+  "system": {
+    "description": "Common bread.",
+    "cost": "5cp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 9300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "yshA6P3MsHarAJOC",
+  "_key": "!items!yshA6P3MsHarAJOC",
+  "name": "Axe, battle",
+  "type": "weapon",
+  "img": "icons/weapons/axes/axe-battle-heavy-jagged.webp",
+  "system": {
+    "description": "A large axe designed for war.",
+    "cost": "7gp",
+    "damage": "3d6",
+    "range": "",
+    "aspects": "AV 1d6",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 1400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

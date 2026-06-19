@@ -1,0 +1,22 @@
+{
+  "_id": "T8KG9ssn1bYQrII5",
+  "_key": "!items!T8KG9ssn1bYQrII5",
+  "name": "Bow of the Hunt",
+  "type": "adventuring",
+  "img": "icons/weapons/bows/bow-recurve-black.webp",
+  "system": {
+    "description": "This finely crafted composite bow treats all attacks as if they were made at Effective range.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 27700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

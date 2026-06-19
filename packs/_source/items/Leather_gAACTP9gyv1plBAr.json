@@ -1,0 +1,24 @@
+{
+  "_id": "gAACTP9gyv1plBAr",
+  "_key": "!items!gAACTP9gyv1plBAr",
+  "name": "Leather",
+  "type": "armor",
+  "img": "icons/equipment/chest/vest-reinforced-leather.webp",
+  "system": {
+    "description": "Armor made from hardened leather or laminated linen.",
+    "cost": "20gp",
+    "shield": false,
+    "protection": 4,
+    "sneakModifier": 0,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "nKYaXRvj7uff0LYT",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

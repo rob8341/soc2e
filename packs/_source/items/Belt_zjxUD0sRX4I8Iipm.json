@@ -1,0 +1,22 @@
+{
+  "_id": "zjxUD0sRX4I8Iipm",
+  "_key": "!items!zjxUD0sRX4I8Iipm",
+  "name": "Belt",
+  "type": "adventuring",
+  "img": "icons/equipment/waist/belt-rope.webp",
+  "system": {
+    "description": "A clothing belt.",
+    "cost": "4sp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 11600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

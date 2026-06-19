@@ -1,0 +1,143 @@
+{
+  "_id": "SRUpT6Z2GLL7P2Gn",
+  "_key": "!actors!SRUpT6Z2GLL7P2Gn",
+  "name": "Lizard, Megalania",
+  "type": "npc",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 15
+      },
+      "dex": {
+        "value": 5
+      },
+      "end": {
+        "value": 15
+      },
+      "int": {
+        "value": 1
+      },
+      "edu": {
+        "value": 12
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 36,
+      "max": 36
+    },
+    "stamina": {
+      "value": 18,
+      "max": 18
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "1500kg Beast (Pouncer), desert walker, #App: 1, Treasure: None. Teeth (4d6); armor 3; walk 10m/action; Morale +0. The Komodo dragon's enormous prehistoric relative, this massive lizard may grow up to 7m in length and has teeth as large and as sharp as swords - coupled with deadly venom. Venom: 10+/5D delivered by bite. Takes 1d6 turns to take effect. (Instinct 12, Pack 0)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 3,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 3,
+      "naturalphilosophy": -3,
+      "scout": 2,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 2,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "e0F7Axxh4pHVhssn",
+      "_key": "!actors.items!SRUpT6Z2GLL7P2Gn.e0F7Axxh4pHVhssn",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 3,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "TJns5NZcCMEwMuva",
+      "_key": "!actors.items!SRUpT6Z2GLL7P2Gn.TJns5NZcCMEwMuva",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "4d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 6200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

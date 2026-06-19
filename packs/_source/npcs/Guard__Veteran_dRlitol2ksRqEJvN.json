@@ -1,0 +1,198 @@
+{
+  "_id": "dRlitol2ksRqEJvN",
+  "_key": "!actors!dRlitol2ksRqEJvN",
+  "name": "Guard, Veteran",
+  "type": "npc",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 9
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 8
+      },
+      "int": {
+        "value": 7
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 6
+      }
+    },
+    "lifeblood": {
+      "value": 18,
+      "max": 18
+    },
+    "stamina": {
+      "value": 9,
+      "max": 9
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A tough and experienced member of the city watch. Some veteran guards attain their rank thanks to competence and dedication. Others are in command because they have the right friends and send a portion of their kickbacks up the chain of command. Equipment: Scale Armor (5), Sword (3d6), Dagger (2d6), Shield.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": 1,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": 1,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "BNZcZxHnRvYXmRFZ",
+      "_key": "!actors.items!dRlitol2ksRqEJvN.BNZcZxHnRvYXmRFZ",
+      "name": "Scale Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-scale-leather.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 5,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "XfVqCbhOliKxxKcR",
+      "_key": "!actors.items!dRlitol2ksRqEJvN.XfVqCbhOliKxxKcR",
+      "name": "Sword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "N1aAuOg4sClbYCJA",
+      "_key": "!actors.items!dRlitol2ksRqEJvN.N1aAuOg4sClbYCJA",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-blue.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "yZpxuQs82V3FAV7y",
+      "_key": "!actors.items!dRlitol2ksRqEJvN.yZpxuQs82V3FAV7y",
+      "name": "Shield",
+      "type": "armor",
+      "img": "icons/equipment/shield/shield-round-boss-wood-brown.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": true,
+        "protection": -1,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 10800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

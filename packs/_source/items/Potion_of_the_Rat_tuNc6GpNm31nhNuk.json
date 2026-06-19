@@ -1,0 +1,22 @@
+{
+  "_id": "tuNc6GpNm31nhNuk",
+  "_key": "!items!tuNc6GpNm31nhNuk",
+  "name": "Potion of the Rat",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/potion-flask-stopped-red.webp",
+  "system": {
+    "description": "This cursed potion infects its imbiber with a disease rated at virulence 10+, damage 3d6, interval 2d6 days, as per the Pestilence spell.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 26700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

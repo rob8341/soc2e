@@ -1,0 +1,22 @@
+{
+  "_id": "hjqaMFmvtiRrpeMv",
+  "_key": "!items!hjqaMFmvtiRrpeMv",
+  "name": "Astrologer's Spyglass",
+  "type": "adventuring",
+  "img": "icons/tools/navigation/spyglass-telescope-blue.webp",
+  "system": {
+    "description": "This retractable telescope is a legendary instrument of sorcerers and natural philosophers alike. In the hands of a mundane researcher, it will truthfully uncover the secrets of any natural phenomenon viewed through its lenses: the duration of an incoming storm, the size of a meteor that is going to impact, the true composition of stars, and the like. Anyone with Artifice or Sorcery 3 can use the Spyglass to gaze into the future. The Spyglass will tell them how to bring about one specific event that they wish to happen within one year: the downfall of a king, how an army will lose a battle, where to find a powerful magic item, etc. The event must be within the realm of possibility. The Sorcerer still must carry out the actions that are required to bring about the event.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 31000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

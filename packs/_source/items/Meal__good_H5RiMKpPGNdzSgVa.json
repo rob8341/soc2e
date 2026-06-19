@@ -1,0 +1,22 @@
+{
+  "_id": "H5RiMKpPGNdzSgVa",
+  "_key": "!items!H5RiMKpPGNdzSgVa",
+  "name": "Meal, good",
+  "type": "adventuring",
+  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "system": {
+    "description": "A good meal.",
+    "cost": "1gp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 10200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

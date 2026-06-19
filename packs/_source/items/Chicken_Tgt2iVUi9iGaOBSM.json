@@ -1,0 +1,21 @@
+{
+  "_id": "Tgt2iVUi9iGaOBSM",
+  "_key": "!items!Tgt2iVUi9iGaOBSM",
+  "name": "Chicken",
+  "type": "animal",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "A domesticated bird that provides approximately 1kg of edible meat and one egg per day.",
+    "cost": "1sp",
+    "speed": 5,
+    "carryingCapacity": "-"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 15100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "OwOc8QyU7AaqFGJJ",
+  "_key": "!items!OwOc8QyU7AaqFGJJ",
+  "name": "Wool, fine",
+  "type": "adventuring",
+  "img": "icons/sundries/misc/admission-ticket-grey.webp",
+  "system": {
+    "description": "One square meter of fine wool material.",
+    "cost": "6gp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 13500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

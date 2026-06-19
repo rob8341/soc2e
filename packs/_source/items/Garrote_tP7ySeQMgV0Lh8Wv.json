@@ -1,0 +1,31 @@
+{
+  "_id": "tP7ySeQMgV0Lh8Wv",
+  "_key": "!items!tP7ySeQMgV0Lh8Wv",
+  "name": "Garrote",
+  "type": "weapon",
+  "img": "icons/weapons/misc/whip-leather.webp",
+  "system": {
+    "description": "While any piece of cord can be used to strangle someone, a garrote has handles to make it easier to apply force. A garrote can only be used on someone who has been successfully grappled or surprised. If a successful grapple leads to the enemy suffering damage, they suffer 2d6 damage. Every consecutive round a garrote is applied with a successful grapple check, add an additional 1d6 damage, in addition to any suffocation damage the victim may take.",
+    "cost": "1gp",
+    "damage": "2d6",
+    "range": "",
+    "aspects": "Two-Handed",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 2400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

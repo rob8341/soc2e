@@ -1,0 +1,22 @@
+{
+  "_id": "OQqzbWVa4OLapXs7",
+  "_key": "!items!OQqzbWVa4OLapXs7",
+  "name": "Traveler's Bread",
+  "type": "adventuring",
+  "img": "icons/consumables/food/bread-toast-tan.webp",
+  "system": {
+    "description": "Combining special ingredients known only to some elves, each wafer acts as 7 days of iron rations but stays edible for up to 6 months. Ten wafers count as a single item of encumbrance.",
+    "cost": "10gp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 19000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

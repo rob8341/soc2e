@@ -1,0 +1,31 @@
+{
+  "_id": "qZ8pIx5F21rWz5FY",
+  "_key": "!items!qZ8pIx5F21rWz5FY",
+  "name": "Warhammer",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/shorthammer-simple-yellow.webp",
+  "system": {
+    "description": "A sturdy hammer designed for war.",
+    "cost": "7gp",
+    "damage": "2d6",
+    "range": "",
+    "aspects": "Thrown",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": true,
+    "ranged": true,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 3900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

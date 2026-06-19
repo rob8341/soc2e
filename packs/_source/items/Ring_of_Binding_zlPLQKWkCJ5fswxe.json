@@ -1,0 +1,22 @@
+{
+  "_id": "zlPLQKWkCJ5fswxe",
+  "_key": "!items!zlPLQKWkCJ5fswxe",
+  "name": "Ring of Binding",
+  "type": "adventuring",
+  "img": "icons/equipment/finger/ring-signet-tech.webp",
+  "system": {
+    "description": "This cursed ring is imbued with a quest, or mission, set forth by its creator. Anyone wearing this ring is affected by it as per the Crushing Quest spell and may not remove the ring until the quest is fulfilled, at which point the ring crumbles to dust. A Quell Enchantment spell removes and destroys this ring.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 30000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

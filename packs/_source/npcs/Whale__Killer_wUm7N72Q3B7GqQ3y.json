@@ -1,0 +1,143 @@
+{
+  "_id": "wUm7N72Q3B7GqQ3y",
+  "_key": "!actors!wUm7N72Q3B7GqQ3y",
+  "name": "Whale, Killer",
+  "type": "npc",
+  "img": "icons/creatures/fish/fish-carp-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 16
+      },
+      "dex": {
+        "value": 6
+      },
+      "end": {
+        "value": 16
+      },
+      "int": {
+        "value": 2
+      },
+      "edu": {
+        "value": 15
+      },
+      "soc": {
+        "value": 3
+      }
+    },
+    "lifeblood": {
+      "value": 38,
+      "max": 38
+    },
+    "stamina": {
+      "value": 19,
+      "max": 19
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "5000kg Beast (Chaser), ocean swimmer, #App: 1d6, Treasure: None. Teeth (3d6); armor 3; swim 20m/action; Morale +2. The killer whale, or orca, is a large ocean mammal occupying the ecological niche of apex predator in the seas. Orcas are voracious carnivores that prey on fish, seals, or even other whales; they rarely attack humanoids, whom they do not see as prey. (Instinct 15, Pack 3)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 3,
+      "naturalphilosophy": -3,
+      "scout": 2,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 2,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "z9tcGvLAC8Xr8EQC",
+      "_key": "!actors.items!wUm7N72Q3B7GqQ3y.z9tcGvLAC8Xr8EQC",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 3,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "j7MPsrXacrKdsAOa",
+      "_key": "!actors.items!wUm7N72Q3B7GqQ3y.j7MPsrXacrKdsAOa",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 8700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

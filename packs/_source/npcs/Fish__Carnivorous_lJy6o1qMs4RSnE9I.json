@@ -1,0 +1,87 @@
+{
+  "_id": "lJy6o1qMs4RSnE9I",
+  "_key": "!actors!lJy6o1qMs4RSnE9I",
+  "name": "Fish, Carnivorous",
+  "type": "npc",
+  "img": "icons/creatures/fish/fish-pirahna-tan.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 1
+      },
+      "dex": {
+        "value": 5
+      },
+      "end": {
+        "value": 1
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 12
+      }
+    },
+    "lifeblood": {
+      "value": 4,
+      "max": 4
+    },
+    "stamina": {
+      "value": 2,
+      "max": 2
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "1kg Beast (Killer), river, lake, or ocean swimmer, #App: 4d6, Treasure: None. Teeth (1 damage); armor 0; swim 10m/action; Morale +0. This entry represents small, nasty fish stalking the ocean for prey. Individually, they are a negligible threat to adventurers. However, a school of these fish is bad news even for the toughest heroes.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 0,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 4500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

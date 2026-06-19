@@ -1,0 +1,22 @@
+{
+  "_id": "lrNMqMlbdHlgqSTo",
+  "_key": "!items!lrNMqMlbdHlgqSTo",
+  "name": "Oil of Sharpness",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "When applied to a mundane weapon, this oil transforms it into a magical weapon for the purposes of attacking creatures that are vulnerable to silver or magical weapons. The oil lasts for the battle. The oil can be applied to 1d6 weapons when used.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 26400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

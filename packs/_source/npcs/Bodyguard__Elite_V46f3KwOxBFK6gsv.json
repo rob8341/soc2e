@@ -1,0 +1,229 @@
+{
+  "_id": "V46f3KwOxBFK6gsv",
+  "_key": "!actors!V46f3KwOxBFK6gsv",
+  "name": "Bodyguard, Elite",
+  "type": "npc",
+  "img": "icons/environment/people/cavalry-heavy.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 9
+      },
+      "dex": {
+        "value": 9
+      },
+      "end": {
+        "value": 12
+      },
+      "int": {
+        "value": 8
+      },
+      "edu": {
+        "value": 6
+      },
+      "soc": {
+        "value": 7
+      }
+    },
+    "lifeblood": {
+      "value": 28,
+      "max": 28
+    },
+    "stamina": {
+      "value": 14,
+      "max": 14
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A very experienced and tough mercenary that specializes in keeping their charge alive and unharmed. An elite bodyguard is a tough customer who will not hesitate to take a blow meant for their charge. They are tireless and fearsome combatants. Equipment: Chain Armor (6), Sword (3d6), Dagger (2d6), Shield, Short Bow (2d6).",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": 1,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 3,
+      "naturalphilosophy": -3,
+      "scout": 2,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "I3J0AutliYT9nGJM",
+      "_key": "!actors.items!V46f3KwOxBFK6gsv.I3J0AutliYT9nGJM",
+      "name": "Chain Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 6,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "grhqB2r49U5Pim0U",
+      "_key": "!actors.items!V46f3KwOxBFK6gsv.grhqB2r49U5Pim0U",
+      "name": "Sword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "b37HXaZbm6JTGZsg",
+      "_key": "!actors.items!V46f3KwOxBFK6gsv.b37HXaZbm6JTGZsg",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-blue.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "R0BAq19ThveXTuFr",
+      "_key": "!actors.items!V46f3KwOxBFK6gsv.R0BAq19ThveXTuFr",
+      "name": "Shield",
+      "type": "armor",
+      "img": "icons/equipment/shield/shield-round-boss-wood-brown.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": true,
+        "protection": -1,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "NFWRt5A5Xt0O2cNa",
+      "_key": "!actors.items!V46f3KwOxBFK6gsv.NFWRt5A5Xt0O2cNa",
+      "name": "Short Bow",
+      "type": "weapon",
+      "img": "icons/weapons/bows/bow-recurve-black.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": true,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 10000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

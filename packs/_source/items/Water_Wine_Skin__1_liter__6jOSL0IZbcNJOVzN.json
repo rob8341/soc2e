@@ -1,0 +1,22 @@
+{
+  "_id": "6jOSL0IZbcNJOVzN",
+  "_key": "!items!6jOSL0IZbcNJOVzN",
+  "name": "Water/Wine Skin (1 liter)",
+  "type": "adventuring",
+  "img": "icons/consumables/drinks/wine-amphora-clay-gray.webp",
+  "system": {
+    "description": "A leather container capable of holding 1 liter of liquid. A full water or wineskin counts as one encumbrance item.",
+    "cost": "5sp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 9000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

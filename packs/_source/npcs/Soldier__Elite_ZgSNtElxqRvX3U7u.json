@@ -1,0 +1,229 @@
+{
+  "_id": "ZgSNtElxqRvX3U7u",
+  "_key": "!actors!ZgSNtElxqRvX3U7u",
+  "name": "Soldier, Elite",
+  "type": "npc",
+  "img": "icons/environment/people/infantry-army.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 9
+      },
+      "dex": {
+        "value": 9
+      },
+      "end": {
+        "value": 10
+      },
+      "int": {
+        "value": 8
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 8
+      }
+    },
+    "lifeblood": {
+      "value": 22,
+      "max": 22
+    },
+    "stamina": {
+      "value": 11,
+      "max": 11
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "These are the finest mercenaries in the land. Ruthless, determined, and highly skilled, they are often employed as the personal guard of the monarch. Everyone who sees them on and off the battlefield knows to stay out of their way. Equipment: Banded Armor (8), Sword (3d6), Longbow (3d6), Dagger (2d6), Shield.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": 2,
+      "battle": 2,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": 2,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 3,
+      "naturalphilosophy": -3,
+      "scout": 2,
+      "sorcery": -3,
+      "sneak": 1,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": 1,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "gK4RIUHyRmfL2zqS",
+      "_key": "!actors.items!ZgSNtElxqRvX3U7u.gK4RIUHyRmfL2zqS",
+      "name": "Banded Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-banded-blue.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 8,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "Hy5g7Y3sJf9BcHPq",
+      "_key": "!actors.items!ZgSNtElxqRvX3U7u.Hy5g7Y3sJf9BcHPq",
+      "name": "Sword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "EZ8poOnapbLZzIJz",
+      "_key": "!actors.items!ZgSNtElxqRvX3U7u.EZ8poOnapbLZzIJz",
+      "name": "Longbow",
+      "type": "weapon",
+      "img": "icons/weapons/bows/longbow-recurve.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": true,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "0KM38UR8Xqw36tw7",
+      "_key": "!actors.items!ZgSNtElxqRvX3U7u.0KM38UR8Xqw36tw7",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-blue.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "i19pHh8WFDtYLSSN",
+      "_key": "!actors.items!ZgSNtElxqRvX3U7u.i19pHh8WFDtYLSSN",
+      "name": "Shield",
+      "type": "armor",
+      "img": "icons/equipment/shield/shield-round-boss-wood-brown.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": true,
+        "protection": -1,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 12200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "LWQ0OsGFUsd37EgE",
+  "_key": "!items!LWQ0OsGFUsd37EgE",
+  "name": "Dog, hunting",
+  "type": "animal",
+  "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+  "system": {
+    "description": "Fast, lean hounds used to track and bring down prey, typically working in a pack.",
+    "cost": "10gp",
+    "speed": 60,
+    "carryingCapacity": "12kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 15300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

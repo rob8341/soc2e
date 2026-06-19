@@ -1,0 +1,22 @@
+{
+  "_id": "u7a67h9DpLm4IWxH",
+  "_key": "!items!u7a67h9DpLm4IWxH",
+  "name": "Boots, high",
+  "type": "adventuring",
+  "img": "icons/equipment/feet/boots-motorcycle-high.webp",
+  "system": {
+    "description": "Sturdy foot-ware coming up to the knees. Provides the equivalent of Protection 2 against snake bites and other ground-level hazards.",
+    "cost": "3gp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 11800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "MnijULzIDHPnpU2f",
+  "_key": "!items!MnijULzIDHPnpU2f",
+  "name": "Cottage, wood",
+  "type": "adventuring",
+  "img": "icons/tools/hand/mallet-wood.webp",
+  "system": {
+    "description": "A building about 10m square with thatched roof and earthen floor, suitable for a peasant family (SOC 5-6). Lodging cost, not per night.",
+    "cost": "300gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 10800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

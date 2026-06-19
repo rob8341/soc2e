@@ -1,0 +1,22 @@
+{
+  "_id": "jcwiwKoYfy4TSXkZ",
+  "_key": "!items!jcwiwKoYfy4TSXkZ",
+  "name": "Bridle of the Royal Steed",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "When worn by any animal, this bridle turns the creature into a perfectly trained steed. If the creature is too small, it will grow to be the perfect size for the bridle's owner to ride. The details of how to get certain very small, or strange, creatures to get inside the bridle so that they grow to perfect steeds is left to the Referee. The bridle will work for flying and aquatic creatures as well but does not confer any special abilities (breathing underwater, immunity from falling damage) to the rider. The Bridle's power lasts for its owner's journey and can only be used once per week.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 27800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

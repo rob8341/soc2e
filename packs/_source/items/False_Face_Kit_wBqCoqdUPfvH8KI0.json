@@ -1,0 +1,22 @@
+{
+  "_id": "wBqCoqdUPfvH8KI0",
+  "_key": "!items!wBqCoqdUPfvH8KI0",
+  "name": "False Face Kit",
+  "type": "adventuring",
+  "img": "icons/sundries/books/book-face-blue.webp",
+  "system": {
+    "description": "A slender wooden case storing disguises used to rapidly change identities. Provides three different facial disguises which can be applied in 1D3 minutes, and gives a +1 bonus to disguise throws.",
+    "cost": "15gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 18100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

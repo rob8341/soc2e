@@ -1,0 +1,22 @@
+{
+  "_id": "MsFmP6wdnCIMDOSh",
+  "_key": "!items!MsFmP6wdnCIMDOSh",
+  "name": "Fire Storm",
+  "type": "spell",
+  "img": "icons/magic/fire/elemental-fire-flying.webp",
+  "system": {
+    "school": "arcane",
+    "range": "200m",
+    "duration": "Instant",
+    "effect": "A fire that is already lit and burning grows into a raging inferno, causing 3d6 fire damage to all targets within 10m of it and setting them on fire! Targets may throw DEX 10+ to avoid the inferno and suffer half damage.",
+    "critSuccess": "The fire burns with incredible intensity, causing 5d6 damage to each target instead."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 21000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "6txXYPZTQGOAwwln",
+  "_key": "!items!6txXYPZTQGOAwwln",
+  "name": "Musical Instrument",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "Any one of many musical instruments. Simple instrument 25gp; good-quality 50gp; superior designs 100gp or more.",
+    "cost": "50gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 7100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

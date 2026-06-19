@@ -1,0 +1,22 @@
+{
+  "_id": "sYwP8KXSQbD7WWJS",
+  "_key": "!items!sYwP8KXSQbD7WWJS",
+  "name": "Flour, 1kg",
+  "type": "adventuring",
+  "img": "icons/consumables/grains/sack-rice-flour-brown.webp",
+  "system": {
+    "description": "One kilogram of flour.",
+    "cost": "5cp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 9700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

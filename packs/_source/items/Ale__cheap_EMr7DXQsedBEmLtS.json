@@ -1,0 +1,22 @@
+{
+  "_id": "EMr7DXQsedBEmLtS",
+  "_key": "!items!EMr7DXQsedBEmLtS",
+  "name": "Ale, cheap",
+  "type": "adventuring",
+  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "system": {
+    "description": "Cheap ale.",
+    "cost": "1cp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 9100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "cXsxjGJXke1Mo4iC",
+  "_key": "!items!cXsxjGJXke1Mo4iC",
+  "name": "Bow, long",
+  "type": "weapon",
+  "img": "icons/weapons/bows/bow-recurve-black.webp",
+  "system": {
+    "description": "A bow made from a single piece of wood, as tall as a person. The long bow requires great strength to use effectively. It counts as two items for encumbrance purposes. Loading a bow is a free action done as part of the firing or aiming action.",
+    "cost": "7gp",
+    "damage": "3d6+1",
+    "range": "50/100",
+    "aspects": "AV 1d6+1, Bulky",
+    "ammo": 0,
+    "ammoMax": 20,
+    "ammoCost": "1gp",
+    "ammoType": "Arrows",
+    "thrown": false,
+    "ranged": true,
+    "artillery": false,
+    "encumbrance": 2,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 4400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

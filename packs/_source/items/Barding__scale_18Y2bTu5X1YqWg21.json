@@ -1,0 +1,24 @@
+{
+  "_id": "18Y2bTu5X1YqWg21",
+  "_key": "!items!18Y2bTu5X1YqWg21",
+  "name": "Barding, scale",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-scale-leather.webp",
+  "system": {
+    "description": "Armor for a light warhorse made from scale. Barding for other riding creatures have costs that vary with the animal size.",
+    "cost": "75gp",
+    "shield": false,
+    "protection": 4,
+    "sneakModifier": -2,
+    "encumbrance": 25,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "nKYaXRvj7uff0LYT",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

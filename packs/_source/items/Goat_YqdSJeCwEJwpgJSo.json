@@ -1,0 +1,21 @@
+{
+  "_id": "YqdSJeCwEJwpgJSo",
+  "_key": "!items!YqdSJeCwEJwpgJSo",
+  "name": "Goat",
+  "type": "animal",
+  "img": "icons/creatures/mammals/goat-horned-blue.webp",
+  "system": {
+    "description": "A 50kg domesticated animal prized for its milk and meat.",
+    "cost": "3gp",
+    "speed": 24,
+    "carryingCapacity": "12kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 15800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

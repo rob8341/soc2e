@@ -1,0 +1,22 @@
+{
+  "_id": "vc1v9r86eNwXQ7iL",
+  "_key": "!items!vc1v9r86eNwXQ7iL",
+  "name": "Skis",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "Made of flat wood, approximately 2m long, attached to the feet. Allow normal movement rates over snow and double movement rate downhill.",
+    "cost": "5gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 8300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

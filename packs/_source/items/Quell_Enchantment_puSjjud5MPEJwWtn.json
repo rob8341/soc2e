@@ -1,0 +1,22 @@
+{
+  "_id": "puSjjud5MPEJwWtn",
+  "_key": "!items!puSjjud5MPEJwWtn",
+  "name": "Quell Enchantment",
+  "type": "spell",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "school": "arcane",
+    "range": "40m.",
+    "duration": "Instantaneous.",
+    "effect": "The Sorcerer can use the Quell Enchantment spell to end ongoing spells or magical effects cast on a single creature or object, or all ongoing spells within a cubic space 5m on a side (sorcerer's choice). If the spell targets a creature, all spells and spell-like effects are canceled. This includes ongoing potion effects, but not permanent magic items. If cast on an area, all ongoing spells in that area are dispelled. Some spells and other magical effects are immune to Quell Enchantment: for example, all magical diseases and curses.",
+    "critSuccess": "The spell affects magic items as well \u2013 permanently!"
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 22000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

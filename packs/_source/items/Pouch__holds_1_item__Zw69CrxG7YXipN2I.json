@@ -1,0 +1,22 @@
+{
+  "_id": "Zw69CrxG7YXipN2I",
+  "_key": "!items!Zw69CrxG7YXipN2I",
+  "name": "Pouch (holds 1 item)",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-cloth-pink.webp",
+  "system": {
+    "description": "A small leather or cloth bag capable of holding one item. The pouch itself does not count as an item for encumbrance.",
+    "cost": "5sp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 7400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,87 @@
+{
+  "_id": "iu7vMzc0jfg5DV8Y",
+  "_key": "!actors!iu7vMzc0jfg5DV8Y",
+  "name": "Wraith",
+  "type": "npc",
+  "img": "icons/magic/death/undead-ghosts-trio-blue.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 12
+      },
+      "end": {
+        "value": 12
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 0
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 26,
+      "max": 26
+    },
+    "stamina": {
+      "value": 13,
+      "max": 13
+    },
+    "spellcaster": true,
+    "monster": true,
+    "notes": "0kg Undead, urban flyer, #App: 1, Treasure: Large. Special attack; armor 0; flying speed 10m/action; Morale +4. A spectral soul of the dead haunting this world, a wraith is a sorcerous undead monster. Undead: immune to poison, disease, and suffocation. Immune to mind-affecting magic. Incorporeal: immune to non-silver, non-magical weapons. Knows 1d6 spells. A character bitten by a wraith must throw END 6+ or permanently age 4 years (which may entail Aging Table throws). A creature slain by a wraith will rise as a wraith on the next midnight, unless its body is cremated or sprayed with holy water.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 3,
+      "sorcery": 0,
+      "sneak": 3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 9200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

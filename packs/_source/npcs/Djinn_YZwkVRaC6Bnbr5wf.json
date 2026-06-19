@@ -1,0 +1,87 @@
+{
+  "_id": "YZwkVRaC6Bnbr5wf",
+  "_key": "!actors!YZwkVRaC6Bnbr5wf",
+  "name": "Djinn",
+  "type": "npc",
+  "img": "icons/creatures/magical/humanoid-silhouette-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 16
+      },
+      "dex": {
+        "value": 11
+      },
+      "end": {
+        "value": 16
+      },
+      "int": {
+        "value": 10
+      },
+      "edu": {
+        "value": 10
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 36,
+      "max": 36
+    },
+    "stamina": {
+      "value": 18,
+      "max": 18
+    },
+    "spellcaster": true,
+    "monster": true,
+    "notes": "0kg Outsider, extraplanar flyer, #App: 1, Treasure: None. Special attack; armor 0; flies 20m/action; Morale +4. The djinn are elemental spirits of the Winds. They are famous for their might and guile. Immune to non-magical weapons. Immune to poison and disease. Knows 2d6 spells. In addition to using them, a djinn may also teach spells to its mortal allies or summoners. Can create food and water of high quality, enough to sustain 2d6 persons per day. Can become invisible at will. Whirlwind: may create a whirlwind around itself at will. Anyone within 2m range must throw DEX 8+ to remain standing. Regardless, anyone within the 2m radius takes 1d6 damage.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": 2,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 3400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "QI7CRBsQYXzENpOS",
+  "_key": "!items!QI7CRBsQYXzENpOS",
+  "name": "Silk",
+  "type": "adventuring",
+  "img": "icons/sundries/misc/admission-ticket-grey.webp",
+  "system": {
+    "description": "One square meter of silk material.",
+    "cost": "15gp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 13300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

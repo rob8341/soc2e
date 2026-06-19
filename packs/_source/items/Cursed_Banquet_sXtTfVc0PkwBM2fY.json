@@ -1,0 +1,22 @@
+{
+  "_id": "sXtTfVc0PkwBM2fY",
+  "_key": "!items!sXtTfVc0PkwBM2fY",
+  "name": "Cursed Banquet",
+  "type": "spell",
+  "img": "icons/magic/death/grave-tombstone-glow-teal.webp",
+  "system": {
+    "school": "arcane",
+    "range": "10m",
+    "duration": "One evening's worth of food and drink.",
+    "effect": "This spell creates a magically cursed banquet of delicious food and drink, enough to feed a large dinner party. Anyone who eats the food or drink at the banquet are subject to another magical effect: the caster picks another spell which is woven into the dinner. It must be cast during the same ritual as the Cursed Banquet. Both spells must be successful for the banquet to work properly.",
+    "critSuccess": "The food lasts for a week."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 20400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

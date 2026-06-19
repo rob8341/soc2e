@@ -1,0 +1,22 @@
+{
+  "_id": "7mQiOj5qOpx4kysR",
+  "_key": "!items!7mQiOj5qOpx4kysR",
+  "name": "Wolfsbane",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "Also called aconite, may drive off werewolves and other lycanthropes if struck with a sprig. Acts as a poison to lycanthropes, Virulence 8. Also poison to non-lycanthropes if eaten.",
+    "cost": "10gp",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "IqK3yn9FfcgMXAdx",
+  "sort": 14900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,196 @@
+{
+  "_id": "CpL9X8FgLu5jC7ac",
+  "_key": "!actors!CpL9X8FgLu5jC7ac",
+  "name": "Noble",
+  "type": "npc",
+  "img": "icons/equipment/head/crown-gold-blue.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 7
+      },
+      "int": {
+        "value": 7
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 12
+      }
+    },
+    "lifeblood": {
+      "value": 14,
+      "max": 14
+    },
+    "stamina": {
+      "value": 7,
+      "max": 7
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A member of the aristocracy, this noble is not battle-ready, but does have access to heavier armor and military equipment. Equipment: Light riding horse, sword (3d6), dagger (2d6), leather armor (4).",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": 2,
+      "craft": -3,
+      "deception": 1,
+      "govern": 1,
+      "insight": 1,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": 2,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "P191ezqShWOHbDTs",
+      "_key": "!actors.items!CpL9X8FgLu5jC7ac.P191ezqShWOHbDTs",
+      "name": "Light riding horse",
+      "type": "adventuring",
+      "img": "icons/sundries/lights/flash-light.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "yYVwSFOAhjqZUgkz",
+      "_key": "!actors.items!CpL9X8FgLu5jC7ac.yYVwSFOAhjqZUgkz",
+      "name": "Sword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "v4XngNe3EpqsBWRJ",
+      "_key": "!actors.items!CpL9X8FgLu5jC7ac.v4XngNe3EpqsBWRJ",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-blue.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "KVjrnwws6jNDBsUR",
+      "_key": "!actors.items!CpL9X8FgLu5jC7ac.KVjrnwws6jNDBsUR",
+      "name": "Leather armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-reinforced-leather.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 4,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 11300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

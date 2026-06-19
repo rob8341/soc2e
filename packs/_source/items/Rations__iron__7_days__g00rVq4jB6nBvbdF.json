@@ -1,0 +1,22 @@
+{
+  "_id": "g00rVq4jB6nBvbdF",
+  "_key": "!items!g00rVq4jB6nBvbdF",
+  "name": "Rations, iron (7 days)",
+  "type": "adventuring",
+  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "system": {
+    "description": "Dried, salted, or otherwise preserved food providing sustenance for 7 days. Will last up to 2 months in the wilderness before spoiling.",
+    "cost": "1gp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 7500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

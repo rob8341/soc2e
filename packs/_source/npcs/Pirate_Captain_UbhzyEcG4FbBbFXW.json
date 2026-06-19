@@ -1,0 +1,205 @@
+{
+  "_id": "UbhzyEcG4FbBbFXW",
+  "_key": "!actors!UbhzyEcG4FbBbFXW",
+  "name": "Pirate Captain",
+  "type": "npc",
+  "img": "icons/skills/trades/profession-sailing-pirate.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 8
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 8
+      },
+      "int": {
+        "value": 9
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 9
+      }
+    },
+    "lifeblood": {
+      "value": 18,
+      "max": 18
+    },
+    "stamina": {
+      "value": 9,
+      "max": 9
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "Pirate captains are unique opportunists in that they are criminals with enough wherewithal to own and operate a pirate vessel. This makes them very violent, successful, and highly amoral businesspeople who are also expert sailors. Equipment: Leather Armor (4), Cutlass (3d6), Dagger (2d6), Crossbow (3d6).",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": 1,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 2,
+      "carousing": 1,
+      "craft": -3,
+      "deception": -3,
+      "govern": 1,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": 1,
+      "liaison": 1,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": 2
+    }
+  },
+  "items": [
+    {
+      "_id": "EJNTJ8WGX0f5L9UV",
+      "_key": "!actors.items!UbhzyEcG4FbBbFXW.EJNTJ8WGX0f5L9UV",
+      "name": "Leather Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-reinforced-leather.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 4,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ArB2TOeOvGQYAbJa",
+      "_key": "!actors.items!UbhzyEcG4FbBbFXW.ArB2TOeOvGQYAbJa",
+      "name": "Cutlass",
+      "type": "weapon",
+      "img": "icons/weapons/swords/swords-cutlasses-white.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ZbnAqnPuCPVJv21j",
+      "_key": "!actors.items!UbhzyEcG4FbBbFXW.ZbnAqnPuCPVJv21j",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-blue.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "VmlbL0WH7utomsAq",
+      "_key": "!actors.items!UbhzyEcG4FbBbFXW.VmlbL0WH7utomsAq",
+      "name": "Crossbow",
+      "type": "weapon",
+      "img": "icons/weapons/crossbows/crossbow-white.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": true,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 11700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "iuDCLFuMk9TsuZHR",
+  "_key": "!items!iuDCLFuMk9TsuZHR",
+  "name": "Eggs",
+  "type": "adventuring",
+  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "system": {
+    "description": "Eggs.",
+    "cost": "5cp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 9600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

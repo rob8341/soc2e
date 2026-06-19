@@ -1,0 +1,22 @@
+{
+  "_id": "F6xxV4JOj1lSAtVB",
+  "_key": "!items!F6xxV4JOj1lSAtVB",
+  "name": "Monocle of Truth",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "The wearer of this monocle can see through magical deceptions: illusions, invisibility effects, magical disguises, and the like. The Monocle does not dispel non-magical sleight-of-hand tricks or well-crafted mundane disguises.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 29700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

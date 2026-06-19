@@ -1,0 +1,31 @@
+{
+  "_id": "ktUJrhQR6FEecAtp",
+  "_key": "!items!ktUJrhQR6FEecAtp",
+  "name": "Sword, great",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-guard-engraved.webp",
+  "system": {
+    "description": "A large two-handed sword. Great swords count as 2 items for encumbrance purposes.",
+    "cost": "15gp",
+    "damage": "4d6",
+    "range": "",
+    "aspects": "AV 1d6, Bulky, Two-Handed",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 2,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 3400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

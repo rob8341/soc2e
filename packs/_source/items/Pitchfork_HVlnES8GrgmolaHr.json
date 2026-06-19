@@ -1,0 +1,31 @@
+{
+  "_id": "HVlnES8GrgmolaHr",
+  "_key": "!items!HVlnES8GrgmolaHr",
+  "name": "Pitchfork",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-flared-wrapped.webp",
+  "system": {
+    "description": "An agricultural tool sometimes used as a weapon. The stats are for the sturdier versions, including nautical tridents. Counts as two items for encumbrance purposes.",
+    "cost": "2gp",
+    "damage": "2d6",
+    "range": "",
+    "aspects": "Reach, Two-Handed",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 2,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 2900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

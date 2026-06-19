@@ -1,0 +1,22 @@
+{
+  "_id": "MuNgGeZi2mEgJZOG",
+  "_key": "!items!MuNgGeZi2mEgJZOG",
+  "name": "Truth Serum",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "This elixir forces the drinker\u2014and everyone within 20m of the drinker\u2014to speak only the truth for 1d6 turns. Anyone wishing to lie must roll END 10+ to utter the lie, after which the effect is broken for everyone.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 27200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

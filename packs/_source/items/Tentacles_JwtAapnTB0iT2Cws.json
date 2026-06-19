@@ -1,0 +1,22 @@
+{
+  "_id": "JwtAapnTB0iT2Cws",
+  "_key": "!items!JwtAapnTB0iT2Cws",
+  "name": "Tentacles",
+  "type": "spell",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "school": "arcane",
+    "range": "50m",
+    "duration": "One day.",
+    "effect": "The ritual creates dozens of eldritch tentacles that emerge from a dark seething mass of protoplasm hidden underfoot. The tentacles attack with Melee-0 and STR 12 (+2 to hit total) and do 2d6 damage. Each tentacle has a damage capacity of 18 points. Slashing weapons do full damage, while any blunt weapons or piercing weapons have their damage dice reduced by 1 die. Multiple tentacles can attack a single target, often immobilizing targets before strangling them.",
+    "critSuccess": "The tentacles come with spikes that do an additional die of damage (3d6 total). The tentacles are also more nimble and have Melee-1 skill."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 23000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

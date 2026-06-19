@@ -1,0 +1,22 @@
+{
+  "_id": "Irj3Ofx7LMooj84u",
+  "_key": "!items!Irj3Ofx7LMooj84u",
+  "name": "Flail of Banishing",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "Any extraplanar creature \u2013 such as a demon or elemental \u2013 struck by this flail must throw INT 10+ or immediately return to its home dimension.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 28800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

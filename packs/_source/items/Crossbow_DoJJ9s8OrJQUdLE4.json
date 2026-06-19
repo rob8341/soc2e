@@ -1,0 +1,31 @@
+{
+  "_id": "DoJJ9s8OrJQUdLE4",
+  "_key": "!items!DoJJ9s8OrJQUdLE4",
+  "name": "Crossbow",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-white.webp",
+  "system": {
+    "description": "A bow mounted on a crosswise stock with a trigger. This weapon fires short but heavy bolts. Crossbows are reloaded by hand or with a quick-drawing lever. They are easier to use than a bow and require less training. Crossbows require one action to reload.",
+    "cost": "30gp",
+    "damage": "2d6+3",
+    "range": "30/60",
+    "aspects": "",
+    "ammo": 0,
+    "ammoMax": 20,
+    "ammoCost": "2gp",
+    "ammoType": "Bolts",
+    "thrown": false,
+    "ranged": true,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 4600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

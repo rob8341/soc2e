@@ -1,0 +1,22 @@
+{
+  "_id": "gmlRSTqrodJ0jwAs",
+  "_key": "!items!gmlRSTqrodJ0jwAs",
+  "name": "Dowsing Rod",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "A split stick of specially treated wood used to find water or other hidden items. Provides a +1 bonus when searching for a specific item, but only for that type of item.",
+    "cost": "30gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 17900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

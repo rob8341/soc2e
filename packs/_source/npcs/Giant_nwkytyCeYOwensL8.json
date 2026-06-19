@@ -1,0 +1,174 @@
+{
+  "_id": "nwkytyCeYOwensL8",
+  "_key": "!actors!nwkytyCeYOwensL8",
+  "name": "Giant",
+  "type": "npc",
+  "img": "icons/creatures/magical/humanoid-silhouette-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 18
+      },
+      "dex": {
+        "value": 6
+      },
+      "end": {
+        "value": 15
+      },
+      "int": {
+        "value": 4
+      },
+      "edu": {
+        "value": 2
+      },
+      "soc": {
+        "value": 3
+      }
+    },
+    "lifeblood": {
+      "value": 32,
+      "max": 32
+    },
+    "stamina": {
+      "value": 16,
+      "max": 16
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "500kg Humanoid, mountains walker, #App: 1d6, Treasure: Small. Fists (2d6+4 with STR bonus), or Maul (4d6+4 with STR bonus, one-handed); armor 4; speed 15m/action; Morale -1. A hairy, smelly, brutish 4m-5m tall humanoid that lives in the hills and wilds. Giants are not terribly bright.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "gH90k7L8RQ8RuN2t",
+      "_key": "!actors.items!nwkytyCeYOwensL8.gH90k7L8RQ8RuN2t",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 4,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "0DuLKxNoK9oM3tTU",
+      "_key": "!actors.items!nwkytyCeYOwensL8.0DuLKxNoK9oM3tTU",
+      "name": "Fists",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6+4",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "Mdxsjmc5L6TurNVG",
+      "_key": "!actors.items!nwkytyCeYOwensL8.Mdxsjmc5L6TurNVG",
+      "name": "Maul",
+      "type": "weapon",
+      "img": "icons/weapons/hammers/shorthammer-simple-yellow.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "4d6+4",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 4800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

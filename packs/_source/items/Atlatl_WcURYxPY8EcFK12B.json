@@ -1,0 +1,31 @@
+{
+  "_id": "WcURYxPY8EcFK12B",
+  "_key": "!items!WcURYxPY8EcFK12B",
+  "name": "Atlatl",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/grenade-gas.webp",
+  "system": {
+    "description": "A spear or dart throwing device, the atlatl is made of carved wood or bone and increases the range of a thrown spear. Atlatls are common in primitive societies before the invention of the bow.",
+    "cost": "1gp",
+    "damage": "2d6",
+    "range": "30/60",
+    "aspects": "",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "1gp",
+    "ammoType": "Darts",
+    "thrown": false,
+    "ranged": true,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 4100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

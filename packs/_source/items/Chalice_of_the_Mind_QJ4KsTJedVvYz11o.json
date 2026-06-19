@@ -1,0 +1,22 @@
+{
+  "_id": "QJ4KsTJedVvYz11o",
+  "_key": "!items!QJ4KsTJedVvYz11o",
+  "name": "Chalice of the Mind",
+  "type": "adventuring",
+  "img": "icons/containers/kitchenware/goblet-worn-engraved-wooden-brown.webp",
+  "system": {
+    "description": "When the bearer of this cup drinks from it, they gain the ability to communicate telepathically with anyone they know in a 1000km radius, for 1d6 turns.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 27900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

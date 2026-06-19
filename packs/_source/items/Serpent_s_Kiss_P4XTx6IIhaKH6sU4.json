@@ -1,0 +1,22 @@
+{
+  "_id": "P4XTx6IIhaKH6sU4",
+  "_key": "!items!P4XTx6IIhaKH6sU4",
+  "name": "Serpent's Kiss",
+  "type": "spell",
+  "img": "icons/magic/acid/dissolve-pool-bubbles.webp",
+  "system": {
+    "school": "arcane",
+    "range": "Self.",
+    "duration": "1 Turn.",
+    "effect": "The Sorcerer grows the fangs of a venomous snake and may bite like a serpent. Every round for the spell's duration, the Sorcerer may make a Melee Combat 8+ throw. If successful, they bite their target, and cause 1d6 damage. The target must also resist a Virulence 10+, Damage 4d6 poison.",
+    "critSuccess": "The spell lasts for 6 turns, and the poison's virulence is 12+."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 22700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

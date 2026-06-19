@@ -1,0 +1,22 @@
+{
+  "_id": "Uk13ZFfPliupqoU7",
+  "_key": "!items!Uk13ZFfPliupqoU7",
+  "name": "Wine, good",
+  "type": "adventuring",
+  "img": "icons/consumables/drinks/wine-amphora-clay-gray.webp",
+  "system": {
+    "description": "Good quality wine.",
+    "cost": "1sp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 10600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

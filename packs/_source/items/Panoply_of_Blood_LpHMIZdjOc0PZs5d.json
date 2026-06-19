@@ -1,0 +1,22 @@
+{
+  "_id": "LpHMIZdjOc0PZs5d",
+  "_key": "!items!LpHMIZdjOc0PZs5d",
+  "name": "Panoply of Blood",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "This suit of chain armor is imbued with healing powers. Once per battle, the wearer can ignore a damage result that would reduce their Lifeblood to zero.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 29900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

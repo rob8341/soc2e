@@ -1,0 +1,22 @@
+{
+  "_id": "QOfMXSfjSNTtgatw",
+  "_key": "!items!QOfMXSfjSNTtgatw",
+  "name": "Hat",
+  "type": "adventuring",
+  "img": "icons/equipment/head/hat-cowboy.webp",
+  "system": {
+    "description": "A hat.",
+    "cost": "10sp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 12800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

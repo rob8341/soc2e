@@ -1,0 +1,22 @@
+{
+  "_id": "efQrSO42uKiv7RyK",
+  "_key": "!items!efQrSO42uKiv7RyK",
+  "name": "Mirror (steel)",
+  "type": "adventuring",
+  "img": "icons/sundries/misc/key-steel.webp",
+  "system": {
+    "description": "A small, handheld polished steel mirror. May serve to peek around a corner without risking damage from concealed threats.",
+    "cost": "5gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 7000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

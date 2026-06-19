@@ -1,0 +1,22 @@
+{
+  "_id": "j3a1iipkObaWoukd",
+  "_key": "!items!j3a1iipkObaWoukd",
+  "name": "Barrel (80 liters)",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "A large wooden container, reinforced with metal bands. Counts as 3 items when empty and 15 items when full.",
+    "cost": "2sp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 3
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 5400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

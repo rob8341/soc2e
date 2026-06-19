@@ -1,0 +1,119 @@
+{
+  "_id": "PmY3wzHelT4NEZJD",
+  "_key": "!actors!PmY3wzHelT4NEZJD",
+  "name": "Zombie",
+  "type": "npc",
+  "img": "icons/magic/death/undead-zombie-grave-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 6
+      },
+      "dex": {
+        "value": 2
+      },
+      "end": {
+        "value": 6
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 0
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 12,
+      "max": 12
+    },
+    "stamina": {
+      "value": 6,
+      "max": 6
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "50kg Undead, urban walker, #App: 1d6, Treasure: None. Claws (2d6); armor 0; walk 5m/action; Morale: automatic success. A reanimated corpse, reeking with rot and shambling along. Contrary to popular belief, zombies do not crave brains. It is ghouls that crave that delicacy. Undead: immune to poison, disease, and suffocation. Immune to mind-affecting magic.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 0,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 0,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "vMIieAxeeWshoLun",
+      "_key": "!actors.items!PmY3wzHelT4NEZJD.vMIieAxeeWshoLun",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 9400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

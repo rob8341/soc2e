@@ -1,0 +1,31 @@
+{
+  "_id": "o8k2fRN2Bqpepgax",
+  "_key": "!items!o8k2fRN2Bqpepgax",
+  "name": "Vorpal weapon",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-broad-worn.webp",
+  "system": {
+    "description": "The rarest of ancient magical weapons, incredibly sharp. Ignore 5 points of armor and do an additional die of damage. Can also damage vehicles and larger structures.",
+    "cost": "200x",
+    "damage": "+1d6",
+    "range": "",
+    "aspects": "AP5, AV+1d6",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 17600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

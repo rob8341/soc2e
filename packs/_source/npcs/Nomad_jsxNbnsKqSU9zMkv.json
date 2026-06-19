@@ -1,0 +1,196 @@
+{
+  "_id": "jsxNbnsKqSU9zMkv",
+  "_key": "!actors!jsxNbnsKqSU9zMkv",
+  "name": "Nomad",
+  "type": "npc",
+  "img": "icons/sundries/survival/canteen-drinking.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 8
+      },
+      "int": {
+        "value": 7
+      },
+      "edu": {
+        "value": 6
+      },
+      "soc": {
+        "value": 6
+      }
+    },
+    "lifeblood": {
+      "value": 18,
+      "max": 18
+    },
+    "stamina": {
+      "value": 9,
+      "max": 9
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A member of a nomadic people that lives a pastoral lifestyle out on the steppe or in the desert. Nomads are excellent riders. City-dwellers call them 'barbarians' or 'savages.' Equipment: Leather Armor (4), Saber (3d6), Short Bow (2d6), Light Horse.",
+    "skills": {
+      "alchemy": -3,
+      "animals": 1,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": 1,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": 2,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "j0tx1EkGk3a6vtnr",
+      "_key": "!actors.items!jsxNbnsKqSU9zMkv.j0tx1EkGk3a6vtnr",
+      "name": "Leather Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-reinforced-leather.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 4,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "WWOwC4400WGomPyg",
+      "_key": "!actors.items!jsxNbnsKqSU9zMkv.WWOwC4400WGomPyg",
+      "name": "Saber",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-flanged-lightning.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ueIHT28dJppTQOpQ",
+      "_key": "!actors.items!jsxNbnsKqSU9zMkv.ueIHT28dJppTQOpQ",
+      "name": "Short Bow",
+      "type": "weapon",
+      "img": "icons/weapons/bows/bow-recurve-black.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": true,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "CcLIflZd3GdoKKCH",
+      "_key": "!actors.items!jsxNbnsKqSU9zMkv.CcLIflZd3GdoKKCH",
+      "name": "Light Horse",
+      "type": "adventuring",
+      "img": "icons/sundries/lights/flash-light.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 11400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

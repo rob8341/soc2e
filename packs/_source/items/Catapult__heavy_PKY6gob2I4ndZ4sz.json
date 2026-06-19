@@ -1,0 +1,31 @@
+{
+  "_id": "PKY6gob2I4ndZ4sz",
+  "_key": "!items!PKY6gob2I4ndZ4sz",
+  "name": "Catapult, heavy",
+  "type": "weapon",
+  "img": "icons/weapons/artillery/catapult-white.webp",
+  "system": {
+    "description": "Siege weapons powered by either torsion or a counter-weight mechanism, hurling rocks or other projectiles. Catapults have a minimum range (200m for the heavy catapult). They cause damage to characters within the radius of their impact.",
+    "cost": "200gp",
+    "damage": "8d6",
+    "range": "400/600",
+    "aspects": "AV 3d6, Blast 5m",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "5gp",
+    "ammoType": "Shot",
+    "thrown": false,
+    "ranged": true,
+    "artillery": true,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 5000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

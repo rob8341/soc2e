@@ -1,0 +1,174 @@
+{
+  "_id": "ggbjFVoQv8TArEVp",
+  "_key": "!actors!ggbjFVoQv8TArEVp",
+  "name": "Mammoth",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 32
+      },
+      "dex": {
+        "value": 3
+      },
+      "end": {
+        "value": 32
+      },
+      "int": {
+        "value": 2
+      },
+      "edu": {
+        "value": 14
+      },
+      "soc": {
+        "value": 12
+      }
+    },
+    "lifeblood": {
+      "value": 70,
+      "max": 70
+    },
+    "stamina": {
+      "value": 35,
+      "max": 35
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "5000kg Beast (Intermittent), steppe walker, #App: 3d6, Treasure: None. Trample (3d6), tusks (3d6+1); armor 3; walk 20m/action; Morale +0. A prehistoric elephant, the mammoth is larger than modern elephants. Mammoths have large tusks and enjoy a thick coat of wool, protecting it from its frigid arctic habitat. (Instinct 14, Pack 12)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 3,
+      "archery": -3,
+      "battle": 0,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 0,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 2,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "jFpV19pYmRYRFl9K",
+      "_key": "!actors.items!ggbjFVoQv8TArEVp.jFpV19pYmRYRFl9K",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 3,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "Noic95AMfdzsNouD",
+      "_key": "!actors.items!ggbjFVoQv8TArEVp.Noic95AMfdzsNouD",
+      "name": "Trample",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "FNsqrvztccdUnD4g",
+      "_key": "!actors.items!ggbjFVoQv8TArEVp.FNsqrvztccdUnD4g",
+      "name": "Tusks",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6+1",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 6400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

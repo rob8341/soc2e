@@ -1,0 +1,22 @@
+{
+  "_id": "epZITGgrscAXCg4K",
+  "_key": "!items!epZITGgrscAXCg4K",
+  "name": "Rope (20m)",
+  "type": "adventuring",
+  "img": "icons/sundries/survival/rope-brown.webp",
+  "system": {
+    "description": "A strong rope capable of supporting up to 300kg: approximately three average adventurers with typical gear.",
+    "cost": "1gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 7700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

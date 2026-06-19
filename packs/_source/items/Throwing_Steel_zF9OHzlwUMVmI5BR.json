@@ -1,0 +1,31 @@
+{
+  "_id": "zF9OHzlwUMVmI5BR",
+  "_key": "!items!zF9OHzlwUMVmI5BR",
+  "name": "Throwing Steel",
+  "type": "weapon",
+  "img": "icons/weapons/thrown/throwing-trident-steel.webp",
+  "system": {
+    "description": "A collective term for small thrown weapons, such as war-darts and shuriken.",
+    "cost": "1gp",
+    "damage": "1d6",
+    "range": "",
+    "aspects": "Thrown",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": true,
+    "ranged": true,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 3700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

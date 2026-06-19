@@ -1,0 +1,22 @@
+{
+  "_id": "yuIRRj7afj5Adnec",
+  "_key": "!items!yuIRRj7afj5Adnec",
+  "name": "Heart Stealing Obeisance",
+  "type": "spell",
+  "img": "icons/magic/water/heart-ice-freeze.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "Touch",
+    "duration": "One command",
+    "effect": "Casting Time: This spell requires 2d6 turns to cast. This gruesome spell requires that the target be restrained and awake. On completion of the ritual, the caster magically reaches into the target's chest and pulls out their still-beating heart. The caster then commands the target to perform a task and eats the target's heart in a bloody spectacle. The target must obey the command: defend the sorcerer, kill interlopers, assassinate the king. The command need not be specific and short term in nature, but the broader the command, the more leeway the target has in interpreting it. Once the command is obeyed, the target collapses into unconsciousness, their heart safely beating in their own chest.",
+    "critSuccess": "The obedience is permanent."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 24400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

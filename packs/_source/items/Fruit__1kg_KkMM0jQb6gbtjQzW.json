@@ -1,0 +1,22 @@
+{
+  "_id": "KkMM0jQb6gbtjQzW",
+  "_key": "!items!KkMM0jQb6gbtjQzW",
+  "name": "Fruit, 1kg",
+  "type": "adventuring",
+  "img": "icons/consumables/drinks/coconut-fruit-milk.webp",
+  "system": {
+    "description": "One kilogram of fruit.",
+    "cost": "2sp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 9800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

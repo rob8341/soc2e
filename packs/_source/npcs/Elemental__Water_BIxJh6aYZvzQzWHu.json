@@ -1,0 +1,119 @@
+{
+  "_id": "BIxJh6aYZvzQzWHu",
+  "_key": "!actors!BIxJh6aYZvzQzWHu",
+  "name": "Elemental, Water",
+  "type": "npc",
+  "img": "icons/creatures/magical/humanoid-silhouette-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 14
+      },
+      "dex": {
+        "value": 14
+      },
+      "end": {
+        "value": 14
+      },
+      "int": {
+        "value": 1
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 30,
+      "max": 30
+    },
+    "stamina": {
+      "value": 15,
+      "max": 15
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "0kg Outsider, ocean, river, or lake swimmer, IMM190 #App: 1, Treasure: None. Water jet (3d6); armor 0; swim 20m/action; Morale +4. A water elemental is an extraplanar exemplar of the Classic Element of Water. It appears as a standing wave of water with a vaguely humanoid form. Immune to non-magical weapons. The water elemental may, as an action, try to draw its victims underwater and drown them. Treat this as a grapple (see the Combat chapter) which causes 1d6 damage per round the victim is held by the elemental. The elemental may grapple up to two creatures at a time in this manner.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "bW5j7uNLL18myHlg",
+      "_key": "!actors.items!BIxJh6aYZvzQzWHu.bW5j7uNLL18myHlg",
+      "name": "Water jet",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-broad-worn.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 4300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

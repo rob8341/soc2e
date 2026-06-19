@@ -1,0 +1,22 @@
+{
+  "_id": "wUtWuqs0D1K6e3F1",
+  "_key": "!items!wUtWuqs0D1K6e3F1",
+  "name": "Capsizing Wave",
+  "type": "spell",
+  "img": "icons/magic/water/wave-water-blue.webp",
+  "system": {
+    "school": "arcane",
+    "range": "300m.",
+    "duration": "Instantaneous.",
+    "effect": "This spell smashes a sea vessel with a powerful wave capable of sinking even the mightiest sailing ships. The wave is approximately 50m long, 5m high, and 3m thick. The captain of the target vessel may attempt to steer their ship out of the wave's deadly path with a Watercraft/DEX 12+ throw. If the captain does not try to evade the wave, or if the Watercraft throw fails, the vessel is stricken: throw once on the Critical damage table (see the naval combat rules in the Combat chapter).",
+    "critSuccess": "The wave is 150m long, 10m high, and 9m thick. Apply a -2 penalty to the Watercraft/DEX throw to resist the wave."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 19500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

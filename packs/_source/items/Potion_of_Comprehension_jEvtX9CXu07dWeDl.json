@@ -1,0 +1,22 @@
+{
+  "_id": "jEvtX9CXu07dWeDl",
+  "_key": "!items!jEvtX9CXu07dWeDl",
+  "name": "Potion of Comprehension",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/potion-flask-stopped-red.webp",
+  "system": {
+    "description": "The imbiber of this potion may comprehend and speak all languages for 1d6 hours.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 26500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

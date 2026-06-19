@@ -1,0 +1,205 @@
+{
+  "_id": "vZAATTdgySQ16CJJ",
+  "_key": "!actors!vZAATTdgySQ16CJJ",
+  "name": "Bandit Chieftain",
+  "type": "npc",
+  "img": "icons/weapons/axes/axe-battle-broad-stone.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 9
+      },
+      "dex": {
+        "value": 9
+      },
+      "end": {
+        "value": 9
+      },
+      "int": {
+        "value": 8
+      },
+      "edu": {
+        "value": 6
+      },
+      "soc": {
+        "value": 6
+      }
+    },
+    "lifeblood": {
+      "value": 20,
+      "max": 20
+    },
+    "stamina": {
+      "value": 10,
+      "max": 10
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A bandit who has the dubious honor of leading a group of cutthroats. Fighting and killing a bandit chieftain might mean that the victor now leads the bandits. Equipment: Scale Armor (5), Crossbow (3d6), Great Axe (4d6, Bulky), Throwing Steel (1d6).",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": 2,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": 1,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": 2,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": 2,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": 1,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "GkxU5iaX6fpHuyMw",
+      "_key": "!actors.items!vZAATTdgySQ16CJJ.GkxU5iaX6fpHuyMw",
+      "name": "Scale Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/breastplate-scale-leather.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 5,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "OWYLhJtqlCBC7D0n",
+      "_key": "!actors.items!vZAATTdgySQ16CJJ.OWYLhJtqlCBC7D0n",
+      "name": "Crossbow",
+      "type": "weapon",
+      "img": "icons/weapons/crossbows/crossbow-white.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": true,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "d6rLtdlVr1hNjMdh",
+      "_key": "!actors.items!vZAATTdgySQ16CJJ.d6rLtdlVr1hNjMdh",
+      "name": "Great Axe",
+      "type": "weapon",
+      "img": "icons/weapons/axes/axe-battle.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "4d6",
+        "range": "",
+        "aspects": "Bulky",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "cQ1JcSdSqpQ1vSLv",
+      "_key": "!actors.items!vZAATTdgySQ16CJJ.cQ1JcSdSqpQ1vSLv",
+      "name": "Throwing Steel",
+      "type": "weapon",
+      "img": "icons/weapons/thrown/throwing-trident-steel.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "1d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": true,
+        "ranged": true,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 9700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

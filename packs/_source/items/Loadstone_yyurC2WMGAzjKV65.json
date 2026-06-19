@@ -1,0 +1,22 @@
+{
+  "_id": "yyurC2WMGAzjKV65",
+  "_key": "!items!yyurC2WMGAzjKV65",
+  "name": "Loadstone",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "A naturally occurring metal that points towards north when allowed to swing freely, suspended in oil within a metal cylinder with a glass face. Provides a +2 bonus to any throw to avoid getting lost.",
+    "cost": "100gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 18400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

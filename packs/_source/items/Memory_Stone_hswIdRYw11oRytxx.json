@@ -1,0 +1,22 @@
+{
+  "_id": "hswIdRYw11oRytxx",
+  "_key": "!items!hswIdRYw11oRytxx",
+  "name": "Memory Stone",
+  "type": "adventuring",
+  "img": "icons/tools/hand/pickaxe-simple-stone.webp",
+  "system": {
+    "description": "These rare and terrifying stones are the size of a coin, and otherwise unremarkable. However, a sorcerer may imprint their memories and life essence onto the stone after 2d6 days of rituals and research. Once imprinted, the memory stone can be stored away, until the sorcerer perishes. By forcing a victim to swallow the stone, the sorcerer's mind will attempt to take over the victim's: roll Opposed INT. If the victim is successful, the Memory Stone is not effective for the day. The sorcerer has 1d6+1 days to make this Opposed roll. If the sorcerer is successful, the victim's mind will be subsumed, and the sorcerer will permanently take over the victim's body. The victim's physical attributes and SOC remain, but the sorcerer's INT and EDU replace the victim's.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 31800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

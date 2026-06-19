@@ -1,0 +1,31 @@
+{
+  "_id": "IIl92EtEfonGa4mi",
+  "_key": "!items!IIl92EtEfonGa4mi",
+  "name": "Stonebreaker",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-broad-worn.webp",
+  "system": {
+    "description": "A dwarven weapon combining a great axe and a maul. A stonebreaker counts as two items for encumbrance.",
+    "cost": "15gp",
+    "damage": "4d6",
+    "range": "",
+    "aspects": "AV 1d6, Bulky, Two-Handed",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 2,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 17200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

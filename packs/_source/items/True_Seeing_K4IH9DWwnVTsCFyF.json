@@ -1,0 +1,22 @@
+{
+  "_id": "K4IH9DWwnVTsCFyF",
+  "_key": "!items!K4IH9DWwnVTsCFyF",
+  "name": "True Seeing",
+  "type": "spell",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "school": "arcane",
+    "range": "Touch.",
+    "duration": "6 turns.",
+    "effect": "This spell grants the recipient the ability to see all things as they truly are. The subject sees through normal and magical darkness, notices secret doors, sees invisible creatures and objects, sees through illusions, normal and magical disguises, and various polymorph effects. True Sight has a 50m range. It does not penetrate solid objects and does not negate actual concealment such as fog.",
+    "critSuccess": "The sight penetrates solid objects up to 1m in thickness."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 23200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

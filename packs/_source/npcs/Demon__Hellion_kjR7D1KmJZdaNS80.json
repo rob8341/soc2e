@@ -1,0 +1,174 @@
+{
+  "_id": "kjR7D1KmJZdaNS80",
+  "_key": "!actors!kjR7D1KmJZdaNS80",
+  "name": "Demon, Hellion",
+  "type": "npc",
+  "img": "icons/creatures/unholy/demon-fire-imp.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 11
+      },
+      "dex": {
+        "value": 11
+      },
+      "end": {
+        "value": 11
+      },
+      "int": {
+        "value": 10
+      },
+      "edu": {
+        "value": 10
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 24,
+      "max": 24
+    },
+    "stamina": {
+      "value": 12,
+      "max": 12
+    },
+    "spellcaster": true,
+    "monster": true,
+    "notes": "100kg Outsider, extraplanar flyer, #App: 1, Treasure: None. Claws (2d6), maw (3d6); armor 5; flies 20m/action; Morale +0. The hellion is a mighty demon, a horror to behold. Immune to all weapons except for magical or silvered weapons. Immune to poison and disease. Knows 1d6 spells. In addition to using them itself, it may also teach them to its mortal allies or summoners. Enjoys an Advantage to resist hostile magic. The Hellion possesses two special abilities, per the Demonic Powers table.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": 1,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "TKIsEEKLQYESGAtd",
+      "_key": "!actors.items!kjR7D1KmJZdaNS80.TKIsEEKLQYESGAtd",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 5,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "3zDE6vRbrlvon4vL",
+      "_key": "!actors.items!kjR7D1KmJZdaNS80.3zDE6vRbrlvon4vL",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "0OisS7ZPTXX0MrUP",
+      "_key": "!actors.items!kjR7D1KmJZdaNS80.0OisS7ZPTXX0MrUP",
+      "name": "Maw",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 2600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

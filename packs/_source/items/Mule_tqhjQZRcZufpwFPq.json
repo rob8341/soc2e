@@ -1,0 +1,21 @@
+{
+  "_id": "tqhjQZRcZufpwFPq",
+  "_key": "!items!tqhjQZRcZufpwFPq",
+  "name": "Mule",
+  "type": "animal",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "The infertile offspring of a donkey and a horse. Often ornery and stubborn.",
+    "cost": "20gp",
+    "speed": 30,
+    "carryingCapacity": "125kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 16500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

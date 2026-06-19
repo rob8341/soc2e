@@ -1,0 +1,143 @@
+{
+  "_id": "3VymLejMEXi1H8Wf",
+  "_key": "!actors!3VymLejMEXi1H8Wf",
+  "name": "Revenant Wizard",
+  "type": "npc",
+  "img": "icons/magic/death/skeleton-skull-soul-blue.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 9
+      },
+      "end": {
+        "value": 20
+      },
+      "int": {
+        "value": 20
+      },
+      "edu": {
+        "value": 20
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 42,
+      "max": 42
+    },
+    "stamina": {
+      "value": 21,
+      "max": 21
+    },
+    "spellcaster": true,
+    "monster": true,
+    "notes": "100kg Undead, urban walker, #App: 1, Treasure: Hoard. Claws (3d6); armor 3; walks 10m/action; Morale +3. An undead sorcerer of vast eldritch power, a Revenant Wizard is one of the mightiest monsters one may encounter. Strengthened beyond measure by its sorcerous might, this foul creature is also well-versed in the most powerful of spells. Undead: immune to poison, disease, and suffocation. Immune to mind-affecting magic. Revenant Wizards may only be harmed by magical weapons. The Revenant Wizard knows 3d6+3 spells.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": 2,
+      "sorcery": 5,
+      "sneak": 2,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "ft5krwflVpDp2Oih",
+      "_key": "!actors.items!3VymLejMEXi1H8Wf.ft5krwflVpDp2Oih",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 3,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "Jc1y14hw07xQFq2Q",
+      "_key": "!actors.items!3VymLejMEXi1H8Wf.Jc1y14hw07xQFq2Q",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 7400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

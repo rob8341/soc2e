@@ -1,0 +1,22 @@
+{
+  "_id": "rMiZbP1uD8HqB8Rk",
+  "_key": "!items!rMiZbP1uD8HqB8Rk",
+  "name": "Clay of Molding",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "When the contents of this tub are applied to an object, said object becomes soft and malleable for one turn, and can be shaped into any form desired. After one turn, the object permanently hardens into its new form. If used on a living creature, the transformed creature can dispel the effect at will, or it can be removed by using a Quell Enchantment spell.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 26000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

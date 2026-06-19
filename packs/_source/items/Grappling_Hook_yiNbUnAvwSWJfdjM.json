@@ -1,0 +1,22 @@
+{
+  "_id": "yiNbUnAvwSWJfdjM",
+  "_key": "!items!yiNbUnAvwSWJfdjM",
+  "name": "Grappling Hook",
+  "type": "adventuring",
+  "img": "icons/tools/fasteners/chain-hook-grey.webp",
+  "system": {
+    "description": "A large iron hook used for anchoring a rope. Hooking a distant target requires an Athletics/STR 8+ throw.",
+    "cost": "25gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 6100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

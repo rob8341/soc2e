@@ -1,0 +1,22 @@
+{
+  "_id": "aPB4MM7Qt46xHr4Y",
+  "_key": "!items!aPB4MM7Qt46xHr4Y",
+  "name": "Pestilence",
+  "type": "spell",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "school": "arcane",
+    "range": "Touch.",
+    "duration": "Instantaneous.",
+    "effect": "The sorcerer infests the target with a horrid wasting disease: virulence 10+, damage 2d6, interval 2d6 days. While ill, the subject suffers a -2 penalty to all skill and attack throws. Their wounds will not heal on their own, and no healing magic can help. A Restoration spell is the only way to cure this illness.",
+    "critSuccess": "The disease has virulence 12+, damage 4d6, interval 1d6 days."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 22200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

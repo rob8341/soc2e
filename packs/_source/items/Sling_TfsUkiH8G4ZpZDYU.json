@@ -1,0 +1,31 @@
+{
+  "_id": "TfsUkiH8G4ZpZDYU",
+  "_key": "!items!TfsUkiH8G4ZpZDYU",
+  "name": "Sling",
+  "type": "weapon",
+  "img": "icons/weapons/slings/sling-leather.webp",
+  "system": {
+    "description": "A simple projectile weapon made of braided flax, hemp, or leather, used to hurl small stones or lead bullets. The ammo cost shown is for lead bullets. Small stones are available for the taking in most wilderness settings: smoother is better, but slings firing stone ammunition suffers a -2 penalty to damage.",
+    "cost": "2gp",
+    "damage": "2d6",
+    "range": "40/80",
+    "aspects": "",
+    "ammo": 0,
+    "ammoMax": 20,
+    "ammoCost": "1sp",
+    "ammoType": "Bullets",
+    "thrown": false,
+    "ranged": true,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 4800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

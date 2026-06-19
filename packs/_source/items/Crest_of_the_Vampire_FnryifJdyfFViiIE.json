@@ -1,0 +1,22 @@
+{
+  "_id": "FnryifJdyfFViiIE",
+  "_key": "!items!FnryifJdyfFViiIE",
+  "name": "Crest of the Vampire",
+  "type": "adventuring",
+  "img": "icons/equipment/neck/amulet-round-blue.webp",
+  "system": {
+    "description": "When worn in battle, this small brooch forces the wearer to attack without mercy: no non-lethal attacks are allowed, and no quarter can be given. Any Lifeblood damage the wearer inflicts to enemies is absorbed, effectively healing the wearer. Stamina is not regained, only Lifeblood.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 28100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

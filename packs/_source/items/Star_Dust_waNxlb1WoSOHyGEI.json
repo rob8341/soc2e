@@ -1,0 +1,22 @@
+{
+  "_id": "waNxlb1WoSOHyGEI",
+  "_key": "!items!waNxlb1WoSOHyGEI",
+  "name": "Star Dust",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "By pouring this dust into a cup of water and then drinking it, the imbiber may shoot sparks from their fingertips. The sparks act like torches and can be telepathically controlled by the drinker: they can move up to 20m/round, to a range of 100m, and can even go under water. The drinker must beware: if they are subjected to any fire damage, they take an additional 4d6 damage. The sparks last for 1d6+3 turns.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 27100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "Qz0EfbVsrHkCUVIh",
+  "_key": "!items!Qz0EfbVsrHkCUVIh",
+  "name": "Holy Water",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "Pure water blessed by a priest. Causes 1d6 damage to any undead creatures touched by it, for 2 rounds. Cannot retain power if stored outside the vial it was blessed in.",
+    "cost": "25gp",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "IqK3yn9FfcgMXAdx",
+  "sort": 14200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

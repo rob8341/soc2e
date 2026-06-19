@@ -1,0 +1,22 @@
+{
+  "_id": "qilBIzbvfLuxsyf3",
+  "_key": "!items!qilBIzbvfLuxsyf3",
+  "name": "Robe",
+  "type": "adventuring",
+  "img": "icons/equipment/chest/robe-layered-red.webp",
+  "system": {
+    "description": "A robe.",
+    "cost": "6gp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 12900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

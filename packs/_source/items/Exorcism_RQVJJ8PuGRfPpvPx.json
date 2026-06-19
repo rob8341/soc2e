@@ -1,0 +1,22 @@
+{
+  "_id": "RQVJJ8PuGRfPpvPx",
+  "_key": "!items!RQVJJ8PuGRfPpvPx",
+  "name": "Exorcism",
+  "type": "spell",
+  "img": "icons/magic/unholy/projectile-bullet-orb-pink.webp",
+  "system": {
+    "school": "arcane",
+    "range": "50m.",
+    "duration": "Instantaneous.",
+    "effect": "A useful spell when fighting powerful evil creatures. A single targeted extraplanar creature, such as a Cacodemon or an Elemental, must throw INT 10+ or immediately return to its home dimension.",
+    "critSuccess": "The spell automatically banishes the creature back to its home dimension, without a throw to resist."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 20700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

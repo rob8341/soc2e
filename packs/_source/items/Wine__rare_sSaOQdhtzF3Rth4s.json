@@ -1,0 +1,22 @@
+{
+  "_id": "sSaOQdhtzF3Rth4s",
+  "_key": "!items!sSaOQdhtzF3Rth4s",
+  "name": "Wine, rare",
+  "type": "adventuring",
+  "img": "icons/consumables/drinks/wine-amphora-clay-gray.webp",
+  "system": {
+    "description": "Rare, fine wine.",
+    "cost": "5sp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 10700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

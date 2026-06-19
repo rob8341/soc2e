@@ -1,0 +1,31 @@
+{
+  "_id": "oRRCQ5WMO5AHO4Ze",
+  "_key": "!items!oRRCQ5WMO5AHO4Ze",
+  "name": "Staff",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-ornate.webp",
+  "system": {
+    "description": "A long wooden shaft, sometimes with metal fittings, used with two hands.",
+    "cost": "1gp",
+    "damage": "2d6",
+    "range": "",
+    "aspects": "",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 3300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

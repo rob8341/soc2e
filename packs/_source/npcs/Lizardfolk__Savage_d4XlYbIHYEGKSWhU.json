@@ -1,0 +1,174 @@
+{
+  "_id": "d4XlYbIHYEGKSWhU",
+  "_key": "!actors!d4XlYbIHYEGKSWhU",
+  "name": "Lizardfolk, Savage",
+  "type": "npc",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 9
+      },
+      "dex": {
+        "value": 6
+      },
+      "end": {
+        "value": 9
+      },
+      "int": {
+        "value": 5
+      },
+      "edu": {
+        "value": 3
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 20,
+      "max": 20
+    },
+    "stamina": {
+      "value": 10,
+      "max": 10
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "100kg Humanoid, swamp walker and swimmer, #App: 1d6+3, Treasure: Small. Claws (1d6), Bite (1d6) or by weapon; Armor 2 or by worn armor; walk of swim 10m/action; Morale +1. Savage lizardfolk, unlike their more civilized relatives, are a menace to anyone invading their swamps or otherwise living around them. Lizardfolk may hold their breath for one turn (10 minutes). In swamp or jungle environments, lizardfolk gain Advantage to Sneak, Scout, and surprise thanks to their adaptive coloration.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 2,
+      "sorcery": -3,
+      "sneak": 1,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 2,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "73lLlIXhhmjI0c8F",
+      "_key": "!actors.items!d4XlYbIHYEGKSWhU.73lLlIXhhmjI0c8F",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 2,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "wHA6as6GWOBJRG9v",
+      "_key": "!actors.items!d4XlYbIHYEGKSWhU.wHA6as6GWOBJRG9v",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "1d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "HngYolsZ7LnwhMep",
+      "_key": "!actors.items!d4XlYbIHYEGKSWhU.HngYolsZ7LnwhMep",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "1d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 5900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

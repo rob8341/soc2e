@@ -1,0 +1,119 @@
+{
+  "_id": "1e3AUttmXE9Ahkux",
+  "_key": "!actors!1e3AUttmXE9Ahkux",
+  "name": "Snake, Venomous",
+  "type": "npc",
+  "img": "icons/creatures/reptiles/snake-poised-white.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 2
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 2
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 8
+      },
+      "soc": {
+        "value": 3
+      }
+    },
+    "lifeblood": {
+      "value": 4,
+      "max": 4
+    },
+    "stamina": {
+      "value": 2,
+      "max": 2
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "3kg Beast (Pouncer), jungle \"walker\", #App: 1d6, Treasure: None. Teeth (1d6); armor 0; walk 10m/action; Morale -1. A viper, adder, or other ordinary venomous snake, possessing a lethal venomous bite. Snakes of this size feed on rodents, small mammals, and birds. They will only attack a larger creature if they are threatened or cornered. Venom: a 10+/3d6 toxin. (Instinct 8, Pack 3)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 0,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": 1,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "JrN194r0y34cNefX",
+      "_key": "!actors.items!1e3AUttmXE9Ahkux.JrN194r0y34cNefX",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "1d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 8200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "_id": "xPqUIjyWmzD1i5t5",
+  "_key": "!actors!xPqUIjyWmzD1i5t5",
+  "name": "Tribal Shaman",
+  "type": "npc",
+  "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 10
+      },
+      "int": {
+        "value": 9
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 6
+      }
+    },
+    "lifeblood": {
+      "value": 20,
+      "max": 20
+    },
+    "stamina": {
+      "value": 10,
+      "max": 10
+    },
+    "spellcaster": true,
+    "monster": false,
+    "notes": "The tribal shaman is a combination of advisor, knowledge-keeper, healer, and religious figure. Many shamans have only mundane knowledge, but others are well-versed in ancient magical arts. Equipment: Hide Armor (3), Staff (2d6).",
+    "skills": {
+      "alchemy": 1,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": 1,
+      "govern": -3,
+      "insight": 2,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": 2,
+      "meleecombat": -3,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": 2,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "LT2PWfa1d0t3mjn0",
+      "_key": "!actors.items!xPqUIjyWmzD1i5t5.LT2PWfa1d0t3mjn0",
+      "name": "Hide Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 3,
+        "sneakModifier": 0,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "w4KZDRrgI3jzHMjI",
+      "_key": "!actors.items!xPqUIjyWmzD1i5t5.w4KZDRrgI3jzHMjI",
+      "name": "Staff",
+      "type": "weapon",
+      "img": "icons/weapons/staves/staff-ornate.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 1,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 12900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

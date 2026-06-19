@@ -1,0 +1,22 @@
+{
+  "_id": "0pKGytvukFhF4vTY",
+  "_key": "!items!0pKGytvukFhF4vTY",
+  "name": "Holy Symbol",
+  "type": "adventuring",
+  "img": "icons/sundries/books/book-symbol-anchor.webp",
+  "system": {
+    "description": "A symbol holy to a religion, often worn as a necklace. May grant a +1 to Religion throws against magic and magical creatures. Wooden/stone versions cost 5gp but provide no additional protection.",
+    "cost": "25gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 6500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

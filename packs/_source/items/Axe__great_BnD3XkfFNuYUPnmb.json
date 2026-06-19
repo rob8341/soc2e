@@ -1,0 +1,31 @@
+{
+  "_id": "BnD3XkfFNuYUPnmb",
+  "_key": "!items!BnD3XkfFNuYUPnmb",
+  "name": "Axe, great",
+  "type": "weapon",
+  "img": "icons/weapons/axes/axe-double-engraved.webp",
+  "system": {
+    "description": "A massive two-handed axe. A great axe counts as two items for encumbrance purposes.",
+    "cost": "10gp",
+    "damage": "3d6+3",
+    "range": "",
+    "aspects": "AV 1d6, Bulky, Two-Handed",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 2,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,119 @@
+{
+  "_id": "zbI7AUMspFhHJsUy",
+  "_key": "!actors!zbI7AUMspFhHJsUy",
+  "name": "Wight",
+  "type": "npc",
+  "img": "icons/magic/death/skeleton-glow-yellow-black.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 5
+      },
+      "end": {
+        "value": 10
+      },
+      "int": {
+        "value": 1
+      },
+      "edu": {
+        "value": 0
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 22,
+      "max": 22
+    },
+    "stamina": {
+      "value": 11,
+      "max": 11
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "100kg Undead, urban walker, #App: 1d6, Treasure: Medium. Claws (2d6); armor 0; walks 10m/action; Morale +1. Wights are restless undead forever haunting their barrow-mounds, cursed to wander these tombs for eternity. A wight's appearance is a weird and twisted reflection of the form it had in life. A wight is about the height and weight of a human. It is a powerful undead being, so terrible that those struck by its claws might age prematurely. Undead: immune to poison, disease, and suffocation. Immune to mind-affecting magic. Immune to non-silver, non-magical weapons. A character bitten by a wight must throw END 6+ or permanently age 1d6+2 years (which may entail Aging Table throws). A creature slain by a wight will rise as a wight the following midnight, unless its body is treated with Holy Water by a priest of a holy deity, or cremated.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": 1,
+      "sneak": 1,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "yaY2CddZOugsDudT",
+      "_key": "!actors.items!zbI7AUMspFhHJsUy.yaY2CddZOugsDudT",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 8900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

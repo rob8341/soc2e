@@ -1,0 +1,22 @@
+{
+  "_id": "anKuLqIoDMwEnRx0",
+  "_key": "!items!anKuLqIoDMwEnRx0",
+  "name": "Summon Ooze",
+  "type": "spell",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "5m",
+    "duration": "1 day",
+    "effect": "Casting Time: This spell requires 2d6 turns to cast. The Sorcerer calls forth their choice of Gray Ooze, Green Slime, or Yellow Mold from the darkest recesses of the Earth (see the Monsters for details). The ooze will mindlessly respond to the Sorcerer's will. It will disappear if Quell Enchantment is cast on it, or when the spell ends.",
+    "critSuccess": "The summoned ooze has twice as much Stamina and Lifeblood as normal."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 25300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

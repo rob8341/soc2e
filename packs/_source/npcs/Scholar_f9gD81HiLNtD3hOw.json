@@ -1,0 +1,198 @@
+{
+  "_id": "f9gD81HiLNtD3hOw",
+  "_key": "!actors!f9gD81HiLNtD3hOw",
+  "name": "Scholar",
+  "type": "npc",
+  "img": "icons/skills/trades/academics-book-study-purple.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "dex": {
+        "value": 6
+      },
+      "end": {
+        "value": 7
+      },
+      "int": {
+        "value": 8
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 8
+      }
+    },
+    "lifeblood": {
+      "value": 14,
+      "max": 14
+    },
+    "stamina": {
+      "value": 7,
+      "max": 7
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A learned expert in each field. Scholars can be found enjoying the patronage of the wealthy and powerful, or holed up in ancient crumbling libraries, as forgotten as the texts they study. Pick one skill from their list and raise it to level 2 to reflect specialization. Equipment: Ink Bottles and Paper, Quills, Robes, Torches, Oil.",
+    "skills": {
+      "alchemy": 1,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": 1,
+      "deception": -3,
+      "govern": 1,
+      "insight": 1,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": 1,
+      "meleecombat": -3,
+      "naturalphilosophy": 1,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": 1,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "MSDU0mni6nffz2go",
+      "_key": "!actors.items!f9gD81HiLNtD3hOw.MSDU0mni6nffz2go",
+      "name": "Ink Bottles and Paper",
+      "type": "adventuring",
+      "img": "icons/tools/scribal/ink-quill-pink.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "lOu8PGJ2ViAOJ5c4",
+      "_key": "!actors.items!f9gD81HiLNtD3hOw.lOu8PGJ2ViAOJ5c4",
+      "name": "Quills",
+      "type": "adventuring",
+      "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "xcmlicXktJDvMYJC",
+      "_key": "!actors.items!f9gD81HiLNtD3hOw.xcmlicXktJDvMYJC",
+      "name": "Robes",
+      "type": "adventuring",
+      "img": "icons/sundries/misc/admission-ticket-grey.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "nMHhrV5u3pYEIPPv",
+      "_key": "!actors.items!f9gD81HiLNtD3hOw.nMHhrV5u3pYEIPPv",
+      "name": "Torches",
+      "type": "adventuring",
+      "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "GdwN7hoCgIs2tB9f",
+      "_key": "!actors.items!f9gD81HiLNtD3hOw.GdwN7hoCgIs2tB9f",
+      "name": "Oil",
+      "type": "adventuring",
+      "img": "icons/sundries/survival/rope-coil-brown.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 11900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

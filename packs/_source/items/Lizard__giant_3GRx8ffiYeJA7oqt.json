@@ -1,0 +1,21 @@
+{
+  "_id": "3GRx8ffiYeJA7oqt",
+  "_key": "!items!3GRx8ffiYeJA7oqt",
+  "name": "Lizard, giant",
+  "type": "animal",
+  "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+  "system": {
+    "description": "A fantastic giant lizard, larger than a horse, tamed and ready for riding. A war-trained giant lizard costs 1000gp.",
+    "cost": "80gp",
+    "speed": 30,
+    "carryingCapacity": "125kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 16300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

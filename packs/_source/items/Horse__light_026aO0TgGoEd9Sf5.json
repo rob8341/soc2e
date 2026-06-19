@@ -1,0 +1,21 @@
+{
+  "_id": "026aO0TgGoEd9Sf5",
+  "_key": "!items!026aO0TgGoEd9Sf5",
+  "name": "Horse, light",
+  "type": "animal",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "description": "A fast, lean horse. May be trained for riding or war. A light war horse costs 150gp. Too fragile to be trained for hard draft work.",
+    "cost": "75gp",
+    "speed": 60,
+    "carryingCapacity": "125kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 16200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

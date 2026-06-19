@@ -1,0 +1,22 @@
+{
+  "_id": "YCFCdCYSyYUJcvd9",
+  "_key": "!items!YCFCdCYSyYUJcvd9",
+  "name": "Hut, wattle",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "A 3m square building with earthen (wattle) walls and a thatched roof. Those of SOC 1-2 live in these. Lodging cost, not per night.",
+    "cost": "25gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 11000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

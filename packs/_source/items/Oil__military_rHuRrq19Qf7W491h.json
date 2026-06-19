@@ -1,0 +1,22 @@
+{
+  "_id": "rHuRrq19Qf7W491h",
+  "_key": "!items!rHuRrq19Qf7W491h",
+  "name": "Oil, military",
+  "type": "adventuring",
+  "img": "icons/sundries/survival/rope-coil-brown.webp",
+  "system": {
+    "description": "Highly flammable and adhesive oil. A lit flask has the Fire weapon Aspect and the Blast 2m Aspect.",
+    "cost": "2gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 14500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

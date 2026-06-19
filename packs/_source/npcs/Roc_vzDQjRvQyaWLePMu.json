@@ -1,0 +1,174 @@
+{
+  "_id": "vzDQjRvQyaWLePMu",
+  "_key": "!actors!vzDQjRvQyaWLePMu",
+  "name": "Roc",
+  "type": "npc",
+  "img": "icons/creatures/birds/raptor-hawk-flying.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 18
+      },
+      "dex": {
+        "value": 6
+      },
+      "end": {
+        "value": 18
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 36,
+      "max": 36
+    },
+    "stamina": {
+      "value": 19,
+      "max": 19
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "5000kg Beast (Hunter), mountain flyer, #App: 1, Treasure: Small. Teeth (2d6), claws (3d6); armor 2; fly 30m/action; Morale +0. A roc looks like a giant eagle. It has an appetite to match. Rocs will eat anything, including livestock and humans - all are easy prey to such a majestic predator of the air. On a successful attack, the roc automatically grapples its victim, and may take them up into the air, and back to their nests for dinner. (Instinct 9, Pack 0)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "96UTtjCj1h8zGaBZ",
+      "_key": "!actors.items!vzDQjRvQyaWLePMu.96UTtjCj1h8zGaBZ",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 2,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "hB8gn8AHkxv78JaY",
+      "_key": "!actors.items!vzDQjRvQyaWLePMu.hB8gn8AHkxv78JaY",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "b3F1ROCzvHGVhkAk",
+      "_key": "!actors.items!vzDQjRvQyaWLePMu.b3F1ROCzvHGVhkAk",
+      "name": "Claws",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 7600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

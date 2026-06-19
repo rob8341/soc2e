@@ -1,0 +1,22 @@
+{
+  "_id": "EBsRllvTrZ4Iejsq",
+  "_key": "!items!EBsRllvTrZ4Iejsq",
+  "name": "Song of the Sea",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "The imbiber of this potion may swim at a rate of 20m/action, breath underwater, and see up to 1km away under water. They are also able to communicate with fish and other underwater life, though they may not necessarily be treated as friends.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 27000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

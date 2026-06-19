@@ -1,0 +1,22 @@
+{
+  "_id": "RpwLe5mE3eXdI6zw",
+  "_key": "!items!RpwLe5mE3eXdI6zw",
+  "name": "The Wolf Inside You",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "When consumed, this potion transforms the drinker into a Dire Wolf (p.280). They retain their intellect and ability to speak with humans but cannot use weapons or use other equipment. They gain the speed, attributes, and bite attack of the creature, and can pass as a dire wolf among other wild animals.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 27300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

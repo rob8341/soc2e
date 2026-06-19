@@ -1,0 +1,22 @@
+{
+  "_id": "WAWHoPe5JEKCIYk7",
+  "_key": "!items!WAWHoPe5JEKCIYk7",
+  "name": "Djinn Lamp",
+  "type": "adventuring",
+  "img": "icons/sundries/lights/lamp-tech-blue.webp",
+  "system": {
+    "description": "This legendary item is the prison of one powerful djinn. By lighting the oil in the lamp, the djinn emerges, and will carry out one request for the lamp's owner. This may include casting an eldritch spell\u2014like Rend Reality\u2014or performing a task. Once the command is uttered, it cannot be changed, and the usual warnings about the djinn misinterpreting (deliberately or otherwise) the instructions given apply.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 31500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

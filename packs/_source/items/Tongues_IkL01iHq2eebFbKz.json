@@ -1,0 +1,22 @@
+{
+  "_id": "IkL01iHq2eebFbKz",
+  "_key": "!items!IkL01iHq2eebFbKz",
+  "name": "Tongues",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-green.webp",
+  "system": {
+    "school": "arcane",
+    "range": "50m",
+    "duration": "One hour plus one hour per caster's level of Sorcery skill.",
+    "effect": "Upon successfully completing this ritual, the sorcerer can understand and communicate in all languages. The sorcerer can have a fluent conversation with any creature capable of language.",
+    "critSuccess": "This ability also extends to written languages. The sorcerer can understand any text they attempt to read."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 23100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "TKkwOc2pHd9PObQz",
+  "_key": "!items!TKkwOc2pHd9PObQz",
+  "name": "Commune with Plants",
+  "type": "spell",
+  "img": "icons/magic/perception/eye-slit-red-orange.webp",
+  "system": {
+    "school": "arcane",
+    "range": "10m.",
+    "duration": "3 turns.",
+    "effect": "The Sorcerer can communicate with both normal plants and plant-based creatures. A normal plant's sense of its surroundings is limited, and thus it will have a limited ability to answer questions about events outside its immediate vicinity. The spell does not alter the plant's reaction towards the Sorcerer. However, normal plants often communicate freely with sorcerers, as they have little else important to do but photosynthesize without end: anything to break the monotony. To determine the attitudes of sentient plant creatures towards the sorcerer, follow the normal Reaction rules. Friendly plant creatures may assist the Sorcerer in various tasks; ordinary plants may only converse.",
+    "critSuccess": "Gain Advantage on Reaction rolls vs. plant creatures the sorcerer seeks to converse with."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 20000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

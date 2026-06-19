@@ -1,0 +1,174 @@
+{
+  "_id": "JB3fgIbQEle7roOe",
+  "_key": "!actors!JB3fgIbQEle7roOe",
+  "name": "Elephant",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 30
+      },
+      "dex": {
+        "value": 4
+      },
+      "end": {
+        "value": 30
+      },
+      "int": {
+        "value": 2
+      },
+      "edu": {
+        "value": 14
+      },
+      "soc": {
+        "value": 10
+      }
+    },
+    "lifeblood": {
+      "value": 66,
+      "max": 66
+    },
+    "stamina": {
+      "value": 33,
+      "max": 33
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "3200kg Beast (Intermittent), plains or forest walker, #App: 3d6, Treasure: None. Trample (3d6), tusks (2d6+3); armor 3; walk 10m/action; Morale +0. A majestic mammal, the elephant rules the forest or savannah. Even great cats are wary of attacking a herd of elephants, unless they manage to separate one from its herd.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 3,
+      "archery": -3,
+      "battle": 0,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 0,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "dGk1zjgHDe71imAR",
+      "_key": "!actors.items!JB3fgIbQEle7roOe.dGk1zjgHDe71imAR",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 3,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "DL6KFQraidyYG42C",
+      "_key": "!actors.items!JB3fgIbQEle7roOe.DL6KFQraidyYG42C",
+      "name": "Trample",
+      "type": "weapon",
+      "img": "icons/weapons/fist/claws-gloves.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "JTr2CRSsMYkp3TC4",
+      "_key": "!actors.items!JB3fgIbQEle7roOe.JTr2CRSsMYkp3TC4",
+      "name": "Tusks",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6+3",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 4400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

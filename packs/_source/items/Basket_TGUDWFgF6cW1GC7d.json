@@ -1,0 +1,22 @@
+{
+  "_id": "TGUDWFgF6cW1GC7d",
+  "_key": "!items!TGUDWFgF6cW1GC7d",
+  "name": "Basket",
+  "type": "adventuring",
+  "img": "icons/containers/misc/basket-simple-green.webp",
+  "system": {
+    "description": "A woven basket for carrying goods.",
+    "cost": "4sp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 5500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

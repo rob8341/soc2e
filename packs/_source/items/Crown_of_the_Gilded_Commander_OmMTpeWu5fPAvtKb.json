@@ -1,0 +1,22 @@
+{
+  "_id": "OmMTpeWu5fPAvtKb",
+  "_key": "!items!OmMTpeWu5fPAvtKb",
+  "name": "Crown of the Gilded Commander",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "Anyone wearing this ornate crown grants a +1 Morale bonus to anyone under their command in battle. However, ordering underlings to retreat from battle before its end will require a Battle/SOC 8+ throw.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 28200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "vh7i71S87XwXaHCP",
+  "_key": "!items!vh7i71S87XwXaHCP",
+  "name": "Ballista",
+  "type": "weapon",
+  "img": "icons/weapons/artillery/ballista-wood-green.webp",
+  "system": {
+    "description": "Essentially a massive crossbow, this siege weapon hurls immense bolts at its targets. It does not have a minimum range. The ballista suffers -2 modifier to hit low-flying targets.",
+    "cost": "80gp",
+    "damage": "6d6",
+    "range": "200/300",
+    "aspects": "AV 2d6",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "2gp",
+    "ammoType": "Bolts",
+    "thrown": false,
+    "ranged": true,
+    "artillery": true,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 4900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

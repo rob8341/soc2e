@@ -1,0 +1,31 @@
+{
+  "_id": "fnQsKDGAUuRqphlh",
+  "_key": "!items!fnQsKDGAUuRqphlh",
+  "name": "Maul",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/shorthammer-simple-yellow.webp",
+  "system": {
+    "description": "A two-handed hammer. A maul counts as two items for encumbrance purposes.",
+    "cost": "7gp",
+    "damage": "4d6",
+    "range": "",
+    "aspects": "Bulky, Two-Handed",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 2,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 2800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

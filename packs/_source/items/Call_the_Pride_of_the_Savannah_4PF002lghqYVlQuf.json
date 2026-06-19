@@ -1,0 +1,22 @@
+{
+  "_id": "4PF002lghqYVlQuf",
+  "_key": "!items!4PF002lghqYVlQuf",
+  "name": "Call the Pride of the Savannah",
+  "type": "spell",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "school": "arcane",
+    "range": "Special.",
+    "duration": "1 day.",
+    "effect": "This spell calls one or more great cats to the sorcerer to serve as companions (see the Monsters chapter). This spell calls forth 6 mountain lions, 6 panthers, 4 lions, or 4 tigers. If cast in terrain to which such cats are native, the cats arrive within 1d6 turns. Otherwise, they arrive within 3d6 turns. If cast in a place inaccessible to great cats (such as deep underground or in a well-guarded city), the cats will wait nearby as closely as possible. In settings where cats are not at all available, equivalent apex predators such as bears or medium-sized predatory dinosaurs, will arrive. For the duration of the spell, the cats understand the sorcerer's speech and serve as loyal friends and companions. The spell persists until it is dispelled by quell enchantment, or one day passes (at the end of which the cats depart). The sorcerer may increase the spell's duration by casting it again a short time before that day ends.",
+    "critSuccess": "The duration is increased to one week."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 19400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "4k2k59yE6752aJg8",
+  "_key": "!items!4k2k59yE6752aJg8",
+  "name": "Wheat, 1kg",
+  "type": "adventuring",
+  "img": "icons/consumables/grains/wheat-gold.webp",
+  "system": {
+    "description": "One kilogram of wheat.",
+    "cost": "2cp",
+    "quantity": 1,
+    "subtype": "food",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 10400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

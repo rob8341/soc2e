@@ -1,0 +1,31 @@
+{
+  "_id": "zkChMbyIbNiCdxnu",
+  "_key": "!items!zkChMbyIbNiCdxnu",
+  "name": "Cutlass",
+  "type": "weapon",
+  "img": "icons/weapons/swords/swords-cutlasses-white.webp",
+  "system": {
+    "description": "A short, broad slashing sword with a slightly curved blade and basket-guard hilt. Traditionally used by marines and pirates.",
+    "cost": "10gp",
+    "damage": "2d6+1",
+    "range": "",
+    "aspects": "",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "hgmmqGmRscEm5uaP",
+  "_key": "!items!hgmmqGmRscEm5uaP",
+  "name": "Crushing Quest",
+  "type": "spell",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "school": "arcane",
+    "range": "10m",
+    "duration": "Permanent until quest fulfilled.",
+    "effect": "This powerful ritual imbues the caster with the ability to force a target to perform a service and return with proof of completion of the quest. The target can resist the spell with an INT/10 + (Caster's Sorcery skill) roll. For example, a sorcerer with Sorcery-3 would force a target to roll INT/13+ to resist this spell. If the target ignores the quest, they suffer a crippling illness, and lose 1 point of a randomly determined attribute per day. This penalty can only be removed once the quest is fulfilled.",
+    "critSuccess": "No additional effect."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 20200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

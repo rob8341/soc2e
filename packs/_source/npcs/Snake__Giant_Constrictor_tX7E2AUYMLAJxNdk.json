@@ -1,0 +1,143 @@
+{
+  "_id": "tX7E2AUYMLAJxNdk",
+  "_key": "!actors!tX7E2AUYMLAJxNdk",
+  "name": "Snake, Giant Constrictor",
+  "type": "npc",
+  "img": "icons/creatures/reptiles/snake-poised-white.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 15
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 16
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 8
+      },
+      "soc": {
+        "value": 3
+      }
+    },
+    "lifeblood": {
+      "value": 34,
+      "max": 34
+    },
+    "stamina": {
+      "value": 17,
+      "max": 17
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "200kg Beast (Pouncer), jungle \"walker\", #App: 1d6, Treasure: Incidental. Teeth (2d6); armor 2; walk 10m/action; Morale -1. The giant constrictor is an enormous version of ordinary pythons or anacondas, large enough to constrict a human-sized, or even horse-sized, victim. Upon a successful hit, the giant constrictor automatically grapples its victim (see the Combat chapter for details). Unless the victim breaks free, it suffers 1d6 constriction damage per round. The giant constrictor gains Advantage to all grapple throws. (Instinct 8, Pack 3)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 1,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "cFKsZN7vbluXweOx",
+      "_key": "!actors.items!tX7E2AUYMLAJxNdk.cFKsZN7vbluXweOx",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 2,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "WhtauCX3IxLGgrL2",
+      "_key": "!actors.items!tX7E2AUYMLAJxNdk.WhtauCX3IxLGgrL2",
+      "name": "Teeth",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 8100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

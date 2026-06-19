@@ -1,0 +1,22 @@
+{
+  "_id": "Q0O1VfxIdakEAWJ1",
+  "_key": "!items!Q0O1VfxIdakEAWJ1",
+  "name": "Dress, SOC 9-11",
+  "type": "adventuring",
+  "img": "icons/equipment/feet/socks-crew-padded.webp",
+  "system": {
+    "description": "An outfit appropriate to Social Standing 9-11.",
+    "cost": "20gp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 12400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,87 @@
+{
+  "_id": "fDPeFUNFECtxRSEq",
+  "_key": "!actors!fDPeFUNFECtxRSEq",
+  "name": "Elemental, Air",
+  "type": "npc",
+  "img": "icons/creatures/magical/fae-fairy-winged-glowing-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 14
+      },
+      "dex": {
+        "value": 14
+      },
+      "end": {
+        "value": 14
+      },
+      "int": {
+        "value": 1
+      },
+      "edu": {
+        "value": 9
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 30,
+      "max": 30
+    },
+    "stamina": {
+      "value": 15,
+      "max": 15
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "0kg Outsider, urban flyer, #App: 1, Treasure: None. Special (see below); armor 0; fly 30m/action; Morale +4. An air elemental is an extraplanar exemplar of the Classic Element of Air. It appears as a twirling air mass, crackling with electricity. Immune to non-magical weapons. Once per round, using one action, the air elemental may form a whirlwind, causing 2d6 damage to any creature within 3m of the elemental. Everyone within 3m is knocked down unless they can make a DEX 10+ throw.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 1,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 1,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 4000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

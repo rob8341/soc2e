@@ -1,0 +1,24 @@
+{
+  "_id": "p5B1Id9Z850kEnyd",
+  "_key": "!items!p5B1Id9Z850kEnyd",
+  "name": "Leather, Wonderous",
+  "type": "armor",
+  "img": "icons/equipment/chest/vest-reinforced-leather.webp",
+  "system": {
+    "description": "Leather armor made from the hides of wonderous or magical beasts such as dragons. At the referee's discretion, wonderous armor may provide additional protections at increased costs.",
+    "cost": "200gp",
+    "shield": false,
+    "protection": 8,
+    "sneakModifier": 0,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "nKYaXRvj7uff0LYT",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

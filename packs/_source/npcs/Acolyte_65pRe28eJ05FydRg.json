@@ -1,0 +1,198 @@
+{
+  "_id": "65pRe28eJ05FydRg",
+  "_key": "!actors!65pRe28eJ05FydRg",
+  "name": "Acolyte",
+  "type": "npc",
+  "img": "icons/svg/cowled.svg",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 7
+      },
+      "int": {
+        "value": 8
+      },
+      "edu": {
+        "value": 8
+      },
+      "soc": {
+        "value": 8
+      }
+    },
+    "lifeblood": {
+      "value": 14,
+      "max": 14
+    },
+    "stamina": {
+      "value": 7,
+      "max": 7
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A low-ranking member of a religious order. Acolytes are often on pilgrimage or are spending time furthering their religion by helping the poor and needy. Equipment: Healer's Kit, Holy Symbol, Ink Bottle, Writing Implements, Robes.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": 1,
+      "meleecombat": -3,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": 1,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": 1,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "D4qbuquViHT5P2oe",
+      "_key": "!actors.items!65pRe28eJ05FydRg.D4qbuquViHT5P2oe",
+      "name": "Healer's Kit",
+      "type": "adventuring",
+      "img": "icons/consumables/drinks/bottle-soda.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "64RVc86LLeI6qccF",
+      "_key": "!actors.items!65pRe28eJ05FydRg.64RVc86LLeI6qccF",
+      "name": "Holy Symbol",
+      "type": "adventuring",
+      "img": "icons/sundries/books/book-symbol-anchor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "OAs08bdVYH1QTIdV",
+      "_key": "!actors.items!65pRe28eJ05FydRg.OAs08bdVYH1QTIdV",
+      "name": "Ink Bottle",
+      "type": "adventuring",
+      "img": "icons/tools/scribal/ink-quill-pink.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "RAAiB38wmBdoKoU3",
+      "_key": "!actors.items!65pRe28eJ05FydRg.RAAiB38wmBdoKoU3",
+      "name": "Writing Implements",
+      "type": "adventuring",
+      "img": "icons/sundries/documents/document-writing-pink.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "XJ9aSYehlcvOpsLD",
+      "_key": "!actors.items!65pRe28eJ05FydRg.XJ9aSYehlcvOpsLD",
+      "name": "Robes",
+      "type": "adventuring",
+      "img": "icons/sundries/misc/admission-ticket-grey.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 9500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

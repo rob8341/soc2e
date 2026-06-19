@@ -1,0 +1,31 @@
+{
+  "_id": "rsK9EjHvIHCtlRJo",
+  "_key": "!items!rsK9EjHvIHCtlRJo",
+  "name": "Arbalest",
+  "type": "weapon",
+  "img": "icons/weapons/crossbows/crossbow-heavy.webp",
+  "system": {
+    "description": "A heavy crossbow that must be reloaded with mechanical assistance. The arbalest is the mightiest ranged weapon on the medieval battlefield. It takes 2 actions to reload an Arbalest and counts as two items of encumbrance.",
+    "cost": "50gp",
+    "damage": "4d6+1",
+    "range": "60/120",
+    "aspects": "AV 2d6",
+    "ammo": 0,
+    "ammoMax": 20,
+    "ammoCost": "3gp",
+    "ammoType": "Bolts",
+    "thrown": false,
+    "ranged": true,
+    "artillery": false,
+    "encumbrance": 2,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 4000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

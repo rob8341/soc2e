@@ -1,0 +1,22 @@
+{
+  "_id": "P0YMkFBl6O7TDwnE",
+  "_key": "!items!P0YMkFBl6O7TDwnE",
+  "name": "Vengeance of the Gods",
+  "type": "spell",
+  "img": "icons/magic/time/day-night-sun-moon.webp",
+  "system": {
+    "school": "arcane",
+    "range": "75m.",
+    "duration": "Special.",
+    "effect": "This spell calls forth the wrath of vengeful gods and instantly destroys a number of undead creatures equal to three times the sorcerer's Sorcery skill. All undead targets must be inside a 20m radius sphere from a point of origin chosen by the sorcerer. Skeletons and zombies turn to dust automatically. Other undead must throw END 10+ or crumble to dust. Undead with the Sorcery skill, such as vampires, are immune to this spell.",
+    "critSuccess": "The spell destroys all non-sorcerous undead automatically, without granting them the END 8+ throw to resist, in a 40m radius!"
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 23300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

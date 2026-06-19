@@ -1,0 +1,22 @@
+{
+  "_id": "JoqyNAbPHNMUKRe5",
+  "_key": "!items!JoqyNAbPHNMUKRe5",
+  "name": "Restoration",
+  "type": "spell",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "school": "arcane",
+    "range": "Touch.",
+    "duration": "Instantaneous.",
+    "effect": "The Restoration spell removes any curses, afflictions, diseases, or poisons from the creature the Sorcerer touches. This spell may also allow a creature to regrow lost limbs or organs, thus reversing mortal wounds, assuming that the creature is still alive. However, such rapid regeneration wracks the target's body: the creature must throw END 8+ or be forced to roll on the Mutation Table. This spell cannot cure mutations, and nor can it bring dead creatures back to life.",
+    "critSuccess": "The spell regenerates missing limbs or organs automatically, without risk of mutation."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 22500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

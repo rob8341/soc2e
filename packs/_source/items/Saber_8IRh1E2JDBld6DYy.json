@@ -1,0 +1,31 @@
+{
+  "_id": "8IRh1E2JDBld6DYy",
+  "_key": "!items!8IRh1E2JDBld6DYy",
+  "name": "Saber",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-flanged-lightning.webp",
+  "system": {
+    "description": "A single-edged curved sword, often with a large handguard. A saber is traditionally a cavalry weapon.",
+    "cost": "12gp",
+    "damage": "3d6",
+    "range": "",
+    "aspects": "Mounted",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 3000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

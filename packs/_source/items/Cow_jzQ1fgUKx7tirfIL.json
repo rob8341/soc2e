@@ -1,0 +1,21 @@
+{
+  "_id": "jzQ1fgUKx7tirfIL",
+  "_key": "!items!jzQ1fgUKx7tirfIL",
+  "name": "Cow",
+  "type": "animal",
+  "img": "icons/creatures/mammals/livestock-cow-green.webp",
+  "system": {
+    "description": "One of the most common domesticated animals, provides milk and meat. A typical farm cow weighs over 200kg.",
+    "cost": "10gp",
+    "speed": 15,
+    "carryingCapacity": "40kg"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 15200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

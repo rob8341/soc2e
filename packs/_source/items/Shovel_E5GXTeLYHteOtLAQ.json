@@ -1,0 +1,22 @@
+{
+  "_id": "E5GXTeLYHteOtLAQ",
+  "_key": "!items!E5GXTeLYHteOtLAQ",
+  "name": "Shovel",
+  "type": "adventuring",
+  "img": "icons/tools/hand/shovel-trench.webp",
+  "system": {
+    "description": "A wooden handle with a flattened end often made of metal. Used as a weapon, does 1d6 damage, as a club.",
+    "cost": "2gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 8200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

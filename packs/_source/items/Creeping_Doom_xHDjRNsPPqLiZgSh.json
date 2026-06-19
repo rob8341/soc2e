@@ -1,0 +1,22 @@
+{
+  "_id": "xHDjRNsPPqLiZgSh",
+  "_key": "!items!xHDjRNsPPqLiZgSh",
+  "name": "Creeping Doom",
+  "type": "spell",
+  "img": "icons/magic/fire/projectile-needles-salvo-red.webp",
+  "system": {
+    "school": "arcane",
+    "range": "200m",
+    "duration": "Ten minutes.",
+    "effect": "When this ritual, the sorcerer calls forth a teeming mass of crawling and flying insects to devour plants, animals, and humans unfortunate enough to be caught in its path. Nothing will stop the insect swarm, although it will not climb more than six feet in its pursuit of meat. Walls of flame or wide canal of water will divert the swarm. Anyone caught in the swarm takes 6D damage per round for 2d6 rounds. Once summoned, the swarm will move in a single direction only; the caster has no control over its direction.",
+    "critSuccess": "The caster has limited control over the direction of the swarm, which lasts for ten minutes."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 20100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

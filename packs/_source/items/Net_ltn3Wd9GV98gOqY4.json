@@ -1,0 +1,31 @@
+{
+  "_id": "ltn3Wd9GV98gOqY4",
+  "_key": "!items!ltn3Wd9GV98gOqY4",
+  "name": "Net",
+  "type": "weapon",
+  "img": "icons/weapons/misc/whip-leather.webp",
+  "system": {
+    "description": "A 1 square-meter net woven of thin rope or twine with weights at the corners. On a successful hit, the target must throw DEX 10+ to avoid becoming entangled.",
+    "cost": "2gp",
+    "damage": "Special",
+    "range": "",
+    "aspects": "Entangle, Two-Handed",
+    "ammo": 0,
+    "ammoMax": 0,
+    "ammoCost": "",
+    "ammoType": "",
+    "thrown": false,
+    "ranged": false,
+    "artillery": false,
+    "encumbrance": 1,
+    "equipped": false
+  },
+  "effects": [],
+  "folder": "NbrnTP3fAbnFbmOH",
+  "sort": 17000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

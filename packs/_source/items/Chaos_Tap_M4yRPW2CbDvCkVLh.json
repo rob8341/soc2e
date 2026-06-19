@@ -1,0 +1,22 @@
+{
+  "_id": "M4yRPW2CbDvCkVLh",
+  "_key": "!items!M4yRPW2CbDvCkVLh",
+  "name": "Chaos Tap",
+  "type": "adventuring",
+  "img": "icons/sundries/survival/tape-duct.webp",
+  "system": {
+    "description": "This dangerous item is the bane of all outsiders and undead. By spending an action, the bearer of this crystal can destroy any outsider or undead creature. The creature gets an INT 10+ roll to avoid the banishment. However, the bearer of the Tap must roll on the Corruption Table twice and take the worse result. If the creature is not successfully banished, the tap bearer does not roll for Corruption.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 31300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

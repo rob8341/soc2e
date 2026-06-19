@@ -1,0 +1,22 @@
+{
+  "_id": "tFuaQvSMbkuuP4XO",
+  "_key": "!items!tFuaQvSMbkuuP4XO",
+  "name": "Scepter of Forgiveness",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "By spending a Hero Point, the bearer of this scepter can remove curses, quests, or other negative magical effects on a touched target.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 30400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

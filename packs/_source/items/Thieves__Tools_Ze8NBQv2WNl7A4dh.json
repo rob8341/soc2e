@@ -1,0 +1,22 @@
+{
+  "_id": "Ze8NBQv2WNl7A4dh",
+  "_key": "!items!Ze8NBQv2WNl7A4dh",
+  "name": "Thieves' Tools",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "A set of lockpicks and other small tools used for burglary and to tamper with mechanisms like traps. Without proper tools incurs a -1 penalty.",
+    "cost": "25gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 8800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

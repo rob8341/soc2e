@@ -1,0 +1,22 @@
+{
+  "_id": "xXBc3lF6k7HaePV1",
+  "_key": "!items!xXBc3lF6k7HaePV1",
+  "name": "Petrification",
+  "type": "spell",
+  "img": "icons/magic/earth/projectile-orb-asteroid-yellow.webp",
+  "system": {
+    "school": "arcane",
+    "range": "50m",
+    "duration": "Permanent",
+    "effect": "The caster can turn a number of living targets into stone statues equal to their Sorcery skill +1. This effect cannot be avoided without magical or divine protection. Petrification preserves the targets and their belongings as exquisitely carved statues. The existence of magic that reverses this spell is left to the Referee to develop.",
+    "critSuccess": "Double the number of petrification targets."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 22300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

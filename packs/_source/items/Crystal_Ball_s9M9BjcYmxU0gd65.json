@@ -1,0 +1,22 @@
+{
+  "_id": "s9M9BjcYmxU0gd65",
+  "_key": "!items!s9M9BjcYmxU0gd65",
+  "name": "Crystal Ball",
+  "type": "adventuring",
+  "img": "icons/sundries/survival/cuffs-shackles-ball.webp",
+  "system": {
+    "description": "The fortune-teller's classic instrument. Three times per day, the user may look into the ball, and see any person or place they wish. If the scryer is familiar with the person or place or has an item that once belonged to the person or place, their visions will be much clearer. The crystal ball does not reveal sound, nor can the user cast spells through the crystal ball at a target they can see.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 28300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

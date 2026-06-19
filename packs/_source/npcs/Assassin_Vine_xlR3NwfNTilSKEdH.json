@@ -1,0 +1,143 @@
+{
+  "_id": "xlR3NwfNTilSKEdH",
+  "_key": "!actors!xlR3NwfNTilSKEdH",
+  "name": "Assassin Vine",
+  "type": "npc",
+  "img": "icons/creatures/magical/humanoid-silhouette-green.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "dex": {
+        "value": 9
+      },
+      "end": {
+        "value": 10
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 6
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 20,
+      "max": 20
+    },
+    "stamina": {
+      "value": 10,
+      "max": 10
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "800kg Beast (Trapper), forest walker, #App: 1, Treasure: Incidental. 3d6 vines (1d6 points of damage each); armor 4; speed 5m/action; Morale +0. A horrid semi-mobile carnivorous plant, the assassin vine creates its own fertilizer by crushing passers-by and depositing their carcasses near its roots. On a successful attack with Effect 2 or more, it grapples its victim, causing an additional 1d6 damage. The grapple does this damage each round. Each vine can take 1d6 damage (after armor) before being smashed or chopped off. An assassin vine that has lost all its vines cannot attack.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": 2,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "tHZB9cdWchYPCQ2j",
+      "_key": "!actors.items!xlR3NwfNTilSKEdH.tHZB9cdWchYPCQ2j",
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "icons/equipment/chest/vest-bulletproof-body-armor.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "shield": false,
+        "protection": 4,
+        "sneakModifier": 0,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "J5ciOD4cRikdtXCk",
+      "_key": "!actors.items!xlR3NwfNTilSKEdH.J5ciOD4cRikdtXCk",
+      "name": "D6 vines",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-broad-worn.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "1d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

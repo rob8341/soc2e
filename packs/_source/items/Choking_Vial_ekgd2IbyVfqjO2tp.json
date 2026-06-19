@@ -1,0 +1,22 @@
+{
+  "_id": "ekgd2IbyVfqjO2tp",
+  "_key": "!items!ekgd2IbyVfqjO2tp",
+  "name": "Choking Vial",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "system": {
+    "description": "This vial shatters when thrown, creating a thick poisonous cloud that engulfs an area roughly 5m radius. Everyone is subjected to a poison attack of Virulence 10+ with 2d6 damage for 5 rounds. The thrower can choose if the vial does lethal or non-lethal damage (knocking out anyone whose Stamina and Lifeblood are drained).",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 25900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

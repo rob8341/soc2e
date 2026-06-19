@@ -1,0 +1,22 @@
+{
+  "_id": "sqNqB1wK7zlbTP6R",
+  "_key": "!items!sqNqB1wK7zlbTP6R",
+  "name": "Bug Bomb",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "This vial teems with insects crawling on its inside. When thrown, it shatters, releasing a swarm of insects like those created by a Creeping Doom spell, moving towards the nearest living creature and attacking it.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 25800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

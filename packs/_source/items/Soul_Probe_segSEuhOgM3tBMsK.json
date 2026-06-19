@@ -1,0 +1,22 @@
+{
+  "_id": "segSEuhOgM3tBMsK",
+  "_key": "!items!segSEuhOgM3tBMsK",
+  "name": "Soul Probe",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-green.webp",
+  "system": {
+    "school": "arcane",
+    "range": "Touch.",
+    "duration": "Immediate.",
+    "effect": "The Sorcerer penetrates deep into one creature's soul and mind, learning their most intimate memories and repressed desires. The player may ask the Referee 3 questions about the target's memories and desires, and the Referee must answer truthfully. The process takes a few seconds, during which the target character is acutely aware of being probed. Note that the answers are truthful from the target's perspective, limited to that character's knowledge, and thus may not necessarily be the truth. Soul Probe cannot be Channeled.",
+    "critSuccess": "The Sorcerer may ask 6 questions rather than 3."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 22900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

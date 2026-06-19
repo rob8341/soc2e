@@ -1,0 +1,198 @@
+{
+  "_id": "c07NIvm9wstPbMkv",
+  "_key": "!actors!c07NIvm9wstPbMkv",
+  "name": "Merchant",
+  "type": "npc",
+  "img": "icons/skills/trades/academics-merchant-scribe.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "dex": {
+        "value": 7
+      },
+      "end": {
+        "value": 7
+      },
+      "int": {
+        "value": 8
+      },
+      "edu": {
+        "value": 7
+      },
+      "soc": {
+        "value": 9
+      }
+    },
+    "lifeblood": {
+      "value": 14,
+      "max": 14
+    },
+    "stamina": {
+      "value": 7,
+      "max": 7
+    },
+    "spellcaster": false,
+    "monster": false,
+    "notes": "A canny businessperson who is always eager to make a deal. They often travel in caravans between markets and are often looking for additional employees for special tasks. Equipment: Wagon with Donkey, rations, sacks, ink bottles, paper.",
+    "skills": {
+      "alchemy": -3,
+      "animals": 1,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": -3,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": 1,
+      "deception": 1,
+      "govern": 1,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": 2,
+      "healing": -3,
+      "meleecombat": -3,
+      "naturalphilosophy": -3,
+      "scout": -3,
+      "sorcery": -3,
+      "sneak": -3,
+      "steward": 1,
+      "streetwise": 1,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "A9b8IEo5iL0gn9Jl",
+      "_key": "!actors.items!c07NIvm9wstPbMkv.A9b8IEo5iL0gn9Jl",
+      "name": "Wagon with Donkey",
+      "type": "adventuring",
+      "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "jWTyzUzLtwg27VtH",
+      "_key": "!actors.items!c07NIvm9wstPbMkv.jWTyzUzLtwg27VtH",
+      "name": "Rations",
+      "type": "adventuring",
+      "img": "icons/consumables/food/steak-aged-brown.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "y1ECZB5lrHuCk4xO",
+      "_key": "!actors.items!c07NIvm9wstPbMkv.y1ECZB5lrHuCk4xO",
+      "name": "Sacks",
+      "type": "adventuring",
+      "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "8zNMiM9LT6upJDfw",
+      "_key": "!actors.items!c07NIvm9wstPbMkv.8zNMiM9LT6upJDfw",
+      "name": "Ink bottles",
+      "type": "adventuring",
+      "img": "icons/tools/scribal/ink-quill-pink.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "U2OI10kw2k65us3m",
+      "_key": "!actors.items!c07NIvm9wstPbMkv.U2OI10kw2k65us3m",
+      "name": "Paper",
+      "type": "adventuring",
+      "img": "icons/sundries/documents/paper-plain-white.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "quantity": 1,
+        "subtype": "adventuring",
+        "encumbrance": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 11200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

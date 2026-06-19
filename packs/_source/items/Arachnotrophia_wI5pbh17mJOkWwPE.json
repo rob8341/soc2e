@@ -1,0 +1,22 @@
+{
+  "_id": "wI5pbh17mJOkWwPE",
+  "_key": "!items!wI5pbh17mJOkWwPE",
+  "name": "Arachnotrophia",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "This vile draught allows the character to climb sheer vertical surfaces at their normal movement rate. They can also walk on the ceiling upside down normally. Moreover, they can spit webbing from their mouth up to 20m away: targets may avoid being entangled by rolling Dex 10+. See the description of the Giant Spider (p.275) for more information. This potion lasts for 1d6+1 turns.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 25600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

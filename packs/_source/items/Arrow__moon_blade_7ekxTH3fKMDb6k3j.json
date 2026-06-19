@@ -1,0 +1,22 @@
+{
+  "_id": "7ekxTH3fKMDb6k3j",
+  "_key": "!items!7ekxTH3fKMDb6k3j",
+  "name": "Arrow, moon blade",
+  "type": "adventuring",
+  "img": "icons/weapons/swords/sword-flanged-lightning.webp",
+  "system": {
+    "description": "Moon blade arrowheads have crescent-shaped blades that make the arrow spin rapidly in flight, easily cutting through cloth, rope, leather, and other flexible materials. Ignore half the armor value of cloth, fur, and leather armors. Cost listed is per arrow.",
+    "cost": "1gp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 17800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "84Vq78CizRUsR1S6",
+  "_key": "!items!84Vq78CizRUsR1S6",
+  "name": "Invisibility",
+  "type": "spell",
+  "img": "icons/magic/symbols/rune-sigil-green.webp",
+  "system": {
+    "school": "arcane",
+    "range": "Touch.",
+    "duration": "Until dispelled or until the subject attacks someone or something",
+    "effect": "The touched target becomes invisible. Any equipment or items carried by the target creature vanishes as well. Items dropped by the invisible creature turn visible, and items picked up become invisible. Note that the invisible subject is not magically silenced, only turned invisible. The spell ends after the invisible creature attacks any creature or casts any spell. Other actions do not end the spell. The spell lasts 24 hours, or until the sorcerer dispels the effect.",
+    "critSuccess": "The spell does not end when the subject attacks a target, but rather after 24 hours, or until dismissed by the sorcerer."
+  },
+  "effects": [],
+  "folder": "Fl41sNLjVHWGaub5",
+  "sort": 21400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

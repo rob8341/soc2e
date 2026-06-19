@@ -1,0 +1,22 @@
+{
+  "_id": "ByVKFvbgz7h6itCm",
+  "_key": "!items!ByVKFvbgz7h6itCm",
+  "name": "Acid",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "A flask of acid can injure people and damage metals. Acid flasks have the Blast Aspect of 2m and do 2d6 damage.",
+    "cost": "10gp",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "IqK3yn9FfcgMXAdx",
+  "sort": 13600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

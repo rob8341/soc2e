@@ -1,0 +1,119 @@
+{
+  "_id": "JhN8k4GBgXFNW0Mq",
+  "_key": "!actors!JhN8k4GBgXFNW0Mq",
+  "name": "Shadow",
+  "type": "npc",
+  "img": "icons/magic/death/hand-withered-gray.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 7
+      },
+      "dex": {
+        "value": 10
+      },
+      "end": {
+        "value": 7
+      },
+      "int": {
+        "value": 0
+      },
+      "edu": {
+        "value": 0
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 14,
+      "max": 14
+    },
+    "stamina": {
+      "value": 7,
+      "max": 7
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "0kg Undead, urban \"Walker\", #App: 1, Treasure: None. Life drain (2d6); armor 0; walks 10m/action; Morale +4. A shadow is a soul cursed so that only its shadow remains. It creeps along walls and floors, seemingly a shade cast by the play of darkness and light. However, it is a malicious spirit thirsting for the life force of hapless, unsuspecting mortals. Undead: immune to poison, disease, and suffocation. Incorporeal: immune to non-magical weapons. Immune to mind-affecting magic. On a successful attack, the shadow heals itself half the damage it dealt, rounded down. Any creature slain by a shadow rises as a shadow the following midnight, unless its body is cremated.",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 0,
+      "archery": -3,
+      "battle": 1,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 1,
+      "naturalphilosophy": -3,
+      "scout": 3,
+      "sorcery": -3,
+      "sneak": 3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": -3,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "I6mfBMKbR5exUiCN",
+      "_key": "!actors.items!JhN8k4GBgXFNW0Mq.I6mfBMKbR5exUiCN",
+      "name": "Life drain",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-broad-worn.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "2d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 7800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

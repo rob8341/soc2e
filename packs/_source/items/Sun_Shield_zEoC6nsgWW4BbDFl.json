@@ -1,0 +1,22 @@
+{
+  "_id": "zEoC6nsgWW4BbDFl",
+  "_key": "!items!zEoC6nsgWW4BbDFl",
+  "name": "Sun Shield",
+  "type": "adventuring",
+  "img": "icons/sundries/documents/blueprint-shield.webp",
+  "system": {
+    "description": "When equipped, this shield radiates light in a 10m radius. Once per day as a free action, the wielder can force a target to roll END 10+ or lose their next turn's actions.",
+    "cost": "",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 0
+  },
+  "effects": [],
+  "folder": "AnHTmt9OBGhnuKon",
+  "sort": 30700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

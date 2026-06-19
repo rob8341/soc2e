@@ -1,0 +1,22 @@
+{
+  "_id": "jkuRv630pNIhsHFk",
+  "_key": "!items!jkuRv630pNIhsHFk",
+  "name": "Torches (6)",
+  "type": "adventuring",
+  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "system": {
+    "description": "Wooden shafts tipped with pitch and cloth. A torch burns for 1 hour and illuminates a 10m radius.",
+    "cost": "1sp",
+    "quantity": 1,
+    "subtype": "adventuring",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "H8xIZM1JRcoreogr",
+  "sort": 8900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,119 @@
+{
+  "_id": "5FbLRhcJXRTyQ18k",
+  "_key": "!actors!5FbLRhcJXRTyQ18k",
+  "name": "Octopus, Giant",
+  "type": "npc",
+  "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
+  "system": {
+    "attributes": {
+      "str": {
+        "value": 20
+      },
+      "dex": {
+        "value": 8
+      },
+      "end": {
+        "value": 20
+      },
+      "int": {
+        "value": 3
+      },
+      "edu": {
+        "value": 15
+      },
+      "soc": {
+        "value": 0
+      }
+    },
+    "lifeblood": {
+      "value": 44,
+      "max": 44
+    },
+    "stamina": {
+      "value": 22,
+      "max": 22
+    },
+    "spellcaster": false,
+    "monster": true,
+    "notes": "5000kg Beast (Pouncer), ocean swimmer, #App: 1, Treasure: None. Beak (3d6); armor 0; swim 20m/action; Morale -1. A monstrous, giant cephalopod prowling the deep seas in search of prey. As an action, the giant octopus may choose to grapple prey, such as adventurers. It gains Advantage to any grapple throws. The giant octopus crushes its grappled prey, causing 1d6 damage per round until the grapple is broken. A giant octopus may grapple up to 8 victims at the same time. The giant octopus may attack ships and boats, using its tentacles to try and capsize them. Such an attack has an AV 2d6 rating. (Instinct 15, Pack 0)",
+    "skills": {
+      "alchemy": -3,
+      "animals": -3,
+      "artifice": -3,
+      "artillery": -3,
+      "art": -3,
+      "athletics": 2,
+      "archery": -3,
+      "battle": -3,
+      "carousing": -3,
+      "craft": -3,
+      "deception": -3,
+      "govern": -3,
+      "insight": -3,
+      "jackoftrades": -3,
+      "leadership": -3,
+      "liaison": -3,
+      "healing": -3,
+      "meleecombat": 2,
+      "naturalphilosophy": -3,
+      "scout": 2,
+      "sorcery": -3,
+      "sneak": 3,
+      "steward": -3,
+      "streetwise": -3,
+      "survival": 2,
+      "religion": -3,
+      "riding": -3,
+      "watercraft": -3
+    }
+  },
+  "items": [
+    {
+      "_id": "UxWyqljnR2XCRGsn",
+      "_key": "!actors.items!5FbLRhcJXRTyQ18k.UxWyqljnR2XCRGsn",
+      "name": "Beak",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": "",
+        "cost": "",
+        "damage": "3d6",
+        "range": "",
+        "aspects": "Natural Weapon",
+        "ammo": 0,
+        "ammoMax": 0,
+        "ammoCost": "",
+        "ammoType": "",
+        "thrown": false,
+        "ranged": false,
+        "artillery": false,
+        "encumbrance": 0,
+        "equipped": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 6600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {},
+  "prototypeToken": {
+    "bar1": {
+      "attribute": "lifeblood"
+    },
+    "bar2": {
+      "attribute": "stamina"
+    }
+  }
+}

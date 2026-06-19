@@ -1,0 +1,22 @@
+{
+  "_id": "kSE4HNdc06PVz0oR",
+  "_key": "!items!kSE4HNdc06PVz0oR",
+  "name": "Dress, SOC 1-2",
+  "type": "adventuring",
+  "img": "icons/equipment/feet/socks-crew-padded.webp",
+  "system": {
+    "description": "An outfit appropriate to Social Standing 1-2. Wearing attire inappropriate to one's social standing is a breach of etiquette.",
+    "cost": "5sp",
+    "quantity": 1,
+    "subtype": "clothing",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "0Wobtqn62tOy4Cqp",
+  "sort": 12100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

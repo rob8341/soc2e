@@ -1,0 +1,22 @@
+{
+  "_id": "90GSWsIJyQdYDNBu",
+  "_key": "!items!90GSWsIJyQdYDNBu",
+  "name": "Teleportation",
+  "type": "spell",
+  "img": "icons/magic/water/ice-crystal-white.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "50m",
+    "duration": "Instant",
+    "effect": "This ritual allows the sorcerer to teleport themselves and three people per level of Sorcery skill up to 1000km away. Having Sorcery-0 means only the caster can teleport themselves. The targets can resist this spell with an END/10+ throw, with the caster's Sorcery skill level as a DM penalty (e.g. targets of a level-1 Sorcery teleportation spell need to make an END/11+ roll). The targets and all their possessions are teleported instantly. If desired, the sorcerer may teleport 100kg of items instead of one person. The destination must be a place the sorcerer has observed or visited in the past: scrying and other magical means of far-seeing suffice for purposes of determining valid destinations. Teleportation cannot be Channeled.",
+    "critSuccess": "The teleportation range is increased to 5000km away, and the number of additional targets is doubled."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 25500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

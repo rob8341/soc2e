@@ -1,0 +1,22 @@
+{
+  "_id": "x9MGSL6YNBmOXrcL",
+  "_key": "!items!x9MGSL6YNBmOXrcL",
+  "name": "Image of the Old One",
+  "type": "spell",
+  "img": "icons/magic/unholy/orb-stone-pink.webp",
+  "system": {
+    "school": "eldritch",
+    "range": "Whoever sees the idol",
+    "duration": "One day",
+    "effect": "Casting Time: This spell requires 2d6 turns to cast. It cannot be channeled. The sorcerer fashions a large statue of a dark, long-forgotten god. It costs the sorcerer 1d6x1000 gold pieces. This idol is a center of magical power and is worshipped by all who see it. Player Characters may roll Sorcery/INT 8+ to avoid its effects. NPCs are almost always affected. Those who worship the idol engage in variety of dark acts for the day. However, the main power of the idol is its ability to channel dark magic and corruption for the sorcerer. The idol bestows dark powers of persuasion and demagoguery to the idol's creator: those who hear the idolmaker's words are more willing to listen and obey the sorcerer. They gain a +1 to Morale rolls when acting on the demagogue's words. Most chillingly, the idol serves to shunt Corruption away from the sorcerer whenever they cast additional spells. If the caster gains Corruption from any other magic spell they cast while in the presence of the idol, the Corruption is instead passed on to all those presently under the sway of the idol's powers. The sorcerer remains un-Corrupted.",
+    "critSuccess": "The idol's powers last for one month."
+  },
+  "effects": [],
+  "folder": "2Ztd26fEeVVhDIq2",
+  "sort": 24500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

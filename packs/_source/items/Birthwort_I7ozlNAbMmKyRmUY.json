@@ -1,0 +1,22 @@
+{
+  "_id": "I7ozlNAbMmKyRmUY",
+  "_key": "!items!I7ozlNAbMmKyRmUY",
+  "name": "Birthwort",
+  "type": "adventuring",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
+  "system": {
+    "description": "A healing herb and remedy for snake venoms and other poisons. Applied as a compress by someone with Healing skill, provides a +1 modifier to Healing throws to neutralize poison.",
+    "cost": "10gp",
+    "quantity": 1,
+    "subtype": "potion",
+    "encumbrance": 1
+  },
+  "effects": [],
+  "folder": "IqK3yn9FfcgMXAdx",
+  "sort": 13800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

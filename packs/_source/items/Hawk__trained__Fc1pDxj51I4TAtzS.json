@@ -1,0 +1,21 @@
+{
+  "_id": "Fc1pDxj51I4TAtzS",
+  "_key": "!items!Fc1pDxj51I4TAtzS",
+  "name": "Hawk (trained)",
+  "type": "animal",
+  "img": "icons/creatures/birds/raptor-hawk-flying.webp",
+  "system": {
+    "description": "A trained hunting bird prized among the rich. Used to track and kill other birds such as doves.",
+    "cost": "20gp",
+    "speed": 30,
+    "carryingCapacity": "-"
+  },
+  "effects": [],
+  "folder": "9G81aSQHqNgAC72q",
+  "sort": 15900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}
