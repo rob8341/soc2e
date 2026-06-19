@@ -1,6 +1,6 @@
 # The Sword of Cepheus 2e — Foundry VTT System
 
-**Version 0.9.0**
+**Version 0.9.1**
 
 A Foundry VTT game system for **The Sword of Cepheus 2nd Edition**, a 2d6 fantasy RPG based on Traveller mechanics.
 
