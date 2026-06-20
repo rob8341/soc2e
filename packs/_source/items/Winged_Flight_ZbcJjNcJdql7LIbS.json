@@ -1,9 +1,8 @@
 {
   "_id": "ZbcJjNcJdql7LIbS",
-  "_key": "!items!ZbcJjNcJdql7LIbS",
   "name": "Winged Flight",
   "type": "spell",
-  "img": "icons/magic/light/projectile-smoke-yellow.webp",
+  "img": "icons/creatures/abilities/wing-batlike-white-blue.webp",
   "system": {
     "school": "arcane",
     "range": "Self.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959793530,
+    "modifiedTime": 1781960959485,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ZbcJjNcJdql7LIbS"
 }

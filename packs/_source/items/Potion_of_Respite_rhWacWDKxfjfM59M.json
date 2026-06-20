@@ -1,9 +1,8 @@
 {
   "_id": "rhWacWDKxfjfM59M",
-  "_key": "!items!rhWacWDKxfjfM59M",
   "name": "Potion of Respite",
   "type": "adventuring",
-  "img": "icons/consumables/potions/potion-flask-stopped-red.webp",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
   "system": {
     "description": "The imbiber of this potion is healed as if they rested for 5d6 days.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781965829282,
+    "modifiedTime": 1781965829282,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!rhWacWDKxfjfM59M"
 }

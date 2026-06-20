@@ -1,9 +1,8 @@
 {
   "_id": "MsFmP6wdnCIMDOSh",
-  "_key": "!items!MsFmP6wdnCIMDOSh",
   "name": "Fire Storm",
   "type": "spell",
-  "img": "icons/magic/fire/elemental-fire-flying.webp",
+  "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
   "system": {
     "school": "arcane",
     "range": "200m",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781958947530,
+    "modifiedTime": 1781958947530,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MsFmP6wdnCIMDOSh"
 }

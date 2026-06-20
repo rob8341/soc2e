@@ -1,22 +1,32 @@
 {
   "_id": "YCFCdCYSyYUJcvd9",
-  "_key": "!items!YCFCdCYSyYUJcvd9",
   "name": "Hut, wattle",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/environment/settlement/house-wooden-fence.webp",
   "system": {
     "description": "A 3m square building with earthen (wattle) walls and a thatched roof. Those of SOC 1-2 live in these. Lodging cost, not per night.",
     "cost": "25gp",
     "quantity": 1,
-    "subtype": "adventuring",
+    "subtype": "food",
     "encumbrance": 0
   },
   "effects": [],
-  "folder": "H8xIZM1JRcoreogr",
-  "sort": 11000000,
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 19300000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781951945689,
+    "modifiedTime": 1781957056607,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YCFCdCYSyYUJcvd9"
 }

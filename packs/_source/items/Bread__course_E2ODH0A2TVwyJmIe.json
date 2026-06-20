@@ -1,9 +1,8 @@
 {
   "_id": "E2ODH0A2TVwyJmIe",
-  "_key": "!items!E2ODH0A2TVwyJmIe",
   "name": "Bread, course",
   "type": "adventuring",
-  "img": "icons/consumables/food/bread-toast-tan.webp",
+  "img": "icons/consumables/grains/bread-loaf-wheat-brown.webp",
   "system": {
     "description": "Coarse bread.",
     "cost": "2cp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781963914107,
+    "modifiedTime": 1781963914107,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!E2ODH0A2TVwyJmIe"
 }

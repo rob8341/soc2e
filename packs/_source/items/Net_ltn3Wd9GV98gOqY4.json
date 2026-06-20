@@ -1,9 +1,8 @@
 {
   "_id": "ltn3Wd9GV98gOqY4",
-  "_key": "!items!ltn3Wd9GV98gOqY4",
   "name": "Net",
   "type": "weapon",
-  "img": "icons/weapons/misc/whip-leather.webp",
+  "img": "icons/tools/fishing/net-simple-brown.webp",
   "system": {
     "description": "A 1 square-meter net woven of thin rope or twine with weights at the corners. On a successful hit, the target must throw DEX 10+ to avoid becoming entangled.",
     "cost": "2gp",
@@ -21,11 +20,22 @@
     "equipped": false
   },
   "effects": [],
-  "folder": "NbrnTP3fAbnFbmOH",
-  "sort": 17000000,
+  "folder": "NyGxliG1mepzhDPh",
+  "sort": 300000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967450506,
+    "modifiedTime": 1781967750399,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ltn3Wd9GV98gOqY4"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "rZ4v7rLm5Jqzges6",
-  "_key": "!items!rZ4v7rLm5Jqzges6",
   "name": "Nightmarish Suggestion",
   "type": "spell",
-  "img": "icons/magic/unholy/projectile-bullet-orb-pink.webp",
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
   "system": {
     "school": "eldritch",
     "range": "10km or Scrying",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781960863182,
+    "modifiedTime": 1781960863182,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!rZ4v7rLm5Jqzges6"
 }

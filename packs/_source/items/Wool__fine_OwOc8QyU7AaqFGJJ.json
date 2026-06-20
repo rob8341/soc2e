@@ -1,9 +1,8 @@
 {
   "_id": "OwOc8QyU7AaqFGJJ",
-  "_key": "!items!OwOc8QyU7AaqFGJJ",
   "name": "Wool, fine",
   "type": "adventuring",
-  "img": "icons/sundries/misc/admission-ticket-grey.webp",
+  "img": "icons/commodities/cloth/cloth-roll-worn-tan.webp",
   "system": {
     "description": "One square meter of fine wool material.",
     "cost": "6gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781956828242,
+    "modifiedTime": 1781956828242,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OwOc8QyU7AaqFGJJ"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "Fokcoaj9WvyKGTef",
-  "_key": "!items!Fokcoaj9WvyKGTef",
   "name": "Loew's Servitor",
   "type": "spell",
-  "img": "icons/magic/water/pseudopod-teal.webp",
+  "img": "icons/magic/earth/construct-stone.webp",
   "system": {
     "school": "eldritch",
     "range": "N/A",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781960847506,
+    "modifiedTime": 1781960847506,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Fokcoaj9WvyKGTef"
 }

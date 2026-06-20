@@ -1,9 +1,8 @@
 {
   "_id": "KkMM0jQb6gbtjQzW",
-  "_key": "!items!KkMM0jQb6gbtjQzW",
   "name": "Fruit, 1kg",
   "type": "adventuring",
-  "img": "icons/consumables/drinks/coconut-fruit-milk.webp",
+  "img": "icons/consumables/fruit/apple-ripe-red.webp",
   "system": {
     "description": "One kilogram of fruit.",
     "cost": "2sp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781963811494,
+    "modifiedTime": 1781963811494,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!KkMM0jQb6gbtjQzW"
 }

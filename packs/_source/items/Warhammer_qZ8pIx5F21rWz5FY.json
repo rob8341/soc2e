@@ -1,9 +1,8 @@
 {
   "_id": "qZ8pIx5F21rWz5FY",
-  "_key": "!items!qZ8pIx5F21rWz5FY",
   "name": "Warhammer",
   "type": "weapon",
-  "img": "icons/weapons/hammers/shorthammer-simple-yellow.webp",
+  "img": "icons/weapons/hammers/hammer-double-studded.webp",
   "system": {
     "description": "A sturdy hammer designed for war.",
     "cost": "7gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781968431902,
+    "modifiedTime": 1781968431902,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!qZ8pIx5F21rWz5FY"
 }

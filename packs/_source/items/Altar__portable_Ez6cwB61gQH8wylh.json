@@ -1,9 +1,8 @@
 {
   "_id": "Ez6cwB61gQH8wylh",
-  "_key": "!items!Ez6cwB61gQH8wylh",
   "name": "Altar, portable",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/containers/boxes/crate-worn-brown.webp",
   "system": {
     "description": "A heavy, polished wood case, sanctified by the priest's religion, with a silk-lined compartment for religious paraphernalia.",
     "cost": "60gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781957266392,
+    "modifiedTime": 1781957303575,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Ez6cwB61gQH8wylh"
 }

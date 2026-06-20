@@ -1,9 +1,8 @@
 {
   "_id": "o8k2fRN2Bqpepgax",
-  "_key": "!items!o8k2fRN2Bqpepgax",
   "name": "Vorpal weapon",
   "type": "weapon",
-  "img": "icons/weapons/swords/sword-broad-worn.webp",
+  "img": "icons/weapons/swords/greatsword-crossguard-flanged-purple.webp",
   "system": {
     "description": "The rarest of ancient magical weapons, incredibly sharp. Ignore 5 points of armor and do an additional die of damage. Can also damage vehicles and larger structures.",
     "cost": "200x",
@@ -21,11 +20,22 @@
     "equipped": false
   },
   "effects": [],
-  "folder": "NbrnTP3fAbnFbmOH",
-  "sort": 17600000,
+  "folder": "NyGxliG1mepzhDPh",
+  "sort": 900000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967838376,
+    "modifiedTime": 1781967960349,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!o8k2fRN2Bqpepgax"
 }

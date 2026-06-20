@@ -1,9 +1,8 @@
 {
   "_id": "sTKu39v3wl64zoTi",
-  "_key": "!items!sTKu39v3wl64zoTi",
   "name": "Command the Weather",
   "type": "spell",
-  "img": "icons/magic/water/ice-crystal-white.webp",
+  "img": "icons/magic/air/weather-clouds-rainbow.webp",
   "system": {
     "school": "arcane",
     "range": "100m radius.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781958426347,
+    "modifiedTime": 1781958426347,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!sTKu39v3wl64zoTi"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "U1S8LvJnOng0wVJY",
-  "_key": "!items!U1S8LvJnOng0wVJY",
   "name": "Crowbar",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/tools/hand/pry-bar-steel.webp",
   "system": {
     "description": "A 1m long iron bar used to force doors and other objects open. Provides a +2 bonus to any STR roll to pry open an object or door. As a weapon, treat as a club doing 1d6+1 damage.",
     "cost": "1gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781952134512,
+    "modifiedTime": 1781952134512,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!U1S8LvJnOng0wVJY"
 }

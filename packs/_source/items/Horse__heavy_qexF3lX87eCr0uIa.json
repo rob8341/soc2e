@@ -1,9 +1,8 @@
 {
   "_id": "qexF3lX87eCr0uIa",
-  "_key": "!items!qexF3lX87eCr0uIa",
   "name": "Horse, heavy",
   "type": "animal",
-  "img": "icons/svg/pawprint.svg",
+  "img": "icons/environment/creatures/horse-tan.webp",
   "system": {
     "description": "Sturdy, if slow, horses usually trained for pulling carts, plows, or other heavy loads. A heavy war horse costs 700gp.",
     "cost": "50gp",
@@ -17,5 +16,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781957777128,
+    "modifiedTime": 1781957777128,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!qexF3lX87eCr0uIa"
 }

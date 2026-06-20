@@ -1,9 +1,8 @@
 {
   "_id": "xavU07zUHLnnBbuQ",
-  "_key": "!items!xavU07zUHLnnBbuQ",
   "name": "Cudgel",
   "type": "weapon",
-  "img": "icons/weapons/clubs/club-simple-barbed-grey.webp",
+  "img": "icons/weapons/clubs/club-barbed-red.webp",
   "system": {
     "description": "A large club with wood, bone, or metal spikes at the end, often called a mace.",
     "cost": "5gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967204779,
+    "modifiedTime": 1781967204779,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xavU07zUHLnnBbuQ"
 }

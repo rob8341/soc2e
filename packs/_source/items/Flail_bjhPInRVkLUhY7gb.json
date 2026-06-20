@@ -1,9 +1,8 @@
 {
   "_id": "bjhPInRVkLUhY7gb",
-  "_key": "!items!bjhPInRVkLUhY7gb",
   "name": "Flail",
   "type": "weapon",
-  "img": "icons/weapons/maces/flail-spiked.webp",
+  "img": "icons/weapons/maces/flail-spiked-grey.webp",
   "system": {
     "description": "A spiked ball attached to a wooden handle with a chain, a flail is a deadly weapon, but difficult to control. A wielder can make an entangling attack with a flail that only inflicts half damage.",
     "cost": "5gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967331390,
+    "modifiedTime": 1781967331390,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bjhPInRVkLUhY7gb"
 }

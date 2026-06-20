@@ -1,14 +1,13 @@
 {
   "_id": "4ZPjfFSgpo9sCgkc",
-  "_key": "!items!4ZPjfFSgpo9sCgkc",
   "name": "Curse of Toad",
   "type": "spell",
-  "img": "icons/magic/life/crosses-trio-red.webp",
+  "img": "icons/creatures/amphibians/bullfrog-glass-teal.webp",
   "system": {
     "school": "arcane",
     "range": "20m.",
     "duration": "1 day per Sorcery skill level (1 day at Sorcery 0 or 1).",
-    "effect": "This spell transforms 3 targets per Sorcery skill level into tiny, slimy toads for the spell's duration (level 0 can transform 1 target). The targets may attempt to throw INT 10+ to avoid this effect. Targets who fail this throw immediately assume the form \u2013 physical and mental \u2013 of a toad, including the mentality of an amphibian. The target will not remember their regular life while in toad form and will act as normal toad for the duration of this spell. Once the spell expires, the target regains its original form, intelligence, and memories. Note that undead, incorporeal or gaseous creatures, or creatures with natural shapeshifting abilities are immune to this spell.",
+    "effect": "This spell transforms 3 targets per Sorcery skill level into tiny, slimy toads for the spell's duration (level 0 can transform 1 target). The targets may attempt to throw INT 10+ to avoid this effect. Targets who fail this throw immediately assume the form – physical and mental – of a toad, including the mentality of an amphibian. The target will not remember their regular life while in toad form and will act as normal toad for the duration of this spell. Once the spell expires, the target regains its original form, intelligence, and memories. Note that undead, incorporeal or gaseous creatures, or creatures with natural shapeshifting abilities are immune to this spell.",
     "critSuccess": "The spell's duration is increased to one week per Sorcery skill level."
   },
   "effects": [],
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781958640953,
+    "modifiedTime": 1781958640953,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4ZPjfFSgpo9sCgkc"
 }

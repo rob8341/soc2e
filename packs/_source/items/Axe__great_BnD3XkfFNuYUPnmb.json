@@ -1,9 +1,8 @@
 {
   "_id": "BnD3XkfFNuYUPnmb",
-  "_key": "!items!BnD3XkfFNuYUPnmb",
   "name": "Axe, great",
   "type": "weapon",
-  "img": "icons/weapons/axes/axe-double-engraved.webp",
+  "img": "icons/weapons/axes/axe-double-engraved-runes.webp",
   "system": {
     "description": "A massive two-handed axe. A great axe counts as two items for encumbrance purposes.",
     "cost": "10gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781966850075,
+    "modifiedTime": 1781966869760,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BnD3XkfFNuYUPnmb"
 }

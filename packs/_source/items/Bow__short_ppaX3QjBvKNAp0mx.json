@@ -1,9 +1,8 @@
 {
   "_id": "ppaX3QjBvKNAp0mx",
-  "_key": "!items!ppaX3QjBvKNAp0mx",
   "name": "Bow, short",
   "type": "weapon",
-  "img": "icons/weapons/bows/bow-recurve-black.webp",
+  "img": "icons/weapons/bows/shortbow-leather.webp",
   "system": {
     "description": "A short bow made of a single piece of wood or bamboo. The easiest bow to make using non-specialist types of timber. This bow may be fired from horseback. Loading a bow is a free action done as part of the firing or aiming action.",
     "cost": "3gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967082650,
+    "modifiedTime": 1781967082650,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ppaX3QjBvKNAp0mx"
 }

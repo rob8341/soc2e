@@ -1,9 +1,8 @@
 {
   "_id": "mIsMCKEVm3Vpazov",
-  "_key": "!items!mIsMCKEVm3Vpazov",
   "name": "Horse, medium",
   "type": "animal",
-  "img": "icons/svg/pawprint.svg",
+  "img": "icons/environment/creatures/horse-brown.webp",
   "system": {
     "description": "A medium horse is the common size of horse used for draft, riding, or war. A medium war horse costs 250gp.",
     "cost": "40gp",
@@ -17,5 +16,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781957825407,
+    "modifiedTime": 1781957825407,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!mIsMCKEVm3Vpazov"
 }

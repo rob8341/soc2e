@@ -1,9 +1,8 @@
 {
   "_id": "iuDCLFuMk9TsuZHR",
-  "_key": "!items!iuDCLFuMk9TsuZHR",
   "name": "Eggs",
   "type": "adventuring",
-  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "img": "icons/consumables/food/cooked-potato-boiled-egg-peeled-white.webp",
   "system": {
     "description": "Eggs.",
     "cost": "5cp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781963790916,
+    "modifiedTime": 1781963790916,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!iuDCLFuMk9TsuZHR"
 }

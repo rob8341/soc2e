@@ -1,9 +1,8 @@
 {
   "_id": "AMdGiZCShW6RizBl",
-  "_key": "!items!AMdGiZCShW6RizBl",
   "name": "Mask of Many Faces",
   "type": "adventuring",
-  "img": "icons/equipment/head/gas-mask.webp",
+  "img": "icons/equipment/head/mask-carved-wood-pink.webp",
   "system": {
     "description": "When donned, this plain mask allows the wearer to mimic the face of anyone they have met before. The effect lasts for one hour. The mask-wearer is instinctively able to impersonate the voice and mannerisms of their target, including the ability to speak an otherwise unknown language, but gains no meaningful incidental knowledge about their target.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781965499202,
+    "modifiedTime": 1781965499202,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!AMdGiZCShW6RizBl"
 }

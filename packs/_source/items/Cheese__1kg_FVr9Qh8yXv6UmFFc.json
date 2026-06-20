@@ -1,9 +1,8 @@
 {
   "_id": "FVr9Qh8yXv6UmFFc",
-  "_key": "!items!FVr9Qh8yXv6UmFFc",
   "name": "Cheese, 1kg",
   "type": "adventuring",
-  "img": "icons/consumables/food/cheese-cube-gold.webp",
+  "img": "icons/consumables/food/cheese-cube-orange.webp",
   "system": {
     "description": "One kilogram of cheese.",
     "cost": "1sp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781963932943,
+    "modifiedTime": 1781963936580,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!FVr9Qh8yXv6UmFFc"
 }

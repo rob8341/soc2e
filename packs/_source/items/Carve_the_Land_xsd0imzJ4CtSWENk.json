@@ -1,9 +1,8 @@
 {
   "_id": "xsd0imzJ4CtSWENk",
-  "_key": "!items!xsd0imzJ4CtSWENk",
   "name": "Carve the Land",
   "type": "spell",
-  "img": "icons/magic/water/ice-crystal-white.webp",
+  "img": "icons/magic/earth/barrier-stone-explosion-debris.webp",
   "system": {
     "school": "arcane",
     "range": "75m.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781958331152,
+    "modifiedTime": 1781958331152,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xsd0imzJ4CtSWENk"
 }

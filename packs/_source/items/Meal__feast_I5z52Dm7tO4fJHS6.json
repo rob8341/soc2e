@@ -1,9 +1,8 @@
 {
   "_id": "I5z52Dm7tO4fJHS6",
-  "_key": "!items!I5z52Dm7tO4fJHS6",
   "name": "Meal, feast",
   "type": "adventuring",
-  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "img": "icons/consumables/food/chicken-bird-cooked.webp",
   "system": {
     "description": "A feast-quality meal.",
     "cost": "10gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781964115335,
+    "modifiedTime": 1781964115335,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!I5z52Dm7tO4fJHS6"
 }

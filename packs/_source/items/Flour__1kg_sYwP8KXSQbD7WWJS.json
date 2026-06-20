@@ -1,9 +1,8 @@
 {
   "_id": "sYwP8KXSQbD7WWJS",
-  "_key": "!items!sYwP8KXSQbD7WWJS",
   "name": "Flour, 1kg",
   "type": "adventuring",
-  "img": "icons/consumables/grains/sack-rice-flour-brown.webp",
+  "img": "icons/consumables/grains/sack-grain-open-white.webp",
   "system": {
     "description": "One kilogram of flour.",
     "cost": "5cp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781963984472,
+    "modifiedTime": 1781963984472,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!sYwP8KXSQbD7WWJS"
 }

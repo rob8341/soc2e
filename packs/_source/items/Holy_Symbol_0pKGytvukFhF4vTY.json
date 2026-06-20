@@ -1,9 +1,8 @@
 {
   "_id": "0pKGytvukFhF4vTY",
-  "_key": "!items!0pKGytvukFhF4vTY",
   "name": "Holy Symbol",
   "type": "adventuring",
-  "img": "icons/sundries/books/book-symbol-anchor.webp",
+  "img": "icons/commodities/treasure/talisman-embossed-rune-red.webp",
   "system": {
     "description": "A symbol holy to a religion, often worn as a necklace. May grant a +1 to Religion throws against magic and magical creatures. Wooden/stone versions cost 5gp but provide no additional protection.",
     "cost": "25gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781953496146,
+    "modifiedTime": 1781953496146,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0pKGytvukFhF4vTY"
 }

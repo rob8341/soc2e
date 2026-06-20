@@ -1,9 +1,8 @@
 {
   "_id": "P5y78tIapMW1Z4RO",
-  "_key": "!items!P5y78tIapMW1Z4RO",
   "name": "Mirage",
   "type": "spell",
-  "img": "icons/magic/water/ice-crystal-white.webp",
+  "img": "icons/magic/light/orbs-hand-gray.webp",
   "system": {
     "school": "arcane",
     "range": "240m",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959189381,
+    "modifiedTime": 1781959189381,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!P5y78tIapMW1Z4RO"
 }

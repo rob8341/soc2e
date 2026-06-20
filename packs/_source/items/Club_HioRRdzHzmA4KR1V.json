@@ -1,9 +1,8 @@
 {
   "_id": "HioRRdzHzmA4KR1V",
-  "_key": "!items!HioRRdzHzmA4KR1V",
   "name": "Club",
   "type": "weapon",
-  "img": "icons/weapons/clubs/club-barbed.webp",
+  "img": "icons/weapons/clubs/club-simple-black.webp",
   "system": {
     "description": "The simplest of weapons, a heavy stick.",
     "cost": "1gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967171970,
+    "modifiedTime": 1781967171970,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HioRRdzHzmA4KR1V"
 }

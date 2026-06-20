@@ -1,6 +1,5 @@
 {
   "_id": "Uk98YhA9A9MZp44e",
-  "_key": "!items!Uk98YhA9A9MZp44e",
   "name": "Hourglass",
   "type": "adventuring",
   "img": "icons/tools/navigation/hourglass.webp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Uk98YhA9A9MZp44e"
 }

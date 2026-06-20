@@ -1,9 +1,8 @@
 {
   "_id": "g5PPMVHcDME931E9",
-  "_key": "!items!g5PPMVHcDME931E9",
   "name": "Summon Demon",
   "type": "spell",
-  "img": "icons/magic/unholy/projectile-bullet-orb-pink.webp",
+  "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
   "system": {
     "school": "eldritch",
     "range": "75m",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781961117570,
+    "modifiedTime": 1781961117570,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!g5PPMVHcDME931E9"
 }

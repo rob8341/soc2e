@@ -1,9 +1,8 @@
 {
   "_id": "juJtVEFEtb6F7nvd",
-  "_key": "!items!juJtVEFEtb6F7nvd",
   "name": "Bread, common",
   "type": "adventuring",
-  "img": "icons/consumables/food/bread-toast-tan.webp",
+  "img": "icons/consumables/grains/bread-loaf-boule-rustic-brown.webp",
   "system": {
     "description": "Common bread.",
     "cost": "5cp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781963888620,
+    "modifiedTime": 1781963922610,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!juJtVEFEtb6F7nvd"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "HVlnES8GrgmolaHr",
-  "_key": "!items!HVlnES8GrgmolaHr",
   "name": "Pitchfork",
   "type": "weapon",
-  "img": "icons/weapons/polearms/spear-flared-wrapped.webp",
+  "img": "icons/weapons/polearms/trident-fork-white.webp",
   "system": {
     "description": "An agricultural tool sometimes used as a weapon. The stats are for the sturdier versions, including nautical tridents. Counts as two items for encumbrance purposes.",
     "cost": "2gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967486220,
+    "modifiedTime": 1781967486220,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HVlnES8GrgmolaHr"
 }

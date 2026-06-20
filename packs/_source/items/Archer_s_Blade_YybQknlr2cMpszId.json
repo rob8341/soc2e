@@ -1,9 +1,8 @@
 {
   "_id": "YybQknlr2cMpszId",
-  "_key": "!items!YybQknlr2cMpszId",
   "name": "Archer's Blade",
   "type": "weapon",
-  "img": "icons/weapons/swords/sword-guard.webp",
+  "img": "icons/weapons/swords/sword-simple-white.webp",
   "system": {
     "description": "A sword-like blade fitted to the outside edges of any bow, allowing a ranged combat specialist a potentially lethal weapon when unable to draw another weapon. Adds 1 item's worth of encumbrance to the bow.",
     "cost": "15gp",
@@ -21,11 +20,22 @@
     "equipped": false
   },
   "effects": [],
-  "folder": "NbrnTP3fAbnFbmOH",
-  "sort": 16800000,
+  "folder": "NyGxliG1mepzhDPh",
+  "sort": 100000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781966664101,
+    "modifiedTime": 1781967707355,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YybQknlr2cMpszId"
 }

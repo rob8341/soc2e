@@ -1,22 +1,32 @@
 {
   "_id": "MnijULzIDHPnpU2f",
-  "_key": "!items!MnijULzIDHPnpU2f",
   "name": "Cottage, wood",
   "type": "adventuring",
-  "img": "icons/tools/hand/mallet-wood.webp",
+  "img": "icons/environment/settlement/house-wooden-fence.webp",
   "system": {
     "description": "A building about 10m square with thatched roof and earthen floor, suitable for a peasant family (SOC 5-6). Lodging cost, not per night.",
     "cost": "300gp",
     "quantity": 1,
-    "subtype": "adventuring",
+    "subtype": "food",
     "encumbrance": 0
   },
   "effects": [],
-  "folder": "H8xIZM1JRcoreogr",
-  "sort": 10800000,
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 19400000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781951963287,
+    "modifiedTime": 1781957016768,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MnijULzIDHPnpU2f"
 }

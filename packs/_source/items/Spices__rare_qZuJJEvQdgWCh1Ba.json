@@ -1,9 +1,8 @@
 {
   "_id": "qZuJJEvQdgWCh1Ba",
-  "_key": "!items!qZuJJEvQdgWCh1Ba",
   "name": "Spices, rare",
   "type": "adventuring",
-  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "img": "icons/consumables/food/salt-seasoning-spice-pink.webp",
   "system": {
     "description": "Rare spices include saffron, cinnamon, and nutmeg.",
     "cost": "15gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781964211952,
+    "modifiedTime": 1781964211952,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!qZuJJEvQdgWCh1Ba"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "T82ExHgD1OQke0st",
-  "_key": "!items!T82ExHgD1OQke0st",
   "name": "Arrow, lotus blossom",
   "type": "adventuring",
-  "img": "icons/containers/misc/wheelbarrow-white.webp",
+  "img": "icons/weapons/ammunition/arrow-head-war-flight.webp",
   "system": {
     "description": "Alternate arrowhead made of a small cluster of thin, folded metal chips rooted to the point of the arrow. Imposes a -1 penalty to hit but adds +1 damage per damage die the weapon has. Cost listed is per arrow.",
     "cost": "1gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781951731394,
+    "modifiedTime": 1781951731394,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!T82ExHgD1OQke0st"
 }

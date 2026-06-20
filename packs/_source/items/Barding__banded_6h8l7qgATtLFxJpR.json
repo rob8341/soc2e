@@ -1,9 +1,8 @@
 {
   "_id": "6h8l7qgATtLFxJpR",
-  "_key": "!items!6h8l7qgATtLFxJpR",
   "name": "Barding, banded",
   "type": "armor",
-  "img": "icons/equipment/chest/breastplate-scale-leather.webp",
+  "img": "icons/environment/creatures/horse-brown.webp",
   "system": {
     "description": "Armor for a light warhorse made from banded metal. Barding for other riding creatures have costs that vary with the animal size.",
     "cost": "300gp",
@@ -20,5 +19,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781955773235,
+    "modifiedTime": 1781955773235,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6h8l7qgATtLFxJpR"
 }

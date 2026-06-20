@@ -1,9 +1,8 @@
 {
   "_id": "3v8rb8M0JyK1URtb",
-  "_key": "!items!3v8rb8M0JyK1URtb",
   "name": "Staff of the Vizier",
   "type": "adventuring",
-  "img": "icons/weapons/staves/staff-ornate.webp",
+  "img": "icons/weapons/staves/staff-ornate-eye.webp",
   "system": {
     "description": "When held, the staff makes the owner immune to sneak attacks and surprise. Whenever the holder encounters a group (three or more) of sentient humanoids, apply a -2 penalty to the group's Reaction Roll.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781966159570,
+    "modifiedTime": 1781966159570,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!3v8rb8M0JyK1URtb"
 }

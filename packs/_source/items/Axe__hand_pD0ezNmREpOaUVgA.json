@@ -1,9 +1,8 @@
 {
   "_id": "pD0ezNmREpOaUVgA",
-  "_key": "!items!pD0ezNmREpOaUVgA",
   "name": "Axe, hand",
   "type": "weapon",
-  "img": "icons/weapons/axes/axe-battle.webp",
+  "img": "icons/weapons/axes/axe-broad-engraved-grey.webp",
   "system": {
     "description": "A small axe made from metal or stone, anything from a stone-age tool to a medieval war hatchet.",
     "cost": "4gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781966886126,
+    "modifiedTime": 1781966886126,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pD0ezNmREpOaUVgA"
 }

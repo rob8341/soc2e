@@ -1,9 +1,8 @@
 {
   "_id": "gAACTP9gyv1plBAr",
-  "_key": "!items!gAACTP9gyv1plBAr",
   "name": "Leather",
   "type": "armor",
-  "img": "icons/equipment/chest/vest-reinforced-leather.webp",
+  "img": "icons/equipment/chest/breastplate-layered-leather-studded.webp",
   "system": {
     "description": "Armor made from hardened leather or laminated linen.",
     "cost": "20gp",
@@ -20,5 +19,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781956008441,
+    "modifiedTime": 1781956008441,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!gAACTP9gyv1plBAr"
 }

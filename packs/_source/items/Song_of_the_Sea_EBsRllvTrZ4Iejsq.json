@@ -1,6 +1,5 @@
 {
   "_id": "EBsRllvTrZ4Iejsq",
-  "_key": "!items!EBsRllvTrZ4Iejsq",
   "name": "Song of the Sea",
   "type": "adventuring",
   "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!EBsRllvTrZ4Iejsq"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "Tgt2iVUi9iGaOBSM",
-  "_key": "!items!Tgt2iVUi9iGaOBSM",
   "name": "Chicken",
   "type": "animal",
-  "img": "icons/svg/pawprint.svg",
+  "img": "icons/creatures/birds/chicken-hen-white.webp",
   "system": {
     "description": "A domesticated bird that provides approximately 1kg of edible meat and one egg per day.",
     "cost": "1sp",
@@ -17,5 +16,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781957659478,
+    "modifiedTime": 1781957659478,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Tgt2iVUi9iGaOBSM"
 }

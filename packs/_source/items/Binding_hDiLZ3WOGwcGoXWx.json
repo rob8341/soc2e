@@ -1,9 +1,8 @@
 {
   "_id": "hDiLZ3WOGwcGoXWx",
-  "_key": "!items!hDiLZ3WOGwcGoXWx",
   "name": "Binding",
   "type": "spell",
-  "img": "icons/magic/water/ice-crystal-white.webp",
+  "img": "icons/magic/control/debuff-chains-shackles-movement-blue.webp",
   "system": {
     "school": "eldritch",
     "range": "10m",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959900253,
+    "modifiedTime": 1781959900253,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hDiLZ3WOGwcGoXWx"
 }

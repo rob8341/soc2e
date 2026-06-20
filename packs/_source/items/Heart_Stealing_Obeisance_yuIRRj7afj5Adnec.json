@@ -1,9 +1,8 @@
 {
   "_id": "yuIRRj7afj5Adnec",
-  "_key": "!items!yuIRRj7afj5Adnec",
   "name": "Heart Stealing Obeisance",
   "type": "spell",
-  "img": "icons/magic/water/heart-ice-freeze.webp",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-tan.webp",
   "system": {
     "school": "eldritch",
     "range": "Touch",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781960505129,
+    "modifiedTime": 1781960505129,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yuIRRj7afj5Adnec"
 }

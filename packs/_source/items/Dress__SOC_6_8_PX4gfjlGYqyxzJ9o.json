@@ -1,9 +1,8 @@
 {
   "_id": "PX4gfjlGYqyxzJ9o",
-  "_key": "!items!PX4gfjlGYqyxzJ9o",
   "name": "Dress, SOC 6-8",
   "type": "adventuring",
-  "img": "icons/equipment/feet/socks-crew-padded.webp",
+  "img": "icons/equipment/chest/shirt-collared-brown.webp",
   "system": {
     "description": "An outfit appropriate to Social Standing 6-8.",
     "cost": "4gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781956447274,
+    "modifiedTime": 1781956447274,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PX4gfjlGYqyxzJ9o"
 }

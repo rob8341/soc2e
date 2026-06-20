@@ -1,9 +1,8 @@
 {
   "_id": "HDBTq0Zf2pCLxb0l",
-  "_key": "!items!HDBTq0Zf2pCLxb0l",
   "name": "Knuckle-duster",
   "type": "weapon",
-  "img": "icons/weapons/fist/knuckles-steel.webp",
+  "img": "icons/weapons/fist/fist-knuckles-spiked-brown.webp",
   "system": {
     "description": "These implements wrap around the fingers and adds inertia to any punch while protecting the fist. Usually made of brass or iron. Metal tips can also be added to boots or shoulder plates in the same way to similar effect. Spikes may be added to the device, increasing the damage to 1d3+1 for 5gp.",
     "cost": "1gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967412930,
+    "modifiedTime": 1781967412930,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HDBTq0Zf2pCLxb0l"
 }

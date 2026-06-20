@@ -1,9 +1,8 @@
 {
   "_id": "X72YJR7IVU7CCKbh",
-  "_key": "!items!X72YJR7IVU7CCKbh",
   "name": "Prophetic Destiny",
   "type": "spell",
-  "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+  "img": "icons/magic/holy/saint-glass-portrait-halo.webp",
   "system": {
     "school": "eldritch",
     "range": "Self",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781960911029,
+    "modifiedTime": 1781960911029,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!X72YJR7IVU7CCKbh"
 }

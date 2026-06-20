@@ -1,9 +1,8 @@
 {
   "_id": "k7Gdp0CXP9K63LSF",
-  "_key": "!items!k7Gdp0CXP9K63LSF",
   "name": "Bill Hook",
   "type": "weapon",
-  "img": "icons/weapons/polearms/javelin-hooked.webp",
+  "img": "icons/weapons/swords/sword-machete-white.webp",
   "system": {
     "description": "An agricultural tool adapted for war. The bill hook is a long spear with a hooked end that is sharp on the inner curved surface. The bill hook is effective at dismounting attackers on horseback.",
     "cost": "6gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967001802,
+    "modifiedTime": 1781967001802,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!k7Gdp0CXP9K63LSF"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "cXsxjGJXke1Mo4iC",
-  "_key": "!items!cXsxjGJXke1Mo4iC",
   "name": "Bow, long",
   "type": "weapon",
-  "img": "icons/weapons/bows/bow-recurve-black.webp",
+  "img": "icons/weapons/bows/longbow-leather-green.webp",
   "system": {
     "description": "A bow made from a single piece of wood, as tall as a person. The long bow requires great strength to use effectively. It counts as two items for encumbrance purposes. Loading a bow is a free action done as part of the firing or aiming action.",
     "cost": "7gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967127546,
+    "modifiedTime": 1781967127546,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!cXsxjGJXke1Mo4iC"
 }

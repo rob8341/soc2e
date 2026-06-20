@@ -1,9 +1,8 @@
 {
   "_id": "dwcm4wDCc8uRGZZq",
-  "_key": "!items!dwcm4wDCc8uRGZZq",
   "name": "Ward Alarm",
   "type": "spell",
-  "img": "icons/magic/defensive/armor-stone-skin.webp",
+  "img": "icons/magic/symbols/runes-triangle-magenta.webp",
   "system": {
     "school": "arcane",
     "range": "10m at casting.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959713519,
+    "modifiedTime": 1781959713519,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dwcm4wDCc8uRGZZq"
 }

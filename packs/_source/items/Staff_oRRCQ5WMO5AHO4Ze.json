@@ -1,9 +1,8 @@
 {
   "_id": "oRRCQ5WMO5AHO4Ze",
-  "_key": "!items!oRRCQ5WMO5AHO4Ze",
   "name": "Staff",
   "type": "weapon",
-  "img": "icons/weapons/staves/staff-ornate.webp",
+  "img": "icons/weapons/staves/staff-simple-gold.webp",
   "system": {
     "description": "A long wooden shaft, sometimes with metal fittings, used with two hands.",
     "cost": "1gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781968130959,
+    "modifiedTime": 1781968130959,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!oRRCQ5WMO5AHO4Ze"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "Gd50DF5kJThyL2Fx",
-  "_key": "!items!Gd50DF5kJThyL2Fx",
   "name": "Immunity to Elements",
   "type": "spell",
-  "img": "icons/magic/fire/flame-burning-skeleton-explosion.webp",
+  "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
   "system": {
     "school": "arcane",
     "range": "Touch.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959011423,
+    "modifiedTime": 1781959011423,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Gd50DF5kJThyL2Fx"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "52TdimuPGtk4vvVS",
-  "_key": "!items!52TdimuPGtk4vvVS",
   "name": "Horsebread",
   "type": "adventuring",
-  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "img": "icons/consumables/grains/bread-loaf-sliced-wheat-brown.webp",
   "system": {
     "description": "Specially baked food for horses or other animals when grazing is poor. Comes in flat 'loaves' weighing 2kg. A large horse needs 8kg of horsebread per day.",
     "cost": "1cp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781963947391,
+    "modifiedTime": 1781963947391,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!52TdimuPGtk4vvVS"
 }

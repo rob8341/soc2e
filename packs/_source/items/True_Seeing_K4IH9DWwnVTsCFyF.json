@@ -1,9 +1,8 @@
 {
   "_id": "K4IH9DWwnVTsCFyF",
-  "_key": "!items!K4IH9DWwnVTsCFyF",
   "name": "True Seeing",
   "type": "spell",
-  "img": "icons/magic/water/ice-crystal-white.webp",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
   "system": {
     "school": "arcane",
     "range": "Touch.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959650415,
+    "modifiedTime": 1781959650415,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!K4IH9DWwnVTsCFyF"
 }

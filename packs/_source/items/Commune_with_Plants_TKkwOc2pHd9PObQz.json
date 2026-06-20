@@ -1,9 +1,8 @@
 {
   "_id": "TKkwOc2pHd9PObQz",
-  "_key": "!items!TKkwOc2pHd9PObQz",
   "name": "Commune with Plants",
   "type": "spell",
-  "img": "icons/magic/perception/eye-slit-red-orange.webp",
+  "img": "icons/magic/nature/beam-hand-leaves-green.webp",
   "system": {
     "school": "arcane",
     "range": "10m.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781958485976,
+    "modifiedTime": 1781958485976,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!TKkwOc2pHd9PObQz"
 }

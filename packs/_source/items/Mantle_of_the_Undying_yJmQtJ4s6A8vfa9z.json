@@ -1,9 +1,8 @@
 {
   "_id": "yJmQtJ4s6A8vfa9z",
-  "_key": "!items!yJmQtJ4s6A8vfa9z",
   "name": "Mantle of the Undying",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/equipment/back/mantle-collared-brown.webp",
   "system": {
     "description": "This fearsome item grants its wearer immortality. Once donned, the wearer is incapable of being killed by mortal wounds, drowning, strangulation, poison, or disease. Instead of dying, the Mantle will repair their bodies and revive them after 1d6 weeks. When the character comes back to life, roll their lowest attribute 8+. If they succeed, they return whole. If they fail, they return as a Revenant (p.96), or, in the case of a Sorcerer, as a Revenant Wizard (p.271).",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781965479699,
+    "modifiedTime": 1781965479699,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yJmQtJ4s6A8vfa9z"
 }

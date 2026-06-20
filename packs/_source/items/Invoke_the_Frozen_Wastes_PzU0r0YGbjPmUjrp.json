@@ -1,9 +1,8 @@
 {
   "_id": "PzU0r0YGbjPmUjrp",
-  "_key": "!items!PzU0r0YGbjPmUjrp",
   "name": "Invoke the Frozen Wastes",
   "type": "spell",
-  "img": "icons/magic/water/ice-crystal-white.webp",
+  "img": "icons/magic/water/projectiles-ice-faceted-salvo-gray.webp",
   "system": {
     "school": "arcane",
     "range": "150m.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959153838,
+    "modifiedTime": 1781959153838,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PzU0r0YGbjPmUjrp"
 }

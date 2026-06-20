@@ -1,9 +1,8 @@
 {
   "_id": "asnipuaUkxRFZXe1",
-  "_key": "!items!asnipuaUkxRFZXe1",
   "name": "Hand Axe (small; tool)",
   "type": "adventuring",
-  "img": "icons/weapons/axes/axe-battle.webp",
+  "img": "icons/weapons/axes/shortaxe-yellow.webp",
   "system": {
     "description": "A sharp piece of stone, bone, or metal attached to a short wooden shaft. Used as a weapon it does 2d6 damage but does not have the Thrown aspect.",
     "cost": "2gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781953393463,
+    "modifiedTime": 1781953393463,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!asnipuaUkxRFZXe1"
 }

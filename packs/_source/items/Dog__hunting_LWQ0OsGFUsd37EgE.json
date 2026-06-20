@@ -1,6 +1,5 @@
 {
   "_id": "LWQ0OsGFUsd37EgE",
-  "_key": "!items!LWQ0OsGFUsd37EgE",
   "name": "Dog, hunting",
   "type": "animal",
   "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
@@ -17,5 +16,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781957689658,
+    "modifiedTime": 1781957702974,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LWQ0OsGFUsd37EgE"
 }

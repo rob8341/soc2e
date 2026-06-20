@@ -1,9 +1,8 @@
 {
   "_id": "kWCRNYdWCscmc5F9",
-  "_key": "!items!kWCRNYdWCscmc5F9",
   "name": "Saddle, pack",
   "type": "adventuring",
-  "img": "icons/containers/bags/pack-leather-brown.webp",
+  "img": "icons/sundries/survival/leather-strap-brown.webp",
   "system": {
     "description": "A pack saddle does not allow a rider but allows the mount to carry its full carrying capacity in gear and supplies.",
     "cost": "15gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781955450669,
+    "modifiedTime": 1781955450669,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kWCRNYdWCscmc5F9"
 }

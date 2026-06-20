@@ -1,9 +1,8 @@
 {
   "_id": "zF9OHzlwUMVmI5BR",
-  "_key": "!items!zF9OHzlwUMVmI5BR",
   "name": "Throwing Steel",
   "type": "weapon",
-  "img": "icons/weapons/thrown/throwing-trident-steel.webp",
+  "img": "icons/weapons/thrown/dagger-ringed-grey.webp",
   "system": {
     "description": "A collective term for small thrown weapons, such as war-darts and shuriken.",
     "cost": "1gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781968366796,
+    "modifiedTime": 1781968366796,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zF9OHzlwUMVmI5BR"
 }

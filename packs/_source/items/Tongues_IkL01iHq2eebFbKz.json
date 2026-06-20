@@ -1,9 +1,8 @@
 {
   "_id": "IkL01iHq2eebFbKz",
-  "_key": "!items!IkL01iHq2eebFbKz",
   "name": "Tongues",
   "type": "spell",
-  "img": "icons/magic/symbols/rune-sigil-green.webp",
+  "img": "icons/magic/control/mouth-smile-deception-purple.webp",
   "system": {
     "school": "arcane",
     "range": "50m",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959631135,
+    "modifiedTime": 1781959631135,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IkL01iHq2eebFbKz"
 }

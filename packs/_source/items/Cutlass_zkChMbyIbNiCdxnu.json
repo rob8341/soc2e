@@ -1,9 +1,8 @@
 {
   "_id": "zkChMbyIbNiCdxnu",
-  "_key": "!items!zkChMbyIbNiCdxnu",
   "name": "Cutlass",
   "type": "weapon",
-  "img": "icons/weapons/swords/swords-cutlasses-white.webp",
+  "img": "icons/weapons/swords/scimitar-worn-blue.webp",
   "system": {
     "description": "A short, broad slashing sword with a slightly curved blade and basket-guard hilt. Traditionally used by marines and pirates.",
     "cost": "10gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967238860,
+    "modifiedTime": 1781967264344,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zkChMbyIbNiCdxnu"
 }

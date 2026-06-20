@@ -1,6 +1,5 @@
 {
   "_id": "PKY6gob2I4ndZ4sz",
-  "_key": "!items!PKY6gob2I4ndZ4sz",
   "name": "Catapult, heavy",
   "type": "weapon",
   "img": "icons/weapons/artillery/catapult-white.webp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PKY6gob2I4ndZ4sz"
 }

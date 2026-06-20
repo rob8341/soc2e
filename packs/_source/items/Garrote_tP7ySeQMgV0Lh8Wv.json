@@ -1,6 +1,5 @@
 {
   "_id": "tP7ySeQMgV0Lh8Wv",
-  "_key": "!items!tP7ySeQMgV0Lh8Wv",
   "name": "Garrote",
   "type": "weapon",
   "img": "icons/weapons/misc/whip-leather.webp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!tP7ySeQMgV0Lh8Wv"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "aPB4MM7Qt46xHr4Y",
-  "_key": "!items!aPB4MM7Qt46xHr4Y",
   "name": "Pestilence",
   "type": "spell",
-  "img": "icons/magic/life/crosses-trio-red.webp",
+  "img": "icons/magic/death/blood-corruption-vomit-red.webp",
   "system": {
     "school": "arcane",
     "range": "Touch.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959257264,
+    "modifiedTime": 1781959266544,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!aPB4MM7Qt46xHr4Y"
 }

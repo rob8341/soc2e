@@ -1,9 +1,8 @@
 {
   "_id": "leFzHfnnuwnUG9Z8",
-  "_key": "!items!leFzHfnnuwnUG9Z8",
   "name": "Paralysis",
   "type": "spell",
-  "img": "icons/magic/movement/trail-streak-impact-blue.webp",
+  "img": "icons/magic/control/debuff-energy-hold-blue-yellow.webp",
   "system": {
     "school": "arcane",
     "range": "100m.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959228982,
+    "modifiedTime": 1781959228982,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!leFzHfnnuwnUG9Z8"
 }

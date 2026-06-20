@@ -1,9 +1,8 @@
 {
   "_id": "Q0O1VfxIdakEAWJ1",
-  "_key": "!items!Q0O1VfxIdakEAWJ1",
   "name": "Dress, SOC 9-11",
   "type": "adventuring",
-  "img": "icons/equipment/feet/socks-crew-padded.webp",
+  "img": "icons/equipment/chest/shirt-collared-grey.webp",
   "system": {
     "description": "An outfit appropriate to Social Standing 9-11.",
     "cost": "20gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781956526529,
+    "modifiedTime": 1781956526529,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Q0O1VfxIdakEAWJ1"
 }

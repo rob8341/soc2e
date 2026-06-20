@@ -1,6 +1,6 @@
 # The Sword of Cepheus 2e — Foundry VTT System
 
-**Version 0.9.2**
+**Version 0.9.3**
 
 A Foundry VTT game system for **The Sword of Cepheus 2nd Edition**, a 2d6 fantasy RPG based on Traveller mechanics.
 
@@ -32,6 +32,7 @@ These load automatically with the system — no manual import step needed.
 ## TODO
 
 - **Vehicles** — the `vehicle` actor type and sheet exist, but the Items compendium does not yet include vehicle entries from the Equipment chapter (pp.167-170). Vehicles still need to be added as compendium content.
+- **NPC Morale** — no morale tracking or roll mechanic exists yet for NPCs (e.g. retainers/animals with a morale modifier from the Beast Friendship trait). Needs a morale field/throw on the NPC sheet.
 
 ## Compatibility
 

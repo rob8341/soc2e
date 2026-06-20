@@ -1,9 +1,8 @@
 {
   "_id": "QOfMXSfjSNTtgatw",
-  "_key": "!items!QOfMXSfjSNTtgatw",
   "name": "Hat",
   "type": "adventuring",
-  "img": "icons/equipment/head/hat-cowboy.webp",
+  "img": "icons/equipment/head/cap-simple-leather-brown.webp",
   "system": {
     "description": "A hat.",
     "cost": "10sp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781956692714,
+    "modifiedTime": 1781956692714,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!QOfMXSfjSNTtgatw"
 }

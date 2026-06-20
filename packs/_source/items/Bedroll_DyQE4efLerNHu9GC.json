@@ -1,9 +1,8 @@
 {
   "_id": "DyQE4efLerNHu9GC",
-  "_key": "!items!DyQE4efLerNHu9GC",
   "name": "Bedroll",
   "type": "adventuring",
-  "img": "icons/sundries/survival/bedroll-brown.webp",
+  "img": "icons/sundries/survival/bedroll-grey.webp",
   "system": {
     "description": "A thick woolen blanket that can keep a single person warm down to 10oC.",
     "cost": "2gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781951819995,
+    "modifiedTime": 1781951819995,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!DyQE4efLerNHu9GC"
 }

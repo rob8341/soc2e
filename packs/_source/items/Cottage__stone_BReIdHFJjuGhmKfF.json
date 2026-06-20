@@ -1,22 +1,32 @@
 {
   "_id": "BReIdHFJjuGhmKfF",
-  "_key": "!items!BReIdHFJjuGhmKfF",
   "name": "Cottage, stone",
   "type": "adventuring",
-  "img": "icons/tools/hand/pickaxe-simple-stone.webp",
+  "img": "icons/environment/settlement/house-wooden-fence.webp",
   "system": {
     "description": "A stone cottage with thatched roof and wooden floor, owned by wealthy freeholders and poorer nobles (SOC 7-8). Lodging cost, not per night.",
     "cost": "1000gp",
     "quantity": 1,
-    "subtype": "adventuring",
+    "subtype": "food",
     "encumbrance": 0
   },
   "effects": [],
-  "folder": "H8xIZM1JRcoreogr",
-  "sort": 10900000,
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 19500000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781951976717,
+    "modifiedTime": 1781957040994,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BReIdHFJjuGhmKfF"
 }

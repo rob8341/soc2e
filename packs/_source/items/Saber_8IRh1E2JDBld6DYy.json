@@ -1,9 +1,8 @@
 {
   "_id": "8IRh1E2JDBld6DYy",
-  "_key": "!items!8IRh1E2JDBld6DYy",
   "name": "Saber",
   "type": "weapon",
-  "img": "icons/weapons/swords/sword-flanged-lightning.webp",
+  "img": "icons/weapons/swords/scimitar-guard-gold.webp",
   "system": {
     "description": "A single-edged curved sword, often with a large handguard. A saber is traditionally a cavalry weapon.",
     "cost": "12gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967510125,
+    "modifiedTime": 1781967510125,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8IRh1E2JDBld6DYy"
 }

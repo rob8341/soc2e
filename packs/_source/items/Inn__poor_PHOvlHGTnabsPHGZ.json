@@ -1,22 +1,32 @@
 {
   "_id": "PHOvlHGTnabsPHGZ",
-  "_key": "!items!PHOvlHGTnabsPHGZ",
   "name": "Inn, poor",
   "type": "adventuring",
-  "img": "icons/tools/hand/spinning-wheel-brown.webp",
+  "img": "icons/environment/settlement/tavern-tan.webp",
   "system": {
     "description": "Poor inns are gambling dens and flophouses, frequented by harlots, gamblers, and ruffians. Cost is for lodging only, per night.",
     "cost": "1sp",
     "quantity": 1,
-    "subtype": "adventuring",
+    "subtype": "food",
     "encumbrance": 0
   },
   "effects": [],
-  "folder": "H8xIZM1JRcoreogr",
-  "sort": 11200000,
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 19700000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781953620875,
+    "modifiedTime": 1781957140605,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PHOvlHGTnabsPHGZ"
 }

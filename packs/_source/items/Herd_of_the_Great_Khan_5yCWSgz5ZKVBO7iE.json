@@ -1,14 +1,13 @@
 {
   "_id": "5yCWSgz5ZKVBO7iE",
-  "_key": "!items!5yCWSgz5ZKVBO7iE",
   "name": "Herd of the Great Khan",
   "type": "spell",
-  "img": "icons/magic/water/ice-crystal-white.webp",
+  "img": "icons/magic/control/modfiy-luck-fortune-gray.webp",
   "system": {
     "school": "arcane",
     "range": "Special.",
     "duration": "1 day.",
-    "effect": "This spell calls one or more horses or giant lizards (depending on the setting) to serve as mounts for the characters. The spell may call a herd of 10 light horses or 5 heavy horses, or a lounge of 5 giant lizards (sorcerer's choice, depending on the setting). When called, the animals travel to the sorcerer's location at their wilderness travel rate. If cast within inhabited terrain, or wilderness of grass, hills, or scrub, the animals will arrive within 1d6 turns. If cast in any other type of terrain, they will arrive within 3d6 turns. If cast in a place inaccessible to riding animals (such as deep underground), the mounts will wait closely nearby for the duration of the spell. For the duration of the spell, the mounts understand the sorcerer's speech and serve as loyal companions. The spell persists until it is dispelled by quell enchantment, or one day passes\u2014at which time the mounts depart. The sorcerer may increase the spell's duration by casting it again a short time before the duration ends. Note that this spell only calls animals, and not saddle and tack; it also does not grant anyone the Riding skill, though the animals are quite used to being ridden.",
+    "effect": "This spell calls one or more horses or giant lizards (depending on the setting) to serve as mounts for the characters. The spell may call a herd of 10 light horses or 5 heavy horses, or a lounge of 5 giant lizards (sorcerer's choice, depending on the setting). When called, the animals travel to the sorcerer's location at their wilderness travel rate. If cast within inhabited terrain, or wilderness of grass, hills, or scrub, the animals will arrive within 1d6 turns. If cast in any other type of terrain, they will arrive within 3d6 turns. If cast in a place inaccessible to riding animals (such as deep underground), the mounts will wait closely nearby for the duration of the spell. For the duration of the spell, the mounts understand the sorcerer's speech and serve as loyal companions. The spell persists until it is dispelled by quell enchantment, or one day passes—at which time the mounts depart. The sorcerer may increase the spell's duration by casting it again a short time before the duration ends. Note that this spell only calls animals, and not saddle and tack; it also does not grant anyone the Riding skill, though the animals are quite used to being ridden.",
     "critSuccess": "The duration is increased to one week."
   },
   "effects": [],
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781958997872,
+    "modifiedTime": 1781958997872,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!5yCWSgz5ZKVBO7iE"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "PLmbksf0tyEOfHl2",
-  "_key": "!items!PLmbksf0tyEOfHl2",
   "name": "Elven Bowstring",
   "type": "adventuring",
-  "img": "icons/equipment/finger/ring-cabochon-thin-silver-orange.webp",
+  "img": "icons/tools/fishing/reel-simple-string-tan.webp",
   "system": {
     "description": "Made from the woven silk of treetop moths mixed with sap resins of different trees, these uncommonly quiet and strong bowstrings increase a bow or crossbow's effective and maximum range by 25%.",
     "cost": "15gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781952394903,
+    "modifiedTime": 1781952394903,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PLmbksf0tyEOfHl2"
 }

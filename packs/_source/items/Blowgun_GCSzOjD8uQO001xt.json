@@ -1,9 +1,8 @@
 {
   "_id": "GCSzOjD8uQO001xt",
-  "_key": "!items!GCSzOjD8uQO001xt",
   "name": "Blowgun",
   "type": "weapon",
-  "img": "icons/weapons/guns/gun-blunderbuss-steel.webp",
+  "img": "icons/weapons/thrown/dart-feathered.webp",
   "system": {
     "description": "A thin, 1m long tube shooting small darts (throwing steel). Blowgun darts are often tipped with poison.",
     "cost": "1gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967031578,
+    "modifiedTime": 1781967031578,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!GCSzOjD8uQO001xt"
 }

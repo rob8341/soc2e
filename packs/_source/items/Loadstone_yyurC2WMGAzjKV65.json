@@ -1,9 +1,8 @@
 {
   "_id": "yyurC2WMGAzjKV65",
-  "_key": "!items!yyurC2WMGAzjKV65",
   "name": "Loadstone",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/tools/navigation/compass-worn-copper.webp",
   "system": {
     "description": "A naturally occurring metal that points towards north when allowed to swing freely, suspended in oil within a metal cylinder with a glass face. Provides a +2 bonus to any throw to avoid getting lost.",
     "cost": "100gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781953986233,
+    "modifiedTime": 1781953986233,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yyurC2WMGAzjKV65"
 }

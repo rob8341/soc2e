@@ -1,9 +1,8 @@
 {
   "_id": "NQLlpIn8srmRtv5X",
-  "_key": "!items!NQLlpIn8srmRtv5X",
   "name": "Meal, poor",
   "type": "adventuring",
-  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "img": "icons/consumables/food/bowl-stew-brown.webp",
   "system": {
     "description": "A poor quality meal.",
     "cost": "1cp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781964026207,
+    "modifiedTime": 1781964026207,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!NQLlpIn8srmRtv5X"
 }

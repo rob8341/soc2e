@@ -1,9 +1,8 @@
 {
   "_id": "JzjuxZEOQpY7NEkX",
-  "_key": "!items!JzjuxZEOQpY7NEkX",
   "name": "Cloak, winter",
   "type": "adventuring",
-  "img": "icons/equipment/back/cloak-brown.webp",
+  "img": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp",
   "system": {
     "description": "A heavy winter cloak.",
     "cost": "15gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781956347947,
+    "modifiedTime": 1781956347947,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!JzjuxZEOQpY7NEkX"
 }

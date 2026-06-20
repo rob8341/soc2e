@@ -1,9 +1,8 @@
 {
   "_id": "haOQtwjOp1AwrQUz",
-  "_key": "!items!haOQtwjOp1AwrQUz",
   "name": "Commune With the Gods",
   "type": "spell",
-  "img": "icons/magic/time/day-night-sun-moon.webp",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
   "system": {
     "school": "eldritch",
     "range": "Self",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781960044549,
+    "modifiedTime": 1781960044549,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!haOQtwjOp1AwrQUz"
 }

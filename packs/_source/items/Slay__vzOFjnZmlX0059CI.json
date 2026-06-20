@@ -1,9 +1,8 @@
 {
   "_id": "vzOFjnZmlX0059CI",
-  "_key": "!items!vzOFjnZmlX0059CI",
   "name": "Slay!",
   "type": "spell",
-  "img": "icons/magic/symbols/rune-sigil-green.webp",
+  "img": "icons/magic/death/skull-horned-goat-pentagram-red.webp",
   "system": {
     "school": "arcane",
     "range": "150m.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959542217,
+    "modifiedTime": 1781959542217,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vzOFjnZmlX0059CI"
 }

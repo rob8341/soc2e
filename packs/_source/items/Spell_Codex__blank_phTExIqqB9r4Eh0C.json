@@ -1,9 +1,8 @@
 {
   "_id": "phTExIqqB9r4Eh0C",
-  "_key": "!items!phTExIqqB9r4Eh0C",
   "name": "Spell Codex, blank",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/sundries/scrolls/scroll-bound-blue-white.webp",
   "system": {
     "description": "A high-quality parchment or paper book, used for recording spells as described in the Sorcery chapter.",
     "cost": "20gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781955568376,
+    "modifiedTime": 1781955573232,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!phTExIqqB9r4Eh0C"
 }

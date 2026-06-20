@@ -1,9 +1,8 @@
 {
   "_id": "AwFv0Yg7NZRBT7qY",
-  "_key": "!items!AwFv0Yg7NZRBT7qY",
   "name": "Halberd",
   "type": "weapon",
-  "img": "icons/weapons/polearms/halberd-crescent-engraved.webp",
+  "img": "icons/weapons/polearms/halberd-worn-steel.webp",
   "system": {
     "description": "This weapon consists of a wide slashing blade and a long spike mounted atop a long shaft. A halberd counts as two items for encumbrance purposes.",
     "cost": "7gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967359788,
+    "modifiedTime": 1781967359788,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!AwFv0Yg7NZRBT7qY"
 }

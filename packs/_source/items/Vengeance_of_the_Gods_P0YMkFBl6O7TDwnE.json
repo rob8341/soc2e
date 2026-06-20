@@ -1,9 +1,8 @@
 {
   "_id": "P0YMkFBl6O7TDwnE",
-  "_key": "!items!P0YMkFBl6O7TDwnE",
   "name": "Vengeance of the Gods",
   "type": "spell",
-  "img": "icons/magic/time/day-night-sun-moon.webp",
+  "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
   "system": {
     "school": "arcane",
     "range": "75m.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959670514,
+    "modifiedTime": 1781959670514,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!P0YMkFBl6O7TDwnE"
 }

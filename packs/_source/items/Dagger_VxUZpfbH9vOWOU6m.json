@@ -1,9 +1,8 @@
 {
   "_id": "VxUZpfbH9vOWOU6m",
-  "_key": "!items!VxUZpfbH9vOWOU6m",
   "name": "Dagger",
   "type": "weapon",
-  "img": "icons/weapons/daggers/dagger-blue.webp",
+  "img": "icons/weapons/daggers/dagger-straight-cracked.webp",
   "system": {
     "description": "A straight, short knife. Daggers are usually quite concealable.",
     "cost": "3gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967319172,
+    "modifiedTime": 1781967319172,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!VxUZpfbH9vOWOU6m"
 }

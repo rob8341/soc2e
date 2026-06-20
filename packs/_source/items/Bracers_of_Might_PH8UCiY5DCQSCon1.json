@@ -1,9 +1,8 @@
 {
   "_id": "PH8UCiY5DCQSCon1",
-  "_key": "!items!PH8UCiY5DCQSCon1",
   "name": "Bracers of Might",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/equipment/wrist/bracer-simple-leather-steel.webp",
   "system": {
     "description": "These large forearm guards are legendary among scholars of old battles and history. The wearer of the Bracers gains STR 18 (+4 to all Melee rolls and Damage), the ability to leap 20m horizontally or vertically, and 10 points of armor protection (does not combine with other armor). Moreover, the wearer of the Bracers gains Advantage to all Morale rolls for their allies in a battle. There is a dark secret to the Bracers: every time they are worn in combat, there is a 1-in-6 chance that the wearer will turn into a Revenant at the next sundown.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781964479357,
+    "modifiedTime": 1781964479357,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PH8UCiY5DCQSCon1"
 }

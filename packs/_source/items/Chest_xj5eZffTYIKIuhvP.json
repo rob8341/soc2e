@@ -1,9 +1,8 @@
 {
   "_id": "xj5eZffTYIKIuhvP",
-  "_key": "!items!xj5eZffTYIKIuhvP",
   "name": "Chest",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/containers/chest/chest-reinforced-box-brown.webp",
   "system": {
     "description": "An iron-bound wooden container about 1 cubic meter in size that can hold 20 items.",
     "cost": "20gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781951862611,
+    "modifiedTime": 1781951862611,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xj5eZffTYIKIuhvP"
 }

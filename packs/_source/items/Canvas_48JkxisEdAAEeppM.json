@@ -1,9 +1,8 @@
 {
   "_id": "48JkxisEdAAEeppM",
-  "_key": "!items!48JkxisEdAAEeppM",
   "name": "Canvas",
   "type": "adventuring",
-  "img": "icons/sundries/misc/admission-ticket-grey.webp",
+  "img": "icons/commodities/cloth/cloth-bolt-gold.webp",
   "system": {
     "description": "One square meter of woven material used to make clothing and other items. Often transported in bolts ranging from 30 to 90 meters in length.",
     "cost": "1sp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781956308282,
+    "modifiedTime": 1781956308282,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!48JkxisEdAAEeppM"
 }

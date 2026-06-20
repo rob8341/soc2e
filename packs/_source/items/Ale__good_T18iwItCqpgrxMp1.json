@@ -1,9 +1,8 @@
 {
   "_id": "T18iwItCqpgrxMp1",
-  "_key": "!items!T18iwItCqpgrxMp1",
   "name": "Ale, good",
   "type": "adventuring",
-  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-metal-brown.webp",
   "system": {
     "description": "Good quality ale.",
     "cost": "2cp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781963724134,
+    "modifiedTime": 1781963724134,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!T18iwItCqpgrxMp1"
 }

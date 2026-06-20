@@ -1,9 +1,8 @@
 {
   "_id": "i6sEg3iCPU6zUjzg",
-  "_key": "!items!i6sEg3iCPU6zUjzg",
   "name": "Catapult, light",
   "type": "weapon",
-  "img": "icons/weapons/artillery/catapult-white.webp",
+  "img": "icons/weapons/artillery/catapult-simple.webp",
   "system": {
     "description": "Siege weapons powered by either torsion or a counter-weight mechanism, hurling rocks or other projectiles. Catapults have a minimum range (150m for the light catapult). They cause damage to characters within the radius of their impact.",
     "cost": "100gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967159056,
+    "modifiedTime": 1781967159056,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!i6sEg3iCPU6zUjzg"
 }

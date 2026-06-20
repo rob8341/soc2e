@@ -1,9 +1,8 @@
 {
   "_id": "anKuLqIoDMwEnRx0",
-  "_key": "!items!anKuLqIoDMwEnRx0",
   "name": "Summon Ooze",
   "type": "spell",
-  "img": "icons/magic/water/ice-crystal-white.webp",
+  "img": "icons/creatures/slimes/bubbling-purple.webp",
   "system": {
     "school": "eldritch",
     "range": "5m",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781961155471,
+    "modifiedTime": 1781961155471,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!anKuLqIoDMwEnRx0"
 }

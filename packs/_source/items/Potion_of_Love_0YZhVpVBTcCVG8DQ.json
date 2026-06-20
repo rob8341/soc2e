@@ -1,9 +1,8 @@
 {
   "_id": "0YZhVpVBTcCVG8DQ",
-  "_key": "!items!0YZhVpVBTcCVG8DQ",
   "name": "Potion of Love",
   "type": "adventuring",
-  "img": "icons/consumables/potions/potion-flask-stopped-red.webp",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
   "system": {
     "description": "This potion causes the imbiber to fall madly in love with the first person they see unless they make an INT 10+ roll. The effects last for 1d6+6 turns.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781965821442,
+    "modifiedTime": 1781965821442,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0YZhVpVBTcCVG8DQ"
 }

@@ -1,22 +1,32 @@
 {
   "_id": "iOnsd624MAE86PWt",
-  "_key": "!items!iOnsd624MAE86PWt",
   "name": "Townhouse",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/environment/settlement/house-wooden-fence.webp",
   "system": {
     "description": "A 10m square two-story building with a wooden floor, stairs, and a wooden or slate roof. Wealthy craftsmen (SOC 9-A) might live here. Lodging cost, not per night.",
     "cost": "1200gp",
     "quantity": 1,
-    "subtype": "adventuring",
+    "subtype": "food",
     "encumbrance": 0
   },
   "effects": [],
-  "folder": "H8xIZM1JRcoreogr",
-  "sort": 11500000,
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 19100000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781951897026,
+    "modifiedTime": 1781957201413,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!iOnsd624MAE86PWt"
 }

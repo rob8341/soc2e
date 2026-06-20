@@ -1,6 +1,5 @@
 {
   "_id": "rim2GNXX9WwHE4Fy",
-  "_key": "!items!rim2GNXX9WwHE4Fy",
   "name": "Boomerang",
   "type": "weapon",
   "img": "icons/weapons/thrown/boomerang.webp",
@@ -21,11 +20,22 @@
     "equipped": false
   },
   "effects": [],
-  "folder": "NbrnTP3fAbnFbmOH",
-  "sort": 16900000,
+  "folder": "NyGxliG1mepzhDPh",
+  "sort": 200000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967725326,
+    "modifiedTime": 1781967725326,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!rim2GNXX9WwHE4Fy"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "qhPx8Y7XsrSvBpDm",
-  "_key": "!items!qhPx8Y7XsrSvBpDm",
   "name": "Meal, common",
   "type": "adventuring",
-  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "img": "icons/consumables/food/plate-fish-grilled-brown.webp",
   "system": {
     "description": "A common meal.",
     "cost": "1sp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781964018267,
+    "modifiedTime": 1781964088454,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!qhPx8Y7XsrSvBpDm"
 }

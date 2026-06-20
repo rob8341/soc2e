@@ -1,9 +1,8 @@
 {
   "_id": "dKF0j7elKPoh3pKM",
-  "_key": "!items!dKF0j7elKPoh3pKM",
   "name": "Chain",
   "type": "armor",
-  "img": "icons/equipment/chest/shirt-collared-grey.webp",
+  "img": "icons/equipment/chest/breastplate-scale-grey.webp",
   "system": {
     "description": "Armor made from small metal rings linked together in a pattern to form a mesh. Chain provides better protection than hide and leather-based armors, but less than that of heavier metal armors. Chain is a common type of armor among soldiers.",
     "cost": "40gp",
@@ -20,5 +19,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781955917412,
+    "modifiedTime": 1781955917412,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dKF0j7elKPoh3pKM"
 }

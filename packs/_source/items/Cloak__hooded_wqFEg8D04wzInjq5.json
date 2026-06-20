@@ -1,9 +1,8 @@
 {
   "_id": "wqFEg8D04wzInjq5",
-  "_key": "!items!wqFEg8D04wzInjq5",
   "name": "Cloak, hooded",
   "type": "adventuring",
-  "img": "icons/equipment/back/cloak-hooded-pink.webp",
+  "img": "icons/equipment/back/cloak-hooeded-blue.webp",
   "system": {
     "description": "A hooded cloak.",
     "cost": "1gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781956329952,
+    "modifiedTime": 1781956329952,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!wqFEg8D04wzInjq5"
 }

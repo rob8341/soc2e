@@ -1,9 +1,8 @@
 {
   "_id": "glVLqJooQwQDFLSx",
-  "_key": "!items!glVLqJooQwQDFLSx",
   "name": "Furious Maul",
   "type": "adventuring",
-  "img": "icons/tools/hand/hammer-maul-wood.webp",
+  "img": "icons/weapons/hammers/shorthammer-double-steel-embossed.webp",
   "system": {
     "description": "If a character kills a target with this large, ornately carved two-handed hammer, they are immediately granted a free attack against an enemy within range.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781965301869,
+    "modifiedTime": 1781965301869,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!glVLqJooQwQDFLSx"
 }

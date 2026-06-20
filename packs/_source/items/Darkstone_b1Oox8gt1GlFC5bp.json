@@ -1,9 +1,8 @@
 {
   "_id": "b1Oox8gt1GlFC5bp",
-  "_key": "!items!b1Oox8gt1GlFC5bp",
   "name": "Darkstone",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/commodities/gems/gem-faceted-round-black.webp",
   "system": {
     "description": "When held, this small obsidian crystal casts everything in a 10m radius in complete and total darkness. No one outside the area of effect can see in, and vice versa. Within the darkened area, only the holder of the darkstone can see anything. The darkness travels with the holder and lasts for 1d3+1 turns.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781964888322,
+    "modifiedTime": 1781964888322,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!b1Oox8gt1GlFC5bp"
 }

@@ -1,6 +1,5 @@
 {
   "_id": "uoU53bYsrERg1i8B",
-  "_key": "!items!uoU53bYsrERg1i8B",
   "name": "Skates",
   "type": "adventuring",
   "img": "icons/containers/bags/pouch-leather-brown-green.webp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!uoU53bYsrERg1i8B"
 }

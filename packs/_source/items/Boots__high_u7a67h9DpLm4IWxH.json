@@ -1,9 +1,8 @@
 {
   "_id": "u7a67h9DpLm4IWxH",
-  "_key": "!items!u7a67h9DpLm4IWxH",
   "name": "Boots, high",
   "type": "adventuring",
-  "img": "icons/equipment/feet/boots-motorcycle-high.webp",
+  "img": "icons/equipment/feet/boots-folded-leather-brown.webp",
   "system": {
     "description": "Sturdy foot-ware coming up to the knees. Provides the equivalent of Protection 2 against snake bites and other ground-level hazards.",
     "cost": "3gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781956227399,
+    "modifiedTime": 1781956227399,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!u7a67h9DpLm4IWxH"
 }

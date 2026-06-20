@@ -1,9 +1,8 @@
 {
   "_id": "QI7CRBsQYXzENpOS",
-  "_key": "!items!QI7CRBsQYXzENpOS",
   "name": "Silk",
   "type": "adventuring",
-  "img": "icons/sundries/misc/admission-ticket-grey.webp",
+  "img": "icons/commodities/cloth/cloth-bolt-yellow.webp",
   "system": {
     "description": "One square meter of silk material.",
     "cost": "15gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781956767699,
+    "modifiedTime": 1781956767699,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!QI7CRBsQYXzENpOS"
 }

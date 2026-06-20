@@ -1,9 +1,8 @@
 {
   "_id": "NAxvpCPZygFP0xOL",
-  "_key": "!items!NAxvpCPZygFP0xOL",
   "name": "Animate Dead",
   "type": "spell",
-  "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+  "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
   "system": {
     "school": "arcane",
     "range": "10m radius around the Sorcerer.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781957917901,
+    "modifiedTime": 1781957917901,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!NAxvpCPZygFP0xOL"
 }

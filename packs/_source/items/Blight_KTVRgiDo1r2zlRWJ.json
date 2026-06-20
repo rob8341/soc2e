@@ -1,9 +1,8 @@
 {
   "_id": "KTVRgiDo1r2zlRWJ",
-  "_key": "!items!KTVRgiDo1r2zlRWJ",
   "name": "Blight",
   "type": "spell",
-  "img": "icons/magic/water/ice-crystal-white.webp",
+  "img": "icons/magic/nature/leaf-glow-orange.webp",
   "system": {
     "school": "eldritch",
     "range": "20km radius from the ritual",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781960019587,
+    "modifiedTime": 1781960019587,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!KTVRgiDo1r2zlRWJ"
 }

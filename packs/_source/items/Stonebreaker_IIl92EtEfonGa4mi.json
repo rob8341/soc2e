@@ -1,9 +1,8 @@
 {
   "_id": "IIl92EtEfonGa4mi",
-  "_key": "!items!IIl92EtEfonGa4mi",
   "name": "Stonebreaker",
   "type": "weapon",
-  "img": "icons/weapons/swords/sword-broad-worn.webp",
+  "img": "icons/weapons/axes/axe-double-engraved-blue.webp",
   "system": {
     "description": "A dwarven weapon combining a great axe and a maul. A stonebreaker counts as two items for encumbrance.",
     "cost": "15gp",
@@ -21,11 +20,22 @@
     "equipped": false
   },
   "effects": [],
-  "folder": "NbrnTP3fAbnFbmOH",
-  "sort": 17200000,
+  "folder": "NyGxliG1mepzhDPh",
+  "sort": 500000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967778855,
+    "modifiedTime": 1781967940388,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IIl92EtEfonGa4mi"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "ktUJrhQR6FEecAtp",
-  "_key": "!items!ktUJrhQR6FEecAtp",
   "name": "Sword, great",
   "type": "weapon",
-  "img": "icons/weapons/swords/sword-guard-engraved.webp",
+  "img": "icons/weapons/swords/greatsword-crossguard-silver.webp",
   "system": {
     "description": "A large two-handed sword. Great swords count as 2 items for encumbrance purposes.",
     "cost": "15gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781968144259,
+    "modifiedTime": 1781968144259,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ktUJrhQR6FEecAtp"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "qilBIzbvfLuxsyf3",
-  "_key": "!items!qilBIzbvfLuxsyf3",
   "name": "Robe",
   "type": "adventuring",
-  "img": "icons/equipment/chest/robe-layered-red.webp",
+  "img": "icons/equipment/chest/robe-layered-teal.webp",
   "system": {
     "description": "A robe.",
     "cost": "6gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781956752316,
+    "modifiedTime": 1781956752316,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!qilBIzbvfLuxsyf3"
 }

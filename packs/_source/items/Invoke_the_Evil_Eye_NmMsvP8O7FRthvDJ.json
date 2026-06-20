@@ -1,9 +1,8 @@
 {
   "_id": "NmMsvP8O7FRthvDJ",
-  "_key": "!items!NmMsvP8O7FRthvDJ",
   "name": "Invoke the Evil Eye",
   "type": "spell",
-  "img": "icons/magic/death/skeleton-eye-skull-glow-orange.webp",
+  "img": "icons/magic/death/skull-flames-white-blue.webp",
   "system": {
     "school": "arcane",
     "range": "10m.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959106867,
+    "modifiedTime": 1781959106867,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!NmMsvP8O7FRthvDJ"
 }

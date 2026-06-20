@@ -1,9 +1,8 @@
 {
   "_id": "kTyxqAoV4YQrUYz0",
-  "_key": "!items!kTyxqAoV4YQrUYz0",
   "name": "Mutagen Potion",
   "type": "adventuring",
-  "img": "icons/consumables/potions/potion-flask-stopped-red.webp",
+  "img": "icons/consumables/potions/flask-red-bubbles-vortex.webp",
   "system": {
     "description": "The imbiber mutates! Roll on the Mutation Table (p.185) and apply the mutation immediately!",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781965800491,
+    "modifiedTime": 1781965800491,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kTyxqAoV4YQrUYz0"
 }

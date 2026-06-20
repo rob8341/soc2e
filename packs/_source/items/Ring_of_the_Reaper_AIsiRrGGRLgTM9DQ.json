@@ -1,9 +1,8 @@
 {
   "_id": "AIsiRrGGRLgTM9DQ",
-  "_key": "!items!AIsiRrGGRLgTM9DQ",
   "name": "Ring of the Reaper",
   "type": "adventuring",
-  "img": "icons/equipment/finger/ring-signet-tech.webp",
+  "img": "icons/equipment/finger/ring-inlay-skull-silver.webp",
   "system": {
     "description": "Anyone wearing this ring becomes invisible to living creatures, most summoned creatures, and constructs as long as they wear the ring. This invisibility persists even when attacking creatures. The ring does not confer invisibility against the undead; indeed, any undead within a 1km radius will be automatically attracted to the ring and will hunt down its wearer with surprising zeal. If the ring is removed, undead creatures will cease hunting the wearer after an hour.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781965914989,
+    "modifiedTime": 1781965914989,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!AIsiRrGGRLgTM9DQ"
 }

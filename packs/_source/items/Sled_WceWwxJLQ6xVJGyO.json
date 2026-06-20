@@ -1,9 +1,8 @@
 {
   "_id": "WceWwxJLQ6xVJGyO",
-  "_key": "!items!WceWwxJLQ6xVJGyO",
   "name": "Sled",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/commodities/wood/bark-brown-red.webp",
   "system": {
     "description": "Used to pull captured quarry or assist a fallen comrade. Doubles the number of items a person may carry, but travels at half speeds.",
     "cost": "10gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781957491485,
+    "modifiedTime": 1781957491485,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!WceWwxJLQ6xVJGyO"
 }

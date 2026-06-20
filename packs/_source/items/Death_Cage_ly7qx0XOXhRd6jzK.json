@@ -1,9 +1,8 @@
 {
   "_id": "ly7qx0XOXhRd6jzK",
-  "_key": "!items!ly7qx0XOXhRd6jzK",
   "name": "Death Cage",
   "type": "spell",
-  "img": "icons/magic/death/grave-tombstone-glow-teal.webp",
+  "img": "icons/magic/control/debuff-chains-ropes-net-purple-blue.webp",
   "system": {
     "school": "arcane",
     "range": "50m, in a 10m square.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781958702161,
+    "modifiedTime": 1781958702161,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ly7qx0XOXhRd6jzK"
 }

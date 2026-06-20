@@ -2,7 +2,11 @@
 
 All notable changes to the Sword of Cepheus 2e Foundry system are documented here.
 
-## 0.9.2 — Unreleased
+## 0.9.3
+
+- Replaced the **Items** compendium with a manually-curated revision: refreshed icons on the majority of items, fixed `subtype` on 7 lodging items (Cottage stone/wood, Hut wood/wattle, Inn poor/average, Townhouse) from `adventuring` to `food`, and split 9 weapons (Stonebreaker, Archer's Blade, Vorpal weapon, War Pick, Nunchaku, Net, Boomerang, Whip, Singing weapon) into a new "Exotic Weapons" folder.
+
+## 0.9.2
 
 - Added the **Traits** compendium pack with the full character-generation Trait List from the rulebook.
 - Added the **Mutation table** to the Traits compendium as Trait items, each tagged `(Mutation)` in the name.

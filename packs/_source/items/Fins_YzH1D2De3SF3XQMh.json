@@ -1,9 +1,8 @@
 {
   "_id": "YzH1D2De3SF3XQMh",
-  "_key": "!items!YzH1D2De3SF3XQMh",
   "name": "Fins",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/commodities/leather/leather-bolt-grey.webp",
   "system": {
     "description": "Simple leather fins fitted to the feet to enhance swimming ability. Give a +1 bonus to swimming skill throws and double speed in water if unencumbered. Wearing fins on land reduces land speed by half.",
     "cost": "2gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781952822888,
+    "modifiedTime": 1781952822888,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YzH1D2De3SF3XQMh"
 }

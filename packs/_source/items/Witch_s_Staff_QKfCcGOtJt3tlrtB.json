@@ -1,9 +1,8 @@
 {
   "_id": "QKfCcGOtJt3tlrtB",
-  "_key": "!items!QKfCcGOtJt3tlrtB",
   "name": "Witch's Staff",
   "type": "adventuring",
-  "img": "icons/weapons/staves/staff-ornate.webp",
+  "img": "icons/weapons/staves/staff-ornate-purple.webp",
   "system": {
     "description": "This useful item has two functions. Its primary use is to serve as a Corruption sponge for spellcasters: a Witch's Staff can absorb 1d3+1 points of Corruption resulting from Critical Successes or Channeling when spell casting. Once the Staff has reached its Corruption limit, it crumbles into ash. Its other function is to be a flying broom: the Witch's Staff can carry its owner, and one other passenger, at a rate of 20m/round per action. In a chase, it has Agility 0.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781966600884,
+    "modifiedTime": 1781966600884,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!QKfCcGOtJt3tlrtB"
 }

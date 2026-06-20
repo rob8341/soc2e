@@ -1,6 +1,5 @@
 {
   "_id": "ij6X7Ok8R5WnKktQ",
-  "_key": "!items!ij6X7Ok8R5WnKktQ",
   "name": "Whip",
   "type": "weapon",
   "img": "icons/weapons/misc/whip-leather.webp",
@@ -21,11 +20,22 @@
     "equipped": false
   },
   "effects": [],
-  "folder": "NbrnTP3fAbnFbmOH",
-  "sort": 17400000,
+  "folder": "NyGxliG1mepzhDPh",
+  "sort": 700000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967805714,
+    "modifiedTime": 1781967805714,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ij6X7Ok8R5WnKktQ"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "S40ubK4W017x6ygs",
-  "_key": "!items!S40ubK4W017x6ygs",
   "name": "War Pick",
   "type": "weapon",
-  "img": "icons/weapons/polearms/javelin.webp",
+  "img": "icons/weapons/axes/pickaxe-double-brown.webp",
   "system": {
     "description": "A specially designed weapon intended to attack structures as much as it is a melee weapon. A war pick counts as two items for encumbrance.",
     "cost": "50gp",
@@ -21,11 +20,22 @@
     "equipped": false
   },
   "effects": [],
-  "folder": "NbrnTP3fAbnFbmOH",
-  "sort": 17300000,
+  "folder": "NyGxliG1mepzhDPh",
+  "sort": 600000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967790699,
+    "modifiedTime": 1781967995550,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!S40ubK4W017x6ygs"
 }

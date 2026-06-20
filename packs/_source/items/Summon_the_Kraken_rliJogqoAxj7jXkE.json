@@ -1,9 +1,8 @@
 {
   "_id": "rliJogqoAxj7jXkE",
-  "_key": "!items!rliJogqoAxj7jXkE",
   "name": "Summon the Kraken",
   "type": "spell",
-  "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+  "img": "icons/creatures/tentacles/tentacles-suctioncups-pink.webp",
   "system": {
     "school": "eldritch",
     "range": "Special",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781961186300,
+    "modifiedTime": 1781961186300,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!rliJogqoAxj7jXkE"
 }

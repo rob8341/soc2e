@@ -1,9 +1,8 @@
 {
   "_id": "1YaRgBbmHmGqDTiR",
-  "_key": "!items!1YaRgBbmHmGqDTiR",
   "name": "Crystals of Entrapment",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/commodities/gems/gem-fragments-rough-grey.webp",
   "system": {
     "description": "These crystals disrupt the magical energies that sustain ghosts and other non-corporeal entities. When thrown at such a creature, they inflict 4d6 damage in a 5m radius. Any creature that is reduced to zero Lifeblood is trapped in the crystals for 2d6 days. When they finally escape, these creatures are not at all forgiving of those who trapped them. Usually, 1d3+3 crystals are found together.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781964780841,
+    "modifiedTime": 1781964780841,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!1YaRgBbmHmGqDTiR"
 }

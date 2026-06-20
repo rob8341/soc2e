@@ -1,9 +1,8 @@
 {
   "_id": "90GSWsIJyQdYDNBu",
-  "_key": "!items!90GSWsIJyQdYDNBu",
   "name": "Teleportation",
   "type": "spell",
-  "img": "icons/magic/water/ice-crystal-white.webp",
+  "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
   "system": {
     "school": "eldritch",
     "range": "50m",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781961204934,
+    "modifiedTime": 1781961204934,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!90GSWsIJyQdYDNBu"
 }

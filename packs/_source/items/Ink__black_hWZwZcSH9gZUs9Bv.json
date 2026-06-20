@@ -1,9 +1,8 @@
 {
   "_id": "hWZwZcSH9gZUs9Bv",
-  "_key": "!items!hWZwZcSH9gZUs9Bv",
   "name": "Ink, black",
   "type": "adventuring",
-  "img": "icons/sundries/lights/torch-black.webp",
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
   "system": {
     "description": "A small bottle of black ink. Other colors cost twice as much.",
     "cost": "8gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781953587566,
+    "modifiedTime": 1781953587566,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hWZwZcSH9gZUs9Bv"
 }

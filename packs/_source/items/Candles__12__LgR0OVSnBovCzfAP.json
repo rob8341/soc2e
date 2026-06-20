@@ -1,9 +1,8 @@
 {
   "_id": "LgR0OVSnBovCzfAP",
-  "_key": "!items!LgR0OVSnBovCzfAP",
   "name": "Candles (12)",
   "type": "adventuring",
-  "img": "icons/sundries/lights/candles-lit-red-evil.webp",
+  "img": "icons/sundries/lights/candle-unlit-white.webp",
   "system": {
     "description": "Illuminates a radius of approximately 2m and burns for an hour.",
     "cost": "5sp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781951838846,
+    "modifiedTime": 1781951838846,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LgR0OVSnBovCzfAP"
 }

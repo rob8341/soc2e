@@ -1,9 +1,8 @@
 {
   "_id": "4PF002lghqYVlQuf",
-  "_key": "!items!4PF002lghqYVlQuf",
   "name": "Call the Pride of the Savannah",
   "type": "spell",
-  "img": "icons/magic/water/ice-crystal-white.webp",
+  "img": "icons/magic/nature/stealth-hide-beast-eyes-green.webp",
   "system": {
     "school": "arcane",
     "range": "Special.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781958304170,
+    "modifiedTime": 1781958445014,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4PF002lghqYVlQuf"
 }

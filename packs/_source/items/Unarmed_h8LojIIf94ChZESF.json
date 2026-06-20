@@ -1,9 +1,8 @@
 {
   "_id": "h8LojIIf94ChZESF",
-  "_key": "!items!h8LojIIf94ChZESF",
   "name": "Unarmed",
   "type": "weapon",
-  "img": "icons/weapons/fist/fist-knuckles-teeth.webp",
+  "img": "icons/equipment/hand/gauntlet-simple-leather-brown-gold.webp",
   "system": {
     "description": "Any character can inflict at least 1 point of unarmed damage (before armor) even if their STR modifier is 0 or lower.",
     "cost": "-",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781968412522,
+    "modifiedTime": 1781968412522,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!h8LojIIf94ChZESF"
 }

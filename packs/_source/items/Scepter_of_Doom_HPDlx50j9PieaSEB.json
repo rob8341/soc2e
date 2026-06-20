@@ -1,9 +1,8 @@
 {
   "_id": "HPDlx50j9PieaSEB",
-  "_key": "!items!HPDlx50j9PieaSEB",
   "name": "Scepter of Doom",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/weapons/wands/wand-gem-purple.webp",
   "system": {
     "description": "This terrible device has multiple malevolent effects. It can turn a target to stone up to 20m away. Roll END 10+ to avoid. If used as a melee weapon, it functions as a Slay! spell against a single target (roll END 12+ or die immediately). It can also Enthrall 1d6 targets, as per the spell (p.203), up to 20m away. All these abilities require one action to perform. The Scepter of Doom also operates as a Corruption absorber, ignoring the first 1d6+3 points of Corruption inflicted by Channeling or a Critical Success in casting a spell.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781965974503,
+    "modifiedTime": 1781965974503,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HPDlx50j9PieaSEB"
 }

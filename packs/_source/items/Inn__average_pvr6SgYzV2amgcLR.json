@@ -1,22 +1,32 @@
 {
   "_id": "pvr6SgYzV2amgcLR",
-  "_key": "!items!pvr6SgYzV2amgcLR",
   "name": "Inn, average",
   "type": "adventuring",
-  "img": "icons/tools/hand/spinning-wheel-brown.webp",
+  "img": "icons/environment/settlement/tavern-tan.webp",
   "system": {
     "description": "Average inns include hostels and lodges designed for travelers and traders. Cost is for lodging only, per night.",
     "cost": "2gp",
     "quantity": 1,
-    "subtype": "adventuring",
+    "subtype": "food",
     "encumbrance": 0
   },
   "effects": [],
-  "folder": "H8xIZM1JRcoreogr",
-  "sort": 11300000,
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 19600000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781953601750,
+    "modifiedTime": 1781957131346,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pvr6SgYzV2amgcLR"
 }

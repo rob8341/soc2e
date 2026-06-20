@@ -1,9 +1,8 @@
 {
   "_id": "eNdjIs9hVLXnGBB1",
-  "_key": "!items!eNdjIs9hVLXnGBB1",
   "name": "Shield Spike",
   "type": "weapon",
-  "img": "icons/weapons/polearms/spear-hooked-spike.webp",
+  "img": "icons/weapons/fist/punch-dagger-brown.webp",
   "system": {
     "description": "A wooden, bone or metal spike added to a shield. The spike allows the shield to be used as a weapon as well as a shield.",
     "cost": "5gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967634396,
+    "modifiedTime": 1781967634396,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!eNdjIs9hVLXnGBB1"
 }

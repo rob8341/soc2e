@@ -1,9 +1,8 @@
 {
   "_id": "EMr7DXQsedBEmLtS",
-  "_key": "!items!EMr7DXQsedBEmLtS",
   "name": "Ale, cheap",
   "type": "adventuring",
-  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "img": "icons/consumables/drinks/alcohol-beer-stein-wooden-brown.webp",
   "system": {
     "description": "Cheap ale.",
     "cost": "1cp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781963689289,
+    "modifiedTime": 1781963689289,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!EMr7DXQsedBEmLtS"
 }

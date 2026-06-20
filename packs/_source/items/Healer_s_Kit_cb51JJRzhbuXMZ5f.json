@@ -1,9 +1,8 @@
 {
   "_id": "cb51JJRzhbuXMZ5f",
-  "_key": "!items!cb51JJRzhbuXMZ5f",
   "name": "Healer's Kit",
   "type": "adventuring",
-  "img": "icons/consumables/drinks/bottle-soda.webp",
+  "img": "icons/tools/medical/toolkit-surgical-pink.webp",
   "system": {
     "description": "A well-packed collection of herbs, bandages, needles, scalpels, and other items used to treat injuries, diseases, and poisons.",
     "cost": "10gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781953426447,
+    "modifiedTime": 1781953426447,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!cb51JJRzhbuXMZ5f"
 }

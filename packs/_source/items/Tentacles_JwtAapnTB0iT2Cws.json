@@ -1,9 +1,8 @@
 {
   "_id": "JwtAapnTB0iT2Cws",
-  "_key": "!items!JwtAapnTB0iT2Cws",
   "name": "Tentacles",
   "type": "spell",
-  "img": "icons/magic/water/ice-crystal-white.webp",
+  "img": "icons/creatures/tentacles/tentacles-octopus-black-pink.webp",
   "system": {
     "school": "arcane",
     "range": "50m",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959608800,
+    "modifiedTime": 1781959608800,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!JwtAapnTB0iT2Cws"
 }

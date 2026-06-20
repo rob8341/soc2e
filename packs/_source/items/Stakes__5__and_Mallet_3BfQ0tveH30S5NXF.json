@@ -1,6 +1,5 @@
 {
   "_id": "3BfQ0tveH30S5NXF",
-  "_key": "!items!3BfQ0tveH30S5NXF",
   "name": "Stakes (5) and Mallet",
   "type": "adventuring",
   "img": "icons/tools/hand/mallet-wood.webp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!3BfQ0tveH30S5NXF"
 }

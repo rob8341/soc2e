@@ -1,11 +1,10 @@
 {
   "_id": "WAWHoPe5JEKCIYk7",
-  "_key": "!items!WAWHoPe5JEKCIYk7",
   "name": "Djinn Lamp",
   "type": "adventuring",
-  "img": "icons/sundries/lights/lamp-tech-blue.webp",
+  "img": "icons/commodities/treasure/brass-lamp-yellow.webp",
   "system": {
-    "description": "This legendary item is the prison of one powerful djinn. By lighting the oil in the lamp, the djinn emerges, and will carry out one request for the lamp's owner. This may include casting an eldritch spell\u2014like Rend Reality\u2014or performing a task. Once the command is uttered, it cannot be changed, and the usual warnings about the djinn misinterpreting (deliberately or otherwise) the instructions given apply.",
+    "description": "This legendary item is the prison of one powerful djinn. By lighting the oil in the lamp, the djinn emerges, and will carry out one request for the lamp's owner. This may include casting an eldritch spell—like Rend Reality—or performing a task. Once the command is uttered, it cannot be changed, and the usual warnings about the djinn misinterpreting (deliberately or otherwise) the instructions given apply.",
     "cost": "",
     "quantity": 1,
     "subtype": "adventuring",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781964916475,
+    "modifiedTime": 1781964916475,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!WAWHoPe5JEKCIYk7"
 }

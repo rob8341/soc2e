@@ -1,9 +1,8 @@
 {
   "_id": "H5RiMKpPGNdzSgVa",
-  "_key": "!items!H5RiMKpPGNdzSgVa",
   "name": "Meal, good",
   "type": "adventuring",
-  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "img": "icons/consumables/food/plate-chicken-grilled-mushroom-brown.webp",
   "system": {
     "description": "A good meal.",
     "cost": "1gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781964058156,
+    "modifiedTime": 1781964058156,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!H5RiMKpPGNdzSgVa"
 }

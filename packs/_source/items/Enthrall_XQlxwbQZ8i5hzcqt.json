@@ -1,9 +1,8 @@
 {
   "_id": "XQlxwbQZ8i5hzcqt",
-  "_key": "!items!XQlxwbQZ8i5hzcqt",
   "name": "Enthrall",
   "type": "spell",
-  "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+  "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
   "system": {
     "school": "arcane",
     "range": "20m.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781958730450,
+    "modifiedTime": 1781958730450,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XQlxwbQZ8i5hzcqt"
 }

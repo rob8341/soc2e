@@ -1,9 +1,8 @@
 {
   "_id": "xatZlPMpQvhxKkZs",
-  "_key": "!items!xatZlPMpQvhxKkZs",
   "name": "Cloud of Death",
   "type": "spell",
-  "img": "icons/magic/air/weather-clouds.webp",
+  "img": "icons/magic/death/skull-poison-green.webp",
   "system": {
     "school": "arcane",
     "range": "Special.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781958468742,
+    "modifiedTime": 1781958468742,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xatZlPMpQvhxKkZs"
 }

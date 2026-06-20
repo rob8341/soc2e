@@ -1,9 +1,8 @@
 {
   "_id": "M1MjeBsrdFtCdZe1",
-  "_key": "!items!M1MjeBsrdFtCdZe1",
   "name": "Ladder",
   "type": "adventuring",
-  "img": "icons/sundries/misc/ladder.webp",
+  "img": "icons/sundries/misc/ladder-improvised.webp",
   "system": {
     "description": "A 3m wooden ladder with rungs for climbing vertical surfaces. Using a ladder allows the user to ignore penalties to the Athletics climb task.",
     "cost": "2sp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781954180020,
+    "modifiedTime": 1781954180020,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!M1MjeBsrdFtCdZe1"
 }

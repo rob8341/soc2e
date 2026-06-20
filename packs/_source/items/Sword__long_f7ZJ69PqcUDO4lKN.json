@@ -1,9 +1,8 @@
 {
   "_id": "f7ZJ69PqcUDO4lKN",
-  "_key": "!items!f7ZJ69PqcUDO4lKN",
   "name": "Sword, long",
   "type": "weapon",
-  "img": "icons/weapons/swords/sword-guard.webp",
+  "img": "icons/weapons/swords/sword-guard-brown.webp",
   "system": {
     "description": "One of any variety of straight swords designed to be used one handed.",
     "cost": "10gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781968179357,
+    "modifiedTime": 1781968193275,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!f7ZJ69PqcUDO4lKN"
 }

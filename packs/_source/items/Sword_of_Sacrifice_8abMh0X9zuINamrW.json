@@ -1,9 +1,8 @@
 {
   "_id": "8abMh0X9zuINamrW",
-  "_key": "!items!8abMh0X9zuINamrW",
   "name": "Sword of Sacrifice",
   "type": "adventuring",
-  "img": "icons/weapons/swords/sword-guard.webp",
+  "img": "icons/weapons/swords/sword-guard-flanged-purple.webp",
   "system": {
     "description": "When this short sword strikes a target, the wielder may elect to take 1d6 damage, and inflict double this damage on the target, in addition to the sword's normal damage. Apply the damage to the wielder after the attack is resolved.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781966290237,
+    "modifiedTime": 1781966290237,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8abMh0X9zuINamrW"
 }

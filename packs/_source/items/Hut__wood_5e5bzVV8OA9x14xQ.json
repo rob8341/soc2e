@@ -1,22 +1,32 @@
 {
   "_id": "5e5bzVV8OA9x14xQ",
-  "_key": "!items!5e5bzVV8OA9x14xQ",
   "name": "Hut, wood",
   "type": "adventuring",
-  "img": "icons/tools/hand/mallet-wood.webp",
+  "img": "icons/environment/settlement/house-wooden-fence.webp",
   "system": {
     "description": "A hut with wooden walls providing slightly more protection from the weather, may be used by SOC 3-4. Lodging cost, not per night.",
     "cost": "50gp",
     "quantity": 1,
-    "subtype": "adventuring",
+    "subtype": "food",
     "encumbrance": 0
   },
   "effects": [],
-  "folder": "H8xIZM1JRcoreogr",
-  "sort": 11100000,
+  "folder": "Nwwmq6OLkTkx9NIQ",
+  "sort": 19200000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781951934692,
+    "modifiedTime": 1781957074304,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!5e5bzVV8OA9x14xQ"
 }

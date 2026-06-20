@@ -1,6 +1,5 @@
 {
   "_id": "KG895i1JwQV7Vbeq",
-  "_key": "!items!KG895i1JwQV7Vbeq",
   "name": "Dog, war",
   "type": "animal",
   "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
@@ -17,5 +16,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!KG895i1JwQV7Vbeq"
 }

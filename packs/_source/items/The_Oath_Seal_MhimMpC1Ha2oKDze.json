@@ -1,9 +1,8 @@
 {
   "_id": "MhimMpC1Ha2oKDze",
-  "_key": "!items!MhimMpC1Ha2oKDze",
   "name": "The Oath Seal",
   "type": "adventuring",
-  "img": "icons/sundries/documents/letter-modern-seal.webp",
+  "img": "icons/sundries/documents/document-sealed-red-yellow.webp",
   "system": {
     "description": "When pressed into molten wax, this seal makes any oath or promise binding between the parties involved. Anyone who breaks the oath written therein suffers 4d6 damage and must roll on the Corruption Table (p.189).",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781966347713,
+    "modifiedTime": 1781966347713,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MhimMpC1Ha2oKDze"
 }

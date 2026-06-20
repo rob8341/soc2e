@@ -1,9 +1,8 @@
 {
   "_id": "BiDPgdAlKKZRMtYS",
-  "_key": "!items!BiDPgdAlKKZRMtYS",
   "name": "Book of Dread",
   "type": "adventuring",
-  "img": "icons/sundries/books/book-mimic.webp",
+  "img": "icons/sundries/books/book-backed-wood-tan.webp",
   "system": {
     "description": "This foul tome contains unspeakable truths and great power. It contains the secrets of 1d3+3 Eldritch spells, and grants owners the ability to summon an army (1d6x10, at least 20) of ghouls, zombies, skeletons, and wights to do their bidding. Each time it is used, the Book of Dread inflicts 2d6 points of Corruption on its owner.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781964438223,
+    "modifiedTime": 1781964438223,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BiDPgdAlKKZRMtYS"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "DoJJ9s8OrJQUdLE4",
-  "_key": "!items!DoJJ9s8OrJQUdLE4",
   "name": "Crossbow",
   "type": "weapon",
-  "img": "icons/weapons/crossbows/crossbow-white.webp",
+  "img": "icons/weapons/crossbows/crossbow-loaded-black.webp",
   "system": {
     "description": "A bow mounted on a crosswise stock with a trigger. This weapon fires short but heavy bolts. Crossbows are reloaded by hand or with a quick-drawing lever. They are easier to use than a bow and require less training. Crossbows require one action to reload.",
     "cost": "30gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967185563,
+    "modifiedTime": 1781967185563,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!DoJJ9s8OrJQUdLE4"
 }

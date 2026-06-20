@@ -1,9 +1,8 @@
 {
   "_id": "sSaOQdhtzF3Rth4s",
-  "_key": "!items!sSaOQdhtzF3Rth4s",
   "name": "Wine, rare",
   "type": "adventuring",
-  "img": "icons/consumables/drinks/wine-amphora-clay-gray.webp",
+  "img": "icons/consumables/drinks/wine-amphora-clay-pink.webp",
   "system": {
     "description": "Rare, fine wine.",
     "cost": "5sp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781964266349,
+    "modifiedTime": 1781964266349,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!sSaOQdhtzF3Rth4s"
 }

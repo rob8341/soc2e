@@ -1,9 +1,8 @@
 {
   "_id": "zoCXB1BhEOgzIafL",
-  "_key": "!items!zoCXB1BhEOgzIafL",
   "name": "Feeblemind",
   "type": "spell",
-  "img": "icons/magic/life/crosses-trio-red.webp",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
   "system": {
     "school": "arcane",
     "range": "60m.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781958906880,
+    "modifiedTime": 1781958906880,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zoCXB1BhEOgzIafL"
 }

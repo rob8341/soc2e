@@ -1,9 +1,8 @@
 {
   "_id": "yDN8pbWvTMVTucHY",
-  "_key": "!items!yDN8pbWvTMVTucHY",
   "name": "Saddle, riding",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/sundries/survival/leather-strap-brown.webp",
   "system": {
     "description": "Made of cured leather, provides comfort and bracing for the rider and animal. If the rider is knocked unconscious, 50% chance they stay in the saddle.",
     "cost": "30gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781957557357,
+    "modifiedTime": 1781957557357,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yDN8pbWvTMVTucHY"
 }

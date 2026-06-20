@@ -1,9 +1,8 @@
 {
   "_id": "0QsUcYg1T1UIoWXr",
-  "_key": "!items!0QsUcYg1T1UIoWXr",
   "name": "Invoke Tectonics",
   "type": "spell",
-  "img": "icons/magic/water/ice-crystal-white.webp",
+  "img": "icons/magic/earth/projectile-stone-landslide.webp",
   "system": {
     "school": "arcane",
     "range": "Special.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959045615,
+    "modifiedTime": 1781959045615,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0QsUcYg1T1UIoWXr"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "aFxMPMDEaIaGr8bY",
-  "_key": "!items!aFxMPMDEaIaGr8bY",
   "name": "Dress, SOC 3-5",
   "type": "adventuring",
-  "img": "icons/equipment/feet/socks-crew-padded.webp",
+  "img": "icons/equipment/chest/shirt-simple-white.webp",
   "system": {
     "description": "An outfit appropriate to Social Standing 3-5.",
     "cost": "1gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781956432724,
+    "modifiedTime": 1781956432724,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!aFxMPMDEaIaGr8bY"
 }

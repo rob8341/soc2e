@@ -1,9 +1,8 @@
 {
   "_id": "sXtTfVc0PkwBM2fY",
-  "_key": "!items!sXtTfVc0PkwBM2fY",
   "name": "Cursed Banquet",
   "type": "spell",
-  "img": "icons/magic/death/grave-tombstone-glow-teal.webp",
+  "img": "icons/magic/unholy/silhouette-light-fire-blue.webp",
   "system": {
     "school": "arcane",
     "range": "10m",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781958665172,
+    "modifiedTime": 1781958665172,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!sXtTfVc0PkwBM2fY"
 }

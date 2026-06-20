@@ -1,9 +1,8 @@
 {
   "_id": "YB9WoYKvSNkimmdv",
-  "_key": "!items!YB9WoYKvSNkimmdv",
   "name": "Oil, common",
   "type": "adventuring",
-  "img": "icons/tools/hand/ladder-common-wood.webp",
+  "img": "icons/containers/kitchenware/vase-bottle-brown.webp",
   "system": {
     "description": "Common oil used as fuel in lamps, lanterns, or as a lubricant.",
     "cost": "3sp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781954503455,
+    "modifiedTime": 1781954503455,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YB9WoYKvSNkimmdv"
 }

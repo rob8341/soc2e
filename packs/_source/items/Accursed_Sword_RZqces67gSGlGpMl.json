@@ -1,9 +1,8 @@
 {
   "_id": "RZqces67gSGlGpMl",
-  "_key": "!items!RZqces67gSGlGpMl",
   "name": "Accursed Sword",
   "type": "adventuring",
-  "img": "icons/weapons/swords/sword-guard.webp",
+  "img": "icons/weapons/swords/greatsword-evil-green.webp",
   "system": {
     "description": "The wielder of this sword takes a -3 penalty to all attack throws. Once wielded, its user must always use this sword when attacking, and if the sword is removed from their possession, they suffer a -3 penalty to all skill throws. This curse may only be lifted by an expunge curse spell.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781964311826,
+    "modifiedTime": 1781964311826,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!RZqces67gSGlGpMl"
 }

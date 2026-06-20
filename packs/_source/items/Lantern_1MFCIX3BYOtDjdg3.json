@@ -1,9 +1,8 @@
 {
   "_id": "1MFCIX3BYOtDjdg3",
-  "_key": "!items!1MFCIX3BYOtDjdg3",
   "name": "Lantern",
   "type": "adventuring",
-  "img": "icons/sundries/lights/lantern-steel.webp",
+  "img": "icons/sundries/lights/lantern-emergency-lit.webp",
   "system": {
     "description": "A covered oil lamp. Burns 1 flask of common oil in 4 hours and illuminates up to a 10m radius.",
     "cost": "10gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781953879764,
+    "modifiedTime": 1781953933779,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!1MFCIX3BYOtDjdg3"
 }

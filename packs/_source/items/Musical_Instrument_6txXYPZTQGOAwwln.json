@@ -1,9 +1,8 @@
 {
   "_id": "6txXYPZTQGOAwwln",
-  "_key": "!items!6txXYPZTQGOAwwln",
   "name": "Musical Instrument",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/tools/instruments/flute-simple-wood.webp",
   "system": {
     "description": "Any one of many musical instruments. Simple instrument 25gp; good-quality 50gp; superior designs 100gp or more.",
     "cost": "50gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781954466770,
+    "modifiedTime": 1781954466770,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6txXYPZTQGOAwwln"
 }

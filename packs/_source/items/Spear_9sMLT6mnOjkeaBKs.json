@@ -1,9 +1,8 @@
 {
   "_id": "9sMLT6mnOjkeaBKs",
-  "_key": "!items!9sMLT6mnOjkeaBKs",
   "name": "Spear",
   "type": "weapon",
-  "img": "icons/weapons/polearms/spear-flared-wrapped.webp",
+  "img": "icons/weapons/polearms/spear-hooked-double-engraved.webp",
   "system": {
     "description": "A wooden shaft or a sharpened or metal-tipped end, this is a basic, yet effective, melee weapon.",
     "cost": "3gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781968046728,
+    "modifiedTime": 1781968046728,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!9sMLT6mnOjkeaBKs"
 }

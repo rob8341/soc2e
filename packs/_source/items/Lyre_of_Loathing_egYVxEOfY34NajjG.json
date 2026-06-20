@@ -1,9 +1,8 @@
 {
   "_id": "egYVxEOfY34NajjG",
-  "_key": "!items!egYVxEOfY34NajjG",
   "name": "Lyre of Loathing",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/tools/instruments/harp-gold-glowing.webp",
   "system": {
     "description": "When played by a competent musician (Carouse 1 or Craft 1), this instrument will inspire all who hear it to feel a powerful emotion as determined by the musician playing it (who is immune). Those hearing the emotion will act in accordance with their feelings. They get an INT 10+ throw to avoid harming those their friends and family but are otherwise in thrall to the Lyre's power. The effects last until the music stops.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781965423901,
+    "modifiedTime": 1781965423901,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!egYVxEOfY34NajjG"
 }

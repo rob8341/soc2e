@@ -1,9 +1,8 @@
 {
   "_id": "P6ihgIqLSmNqE40f",
-  "_key": "!items!P6ihgIqLSmNqE40f",
   "name": "Shield, small",
   "type": "armor",
-  "img": "icons/equipment/shield/shield-round-boss-wood-brown.webp",
+  "img": "icons/equipment/shield/buckler-wooden-boss-brown.webp",
   "system": {
     "description": "A wooden or metal shield is strapped to the arm and provides a negative modifier for the opponent to hit. A small shield allows the wearer to hold an object in that hand, but not attack with it. A small shield provides a -1 penalty to be hit, for a number of attacks equal to the shield-bearer's Melee Combat skill, per round.",
     "cost": "10gp",
@@ -20,5 +19,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781956183774,
+    "modifiedTime": 1781956183774,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!P6ihgIqLSmNqE40f"
 }

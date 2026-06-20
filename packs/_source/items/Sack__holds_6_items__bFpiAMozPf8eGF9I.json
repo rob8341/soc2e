@@ -1,9 +1,8 @@
 {
   "_id": "bFpiAMozPf8eGF9I",
-  "_key": "!items!bFpiAMozPf8eGF9I",
   "name": "Sack (holds 6 items)",
   "type": "adventuring",
-  "img": "icons/containers/bags/sack-cloth-purple.webp",
+  "img": "icons/containers/bags/sack-leather-pink.webp",
   "system": {
     "description": "A sack for carrying goods, holds 6 items.",
     "cost": "5sp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781955159908,
+    "modifiedTime": 1781955159908,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bFpiAMozPf8eGF9I"
 }

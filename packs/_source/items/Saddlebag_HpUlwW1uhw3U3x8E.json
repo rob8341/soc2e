@@ -1,9 +1,8 @@
 {
   "_id": "HpUlwW1uhw3U3x8E",
-  "_key": "!items!HpUlwW1uhw3U3x8E",
   "name": "Saddlebag",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/containers/bags/case-simple-brown.webp",
   "system": {
     "description": "Designed to fit on a saddle, allows a horse or other mount to carry its full carrying capacity (including rider).",
     "cost": "4gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781955358580,
+    "modifiedTime": 1781955376938,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HpUlwW1uhw3U3x8E"
 }

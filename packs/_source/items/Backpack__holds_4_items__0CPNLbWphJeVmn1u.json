@@ -1,9 +1,8 @@
 {
   "_id": "0CPNLbWphJeVmn1u",
-  "_key": "!items!0CPNLbWphJeVmn1u",
   "name": "Backpack (holds 4 items)",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/containers/bags/pack-simple-leather-tan.webp",
   "system": {
     "description": "Allows a person to carry items while keeping their hands free. The backpack itself does not count as an item for encumbrance. Holds up to 8 items.",
     "cost": "2gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781951764595,
+    "modifiedTime": 1781952698494,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0CPNLbWphJeVmn1u"
 }

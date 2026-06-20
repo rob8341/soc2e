@@ -1,9 +1,8 @@
 {
   "_id": "Dv3q6Q4EmT2mmpMj",
-  "_key": "!items!Dv3q6Q4EmT2mmpMj",
   "name": "Rend Reality",
   "type": "spell",
-  "img": "icons/magic/time/day-night-sun-moon.webp",
+  "img": "icons/magic/unholy/orb-glowing-purple.webp",
   "system": {
     "school": "eldritch",
     "range": "N/A",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781961067657,
+    "modifiedTime": 1781961067657,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Dv3q6Q4EmT2mmpMj"
 }

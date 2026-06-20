@@ -1,6 +1,5 @@
 {
   "_id": "d9n0Xv00kKXR4bR6",
-  "_key": "!items!d9n0Xv00kKXR4bR6",
   "name": "Nunchaku",
   "type": "weapon",
   "img": "icons/weapons/misc/nunchaku.webp",
@@ -21,11 +20,22 @@
     "equipped": false
   },
   "effects": [],
-  "folder": "NbrnTP3fAbnFbmOH",
-  "sort": 17100000,
+  "folder": "NyGxliG1mepzhDPh",
+  "sort": 400000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967758298,
+    "modifiedTime": 1781967758298,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!d9n0Xv00kKXR4bR6"
 }

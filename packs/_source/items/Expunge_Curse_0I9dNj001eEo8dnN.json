@@ -1,9 +1,8 @@
 {
   "_id": "0I9dNj001eEo8dnN",
-  "_key": "!items!0I9dNj001eEo8dnN",
   "name": "Expunge Curse",
   "type": "spell",
-  "img": "icons/magic/death/grave-tombstone-glow-teal.webp",
+  "img": "icons/magic/unholy/hand-grasping-green.webp",
   "system": {
     "school": "arcane",
     "range": "10m.",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781958817850,
+    "modifiedTime": 1781958817850,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0I9dNj001eEo8dnN"
 }

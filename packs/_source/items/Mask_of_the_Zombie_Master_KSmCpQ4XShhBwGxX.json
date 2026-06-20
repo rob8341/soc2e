@@ -1,9 +1,8 @@
 {
   "_id": "KSmCpQ4XShhBwGxX",
-  "_key": "!items!KSmCpQ4XShhBwGxX",
   "name": "Mask of the Zombie Master",
   "type": "adventuring",
-  "img": "icons/equipment/head/gas-mask.webp",
+  "img": "icons/equipment/head/mask-carved-bird-grey-pink.webp",
   "system": {
     "description": "This grotesque mask permits its wearer to maintain up to 6 undead servants: either zombies or skeletons, depending on what remains are available. The undead serve the wearer indefinitely as long as they wear the mask. The undead crumble to dust once the mask is removed.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781965513896,
+    "modifiedTime": 1781965513896,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!KSmCpQ4XShhBwGxX"
 }

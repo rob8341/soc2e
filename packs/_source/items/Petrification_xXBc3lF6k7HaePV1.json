@@ -1,9 +1,8 @@
 {
   "_id": "xXBc3lF6k7HaePV1",
-  "_key": "!items!xXBc3lF6k7HaePV1",
   "name": "Petrification",
   "type": "spell",
-  "img": "icons/magic/earth/projectile-orb-asteroid-yellow.webp",
+  "img": "icons/magic/earth/strike-body-stone-crumble.webp",
   "system": {
     "school": "arcane",
     "range": "50m",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781959286650,
+    "modifiedTime": 1781959286650,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xXBc3lF6k7HaePV1"
 }

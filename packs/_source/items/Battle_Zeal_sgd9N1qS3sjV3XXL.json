@@ -1,9 +1,8 @@
 {
   "_id": "sgd9N1qS3sjV3XXL",
-  "_key": "!items!sgd9N1qS3sjV3XXL",
   "name": "Battle Zeal",
   "type": "spell",
-  "img": "icons/magic/control/sihouette-hold-beam-green.webp",
+  "img": "icons/magic/control/control-influence-rally-purple.webp",
   "system": {
     "school": "arcane",
     "range": "100m radius",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781957940183,
+    "modifiedTime": 1781958123327,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!sgd9N1qS3sjV3XXL"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "vSFkpBBGjxrzuLWO",
-  "_key": "!items!vSFkpBBGjxrzuLWO",
   "name": "Manacles",
   "type": "adventuring",
-  "img": "icons/containers/bags/pouch-leather-brown-green.webp",
+  "img": "icons/sundries/survival/cuffs-shackles-tan.webp",
   "system": {
     "description": "Metal clamps designed to bind the hands or feet. Escaping requires Contortionism + DEX 10+ throw, or Craft/DEX 10+ to pick.",
     "cost": "5gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781955472280,
+    "modifiedTime": 1781955472280,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vSFkpBBGjxrzuLWO"
 }

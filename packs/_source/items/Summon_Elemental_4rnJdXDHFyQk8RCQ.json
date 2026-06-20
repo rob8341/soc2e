@@ -1,6 +1,5 @@
 {
   "_id": "4rnJdXDHFyQk8RCQ",
-  "_key": "!items!4rnJdXDHFyQk8RCQ",
   "name": "Summon Elemental",
   "type": "spell",
   "img": "icons/magic/fire/elemental-fire-flying.webp",
@@ -8,7 +7,7 @@
     "school": "eldritch",
     "range": "75m",
     "duration": "Special",
-    "effect": "Casting Time: This spell requires 2d6 turns to cast. The Sorcerer opens a dread portal to the primordial elemental realms \u2013 Air, Earth, Fire, or Water \u2013 and calls forth an Elemental from that dimension. At most one Elemental of each type may be conjured by the same Sorcerer on the same day. Once the Elemental appears, it serves the Sorcerer as long as they concentrate on controlling it. At any point while controlling the elemental, the sorcerer may dismiss it back to its plane, which takes one combat action. A Quell Enchantment or Exorcism spell will also banish the Elemental back to its plane. However, if the spellcaster loses concentration\u2014usually by taking damage\u2014they lose control of the Elemental. Control over the Elemental may not be regained. The Elemental will go on a rampage and attack anyone and anything in its path. Eventually \u2013 typically within 1d6 turns \u2013 it will return to its native plane of its own volition, but only after wreaking havoc in the realms of mortals.",
+    "effect": "Casting Time: This spell requires 2d6 turns to cast. The Sorcerer opens a dread portal to the primordial elemental realms – Air, Earth, Fire, or Water – and calls forth an Elemental from that dimension. At most one Elemental of each type may be conjured by the same Sorcerer on the same day. Once the Elemental appears, it serves the Sorcerer as long as they concentrate on controlling it. At any point while controlling the elemental, the sorcerer may dismiss it back to its plane, which takes one combat action. A Quell Enchantment or Exorcism spell will also banish the Elemental back to its plane. However, if the spellcaster loses concentration—usually by taking damage—they lose control of the Elemental. Control over the Elemental may not be regained. The Elemental will go on a rampage and attack anyone and anything in its path. Eventually – typically within 1d6 turns – it will return to its native plane of its own volition, but only after wreaking havoc in the realms of mortals.",
     "critSuccess": "The Sorcerer gains a strong link with the Elemental and does not automatically lose control of it if they lose concentration. Instead, the Sorcerer is permitted an INT 8+ throw to preserve concentration."
   },
   "effects": [],
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4rnJdXDHFyQk8RCQ"
 }

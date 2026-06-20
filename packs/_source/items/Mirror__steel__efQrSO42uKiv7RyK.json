@@ -1,9 +1,8 @@
 {
   "_id": "efQrSO42uKiv7RyK",
-  "_key": "!items!efQrSO42uKiv7RyK",
   "name": "Mirror (steel)",
   "type": "adventuring",
-  "img": "icons/sundries/misc/key-steel.webp",
+  "img": "icons/sundries/survival/mirror-plain.webp",
   "system": {
     "description": "A small, handheld polished steel mirror. May serve to peek around a corner without risking damage from concealed threats.",
     "cost": "5gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781954423718,
+    "modifiedTime": 1781954423718,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!efQrSO42uKiv7RyK"
 }

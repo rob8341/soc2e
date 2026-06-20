@@ -1,9 +1,8 @@
 {
   "_id": "9fNzCWLAlFIBwlLJ",
-  "_key": "!items!9fNzCWLAlFIBwlLJ",
   "name": "Siren's Call",
   "type": "adventuring",
-  "img": "icons/tools/hand/shears.webp",
+  "img": "icons/tools/instruments/horn-white-gray.webp",
   "system": {
     "description": "When blown, this ornate gilded dragon's horn will summon 1d3+2 fully grown dragons to the owner's service. The dragons will take 1d6 days to arrive, and will serve to their utmost, barring dying for the horn's owner. The dragons will serve for a week, after which, they will be immune to any further uses of the Siren's Call by the owner. How they treat the owner after their service ends will depend on what they were forced to do.",
     "cost": "",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781966062632,
+    "modifiedTime": 1781966062632,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!9fNzCWLAlFIBwlLJ"
 }

@@ -1,9 +1,8 @@
 {
   "_id": "EfvuP1uRr6YICtu8",
-  "_key": "!items!EfvuP1uRr6YICtu8",
   "name": "Sword, short",
   "type": "weapon",
-  "img": "icons/weapons/swords/swords-short.webp",
+  "img": "icons/weapons/swords/shortsword-broad.webp",
   "system": {
     "description": "An intermediate weapon between a dagger and a sword, designed for maneuverability and stabbing.",
     "cost": "5gp",
@@ -27,5 +26,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781968259591,
+    "modifiedTime": 1781968259591,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!EfvuP1uRr6YICtu8"
 }

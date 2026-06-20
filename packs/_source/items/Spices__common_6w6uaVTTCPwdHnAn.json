@@ -1,9 +1,8 @@
 {
   "_id": "6w6uaVTTCPwdHnAn",
-  "_key": "!items!6w6uaVTTCPwdHnAn",
   "name": "Spices, common",
   "type": "adventuring",
-  "img": "icons/consumables/food/steak-aged-brown.webp",
+  "img": "icons/commodities/materials/bowl-powder-grey.webp",
   "system": {
     "description": "Used to improve the flavor of food. Common spices include clover, salt, pepper, and sugar.",
     "cost": "3gp",
@@ -18,5 +17,16 @@
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781964200049,
+    "modifiedTime": 1781964200049,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6w6uaVTTCPwdHnAn"
 }

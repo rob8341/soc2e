@@ -1,9 +1,8 @@
 {
   "_id": "hT66y97cL57nJ6iU",
-  "_key": "!items!hT66y97cL57nJ6iU",
   "name": "Singing weapon",
   "type": "weapon",
-  "img": "icons/weapons/swords/sword-broad-worn.webp",
+  "img": "icons/weapons/swords/sword-gold-holy.webp",
   "system": {
     "description": "Ancient magical artifacts of a bygone age. Singing weapons emit a faint hum when held, most commonly swords but can be any weapon with a sharp edge. Does an additional die of damage.",
     "cost": "100x",
@@ -21,11 +20,22 @@
     "equipped": false
   },
   "effects": [],
-  "folder": "NbrnTP3fAbnFbmOH",
-  "sort": 17500000,
+  "folder": "NyGxliG1mepzhDPh",
+  "sort": 800000,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_stats": {}
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "soc2e",
+    "systemVersion": "0.9.1",
+    "createdTime": 1781967827671,
+    "modifiedTime": 1781967860586,
+    "lastModifiedBy": "4cxB7wzVjsQFMmCq",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hT66y97cL57nJ6iU"
 }
