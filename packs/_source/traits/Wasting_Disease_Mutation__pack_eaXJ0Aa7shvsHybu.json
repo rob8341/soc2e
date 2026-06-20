@@ -1,0 +1,19 @@
+{
+  "_id": "eaXJ0Aa7shvsHybu",
+  "_key": "!items!eaXJ0Aa7shvsHybu",
+  "name": "Wasting Disease (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You are afflicted with a non-contagious wasting disease, virulence 8+, damage 2d6, interval 1d6 days. A restoration spell or a successful throw will stop the deterioration, but the damage that is already done cannot be healed by any means.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

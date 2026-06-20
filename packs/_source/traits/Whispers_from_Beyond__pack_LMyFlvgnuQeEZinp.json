@@ -1,0 +1,19 @@
+{
+  "_id": "LMyFlvgnuQeEZinp",
+  "_key": "!items!LMyFlvgnuQeEZinp",
+  "name": "Whispers from Beyond",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "Whispers from Beyond haunt you. You suffer a -1 penalty to initiative and surprise rolls.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 1600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

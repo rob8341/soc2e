@@ -1,0 +1,19 @@
+{
+  "_id": "fHdtZGVsiM1pyQGr",
+  "_key": "!items!fHdtZGVsiM1pyQGr",
+  "name": "Stutter",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You begin to stutter. Suffer a -2 penalty to all Reaction and social interaction skill throws. At the Referee's option, this may also impose a -1 penalty to spellcasting throws.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

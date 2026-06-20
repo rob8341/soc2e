@@ -1,0 +1,19 @@
+{
+  "_id": "3QnivSgnHjIDKfPt",
+  "_key": "!items!3QnivSgnHjIDKfPt",
+  "name": "Amphibious Skin",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "Your skin becomes rubbery and takes on the properties of frog skin: you must immerse yourself in water for at least an hour each day or be Fatigued the next day.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 3000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

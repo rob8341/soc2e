@@ -1,0 +1,19 @@
+{
+  "_id": "JLdvgifXLtOyvJr2",
+  "_key": "!items!JLdvgifXLtOyvJr2",
+  "name": "Signature Weapon",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Archery or Melee Combat skill\n\nThe character is particularly proficient in using a specific weapon.\n\nChoose one specific weapon, such as a character's favorite sword or longbow; when attacking with that specific weapon, the character gains a +1 bonus to hit.\n\nYou may choose this Trait multiple times, each time the bonus is applied to a different weapon.\n\nNote that this trait does not apply to a class of weapons (daggers), nor to a model of weapon (longbows), but to a specific weapon the character owns (the character's serrated dagger gifted to him by the head of his assassin's guild).",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 3500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

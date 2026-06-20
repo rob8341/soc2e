@@ -1,0 +1,19 @@
+{
+  "_id": "1t6ef0eHzSKpATM3",
+  "_key": "!items!1t6ef0eHzSKpATM3",
+  "name": "Brittle Bones (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Your bones become brittle and hollow. Your END is halved (round up), and you take double damage from bludgeoning attacks, such as from clubs, maces, and hammers and from falling. Your weight is reduced by 30%.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

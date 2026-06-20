@@ -13,6 +13,8 @@ const ROOT = path.dirname(fileURLToPath(import.meta.url)) + "/..";
 const PACKS = [
   { src: "packs/_source/items", dest: "packs/items" },
   { src: "packs/_source/npcs", dest: "packs/npcs" },
+  { src: "packs/_source/traits", dest: "packs/traits" },
+  { src: "packs/_source/tables", dest: "packs/tables" },
 ];
 
 for (const { src, dest } of PACKS) {

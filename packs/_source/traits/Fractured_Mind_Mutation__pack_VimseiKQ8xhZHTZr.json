@@ -1,0 +1,19 @@
+{
+  "_id": "VimseiKQ8xhZHTZr",
+  "_key": "!items!VimseiKQ8xhZHTZr",
+  "name": "Fractured Mind (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "The fabric of your mind cracks. Each day upon awakening, throw INT 6+ or completely forget who you are for that day.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 1800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

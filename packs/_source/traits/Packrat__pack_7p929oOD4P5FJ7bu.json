@@ -1,0 +1,19 @@
+{
+  "_id": "7p929oOD4P5FJ7bu",
+  "_key": "!items!7p929oOD4P5FJ7bu",
+  "name": "Packrat",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: None\n\nThe character knows how to pack and carry equipment efficiently.\n\nThe packrat is unencumbered when carrying up to twice their STR in items, and up to three times their STR when carrying a Heavy Load.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 2600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

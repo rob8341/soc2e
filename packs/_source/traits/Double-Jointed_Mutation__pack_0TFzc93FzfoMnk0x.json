@@ -1,0 +1,19 @@
+{
+  "_id": "0TFzc93FzfoMnk0x",
+  "_key": "!items!0TFzc93FzfoMnk0x",
+  "name": "Double-Jointed (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You become double-jointed and unnaturally flexible. You may slip any bonds or manacles with a DEX 6+ throw. This takes one round. However, your hands are less stable, and you suffer a -1 penalty to all attack throws.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 2000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

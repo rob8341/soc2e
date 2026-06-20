@@ -1,0 +1,19 @@
+{
+  "_id": "giUL1Mj9sz5cfNyk",
+  "_key": "!items!giUL1Mj9sz5cfNyk",
+  "name": "Inhuman Demeanor",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "Meddling in dark arts has left you with an inhuman demeanor and personality. Your Reaction rolls vs. non-evil sentient creatures can never achieve a Friendly result.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "kbjJnyvITueyDdQd",
+  "_key": "!items!kbjJnyvITueyDdQd",
+  "name": "Fish Scales (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Your skin grows to resemble fish scales, you emit a fishy odor, and you grow gills on both sides of your neck. You may freely breathe underwater but suffer a -2 penalty to social skill and Reaction throws.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

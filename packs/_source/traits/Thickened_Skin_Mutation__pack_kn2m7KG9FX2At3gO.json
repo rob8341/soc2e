@@ -1,0 +1,19 @@
+{
+  "_id": "kn2m7KG9FX2At3gO",
+  "_key": "!items!kn2m7KG9FX2At3gO",
+  "name": "Thickened Skin (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Your skin thickens. You gain natural Armor 3 but lose 3 points of DEX (to a minimum of 1) as your skin becomes inflexible and cumbersome.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

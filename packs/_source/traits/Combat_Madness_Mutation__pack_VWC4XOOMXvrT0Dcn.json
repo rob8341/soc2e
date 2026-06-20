@@ -1,0 +1,19 @@
+{
+  "_id": "VWC4XOOMXvrT0Dcn",
+  "_key": "!items!VWC4XOOMXvrT0Dcn",
+  "name": "Combat Madness (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Your thoughts devolve into madness under the stress of combat. In every battle throw 1d6, on 1 you may not act; on 2-5, you must attack the nearest enemy; on 6, you must attack your nearest ally. The madness dissipates when combat ends.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 2400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

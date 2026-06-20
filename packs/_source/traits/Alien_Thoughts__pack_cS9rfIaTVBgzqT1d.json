@@ -1,0 +1,19 @@
+{
+  "_id": "cS9rfIaTVBgzqT1d",
+  "_key": "!items!cS9rfIaTVBgzqT1d",
+  "name": "Alien Thoughts",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "Strange, alien thoughts cloud your mind. Reduce your INT characteristic by 2, to a minimum of 1.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

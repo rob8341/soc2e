@@ -1,0 +1,19 @@
+{
+  "_id": "wx95fkpvdiBZzZ21",
+  "_key": "!items!wx95fkpvdiBZzZ21",
+  "name": "Trade",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: None\n\nThe character is skilled in a particular trade, such as masonry, carpentry, or blacksmithing. This does not replicate any skill but may enhance certain aspects of a skill, for example Trade (Weaponsmith) may enhance Craft skills to repair weapons.\n\nWhen making a throw related to this trade, the character gains Advantage.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 3900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

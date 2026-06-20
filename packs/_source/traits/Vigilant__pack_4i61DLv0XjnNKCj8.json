@@ -1,0 +1,19 @@
+{
+  "_id": "4i61DLv0XjnNKCj8",
+  "_key": "!items!4i61DLv0XjnNKCj8",
+  "name": "Vigilant",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: INT 9+\n\nThe character constantly looks out for trouble and is always watching foes, even when on the move.\n\nIf the character used both actions in a combat round for movement, they automatically enter Overwatch mode without requiring a further action. This Trait is not cumulative with potions or plants providing similar effects or granting additional actions.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 4000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

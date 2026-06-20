@@ -1,0 +1,19 @@
+{
+  "_id": "qODn3DYo0MRBaf19",
+  "_key": "!items!qODn3DYo0MRBaf19",
+  "name": "Master Sailor",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Watercraft skill\n\nThe character is an expert seaman and can easily outmaneuver others.\n\nThrow with Advantage when determining Position in a naval chase.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 2300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "9dhtMzAFFoGrF5F9",
+  "_key": "!items!9dhtMzAFFoGrF5F9",
+  "name": "Shrouding Darkness",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "Whenever you cast a spell, preternatural darkness surrounds you for 1d6 rounds at a 5m radius, obscuring all vision but your own.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

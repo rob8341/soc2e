@@ -1,0 +1,19 @@
+{
+  "_id": "g0tuUnQ8D2XMPP0R",
+  "_key": "!items!g0tuUnQ8D2XMPP0R",
+  "name": "Ghost",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Sneak skill\n\nThe character is experienced in using the cover of darkness to their advantage.\n\nWhen sneaking in darkness conditions\u2014wherever the -2 penalty to hit due to darkness would apply\u2014the ghost makes Sneak skill throws with Advantage.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

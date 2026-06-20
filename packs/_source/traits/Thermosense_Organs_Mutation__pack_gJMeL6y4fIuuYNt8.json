@@ -1,0 +1,19 @@
+{
+  "_id": "gJMeL6y4fIuuYNt8",
+  "_key": "!items!gJMeL6y4fIuuYNt8",
+  "name": "Thermosense Organs (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Your eyes atrophy, but two thermosense organs grow on both sides of your neck. You can sense heat but cannot see color; furthermore, you are immune to all gaze attacks. Treat all situations with full darkness as being dim light.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

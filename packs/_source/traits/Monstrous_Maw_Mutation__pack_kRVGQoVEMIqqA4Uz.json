@@ -1,0 +1,19 @@
+{
+  "_id": "kRVGQoVEMIqqA4Uz",
+  "_key": "!items!kRVGQoVEMIqqA4Uz",
+  "name": "Monstrous Maw (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Your mouth grows large, and your teeth sharpen. You can bite for 1d6 + STR modifier damage but cannot speak humanoid languages. However, you may still cast spells.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

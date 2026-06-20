@@ -1,0 +1,19 @@
+{
+  "_id": "LsaSOJrXoQb1WxEd",
+  "_key": "!items!LsaSOJrXoQb1WxEd",
+  "name": "Passing Without Trace",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Survival skill\n\nThe character knows how to leave no sign of passage in wilderness settings, and thus cannot be tracked. They may cover the tracks of two additional persons per rank in the Survival skill.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 2700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

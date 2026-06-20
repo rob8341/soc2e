@@ -1,0 +1,19 @@
+{
+  "_id": "fIbInamdSg4QuMOM",
+  "_key": "!items!fIbInamdSg4QuMOM",
+  "name": "Unnatural Beauty (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You become a delicate and unnaturally beautiful creature. Gain a +1 modifier to all Reaction and social interaction skill throws; lose 3 points each of STR and END (to a minimum of 1).",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 2600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "MYDqPr7JI3U0zRw9",
+  "_key": "!items!MYDqPr7JI3U0zRw9",
+  "name": "Spells",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Sorcery skill\n\nThe character gains two additional spells, above and beyond those granted by their Sorcery skill itself. Add the spells to the character's Codex and Repertoire.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 3600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

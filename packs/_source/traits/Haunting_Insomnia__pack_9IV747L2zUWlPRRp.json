@@ -1,0 +1,19 @@
+{
+  "_id": "9IV747L2zUWlPRRp",
+  "_key": "!items!9IV747L2zUWlPRRp",
+  "name": "Haunting Insomnia",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You are haunted by nightmares from beyond the grave! You are plagued with insomnia. Each night when you attempt to sleep, throw 1d6; on 1, you cannot sleep; you are Fatigued the next day.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 3100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

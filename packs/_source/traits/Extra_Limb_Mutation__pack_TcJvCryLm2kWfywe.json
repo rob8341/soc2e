@@ -1,0 +1,19 @@
+{
+  "_id": "TcJvCryLm2kWfywe",
+  "_key": "!items!TcJvCryLm2kWfywe",
+  "name": "Extra Limb (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You grow an additional arm or leg. Roll 1d6: 1-2: you gain another leg increasing your movement rate by 5m/action but suffer a -1 modifier on all DEX throws; 3-6, you gain another arm useful for manipulation or combat. You do not gain extra attacks per round with an extra arm, but you could carry a two handed-weapon and a shield. You cannot wear regular armor due to your unusual shape and must have armor custom-made for you at quadruple price.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

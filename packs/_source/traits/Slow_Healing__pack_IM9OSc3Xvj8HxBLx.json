@@ -1,0 +1,19 @@
+{
+  "_id": "IM9OSc3Xvj8HxBLx",
+  "_key": "!items!IM9OSc3Xvj8HxBLx",
+  "name": "Slow Healing",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "Your body teems with dark energy and takes twice the usual time to heal.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 2500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

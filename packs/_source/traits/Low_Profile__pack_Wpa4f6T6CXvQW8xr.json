@@ -1,0 +1,19 @@
+{
+  "_id": "Wpa4f6T6CXvQW8xr",
+  "_key": "!items!Wpa4f6T6CXvQW8xr",
+  "name": "Low Profile",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: DEX 9+\n\nThe character knows how to utilize cover very effectively.\n\nWhen the character is behind hard cover, treat it as heavy cover (DM-3 to hit the character).",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 2000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "ChhedMIDyTo5VT8I",
+  "_key": "!items!ChhedMIDyTo5VT8I",
+  "name": "Vampiric Fangs",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You grow vampiric fangs and can only sustain yourself from the blood of other sapient beings. Instead of food, you must drink blood (cause 1d6 + STR modifier damage) from one person per day to sustain yourself. The blood can come from a willing donor, or from hapless victims. A resisting victim requires a successful Grapple, per the Combat chapter. You do not need any other sustenance.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 3200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

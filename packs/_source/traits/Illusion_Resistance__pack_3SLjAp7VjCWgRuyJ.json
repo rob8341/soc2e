@@ -1,0 +1,19 @@
+{
+  "_id": "3SLjAp7VjCWgRuyJ",
+  "_key": "!items!3SLjAp7VjCWgRuyJ",
+  "name": "Illusion Resistance",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: INT 9+\n\nThe character is hard to fool by magic means. The character throws with Advantage when attempting to resist illusion spells and magical effects. At the Referee's discretion, this Trait might also help in opposed throws against the Deception skill in certain situations.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 1800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

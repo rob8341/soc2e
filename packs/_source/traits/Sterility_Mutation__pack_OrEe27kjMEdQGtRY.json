@@ -1,0 +1,19 @@
+{
+  "_id": "OrEe27kjMEdQGtRY",
+  "_key": "!items!OrEe27kjMEdQGtRY",
+  "name": "Sterility (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You become sterile and may not have offspring by natural means.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 3400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

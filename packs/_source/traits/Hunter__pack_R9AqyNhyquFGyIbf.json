@@ -1,0 +1,19 @@
+{
+  "_id": "R9AqyNhyquFGyIbf",
+  "_key": "!items!R9AqyNhyquFGyIbf",
+  "name": "Hunter",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Scout skill\n\nThe character is an expert in ambushing prey, both animal and sentient.\n\nThe hunter throws with Advantage when making a Surprise throw from ambush.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "HUevZwcZpVi1LSfA",
+  "_key": "!items!HUevZwcZpVi1LSfA",
+  "name": "Garlic Aversion",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You are repelled by garlic. When in the presence of garlic, all your throws incur a -2 penalty.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 1900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

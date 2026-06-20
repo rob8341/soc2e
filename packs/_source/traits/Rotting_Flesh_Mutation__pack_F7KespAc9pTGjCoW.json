@@ -1,0 +1,19 @@
+{
+  "_id": "F7KespAc9pTGjCoW",
+  "_key": "!items!F7KespAc9pTGjCoW",
+  "name": "Rotting Flesh (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Your body begins to rot. Maggots constantly crawl out of your orifices, and flies buzz around you ceaselessly. Your SOC becomes 1, and your movement rate is halved.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 3600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "YjM9uYhg6u5aFGaW",
+  "_key": "!items!YjM9uYhg6u5aFGaW",
+  "name": "Rider",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Riding skill\n\nThe character is trained in riding animals, earthly and alien beasts alike.\n\nWhen making a throw to remain mounted on an animal, or when rolling for Position in a chase, the rider gains Advantage.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 3100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

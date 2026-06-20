@@ -1,0 +1,19 @@
+{
+  "_id": "XbdE1Y992D3vmv72",
+  "_key": "!items!XbdE1Y992D3vmv72",
+  "name": "Backstab",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Melee Combat skill\n\nThe character knows how to deliver a lethal blow to an unsuspecting victim.\n\nWhen attacking an unaware target in melee, gain Advantage, and add 1d6 to the attack's total damage.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

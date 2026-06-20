@@ -1,0 +1,19 @@
+{
+  "_id": "aEz88tb3rQF6cOJq",
+  "_key": "!items!aEz88tb3rQF6cOJq",
+  "name": "Sudden Aging",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You immediately age by 1d6 years. The effects of aging are left to the Referee, who should consult the Aging table in the Character Generation chapter.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 2300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

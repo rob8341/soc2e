@@ -1,0 +1,631 @@
+{
+  "_id": "vXLQ83dPHNcFso4v",
+  "_key": "!tables!vXLQ83dPHNcFso4v",
+  "name": "Mutations",
+  "img": "icons/svg/biohazard.svg",
+  "description": "<p>Roll 1d6 twice to form a d66 result (tens digit, then ones digit). Nothing removes a mutation except rolling 66, and even restoration spells cannot cure them.</p>",
+  "results": [
+    {
+      "_id": "xkXP2xFO6RpjW8Ll",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.xkXP2xFO6RpjW8Ll",
+      "type": "document",
+      "name": "Size Change (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.3F5MEdulAYrC7Phf",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "xqO7PvKKiddXxwLA",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.xqO7PvKKiddXxwLA",
+      "type": "document",
+      "name": "Deathly Pallor (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.Dmy3VICLLVHUmqQ5",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ObdK8Lt9JfqcRuer",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.ObdK8Lt9JfqcRuer",
+      "type": "document",
+      "name": "Extra Limb (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.TcJvCryLm2kWfywe",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "klPLB2sdvoJjSKJ7",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.klPLB2sdvoJjSKJ7",
+      "type": "document",
+      "name": "Razor Claws (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.C8zrvGLzERwY0K4b",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "W7JT7xoUNxomObNs",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.W7JT7xoUNxomObNs",
+      "type": "document",
+      "name": "Thickened Skin (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.kn2m7KG9FX2At3gO",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "05gA7ttGjiT106Je",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.05gA7ttGjiT106Je",
+      "type": "document",
+      "name": "Thermosense Organs (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.gJMeL6y4fIuuYNt8",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "cMe8yi2pMUHeMtda",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.cMe8yi2pMUHeMtda",
+      "type": "document",
+      "name": "Brittle Bones (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.1t6ef0eHzSKpATM3",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "c4PsQwnHgHi8xAbE",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.c4PsQwnHgHi8xAbE",
+      "type": "document",
+      "name": "Fish Scales (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.kbjJnyvITueyDdQd",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "xplL1IRizt7wCV3C",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.xplL1IRizt7wCV3C",
+      "type": "document",
+      "name": "Wasting Disease (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.eaXJ0Aa7shvsHybu",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "f0L4ABy4WmGfo9QW",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.f0L4ABy4WmGfo9QW",
+      "type": "document",
+      "name": "Thin Blood (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.KBQKigNq2BMWWR6E",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "4LMDySwC0L7njNqb",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.4LMDySwC0L7njNqb",
+      "type": "document",
+      "name": "Albinism (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.pkEsBsylWQNejMmE",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "8uhIa1tc16MCLb6B",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.8uhIa1tc16MCLb6B",
+      "type": "document",
+      "name": "Chameleon Skin (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.4bNqYQ1hzLk3nfEs",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "XtzM2sMuQjQY3zIQ",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.XtzM2sMuQjQY3zIQ",
+      "type": "document",
+      "name": "Bodily Degeneration (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.LCC1iTz0437OcR5I",
+      "weight": 1,
+      "range": [
+        31,
+        31
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "bSKvW37mHMV1rB4q",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.bSKvW37mHMV1rB4q",
+      "type": "document",
+      "name": "Unnatural Obesity (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.ixTjKZ7xX413YMmd",
+      "weight": 1,
+      "range": [
+        32,
+        32
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "IxyOseQfGjjvKqmg",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.IxyOseQfGjjvKqmg",
+      "type": "document",
+      "name": "Alien Eye (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.Jn6LFmn0EdfxIsvB",
+      "weight": 1,
+      "range": [
+        33,
+        33
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ywaD47vQ7LKQIGSm",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.ywaD47vQ7LKQIGSm",
+      "type": "document",
+      "name": "Predator Stench (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.ZEmn8IouAQrNwuYL",
+      "weight": 1,
+      "range": [
+        34,
+        34
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "8r8YHBVbguxruyEP",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.8r8YHBVbguxruyEP",
+      "type": "document",
+      "name": "Fractured Mind (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.VimseiKQ8xhZHTZr",
+      "weight": 1,
+      "range": [
+        35,
+        35
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "F0nFhvZCWIvHOCM6",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.F0nFhvZCWIvHOCM6",
+      "type": "document",
+      "name": "Bestial Devolution (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.5prbXPzNUrqoMwGk",
+      "weight": 1,
+      "range": [
+        36,
+        36
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "fV3NF0cLzzpCb8zW",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.fV3NF0cLzzpCb8zW",
+      "type": "document",
+      "name": "Double-Jointed (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.0TFzc93FzfoMnk0x",
+      "weight": 1,
+      "range": [
+        41,
+        41
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "KKolLCuPOxFZicq6",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.KKolLCuPOxFZicq6",
+      "type": "document",
+      "name": "Monstrous Maw (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.kRVGQoVEMIqqA4Uz",
+      "weight": 1,
+      "range": [
+        42,
+        42
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "A38ZXfSuUjxKgAE6",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.A38ZXfSuUjxKgAE6",
+      "type": "document",
+      "name": "Animal Musk (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.QDu4YX2DjxRYAA5K",
+      "weight": 1,
+      "range": [
+        43,
+        43
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "6aDiZe2fx17vR3dz",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.6aDiZe2fx17vR3dz",
+      "type": "document",
+      "name": "Bat-Like Wings (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.1rkIIyiDmQiN9teh",
+      "weight": 1,
+      "range": [
+        44,
+        44
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "oNxRZONsjh0EIPtD",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.oNxRZONsjh0EIPtD",
+      "type": "document",
+      "name": "Combat Madness (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.VWC4XOOMXvrT0Dcn",
+      "weight": 1,
+      "range": [
+        45,
+        45
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "FRrIQLZCTxuwqvQ8",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.FRrIQLZCTxuwqvQ8",
+      "type": "document",
+      "name": "Bat Ears (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.oLJZoacJJ4rm2MoQ",
+      "weight": 1,
+      "range": [
+        46,
+        46
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "kF5TkwH3TbVUnErZ",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.kF5TkwH3TbVUnErZ",
+      "type": "document",
+      "name": "Unnatural Beauty (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.fIbInamdSg4QuMOM",
+      "weight": 1,
+      "range": [
+        51,
+        51
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "eAF3IRJsu8r6nuMp",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.eAF3IRJsu8r6nuMp",
+      "type": "document",
+      "name": "Horns (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.PMxf2DfErmQpfwdO",
+      "weight": 1,
+      "range": [
+        52,
+        52
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "rHhE5GrnYJ9xiZG1",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.rHhE5GrnYJ9xiZG1",
+      "type": "document",
+      "name": "Rapid Aging (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.iAIBNVeTftPKNYLQ",
+      "weight": 1,
+      "range": [
+        53,
+        53
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "46lOfGtrXSSfwOtD",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.46lOfGtrXSSfwOtD",
+      "type": "document",
+      "name": "Prehensile Tail (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.XJiac6wyGfrewq2j",
+      "weight": 1,
+      "range": [
+        54,
+        54
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ho3QMjpjciCHZkM5",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.ho3QMjpjciCHZkM5",
+      "type": "document",
+      "name": "Tentacle Arm (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.uYrLa5TouqAfeTuT",
+      "weight": 1,
+      "range": [
+        55,
+        55
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ib7f5r3llbtE9fyV",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.ib7f5r3llbtE9fyV",
+      "type": "document",
+      "name": "Telepathic Empathy (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.2wGEobTGzgvMo5Lc",
+      "weight": 1,
+      "range": [
+        56,
+        56
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "DXwQy5RVjEF1diEG",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.DXwQy5RVjEF1diEG",
+      "type": "document",
+      "name": "Characteristic Shift (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.47xAbvZNrCM52cLc",
+      "weight": 1,
+      "range": [
+        61,
+        61
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "7OwaLSvbpxZzb3GC",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.7OwaLSvbpxZzb3GC",
+      "type": "document",
+      "name": "Nocturnal Vision (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.OJeVyXfU8vXirrok",
+      "weight": 1,
+      "range": [
+        62,
+        62
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "8oUWfkPKVlJEWdaB",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.8oUWfkPKVlJEWdaB",
+      "type": "document",
+      "name": "Sterility (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.OrEe27kjMEdQGtRY",
+      "weight": 1,
+      "range": [
+        63,
+        63
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "eEX5iryzgepf8yqD",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.eEX5iryzgepf8yqD",
+      "type": "document",
+      "name": "Insectile Form (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.77n24rxIjBvS4qOu",
+      "weight": 1,
+      "range": [
+        64,
+        64
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "hq3nOVczWvq4ATGl",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.hq3nOVczWvq4ATGl",
+      "type": "document",
+      "name": "Rotting Flesh (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.F7KespAc9pTGjCoW",
+      "weight": 1,
+      "range": [
+        65,
+        65
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "SjgHdtUZevxsZU3d",
+      "_key": "!tables.results!vXLQ83dPHNcFso4v.SjgHdtUZevxsZU3d",
+      "type": "document",
+      "name": "Mutation Reset (Mutation)",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.GmC2PRAwXbUGDd7p",
+      "weight": 1,
+      "range": [
+        66,
+        66
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "formula": "(1d6 * 10) + 1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

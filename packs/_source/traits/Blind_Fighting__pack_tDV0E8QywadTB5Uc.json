@@ -1,0 +1,19 @@
+{
+  "_id": "tDV0E8QywadTB5Uc",
+  "_key": "!items!tDV0E8QywadTB5Uc",
+  "name": "Blind Fighting",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Melee Combat skill\n\nThe character knows how to fight in darkness, using their other senses to compensate for any impairment to vision.\n\nWhen fighting in melee combat, the character suffers no negative modifier to hit for fighting in dim light and only a -1 modifier for fighting in total darkness.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

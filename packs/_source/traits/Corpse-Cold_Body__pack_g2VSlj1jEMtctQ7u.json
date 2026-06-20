@@ -1,0 +1,19 @@
+{
+  "_id": "g2VSlj1jEMtctQ7u",
+  "_key": "!items!g2VSlj1jEMtctQ7u",
+  "name": "Corpse-Cold Body",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "After you cast any spell, your body cools and becomes as cold as a corpse; you suffer a -2 penalty to all physical throws (not including spellcasting) for 1d6 rounds afterwards.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

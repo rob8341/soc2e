@@ -1,0 +1,19 @@
+{
+  "_id": "77n24rxIjBvS4qOu",
+  "_key": "!items!77n24rxIjBvS4qOu",
+  "name": "Insectile Form (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You gruesomely mutate into an insectile appearance. You gain multifaceted bug eyes, and your teeth are replaced with insect mandibles. You suffer a -3 penalty to all social skills and Reaction throws but gain a +2 modifier to throws to resist poison and disease. Reroll if you were already an insectoid being.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 3500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

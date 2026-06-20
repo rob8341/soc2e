@@ -1,0 +1,19 @@
+{
+  "_id": "q9uvN2OaDnxgcBfE",
+  "_key": "!items!q9uvN2OaDnxgcBfE",
+  "name": "Devil Horns",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You grow devil horns! You may cause 1d6 + STR modifier damage by head-butting or goring, but your infernal appearance causes you to suffer a -2 penalty to all Reaction and social interaction skill throws when dealing with non-evil beings.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 2400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

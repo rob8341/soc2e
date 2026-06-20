@@ -1,0 +1,19 @@
+{
+  "_id": "wWhDbUFx5qsqH17V",
+  "_key": "!items!wWhDbUFx5qsqH17V",
+  "name": "Creeping Madness",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You begin to lose your grip on reality. Each day, upon waking throw END 6+ or go insane for 1d6 hours.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 2600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

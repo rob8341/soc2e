@@ -1,0 +1,19 @@
+{
+  "_id": "ixTjKZ7xX413YMmd",
+  "_key": "!items!ixTjKZ7xX413YMmd",
+  "name": "Unnatural Obesity (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You grow unnaturally obese. Double your weight. You need armor custom-made for your shape at double cost and you must consume double the amount of food a character usually does (but not double water).",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 1500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

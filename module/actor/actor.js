@@ -89,6 +89,8 @@ export class Soc2eCharacterModel extends foundry.abstract.TypeDataModel {
       career:     new fields.StringField({ initial: "" }),
       rank:       new fields.StringField({ initial: "" }),
       lifeEventNotes: new fields.StringField({ initial: "" }),
+      personalityNotes: new fields.StringField({ initial: "" }),
+      sorceryNotes: new fields.StringField({ initial: "" }),
       termRecords: new fields.ArrayField(new fields.SchemaField({
         age:      new fields.NumberField({ required: true, integer: true, initial: 0, min: 0 }),
         skills:   new fields.StringField({ initial: "" }),

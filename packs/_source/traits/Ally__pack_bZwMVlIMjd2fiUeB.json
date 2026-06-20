@@ -1,0 +1,19 @@
+{
+  "_id": "bZwMVlIMjd2fiUeB",
+  "_key": "!items!bZwMVlIMjd2fiUeB",
+  "name": "Ally",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: None\n\nThe character has highly useful connections.\n\nGain 1d3+1 Allies (see the Character Generation chapter).",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "dO1zvF9UwARz7TII",
+  "_key": "!items!dO1zvF9UwARz7TII",
+  "name": "Awareness",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: INT 9+\n\nThe character has sharp senses and is difficult to surprise. When rolling the Scout skill to avoid surprise the character throws with Advantage. This applies even if the character does not have the Scout skill and rolls with the Unskilled penalty.\n\nNote that this trait does not apply when the character is setting up a deliberate ambush; the Hunter Trait covers that instead.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

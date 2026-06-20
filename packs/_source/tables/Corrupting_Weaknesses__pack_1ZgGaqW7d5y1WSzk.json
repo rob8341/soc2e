@@ -1,0 +1,631 @@
+{
+  "_id": "1ZgGaqW7d5y1WSzk",
+  "_key": "!tables!1ZgGaqW7d5y1WSzk",
+  "name": "Corrupting Weaknesses",
+  "img": "icons/svg/skull.svg",
+  "description": "<p>Roll 1d6 twice to form a d66 result (tens digit, then ones digit). Rolled when a sorcerer accumulates Corruption points equal to a multiple of their END characteristic.</p>",
+  "results": [
+    {
+      "_id": "DnWAWw8CltVIAajp",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.DnWAWw8CltVIAajp",
+      "type": "text",
+      "name": "You Mutate!",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You mutate! Throw on the Mutation table.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "jj5hfSNGGG8pDmp2",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.jj5hfSNGGG8pDmp2",
+      "type": "text",
+      "name": "You Mutate!",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You mutate! Throw on the Mutation table.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "KKBr1IGZqLYODu0m",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.KKBr1IGZqLYODu0m",
+      "type": "text",
+      "name": "You Mutate!",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You mutate! Throw on the Mutation table.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "YMgoPyhR6nyRggdu",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.YMgoPyhR6nyRggdu",
+      "type": "text",
+      "name": "You Mutate!",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You mutate! Throw on the Mutation table.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "4eHwQlA7Ofq6NFcL",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.4eHwQlA7Ofq6NFcL",
+      "type": "text",
+      "name": "You Mutate!",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You mutate! Throw on the Mutation table.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "dtuXtaJkYEx38gnx",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.dtuXtaJkYEx38gnx",
+      "type": "text",
+      "name": "You Mutate!",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You mutate! Throw on the Mutation table.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "B4okNJdu3Sn0HeZU",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.B4okNJdu3Sn0HeZU",
+      "type": "document",
+      "name": "Disfigurement",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.AIWclBOtMOea0Dnf",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "XfGyZsgvIN18yWct",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.XfGyZsgvIN18yWct",
+      "type": "document",
+      "name": "Stutter",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.fHdtZGVsiM1pyQGr",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "sqGXqtd2y4XOtdQw",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.sqGXqtd2y4XOtdQw",
+      "type": "document",
+      "name": "Mild Allergy",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.kK8ZjCevP27MHsvM",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "pSMbcKaDyrCEAL24",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.pSMbcKaDyrCEAL24",
+      "type": "document",
+      "name": "Inhuman Demeanor",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.giUL1Mj9sz5cfNyk",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ABu7sbNPgaFz8ijg",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.ABu7sbNPgaFz8ijg",
+      "type": "document",
+      "name": "Forgetfulness",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.ElRIflKup7eeHMAe",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "T1upSsNey5YV2ncX",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.T1upSsNey5YV2ncX",
+      "type": "document",
+      "name": "Sinister Demeanor",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.xyLoZzGvGLvsRn5S",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ILHjn4xqaavoPZ3N",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.ILHjn4xqaavoPZ3N",
+      "type": "document",
+      "name": "Creature of the Night",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.PFjAlJ17SWSepKlz",
+      "weight": 1,
+      "range": [
+        31,
+        31
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "FqFioe94oe2ejMPy",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.FqFioe94oe2ejMPy",
+      "type": "document",
+      "name": "Trembling Hands",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.zp1blGsXcnm8tDHc",
+      "weight": 1,
+      "range": [
+        32,
+        32
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "Zp0iRgk0fb8tyg7F",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.Zp0iRgk0fb8tyg7F",
+      "type": "document",
+      "name": "Rotting Skin",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.HlTjZGNV2l9cyCeW",
+      "weight": 1,
+      "range": [
+        33,
+        33
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "pAgp5x5gZGwvvWpe",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.pAgp5x5gZGwvvWpe",
+      "type": "document",
+      "name": "Alien Thoughts",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.cS9rfIaTVBgzqT1d",
+      "weight": 1,
+      "range": [
+        34,
+        34
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "AF4ordrtwQhNo8SQ",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.AF4ordrtwQhNo8SQ",
+      "type": "document",
+      "name": "Predatory Hunger",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.nVfmhgtkNIA6Lw6P",
+      "weight": 1,
+      "range": [
+        35,
+        35
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "XWpwIKmj5WpZ1Hok",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.XWpwIKmj5WpZ1Hok",
+      "type": "document",
+      "name": "Sapped Vigor",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.ngoXglo1GlZhq1uY",
+      "weight": 1,
+      "range": [
+        36,
+        36
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "HEpO3cDQKMBWNeDy",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.HEpO3cDQKMBWNeDy",
+      "type": "document",
+      "name": "Silver Vulnerability",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.37ZoN9nlqjAqSnmV",
+      "weight": 1,
+      "range": [
+        41,
+        41
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "0eKGTSMPaKeaxxJ2",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.0eKGTSMPaKeaxxJ2",
+      "type": "document",
+      "name": "Whispers from Beyond",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.LMyFlvgnuQeEZinp",
+      "weight": 1,
+      "range": [
+        42,
+        42
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "4cCP593BpOoiStdv",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.4cCP593BpOoiStdv",
+      "type": "document",
+      "name": "Shrouding Darkness",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.9dhtMzAFFoGrF5F9",
+      "weight": 1,
+      "range": [
+        43,
+        43
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "OBEk3SPXLJcCCPva",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.OBEk3SPXLJcCCPva",
+      "type": "document",
+      "name": "Atrophied Muscles",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.VyisAVMtlgIgMnb6",
+      "weight": 1,
+      "range": [
+        44,
+        44
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "3dDjNKUfeDfWNMqc",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.3dDjNKUfeDfWNMqc",
+      "type": "document",
+      "name": "Garlic Aversion",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.HUevZwcZpVi1LSfA",
+      "weight": 1,
+      "range": [
+        45,
+        45
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "wZPonYH8v7fekbB4",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.wZPonYH8v7fekbB4",
+      "type": "document",
+      "name": "Animal Unease",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.vYHBC1qibCILCxrp",
+      "weight": 1,
+      "range": [
+        46,
+        46
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "HWdKBi69DPAsHjdV",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.HWdKBi69DPAsHjdV",
+      "type": "document",
+      "name": "Corpse-Cold Body",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.g2VSlj1jEMtctQ7u",
+      "weight": 1,
+      "range": [
+        51,
+        51
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "kE7O8p5ZI3UHyHEi",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.kE7O8p5ZI3UHyHEi",
+      "type": "document",
+      "name": "Lunar Rage",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.7Pl01Q9yFyRK7tAQ",
+      "weight": 1,
+      "range": [
+        52,
+        52
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "2WLppwapTVQcD5Li",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.2WLppwapTVQcD5Li",
+      "type": "document",
+      "name": "Sudden Aging",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.aEz88tb3rQF6cOJq",
+      "weight": 1,
+      "range": [
+        53,
+        53
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "O9w2BBVvRNAHkhKY",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.O9w2BBVvRNAHkhKY",
+      "type": "document",
+      "name": "Devil Horns",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.q9uvN2OaDnxgcBfE",
+      "weight": 1,
+      "range": [
+        54,
+        54
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "1fWrCzepgomNj7lb",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.1fWrCzepgomNj7lb",
+      "type": "document",
+      "name": "Slow Healing",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.IM9OSc3Xvj8HxBLx",
+      "weight": 1,
+      "range": [
+        55,
+        55
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "R8KjqTt2DwY8DWC4",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.R8KjqTt2DwY8DWC4",
+      "type": "document",
+      "name": "Creeping Madness",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.wWhDbUFx5qsqH17V",
+      "weight": 1,
+      "range": [
+        56,
+        56
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "x3qqITNglr7KvvtJ",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.x3qqITNglr7KvvtJ",
+      "type": "document",
+      "name": "Forked Tongue",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.VIBYEqlozToMxjA0",
+      "weight": 1,
+      "range": [
+        61,
+        61
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "63hZ4ngIXg2Tki1P",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.63hZ4ngIXg2Tki1P",
+      "type": "document",
+      "name": "Stench of Evil",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.U8uewMsjxzRcNJlq",
+      "weight": 1,
+      "range": [
+        62,
+        62
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "4Yfl1NP1f2PZFpF9",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.4Yfl1NP1f2PZFpF9",
+      "type": "document",
+      "name": "Predatory Eyes",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.iwhhLb34xoVZi0sm",
+      "weight": 1,
+      "range": [
+        63,
+        63
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "SmdRJeVRKWsm7FEw",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.SmdRJeVRKWsm7FEw",
+      "type": "document",
+      "name": "Amphibious Skin",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.3QnivSgnHjIDKfPt",
+      "weight": 1,
+      "range": [
+        64,
+        64
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "SkXwXYvBIp16pwWd",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.SkXwXYvBIp16pwWd",
+      "type": "document",
+      "name": "Haunting Insomnia",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.9IV747L2zUWlPRRp",
+      "weight": 1,
+      "range": [
+        65,
+        65
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "9zutOu2cwtLQHA3A",
+      "_key": "!tables.results!1ZgGaqW7d5y1WSzk.9zutOu2cwtLQHA3A",
+      "type": "document",
+      "name": "Vampiric Fangs",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "documentUuid": "Compendium.soc2e.traits.Item.ChhedMIDyTo5VT8I",
+      "weight": 1,
+      "range": [
+        66,
+        66
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "formula": "(1d6 * 10) + 1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "zBaar0hsq6lzOU88",
+  "_key": "!items!zBaar0hsq6lzOU88",
+  "name": "Combat Readiness",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Archery or Melee Combat skill\n\nThe character is quick to act and react in combat.\n\nGain a +1 modifier to all Initiative throws.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

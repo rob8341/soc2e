@@ -1,0 +1,19 @@
+{
+  "_id": "wqJ7MK63c7RmNxDT",
+  "_key": "!items!wqJ7MK63c7RmNxDT",
+  "name": "Prophecy",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Religion skill\n\nThe character dreams and feels the past and the future. The Referee should make these visions both cryptic and, occasionally, useful.\n\nFurthermore, once per week, the character can enter into a Prophetic Trance (as per the spell) without requiring a Sorcery throw or risking a mishap.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 2900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "HlTjZGNV2l9cyCeW",
+  "_key": "!items!HlTjZGNV2l9cyCeW",
+  "name": "Rotting Skin",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "Your skin rots: you take on the appearance of a corpse. Suffer a -2 penalty to all Reaction and social interaction skill throws when dealing with non-evil beings.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

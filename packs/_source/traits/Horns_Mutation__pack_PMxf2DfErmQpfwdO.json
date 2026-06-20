@@ -1,0 +1,19 @@
+{
+  "_id": "PMxf2DfErmQpfwdO",
+  "_key": "!items!PMxf2DfErmQpfwdO",
+  "name": "Horns (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You grow sharp horns. You may head-butt for 1d6+ STR modifier damage but may not wear any helmet and suffer a -1 penalty to social interaction skill and Reaction throws.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 2700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

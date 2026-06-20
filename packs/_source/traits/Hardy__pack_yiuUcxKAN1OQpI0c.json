@@ -1,0 +1,19 @@
+{
+  "_id": "yiuUcxKAN1OQpI0c",
+  "_key": "!items!yiuUcxKAN1OQpI0c",
+  "name": "Hardy",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: END 9+\n\nThe character is particularly hardy and resistant to injury.\n\nReduce the damage of the first (and only the first) successful attack on the character in a given battle by 2d6.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 1600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

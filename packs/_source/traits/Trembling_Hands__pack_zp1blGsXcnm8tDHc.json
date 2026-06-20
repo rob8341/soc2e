@@ -1,0 +1,19 @@
+{
+  "_id": "zp1blGsXcnm8tDHc",
+  "_key": "!items!zp1blGsXcnm8tDHc",
+  "name": "Trembling Hands",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You tremble as dark energies and darker thoughts course through your mind and body. Reduce your DEX characteristic by 2, to a minimum of 1.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

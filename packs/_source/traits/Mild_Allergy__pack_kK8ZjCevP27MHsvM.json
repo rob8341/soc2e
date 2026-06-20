@@ -1,0 +1,19 @@
+{
+  "_id": "kK8ZjCevP27MHsvM",
+  "_key": "!items!kK8ZjCevP27MHsvM",
+  "name": "Mild Allergy",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You develop a mild allergy to one common substance (such as milk, or dog hair) chosen by the Referee. You sneeze uncontrollably or break out in hives while in presence of this substance, suffering from a -1 penalty to all actions until you are no longer in its presence.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

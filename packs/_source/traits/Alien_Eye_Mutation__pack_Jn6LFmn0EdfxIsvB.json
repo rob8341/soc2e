@@ -1,0 +1,19 @@
+{
+  "_id": "Jn6LFmn0EdfxIsvB",
+  "_key": "!items!Jn6LFmn0EdfxIsvB",
+  "name": "Alien Eye (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You grow an alien eye in the middle of your forehead. This eye is closed most of the time. Three times a day, you can open this eye to use the mind probe spell without a throw. However, you are such a frightful sight that you suffer a -4 penalty to all social skills and Reaction throws.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 1600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

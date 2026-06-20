@@ -1,0 +1,19 @@
+{
+  "_id": "7Pl01Q9yFyRK7tAQ",
+  "_key": "!items!7Pl01Q9yFyRK7tAQ",
+  "name": "Lunar Rage",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "The full moon calls for you. Once a month, at a time determined by the Referee, you must throw END 8+ or be overcome with a murderous rage for 1d6 rounds.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

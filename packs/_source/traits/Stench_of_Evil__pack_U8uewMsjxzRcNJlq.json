@@ -1,0 +1,19 @@
+{
+  "_id": "U8uewMsjxzRcNJlq",
+  "_key": "!items!U8uewMsjxzRcNJlq",
+  "name": "Stench of Evil",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You emit the stench of evil! You may never surprise creatures with a keen sense of smell.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 2800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "nF4M1JEu8DATgYTW",
+  "_key": "!items!nF4M1JEu8DATgYTW",
+  "name": "Familiar",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Sorcery skill\n\nThe character gains a special intelligent animal bound to them by magic. The familiar is capable of speaking to its owner and is at least as smart as a young child. Familiars should have specific abilities based on species, at the Referee's discretion. A character may not have more than one familiar. This trait allows sorcerers to gain a familiar when they didn't receive one as a Mustering Out Benefit.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 1400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

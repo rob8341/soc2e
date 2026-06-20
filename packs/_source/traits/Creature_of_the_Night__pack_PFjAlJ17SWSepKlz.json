@@ -1,0 +1,19 @@
+{
+  "_id": "PFjAlJ17SWSepKlz",
+  "_key": "!items!PFjAlJ17SWSepKlz",
+  "name": "Creature of the Night",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You haunt the night as a creature of darkness; you tend to sleep during the day and suffer a -1 penalty to all throws when in sunlight.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

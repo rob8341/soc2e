@@ -1,0 +1,19 @@
+{
+  "_id": "1rkIIyiDmQiN9teh",
+  "_key": "!items!1rkIIyiDmQiN9teh",
+  "name": "Bat-Like Wings (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You sprout a pair of bat-like (or pterodactyl-like) wings out of your back. You may fly for short durations: 3 rounds per jaunt, at a speed of 20m per round in any direction. You will require a turn (10 minutes) of rest after each jaunt before you can fly again. Armor adapted to your shape costs x10 the normal cost. Finally, you suffer a -1 penalty to Reaction throws and social skill throws because of your unsettling deformity.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 2300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "vYHBC1qibCILCxrp",
+  "_key": "!items!vYHBC1qibCILCxrp",
+  "name": "Animal Unease",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "Your corruption is unsettling to animals; the village dogs bark in fear when you arrive, and all the horses get spooked. You suffer a -3 penalty to Reaction throws when interacting with normal and giant animals. If you have the Beast Friendship Trait, it now only works with wild predators and scavengers, such as wolves, jackals, and rats.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 2000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

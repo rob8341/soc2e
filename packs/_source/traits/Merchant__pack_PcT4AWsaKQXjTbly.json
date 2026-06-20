@@ -1,0 +1,19 @@
+{
+  "_id": "PcT4AWsaKQXjTbly",
+  "_key": "!items!PcT4AWsaKQXjTbly",
+  "name": "Merchant",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Liaison or Streetwise skill\n\nThe character knows how to get the best deals for goods and services. Any item the character purchases costs only 90% of its list price, and any item the character sells goes for 110% of its base price. If both the seller and the buyer have this Trait, make an opposed Liaison/SOC or Streetwise/INT (as appropriate) throw to determine who gets the bonus.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 2400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

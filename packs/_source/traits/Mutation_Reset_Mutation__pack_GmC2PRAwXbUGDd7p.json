@@ -1,0 +1,19 @@
+{
+  "_id": "GmC2PRAwXbUGDd7p",
+  "_key": "!items!GmC2PRAwXbUGDd7p",
+  "name": "Mutation Reset (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Your biological system resets itself; lose one mutation. Reroll this result if you have no mutations.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 3700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

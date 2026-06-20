@@ -1,0 +1,19 @@
+{
+  "_id": "OJeVyXfU8vXirrok",
+  "_key": "!items!OJeVyXfU8vXirrok",
+  "name": "Nocturnal Vision (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You become a nocturnal creature. You gain low-light vision: dim light and darkness does not affect your attack throws. However, you now suffer a -2 penalty to attack throws made in daylight.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 3300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

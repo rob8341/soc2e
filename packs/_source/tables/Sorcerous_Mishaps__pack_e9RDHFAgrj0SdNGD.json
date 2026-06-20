@@ -1,0 +1,631 @@
+{
+  "_id": "e9RDHFAgrj0SdNGD",
+  "_key": "!tables!e9RDHFAgrj0SdNGD",
+  "name": "Sorcerous Mishaps",
+  "img": "icons/magic/unholy/strike-beam-blood-red-purple.webp",
+  "description": "<p>Roll 1d6 twice to form a d66 result (tens digit, then ones digit). Rolled whenever a sorcerer suffers a Critical Failure while casting a spell.</p>",
+  "results": [
+    {
+      "_id": "vG5stG9GrR002ySs",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.vG5stG9GrR002ySs",
+      "type": "text",
+      "name": "You Mutate!",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You mutate! Throw on the Mutation table.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "RkJCvFP89SusQm8e",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.RkJCvFP89SusQm8e",
+      "type": "text",
+      "name": "You Mutate!",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You mutate! Throw on the Mutation table.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "6O4taqAx3xIEXdSa",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.6O4taqAx3xIEXdSa",
+      "type": "text",
+      "name": "You Mutate!",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You mutate! Throw on the Mutation table.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "BODDU7VSDvjVMSSj",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.BODDU7VSDvjVMSSj",
+      "type": "text",
+      "name": "You Mutate!",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You mutate! Throw on the Mutation table.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "P8QQQavTA2gOsdMn",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.P8QQQavTA2gOsdMn",
+      "type": "text",
+      "name": "You Mutate!",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You mutate! Throw on the Mutation table.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "vgjpbOqvlCbxReGd",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.vgjpbOqvlCbxReGd",
+      "type": "text",
+      "name": "You Mutate!",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You mutate! Throw on the Mutation table.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "qmVJXDrfj4FW06yd",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.qmVJXDrfj4FW06yd",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You accidentally open a gate to the Elemental Spheres. A randomly determined elemental appears and attacks you. If it is not destroyed, the elemental will return to its sphere within 8 hours.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "CzGiVFtktKEizFpg",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.CzGiVFtktKEizFpg",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "Darkness gathers; 1d6 wraiths appear and attack you. If the wraiths are not destroyed, they will disappear after 8 hours.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "DF5euXDY1uG7pslF",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.DF5euXDY1uG7pslF",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You accidentally open a gate to the Outer Dark! A dark servitor appears and attacks you. If not destroyed, it will return to its dimension within 1 hour.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ux4WzYOnQMyOyngj",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.ux4WzYOnQMyOyngj",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "Your bumbling accidentally summons a demon! A cacodemon appears and attacks you. If not destroyed, it will go to hell within 8 hours.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "d7Yi5DHKxj0XmSdd",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.d7Yi5DHKxj0XmSdd",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You accidentally open a portal to a dimension of oozes and draw the attention of 1d6 oozes. Throw 1d6: 1-2, gray oozes appear; 3-4, green slimes appear; 5-6, yellow molds appear. The creatures attack you immediately. If not destroyed, they will return to their dimension within 8 hours.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "GRdvviQSKJsGmOpi",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.GRdvviQSKJsGmOpi",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "Insects gather, attracted by your magic. 1d6 giant cockroaches appear and attack you. If not destroyed, they will leave after 8 hours.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "YcVRSMTJaiSSvE7z",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.YcVRSMTJaiSSvE7z",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You are filled with visions of unspeakable horror and lose your eyesight for 1d6 days. A restoration spell will reverse this effect immediately.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        31,
+        31
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "TlyYOznHpvSoHfyB",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.TlyYOznHpvSoHfyB",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You have brought disaster upon yourself and ruptured your aura. You forget a spell you know and will have to re-learn it.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        32,
+        32
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "5IQlggFvRnj138Pr",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.5IQlggFvRnj138Pr",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "Your incautious meddling causes a major explosion! You and all characters within 5m must throw END 8+ or suffer 4d6 damage.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        33,
+        33
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "ihDY6WXrLOF2HY15",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.ihDY6WXrLOF2HY15",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "The fumes and vapors released by the ceremony cloud your mind. Permanently lose 1d6 points of your INT characteristic. A restoration spell will reverse this.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        34,
+        34
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "CW4CSWNVjQAOaWtS",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.CW4CSWNVjQAOaWtS",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "The noxious fumes released by your ceremony cause everyone within 10m of you to suffer nausea for the next 1d6 hours; suffer a -2 modifier to all actions.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        35,
+        35
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "oqFQmLKWW3TibZK5",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.oqFQmLKWW3TibZK5",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "Your connection to the mystical realms is disrupted. You may not cast spells for the next 1d6 weeks. A restoration spell allows you to regain your magical ability immediately.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        36,
+        36
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "Wpy9lsitP5x8sGpT",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.Wpy9lsitP5x8sGpT",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You are corrupted by the darkest magical energies you have ever been exposed to! Gain 2d6 additional Corruption points.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        41,
+        41
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "hBvtAFfvFULZLKTR",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.hBvtAFfvFULZLKTR",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You fall into a necromantic torpor and will awaken within 1d6 weeks. You do not age while in torpor. A restoration spell will awaken you.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        42,
+        42
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "GILpK8X54fNTQppv",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.GILpK8X54fNTQppv",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "Meddling with blood magic takes a toll. Permanently lose 1d6 points of your END characteristic. A restoration spell will reverse this.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        43,
+        43
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "skNZXJ1MHU26TuFd",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.skNZXJ1MHU26TuFd",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You project a fearful aura for the next 1d6 months. Suffer a -2 penalty to all Reaction rolls and other skill throws related to social interaction.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        44,
+        44
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "J74F2ehhgwaFYYeb",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.J74F2ehhgwaFYYeb",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "While casting your spell, you fail to avert your gaze, and glimpse the essence of Creation: something rather dangerous for mortals to see! You suffer from feeblemind (per the spell). A restoration spell will reverse this effect.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        45,
+        45
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "QLAHul3eSfan2xIU",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.QLAHul3eSfan2xIU",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "Your ineptitude causes you to disappear. You are lost in space and time! A quell enchantment spell can bring you back immediately. Otherwise, you will reappear within 1d6 weeks. You do not age while out of the space-time continuum.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        46,
+        46
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "IHfBU46Glkz77OI0",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.IHfBU46Glkz77OI0",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "The gods or spirits curse you for your hubris! Reduce three randomly chosen Characteristics by 1d6. A restoration spell can reverse this curse.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        51,
+        51
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "QJOWuMWDkzgBSlMN",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.QJOWuMWDkzgBSlMN",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You are infected with a vile extraplanar disease: virulence 8, damage 2d6, interval 1d6 days. The disease is contagious but may be treated like any other disease.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        52,
+        52
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "Ei9YlynYAPvAEhZS",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.Ei9YlynYAPvAEhZS",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "Your nearest ally is magically infuriated with you. They enter into a blind rage for the next 1d6 rounds and attack you and anyone standing in their way. An expunge curse spell reverses this effect.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        53,
+        53
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "f0j8U6l5pPBmOceD",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.f0j8U6l5pPBmOceD",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "A magical accident injures your body. Throw 1d6: 1-2, lose 1d3 fingers; 3-4, you lose half your teeth; 5, your leg is crippled (move at half speed); 6, you lose an eye. A restoration spell, or regenerative magical artifacts, can cure this damage.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        54,
+        54
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "SkVxQaDsEVfpYlnd",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.SkVxQaDsEVfpYlnd",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You turn into a random small animal, such as a toad, for 1d6 hours. While you retain your intellect, you may not speak or cast spells while in this form. A restoration spell will revert you to your normal form immediately.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        55,
+        55
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "SWC30M7iL10unLlt",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.SWC30M7iL10unLlt",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "Your horrid magic causes all creatures, including your allies, within a 10m radius of you to flee in terror as far as possible from you for 1d6 turns.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        56,
+        56
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "tXvNOKR1veYlJlqc",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.tXvNOKR1veYlJlqc",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "These sorcerous powers are too great! You age quickly under the stress. Add 2d6 years to your age; this may lead to the effects of old age, as determined by the Referee.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        61,
+        61
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "15dslb2KpuksRx2N",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.15dslb2KpuksRx2N",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "Your failed spell exposes you to unspeakable truths from beyond the veil. You lose your sanity for 1d6 days. A restoration spell will cure your mind immediately.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        62,
+        62
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "W70NUMUskLU1UCY3",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.W70NUMUskLU1UCY3",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "Your overly glib sorcerous utterances are your undoing! You are rendered speechless by the awful powers you failed to command and become mute for 1d6 hours. Mute characters cannot cast spells.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        63,
+        63
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "v90fEkISNh96Axcc",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.v90fEkISNh96Axcc",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "You tremble at the thought of the powers you have unleashed. Permanently lose 1d6 points of your DEX characteristic. A restoration spell will reverse this.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        64,
+        64
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "SzYmiEfXaiOTYvF3",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.SzYmiEfXaiOTYvF3",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "A wave of wild magic causes your veins to erupt in several places around your body. Suffer 3d6 damage.",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        65,
+        65
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    },
+    {
+      "_id": "tNkNUaX0j8dL9gDL",
+      "_key": "!tables.results!e9RDHFAgrj0SdNGD.tNkNUaX0j8dL9gDL",
+      "type": "text",
+      "name": "Mishap",
+      "img": "icons/svg/d20-grey.svg",
+      "description": "Your soul is blackened by dark magic! Throw END 6+ or suffer 5d6 damage!",
+      "documentUuid": null,
+      "weight": 1,
+      "range": [
+        66,
+        66
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {}
+    }
+  ],
+  "formula": "(1d6 * 10) + 1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

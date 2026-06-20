@@ -1,0 +1,19 @@
+{
+  "_id": "RWJtp8FAxmIL4DLN",
+  "_key": "!items!RWJtp8FAxmIL4DLN",
+  "name": "Profession",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: EDU 9+\n\nThe character is highly skilled in a civil profession, such as an advocate, broker, or scribe and can earn 25gp per month from practicing this profession. This profession does not replicate any skill but may enhance (as noted below) certain aspects of a skill, for example Profession (Advocate) improves Govern throws related to law and courts.\n\nFurthermore, when making a throw related to this profession, the character gains Advantage.\n\nNote that this Trait can never augment Melee Combat, Archery, Artillery, Sorcery, Alchemy, or Artifice.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 2800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

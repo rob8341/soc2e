@@ -1,0 +1,19 @@
+{
+  "_id": "47xAbvZNrCM52cLc",
+  "_key": "!items!47xAbvZNrCM52cLc",
+  "name": "Characteristic Shift (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Your body violently mutates: three of your characteristics will increase by 2 points each, and three will be reduced by 2 points each, to a minimum of 1. Randomly determine which increase and which decrease.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 3200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

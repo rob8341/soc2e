@@ -1,0 +1,19 @@
+{
+  "_id": "ElRIflKup7eeHMAe",
+  "_key": "!items!ElRIflKup7eeHMAe",
+  "name": "Forgetfulness",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You grow forgetful as your mind fills with increasingly dark lore. Reduce your EDU characteristic by 2, to a minimum of 1.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

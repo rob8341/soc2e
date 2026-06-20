@@ -1,0 +1,19 @@
+{
+  "_id": "2LrhB9mdori1x9VE",
+  "_key": "!items!2LrhB9mdori1x9VE",
+  "name": "Contortionism",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: DEX 9+\n\nThe character is extremely flexible and can squeeze or fold their body in a manner atypical of humans. The character may throw DEX 10+ to escape from bonds or chains or to slip through bars or portcullises.\n\nIf they fail, they may reattempt the roll only if something has changed: they've been thrown on their backs, or if they have been moved to a new location, for example.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

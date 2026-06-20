@@ -1,0 +1,19 @@
+{
+  "_id": "Dp5RokXrgyal1LUK",
+  "_key": "!items!Dp5RokXrgyal1LUK",
+  "name": "Surgeon",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Healing skill\n\nThe character specializes in the advanced arts of healing.\n\nWhen performing Trauma Surgery, the surgeon rolls with Advantage.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 3700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -2020,10 +2020,16 @@ button.soc2e-keep-choice:disabled {
 }
 
 /* ---------- Corruption Panel ---------- */
+.soc2e .tab[data-tab="sorcery"] {
+  min-height: 100%;
+}
+
 .soc2e .sorcery-body {
   display: flex;
+  flex: 1;
+  min-height: 0;
   gap: 12px;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .soc2e .spells-section {
@@ -2165,6 +2171,39 @@ button.soc2e-keep-choice:disabled {
 
 .soc2e .corruption-weakness-count.has-weaknesses {
   color: var(--soc-red);
+}
+
+.soc2e .sorcery-side {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 130px;
+}
+
+.soc2e .sorcery-notes-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-height: 0;
+  border: 2px solid var(--soc-border);
+  border-radius: 6px;
+  padding: 8px 12px;
+  background: var(--soc-scroll-bg);
+}
+
+.soc2e .sorcery-notes-label {
+  font-family: var(--font-heading);
+  font-size: 0.72em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--soc-ink-faded);
+}
+
+.soc2e .sorcery-notes-panel textarea {
+  flex: 1;
+  min-height: 80px;
+  resize: none;
 }
 
 /* ---------- NPC Sheet ---------- */

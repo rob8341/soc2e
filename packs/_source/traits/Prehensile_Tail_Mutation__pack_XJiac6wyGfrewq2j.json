@@ -1,0 +1,19 @@
+{
+  "_id": "XJiac6wyGfrewq2j",
+  "_key": "!items!XJiac6wyGfrewq2j",
+  "name": "Prehensile Tail (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You grow a prehensile tail during 1d6 rounds of sheer agony. You may grab objects with your tail, but armor adapted to your new form costs double and you suffer a -1 penalty to social interaction skill and Reaction throws.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 2900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

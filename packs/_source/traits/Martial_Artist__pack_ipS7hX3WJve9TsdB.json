@@ -1,0 +1,19 @@
+{
+  "_id": "ipS7hX3WJve9TsdB",
+  "_key": "!items!ipS7hX3WJve9TsdB",
+  "name": "Martial Artist",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Melee Combat skill\n\nThe character is lethal in unarmed combat and can cause serious harm even without possessing significant physical might.\n\nWhen making an unarmed attack, the character's damage increases to 1d6+STR Modifier rather than the regular damage of STR Modifier.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

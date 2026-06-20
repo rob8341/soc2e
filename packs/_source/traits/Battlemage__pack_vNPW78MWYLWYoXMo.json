@@ -1,0 +1,19 @@
+{
+  "_id": "vNPW78MWYLWYoXMo",
+  "_key": "!items!vNPW78MWYLWYoXMo",
+  "name": "Battlemage",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Sorcery skill\n\nThe character knows how to use sorcery in combat. They gain a +1 bonus to initiative throws when attempting to channel a spell in combat. Furthermore, the character gains Advantage when making an opposed throw to dispel magic or overcome magic resistance.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

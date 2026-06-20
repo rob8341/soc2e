@@ -2,7 +2,7 @@
   "id": "soc2e",
   "title": "The Sword of Cepheus 2e",
   "description": "The Sword of Cepheus 2nd Edition — a 2d6 fantasy RPG based on Traveller mechanics.",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "authors": [
     {
       "name": "Rob",
@@ -53,6 +53,28 @@
       "type": "Actor",
       "ownership": {
         "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "traits",
+      "label": "Sword of Cepheus - Traits",
+      "system": "soc2e",
+      "path": "packs/traits",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "Sword of Cepheus - Tables",
+      "system": "soc2e",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     }

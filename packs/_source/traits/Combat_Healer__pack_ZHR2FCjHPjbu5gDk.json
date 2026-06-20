@@ -1,0 +1,19 @@
+{
+  "_id": "ZHR2FCjHPjbu5gDk",
+  "_key": "!items!ZHR2FCjHPjbu5gDk",
+  "name": "Combat Healer",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Healing skill\n\nThe character is trained in combat Healing and capable of bringing wounded comrades back to fighting condition.\n\nAs an action in combat, the combat healer may throw Healing/INT 8+ to immediately revive an unconscious character with Wounds. The revived character will still be wounded and prone. However, they will be able to act in the following combat round.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

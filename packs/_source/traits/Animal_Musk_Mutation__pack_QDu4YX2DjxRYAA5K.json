@@ -1,0 +1,19 @@
+{
+  "_id": "QDu4YX2DjxRYAA5K",
+  "_key": "!items!QDu4YX2DjxRYAA5K",
+  "name": "Animal Musk (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You gain an animal-like stench. This causes a -2 penalty for Reaction throws for sentient beings but a +2 bonus for Reaction throws when rolling for animals.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

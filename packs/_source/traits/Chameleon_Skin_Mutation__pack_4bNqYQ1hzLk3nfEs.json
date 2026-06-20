@@ -1,0 +1,19 @@
+{
+  "_id": "4bNqYQ1hzLk3nfEs",
+  "_key": "!items!4bNqYQ1hzLk3nfEs",
+  "name": "Chameleon Skin (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Your skin gains a chameleon-like color changing ability. Gain a +1 modifier to Scout and Sneak checks. However, your face gains some chameleon-like characteristics as well, and you take a -2 penalty to all social skill throws.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

@@ -466,24 +466,31 @@
             {{/each}}
           </div>
         </section>
-        <aside class="corruption-panel">
-          <div class="corruption-header">
-            <span class="corruption-title">Corruption</span>
-            <button type="button" class="corruption-lock-btn" data-action="toggleCorruptionLock" title="Lock / Unlock">
-              <i class="fa-solid fa-lock"></i>
-            </button>
-          </div>
-          <div class="corruption-counter">
-            <input type="number" class="corruption-input" name="system.corruption"
-                   value="{{system.corruption}}" min="0" />
-            <span class="corruption-sep">/</span>
-            <span class="corruption-threshold">{{corruptionThreshold}}</span>
-          </div>
-          <div class="corruption-weaknesses">
-            <span class="corruption-weakness-label">Corrupting Weaknesses</span>
-            <span class="corruption-weakness-count {{#if corruptingWeaknesses}}has-weaknesses{{/if}}">{{corruptingWeaknesses}}</span>
-          </div>
-        </aside>
+        <div class="sorcery-side">
+          <aside class="corruption-panel">
+            <div class="corruption-header">
+              <span class="corruption-title">Corruption</span>
+              <button type="button" class="corruption-lock-btn" data-action="toggleCorruptionLock" title="Lock / Unlock">
+                <i class="fa-solid fa-lock"></i>
+              </button>
+            </div>
+            <div class="corruption-counter">
+              <input type="number" class="corruption-input" name="system.corruption"
+                     value="{{system.corruption}}" min="0" />
+              <span class="corruption-sep">/</span>
+              <span class="corruption-threshold">{{corruptionThreshold}}</span>
+            </div>
+            <div class="corruption-weaknesses">
+              <span class="corruption-weakness-label">Corrupting Weaknesses</span>
+              <span class="corruption-weakness-count {{#if corruptingWeaknesses}}has-weaknesses{{/if}}">{{corruptingWeaknesses}}</span>
+            </div>
+          </aside>
+          <aside class="sorcery-notes-panel">
+            <span class="sorcery-notes-label">Sorcery Notes</span>
+            <textarea name="system.sorceryNotes"
+                      placeholder="Sorcery notes...">{{system.sorceryNotes}}</textarea>
+          </aside>
+        </div>
       </div>
     </div>{{!-- /tab sorcery --}}
 
@@ -556,6 +563,12 @@
         <h2 class="section-title">Notes about life events</h2>
         <textarea name="system.lifeEventNotes" rows="6"
                   placeholder="Notes about life events...">{{system.lifeEventNotes}}</textarea>
+      </section>
+
+      <section class="notes-section" style="margin-top:10px;">
+        <h2 class="section-title">Personality</h2>
+        <textarea name="system.personalityNotes" rows="6"
+                  placeholder="Personality...">{{system.personalityNotes}}</textarea>
       </section>
 
     </div>{{!-- /tab bio --}}

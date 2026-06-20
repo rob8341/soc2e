@@ -1,0 +1,19 @@
+{
+  "_id": "AIWclBOtMOea0Dnf",
+  "_key": "!items!AIWclBOtMOea0Dnf",
+  "name": "Disfigurement",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "Dark sorcery has left you disfigured, with misshapen limbs, clawed hands and feet, and strangely colored eyes. You suffer a -2 penalty to Reaction and all skill throws involving social interaction when dealing with non-Chaotic sentient creatures.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

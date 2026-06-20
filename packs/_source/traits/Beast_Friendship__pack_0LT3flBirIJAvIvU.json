@@ -1,0 +1,19 @@
+{
+  "_id": "0LT3flBirIJAvIvU",
+  "_key": "!items!0LT3flBirIJAvIvU",
+  "name": "Beast Friendship",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Animals skill\n\nThe character is well-versed in the natural world. The character gains Advantage when using the Animals or Natural Philosophy skill to identify flora or fauna. Furthermore, the character may take animals as loyal \"retainers\" with a morale modifier of +2.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

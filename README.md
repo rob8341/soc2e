@@ -1,6 +1,6 @@
 # The Sword of Cepheus 2e — Foundry VTT System
 
-**Version 0.9.1**
+**Version 0.9.2**
 
 A Foundry VTT game system for **The Sword of Cepheus 2nd Edition**, a 2d6 fantasy RPG based on Traveller mechanics.
 
@@ -20,10 +20,12 @@ Download the latest release zip from the [Releases](https://github.com/rob8341/s
 
 ## Compendium Content
 
-The system ships two built-in compendium packs, generated from *The Sword of Cepheus 2nd Edition* rulebook:
+The system ships four built-in compendium packs, generated from *The Sword of Cepheus 2nd Edition* rulebook:
 
 - **Sword of Cepheus - Items** — weapons, armor, adventuring gear, food, clothing, potions, animals, the full Arcane/Eldritch spell lists, and treasure/magic items, organized into folders.
 - **Sword of Cepheus - NPCs** — every Bestiary monster plus the book's named human NPC archetypes (Bandit, Knight, Sorcerer, etc.), each with embedded weapon/armor items already attached.
+- **Sword of Cepheus - Traits** — the full character-generation Trait List, plus the Mutation table (each entry tagged `(Mutation)`) and the Corrupting Weakness table, all as drag-and-drop Trait items.
+- **Sword of Cepheus - Tables** — three RollTables (Sorcerous Mishaps, Mutations, Corrupting Weaknesses) using a `(1d6 * 10) + 1d6` formula to reproduce the rulebook's d66 mechanic. The Mutations and Corrupting Weaknesses tables draw directly from the matching Trait items.
 
 These load automatically with the system — no manual import step needed.
 
@@ -37,6 +39,10 @@ These load automatically with the system — no manual import step needed.
 |---|---|
 | v13 | Minimum |
 | v14 | Verified |
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 

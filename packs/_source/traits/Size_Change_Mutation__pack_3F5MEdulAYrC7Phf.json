@@ -1,0 +1,19 @@
+{
+  "_id": "3F5MEdulAYrC7Phf",
+  "_key": "!items!3F5MEdulAYrC7Phf",
+  "name": "Size Change (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Throw 1d6; 1-3, you shrink in size until you are 15cm tall, or 4-6, you grow to double your normal size. You are unused to your new size, and your DEX is reduced to 1; it will recover to its normal level at the rate of 1 point per week.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

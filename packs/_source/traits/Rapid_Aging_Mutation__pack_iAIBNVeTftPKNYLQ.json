@@ -1,0 +1,19 @@
+{
+  "_id": "iAIBNVeTftPKNYLQ",
+  "_key": "!items!iAIBNVeTftPKNYLQ",
+  "name": "Rapid Aging (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You instantly age by 2d6 years! The Referee will determine the results of such aging.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 2800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

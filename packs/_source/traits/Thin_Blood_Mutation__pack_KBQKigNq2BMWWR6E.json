@@ -1,0 +1,19 @@
+{
+  "_id": "KBQKigNq2BMWWR6E",
+  "_key": "!items!KBQKigNq2BMWWR6E",
+  "name": "Thin Blood (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Your blood thins and begins seeping from your orifices. Social interaction rolls are penalized by -1 in most situations. If you are Seriously Wounded, you begin bleeding and suffer 1 point of damage per round until you either die or the bleeding is stopped with a successful Healing/INT 8+ throw, or a healing spell.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

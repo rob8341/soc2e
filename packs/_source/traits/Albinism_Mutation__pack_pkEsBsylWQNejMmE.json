@@ -1,0 +1,19 @@
+{
+  "_id": "pkEsBsylWQNejMmE",
+  "_key": "!items!pkEsBsylWQNejMmE",
+  "name": "Albinism (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You become albino. Due to the lack of pigmentation in your eyes, you suffer a -1 penalty to attack throws while in daylight. Exposure to direct sunlight causes damage to your skin and you take 1d6 damage for every 4 hours of exposure to sunlight.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

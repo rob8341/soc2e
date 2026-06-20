@@ -1,0 +1,19 @@
+{
+  "_id": "2wGEobTGzgvMo5Lc",
+  "_key": "!items!2wGEobTGzgvMo5Lc",
+  "name": "Telepathic Empathy (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You transmit your emotions telepathically to everyone within 10m. You are unable to convincingly lie but gain a +1 modifier to social skill throws in more positive situations.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 3100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

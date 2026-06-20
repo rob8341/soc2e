@@ -1,0 +1,19 @@
+{
+  "_id": "LCC1iTz0437OcR5I",
+  "_key": "!items!LCC1iTz0437OcR5I",
+  "name": "Bodily Degeneration (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Your body degenerates grotesquely. You permanently lose 1d6 points each from your STR, DEX, and END (to a minimum of 1) and your movement rate is halved.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 1400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

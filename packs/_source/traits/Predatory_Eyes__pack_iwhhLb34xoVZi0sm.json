@@ -1,0 +1,19 @@
+{
+  "_id": "iwhhLb34xoVZi0sm",
+  "_key": "!items!iwhhLb34xoVZi0sm",
+  "name": "Predatory Eyes",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You gain low-light vision, but your eyes now resemble those of a predatory cat; You suffer a -2 penalty to all Reaction and social interaction skill throws when dealing with people who might be bothered by this.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 2900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

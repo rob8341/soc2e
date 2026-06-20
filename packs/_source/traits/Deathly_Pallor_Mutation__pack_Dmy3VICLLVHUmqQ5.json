@@ -1,0 +1,19 @@
+{
+  "_id": "Dmy3VICLLVHUmqQ5",
+  "_key": "!items!Dmy3VICLLVHUmqQ5",
+  "name": "Deathly Pallor (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You develop the pallor and stench of death. You suffer a -2 penalty to Reaction throws and social skill throws when interacting with living creatures. However, the undead will refrain from attacking you unless you attack them first.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

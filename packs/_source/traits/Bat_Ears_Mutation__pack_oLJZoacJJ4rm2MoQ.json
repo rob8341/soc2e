@@ -1,0 +1,19 @@
+{
+  "_id": "oLJZoacJJ4rm2MoQ",
+  "_key": "!items!oLJZoacJJ4rm2MoQ",
+  "name": "Bat Ears (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Your ears grow huge, resembling those of a bat. You may sense obstacles and creatures up to 10m away, even in pitch darkness, via echolocation. You cannot wear any helmet and suffer a -1 penalty to social skill and Reaction throws.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 2500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

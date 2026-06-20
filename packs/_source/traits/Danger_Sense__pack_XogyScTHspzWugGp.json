@@ -1,0 +1,19 @@
+{
+  "_id": "XogyScTHspzWugGp",
+  "_key": "!items!XogyScTHspzWugGp",
+  "name": "Danger Sense",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: DEX 9+\n\nThe character instinctively senses danger and can try to evade enemy attacks even when unaware of the assailant. It can be very difficult to ambush this character effectively.\n\nWhen the character is attacked by an enemy the character is unaware of, throw DEX 8+; if successful, the character uses their Dodge or Parry bonus (see the Combat chapter for further details).",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

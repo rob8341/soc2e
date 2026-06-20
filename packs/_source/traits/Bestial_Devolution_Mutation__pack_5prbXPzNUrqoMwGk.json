@@ -1,0 +1,19 @@
+{
+  "_id": "5prbXPzNUrqoMwGk",
+  "_key": "!items!5prbXPzNUrqoMwGk",
+  "name": "Bestial Devolution (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "You devolve into a primitive ape or lizard-like form \u2013 your skin grows hairy (or scaly), your legs grow short, and your arms grow long. You move at half speed if you stand on both legs, but at regular speed if you move on all fours. You may not use your hands for wielding weapons or carrying items when you move on all fours. Armor for your misshapen body costs twice as much.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 1900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

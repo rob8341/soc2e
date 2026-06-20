@@ -1,0 +1,19 @@
+{
+  "_id": "uYrLa5TouqAfeTuT",
+  "_key": "!items!uYrLa5TouqAfeTuT",
+  "name": "Tentacle Arm (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "One of your arms becomes a monstrous tentacle. You may use it to attack for 1d6 + STR DM but suffer a -2 penalty to all throws requiring fine manipulation, and your SOC is reduced by 1.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 3000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

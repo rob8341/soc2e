@@ -1,0 +1,19 @@
+{
+  "_id": "MRhfX6efcEeeejN5",
+  "_key": "!items!MRhfX6efcEeeejN5",
+  "name": "Thrower",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: None\n\nThe character is especially adept at throwing knives and other thrown weapons.\n\nEffective range for the character's knife and other thrown weapons becomes STRx2, and maximum range becomes STRx3.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 3800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

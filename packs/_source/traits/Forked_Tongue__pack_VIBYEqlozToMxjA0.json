@@ -1,0 +1,19 @@
+{
+  "_id": "VIBYEqlozToMxjA0",
+  "_key": "!items!VIBYEqlozToMxjA0",
+  "name": "Forked Tongue",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You grow a forked tongue. You may speak with snakes per the Speak with Animals and Plants spell but suffer a -2 penalty to all Reaction and social interaction skill throws with non-evil creatures.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 2700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

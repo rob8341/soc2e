@@ -1,0 +1,19 @@
+{
+  "_id": "xyLoZzGvGLvsRn5S",
+  "_key": "!items!xyLoZzGvGLvsRn5S",
+  "name": "Sinister Demeanor",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "Your increasingly sinister demeanor and appearance cause the pious to denounce you. Reduce your SOC characteristic by 2, to a minimum of 1.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

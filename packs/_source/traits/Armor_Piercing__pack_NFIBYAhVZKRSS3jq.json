@@ -1,0 +1,19 @@
+{
+  "_id": "NFIBYAhVZKRSS3jq",
+  "_key": "!items!NFIBYAhVZKRSS3jq",
+  "name": "Armor Piercing",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Melee Combat skill\n\nThe character knows how to hit weak spots in the enemy's armor in melee combat.\n\nWhen attacking in melee, if the to-hit throw's Effect is +6 or better, ignore the target's armor.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

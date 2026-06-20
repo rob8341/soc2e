@@ -1,0 +1,19 @@
+{
+  "_id": "Mzd096OmMMUNAKFg",
+  "_key": "!items!Mzd096OmMMUNAKFg",
+  "name": "Rain of Arrows",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Archery skill\n\nThe character has mastered the bow and can perform amazing feats of arms with it.\n\nWhen an arrow shot by the character does enough damage to cause an enemy to fall unconscious or die, the archer may immediately attack another enemy with the same bow. The character can only use this ability to gain one extra archery attack per combat round.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 3000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

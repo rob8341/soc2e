@@ -1,0 +1,19 @@
+{
+  "_id": "VyisAVMtlgIgMnb6",
+  "_key": "!items!VyisAVMtlgIgMnb6",
+  "name": "Atrophied Muscles",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "Your muscles atrophy. Reduce your STR characteristic by 2, to a minimum of 1.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 1800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

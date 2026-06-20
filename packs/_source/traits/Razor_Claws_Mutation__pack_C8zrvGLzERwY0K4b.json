@@ -1,0 +1,19 @@
+{
+  "_id": "C8zrvGLzERwY0K4b",
+  "_key": "!items!C8zrvGLzERwY0K4b",
+  "name": "Razor Claws (Mutation)",
+  "type": "trait",
+  "img": "icons/svg/biohazard.svg",
+  "system": {
+    "description": "Your nails become long and sharp. Your unarmed melee attacks now do twice your STR modifier damage (minimum 1). However, you suffer a -1 penalty to throws involving fine manipulation.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "9paGIspXXAodoUQv",
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

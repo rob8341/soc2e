@@ -1,0 +1,19 @@
+{
+  "_id": "ZDVtGsbg9rX1AtK2",
+  "_key": "!items!ZDVtGsbg9rX1AtK2",
+  "name": "Marksman",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: Archery skill\n\nThe character knows how to kill unsuspecting victims from a distance.\n\nWhen attacking an unaware target in ranged combat, using an aimed shot, add 1d6 to the attack's total damage.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

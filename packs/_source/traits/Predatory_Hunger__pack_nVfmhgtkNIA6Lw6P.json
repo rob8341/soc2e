@@ -1,0 +1,19 @@
+{
+  "_id": "nVfmhgtkNIA6Lw6P",
+  "_key": "!items!nVfmhgtkNIA6Lw6P",
+  "name": "Predatory Hunger",
+  "type": "trait",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "You become a predatory being. Only fresh, raw meat can sate your hunger. Preserved or cooked meat will not suffice.",
+    "corruptingWeakness": true
+  },
+  "effects": [],
+  "folder": "8gN8i6nJphcfUzh7",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}

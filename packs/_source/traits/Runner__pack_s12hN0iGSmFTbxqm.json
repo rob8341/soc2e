@@ -1,0 +1,19 @@
+{
+  "_id": "s12hN0iGSmFTbxqm",
+  "_key": "!items!s12hN0iGSmFTbxqm",
+  "name": "Runner",
+  "type": "trait",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "Prerequisite: DEX 9+\n\nThe character walks and runs very quickly.\n\nThe character may add an extra d6 meters per combat action spent moving. The random die roll for movement rate is meant to represent the fact that the terrain may not be easy to traverse.",
+    "corruptingWeakness": false
+  },
+  "effects": [],
+  "folder": "tSIV9WTISg4NhwpP",
+  "sort": 3200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {}
+}
